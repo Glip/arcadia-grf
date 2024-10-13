@@ -78,6 +78,11 @@ LOCAL_DewataQuest_List = {
 						scrfilename = [[DewataQuest]],
 						questID = 14031,
 					},
+					{
+						name =[[Modifications]],
+						scrfilename = [[DewataQuest]],
+						questID = 14032,
+					},
 				}
 			},
 			{
@@ -156,6 +161,11 @@ LOCAL_ArcadiaQuest_List = {
 						name =[[Venom Knife Seller]],
 						scrfilename = [[DewataQuest]],
 						questID = 14072,
+					},
+					{
+						name =[[Summoning Flutes]],
+						scrfilename = [[DewataQuest]],
+						questID = 14073,
 					},
 				}
 			},

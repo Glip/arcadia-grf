@@ -1044,4 +1044,7 @@ AccNameTable = {
 	[ACCESSORY_IDs.ACCESSORY_Tenkyuu] = "_tenkyuu",
 	[ACCESSORY_IDs.ACCESSORY_FISHER_HAT] = "_fisher_hat",
 	[ACCESSORY_IDs.ACCESSORY_MR_PORING] = "_mr_poring",
+	[ACCESSORY_IDs.ACCESSORY_BLUE_FRAMED_G ] = "_blue_frame_glasses",
+	[ACCESSORY_IDs.ACCESSORY_GREEN_SPARE_CARD ] = "_sideworld_card_costume",
+	[ACCESSORY_IDs.ACCESSORY_PIZZA_IN_MOUTH ] = "_pizza_in_mouth",
 }

@@ -2643,3 +2643,4 @@ Unless enabled, item will not be considered.#
 Hiding damage numbers and crit bubbles has been enabled.#
 Hiding damage numbers and crit bubbles has been disabled.#
 https://wiki.arcadia-online.org/Restocking_System/#
+Your session has run out. Please log in again and don't wait outside the character selection.#
