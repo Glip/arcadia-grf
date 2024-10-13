@@ -1,0 +1,209 @@
+%fcf6ef
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=       Recipe Topics       =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+^fcf6ef===========^000000[ Alloy ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2
+^fcf6ef=================^000000[ Alloy ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  2
+^fcf6ef=================^000000[ Weapon ] . . . . . . . . . . . . . . . . . . . . . . . . . . . .   3
+^fcf6ef=================^000000[ Armor ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4
+^fcf6ef=================^000000[ Headgear ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+^fcf6ef=================^000000[ Shield ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   6
+
+
+^fcf6ef===========^000000[ Magic ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  7
+^fcf6ef=================^000000[ Magic ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  7
+^fcf6ef=================^000000[ Bolt ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   8
+^fcf6ef=================^000000[ Recovery ] . . . . . . . . . . . . . . . . . . . . . . . . . . . .   9
+^fcf6ef=================^000000[ Transfigure ] . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+^fcf6ef=================^000000[ Creation ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+
+==================================================================
+[ Alloy ] → [ Alloy ]^fcf6ef==========================================|^000000< Rank B+ Series >
+==================================================================
+Product: ^B22222Precious Steel^fcf6ef==========^000000Type: ^B22222[Alloy]^fcf6ef==========^000000Min Quality:  ^B2222260^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Berserk)^fcf6ef===============^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(None)^fcf6ef==============^000000Recipe: ^B22222[Alloy]  ^B22222[Sand]  ^B22222[Wood] ^B22222[Alloy]^000000
+
+Product: ^2E8B57Fusion Alloy^fcf6ef===========|^000000Type: ^2E8B57[Alloy]^fcf6ef==========^000000Min Quality:  ^2E8B5760^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Berserk)^fcf6ef===============^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(None)^fcf6ef==============^000000Recipe: ^2E8B57[Alloy]  ^2E8B57[Magic] ^2E8B57[Sand]  ^2E8B57[Food]^000000
+
+Product: ^8C7000Metallic Gas^fcf6ef==========|||^000000Type: ^8C7000[Alloy]^fcf6ef==========^000000Min Quality:  ^8C700060^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Berserk)^fcf6ef===============^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(None)^fcf6ef==============^000000Recipe: ^8C7000[Alloy]  ^8C7000[Beast] ^8C7000[Alloy]  ^8C7000[Wood]^000000
+
+Product: ^0000FFQuicksilver^fcf6ef============^000000Type: ^0000FF[Alloy]^fcf6ef==========^000000Min Quality:  ^0000FF60^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Berserk)^fcf6ef===============^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(None)^fcf6ef==============^000000Recipe: ^0000FF[Alloy]  ^0000FF[Food]  ^0000FF[Beast] ^0000FF[Magic]^000000
+
+==================================================================
+[ Alloy ] → [ Weapon ]^fcf6ef========================================^000000< Rank B+ Series >
+==================================================================
+Product: ^B22222Soul Eater^fcf6ef============-^000000Type: ^B22222[Weapon]^fcf6ef=======-^000000Min Quality:  ^B2222285^fcf6ef===^000000Min Score: ^B22222180^000000
+Base: ^B22222(Berserk)^fcf6ef===============^000000Specific Main: ^B22222Precious Steel^fcf6ef=============^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Ifrit's Essence)^fcf6ef=========^000000Recipe: ^B22222[Alloy]  ^B22222[Wood] ^B22222[Alloy]  ^B22222[Magic]^000000
+
+Product: ^2E8B57Meteor Hammer^fcf6ef=========^000000Type: ^2E8B57[Weapon]^fcf6ef=======-|^000000Min Quality:  ^2E8B5785^fcf6ef===^000000Min Score: ^2E8B57180^000000
+Base: ^2E8B57(Berserk)^fcf6ef===============^000000Specific Main: ^2E8B57Fusion Alloy^fcf6ef==============^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Ifrit's Essence)^fcf6ef=========^000000Recipe: ^2E8B57[Alloy]  ^2E8B57[Sand]  ^2E8B57[Wood] ^2E8B57[Sand]^000000
+
+Product: ^8C7000Ridewind^fcf6ef=============|^000000Type: ^8C7000[Weapon]^fcf6ef=======-^000000Min Quality:  ^8C700085^fcf6ef===^000000Min Score: ^8C7000180^000000
+Base: ^8C7000(Berserk)^fcf6ef===============^000000Specific Main: ^8C7000Metallic Gas^fcf6ef==============^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Ifrit's Essence)^fcf6ef=========^000000Recipe: ^8C7000[Alloy]  ^8C7000[Beast] ^8C7000[Wood] ^8C7000[Wood]^000000
+
+Product: ^0000FFAlkahest^fcf6ef==============^000000Type: ^0000FF[Weapon]^fcf6ef=======-^000000Min Quality:  ^0000FF85^fcf6ef===^000000Min Score: ^0000FF180^000000
+Base: ^0000FF(Berserk)^fcf6ef===============^000000Specific Main: ^0000FFQuicksilver^fcf6ef===============^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Ifrit's Essence)^fcf6ef=========^000000Recipe: ^0000FF[Alloy]  ^0000FF[Magic] ^0000FF[Alloy]  ^0000FF[Magic]^000000
+
+==================================================================
+[ Alloy ] → [ Armor ]^fcf6ef=========================================-^000000< Rank B+ Series >
+==================================================================
+Product: ^B22222Fierce Heavy Armor^fcf6ef=======^000000Type: ^B22222[Armor]^fcf6ef=========^000000Min Quality:  ^B2222285^fcf6ef===^000000Min Score: ^B22222180^000000
+Base: ^B22222(Berserk)^fcf6ef===============^000000Specific Main: ^B22222Precious Steel^fcf6ef=============^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Maya's Essence)^fcf6ef========^000000Recipe: ^B22222[Alloy]  ^B22222[Wood] ^B22222[Alloy]  ^B22222[Food]^000000
+
+Product: ^2E8B57Cracking Heavy Armor^fcf6ef=====-^000000Type: ^2E8B57[Armor]^fcf6ef=========^000000Min Quality:  ^2E8B5785^fcf6ef===^000000Min Score: ^2E8B57180^000000
+Base: ^2E8B57(Berserk)^fcf6ef===============^000000Specific Main: ^2E8B57Fusion Alloy^fcf6ef==============^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Maya's Essence)^fcf6ef========^000000Recipe: ^2E8B57[Alloy]  ^2E8B57[Sand]  ^2E8B57[Alloy]  ^2E8B57[Sand]^000000
+
+Product: ^8C7000Raging Heavy Armor^fcf6ef======-^000000Type: ^8C7000[Armor]^fcf6ef=========^000000Min Quality:  ^8C700085^fcf6ef===^000000Min Score: ^8C7000180^000000
+Base: ^8C7000(Berserk)^fcf6ef===============^000000Specific Main: ^8C7000Metallic Gas^fcf6ef==============^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Maya's Essence)^fcf6ef========^000000Recipe: ^8C7000[Alloy]  ^8C7000[Beast] ^8C7000[Alloy]  ^8C7000[Beast]^000000
+
+Product: ^0000FFStormy Heavy Amor^fcf6ef=======^000000Type: ^0000FF[Armor]^fcf6ef=========^000000Min Quality:  ^0000FF85^fcf6ef===^000000Min Score: ^0000FF180^000000
+Base: ^0000FF(Berserk)^fcf6ef===============^000000Specific Main: ^0000FFQuicksilver^fcf6ef===============^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Maya's Essence)^fcf6ef========^000000Recipe: ^0000FF[Alloy]  ^0000FF[Magic] ^0000FF[Alloy]  ^0000FF[Magic]^000000
+
+==================================================================
+[ Alloy ] → [ Headgear ]^fcf6ef=======================================-^000000< Rank B+ Series >
+==================================================================
+Product: ^B22222Warrior's Blessing^fcf6ef========|^000000Type: ^B22222[Headgear]^fcf6ef======|^000000Min Quality:  ^B2222285^fcf6ef===^000000Min Score: ^B22222180^000000
+Base: ^B22222(Berserk)^fcf6ef===============^000000Specific Main: ^B22222Precious Steel^fcf6ef=============^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Mistress' Essence)^fcf6ef=======^000000Recipe: ^B22222[Alloy]  ^B22222[Alloy]  ^B22222[Magic] ^B22222[Beast]^000000
+
+Product: ^2E8B57Crystalline Helmet^fcf6ef========^000000Type: ^2E8B57[Headgear]^fcf6ef======|^000000Min Quality:  ^2E8B5785^fcf6ef===^000000Min Score: ^2E8B57180^000000
+Base: ^2E8B57(Berserk)^fcf6ef===============^000000Specific Main: ^2E8B57Fusion Alloy^fcf6ef==============^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Mistress' Essence)^fcf6ef=======^000000Recipe: ^2E8B57[Alloy]  ^2E8B57[Alloy]  ^2E8B57[Sand]  ^2E8B57[Magic]^000000
+
+Product: ^8C7000Crown of Ragnanival^fcf6ef======-^000000Type: ^8C7000[Headgear]^fcf6ef======|^000000Min Quality:  ^8C700085^fcf6ef===^000000Min Score: ^8C7000180^000000
+Base: ^8C7000(Berserk)^fcf6ef===============^000000Specific Main: ^8C7000Metallic Gas^fcf6ef==============^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Mistress' Essence)^fcf6ef=======^000000Recipe: ^8C7000[Alloy]  ^8C7000[Alloy]  ^8C7000[Magic] ^8C7000[Wood]^000000
+
+Product: ^0000FFCeremonial Headpiece^fcf6ef======^000000Type: ^0000FF[Headgear]^fcf6ef======|^000000Min Quality:  ^0000FF85^fcf6ef===^000000Min Score: ^0000FF180^000000
+Base: ^0000FF(Berserk)^fcf6ef===============^000000Specific Main: ^0000FFQuicksilver^fcf6ef===============^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Mistress' Essence)^fcf6ef=======^000000Recipe: ^0000FF[Alloy]  ^0000FF[Alloy]  ^0000FF[Food]  ^0000FF[Magic]^000000
+
+==================================================================
+[ Alloy ] → [ Shield ]^fcf6ef==========================================^000000< Rank B+ Series >
+==================================================================
+Product: ^B22222Retribution Shield^fcf6ef========^000000Type: ^B22222[Shield]^fcf6ef=========^000000Min Quality:  ^B2222285^fcf6ef===^000000Min Score: ^B22222180^000000
+Base: ^B22222(Berserk)^fcf6ef===============^000000Specific Main: ^B22222Precious Steel^fcf6ef=============^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Garm's Essence)^fcf6ef========^000000Recipe: ^B22222[Alloy]  ^B22222[Alloy]  ^B22222[Alloy]  ^B22222[Alloy]^000000
+
+Product: ^2E8B57Shield of Regen^fcf6ef=========^000000Type: ^2E8B57[Shield]^fcf6ef=========^000000Min Quality:  ^2E8B5785^fcf6ef===^000000Min Score: ^2E8B57180^000000
+Base: ^2E8B57(Berserk)^fcf6ef===============^000000Specific Main: ^2E8B57Fusion Alloy^fcf6ef==============^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Garm's Essence)^fcf6ef========^000000Recipe: ^2E8B57[Alloy]  ^2E8B57[Food]  ^2E8B57[Alloy]  ^2E8B57[Sand]^000000
+
+Product: ^8C7000Razor Shield^fcf6ef===========-^000000Type: ^8C7000[Shield]^fcf6ef========||^000000Min Quality:  ^8C700085^fcf6ef===^000000Min Score: ^8C7000180^000000
+Base: ^8C7000(Berserk)^fcf6ef===============^000000Specific Main: ^8C7000Metallic Gas^fcf6ef==============^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Garm's Essence)^fcf6ef========^000000Recipe: ^8C7000[Alloy]  ^8C7000[Alloy]  ^8C7000[Sand]  ^8C7000[Magic]^000000
+
+Product: ^0000FFHex Breaker^fcf6ef===========-^000000Type: ^0000FF[Shield]^fcf6ef=========^000000Min Quality:  ^0000FF85^fcf6ef===^000000Min Score: ^0000FF180^000000
+Base: ^0000FF(Berserk)^fcf6ef===============^000000Specific Main: ^0000FFQuicksilver^fcf6ef===============^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Garm's Essence)^fcf6ef========^000000Recipe: ^0000FF[Alloy]  ^0000FF[Magic] ^0000FF[Alloy]  ^0000FF[Magic]^000000
+
+==================================================================
+[ Magic ] → [ Magic ]^fcf6ef=========================================-^000000< Rank B+ Series >
+==================================================================
+Product: ^B22222Fire Core^fcf6ef=============^000000Type: ^B22222[Magic]^fcf6ef=========|^000000Min Quality:  ^B2222270^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Berserk)^fcf6ef===============^000000Specific Main: ^B22222(None)^fcf6ef================||^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(None)^fcf6ef==============-^000000Recipe: ^B22222[Magic] ^B22222[Magic] ^B22222[Wood] ^B22222[Beast]^000000
+
+Product: ^2E8B57Earth Core^fcf6ef============^000000Type: ^2E8B57[Magic]^fcf6ef=========|^000000Min Quality:  ^2E8B5770^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Berserk)^fcf6ef===============^000000Specific Main: ^2E8B57(None)^fcf6ef================||^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(None)^fcf6ef==============-^000000Recipe: ^2E8B57[Magic] ^2E8B57[Food]  ^2E8B57[Sand]  ^2E8B57[Alloy]^000000
+
+Product: ^8C7000Air Core^fcf6ef=============|^000000Type: ^8C7000[Magic]^fcf6ef=========|^000000Min Quality:  ^8C700070^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Berserk)^fcf6ef===============^000000Specific Main: ^8C7000(None)^fcf6ef================||^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(None)^fcf6ef==============-^000000Recipe: ^8C7000[Magic] ^8C7000[Wood] ^8C7000[Magic] ^8C7000[Beast]^000000
+
+Product: ^0000FFWater Core^fcf6ef===========|^000000Type: ^0000FF[Magic]^fcf6ef=========|^000000Min Quality:  ^0000FF70^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Berserk)^fcf6ef===============^000000Specific Main: ^0000FF(None)^fcf6ef================||^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(None)^fcf6ef==============-^000000Recipe: ^0000FF[Magic] ^0000FF[Alloy]  ^0000FF[Food]  ^0000FF[Sand]^000000
+
+==================================================================
+[ Magic ] → [ Bolt ]^fcf6ef==========================================-^000000< Rank B+ Series >
+==================================================================
+Product: ^B22222Level 1 Fire Bolt^fcf6ef=========^000000Type: ^B22222[Bolt]^fcf6ef==========|^000000Min Quality:  ^B2222290^fcf6ef===^000000Min Score: ^B22222160^000000
+Base: ^B22222(Berserk)^fcf6ef===============^000000Specific Main: ^B22222Fire Core^fcf6ef===============|^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Ifrit's Essence)^fcf6ef=========^000000Recipe: ^B22222[Magic] ^B22222[Food]  ^B22222[Food]  ^B22222[Magic]^000000
+
+Product: ^2E8B57Level 1 Earth Spike^fcf6ef=======^000000Type: ^2E8B57[Bolt]^fcf6ef==========|^000000Min Quality:  ^2E8B5790^fcf6ef===^000000Min Score: ^2E8B57160^000000
+Base: ^2E8B57(Berserk)^fcf6ef===============^000000Specific Main: ^2E8B57Fire Core^fcf6ef===============|^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Ifrit's Essence)^fcf6ef=========^000000Recipe: ^2E8B57[Magic] ^2E8B57[Wood] ^2E8B57[Wood] ^2E8B57[Magic]^000000
+
+Product: ^8C7000Level 1 Lightening Bolt^fcf6ef=====^000000Type: ^8C7000[Bolt]^fcf6ef==========|^000000Min Quality:  ^8C700090^fcf6ef===^000000Min Score: ^8C7000160^000000
+Base: ^8C7000(Berserk)^fcf6ef===============^000000Specific Main: ^8C7000Fire Core^fcf6ef===============|^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Ifrit's Essence)^fcf6ef=========^000000Recipe: ^8C7000[Magic] ^8C7000[Alloy]  ^8C7000[Alloy]  ^8C7000[Magic]^000000
+
+Product: ^0000FFLevel 1 Cold Bolt^fcf6ef=========^000000Type: ^0000FF[Bolt]^fcf6ef==========|^000000Min Quality:  ^0000FF90^fcf6ef===^000000Min Score: ^0000FF160^000000
+Base: ^0000FF(Berserk)^fcf6ef===============^000000Specific Main: ^0000FFFire Core^fcf6ef===============|^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Ifrit's Essence)^fcf6ef=========^000000Recipe: ^0000FF[Magic] ^0000FF[Beast] ^0000FF[Beast] ^0000FF[Magic]^000000
+
+==================================================================
+[ Magic ] → [ Recovery ]^fcf6ef=======================================^000000< Rank B+ Series >
+==================================================================
+Product: ^B22222Stun Recovery^fcf6ef==========^000000Type: ^B22222[Recovery]^fcf6ef======-^000000Min Quality:  ^B2222290^fcf6ef===^000000Min Score: ^B22222160^000000
+Base: ^B22222(Berserk)^fcf6ef===============^000000Specific Main: ^B22222Earth Core^fcf6ef==============|^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Maya's Essence)^fcf6ef========|^000000Recipe: ^B22222[Magic] ^B22222[Sand]  ^B22222[Food]  ^B22222[Sand]^000000
+
+Product: ^2E8B57Stone Recovery^fcf6ef=========^000000Type: ^2E8B57[Recovery]^fcf6ef======-^000000Min Quality:  ^2E8B5790^fcf6ef===^000000Min Score: ^2E8B57160^000000
+Base: ^2E8B57(Berserk)^fcf6ef===============^000000Specific Main: ^2E8B57Earth Core^fcf6ef==============|^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Maya's Essence)^fcf6ef========|^000000Recipe: ^2E8B57[Magic] ^2E8B57[Beast] ^2E8B57[Wood] ^2E8B57[Food]^000000
+
+Product: ^8C7000Sleep Recovery^fcf6ef=========^000000Type: ^8C7000[Recovery]^fcf6ef======||^000000Min Quality:  ^8C700090^fcf6ef===^000000Min Score: ^8C7000160^000000
+Base: ^8C7000(Berserk)^fcf6ef===============^000000Specific Main: ^8C7000Earth Core^fcf6ef==============|^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Maya's Essence)^fcf6ef========|^000000Recipe: ^8C7000[Magic] ^8C7000[Wood] ^8C7000[Magic] ^8C7000[Sand]^000000
+
+Product: ^0000FFFrozen Recovery^fcf6ef========|^000000Type: ^0000FF[Recovery]^fcf6ef======|^000000Min Quality:  ^0000FF90^fcf6ef===^000000Min Score: ^0000FF160^000000
+Base: ^0000FF(Berserk)^fcf6ef===============^000000Specific Main: ^0000FFEarth Core^fcf6ef==============|^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Maya's Essence)^fcf6ef========|^000000Recipe: ^0000FF[Magic] ^0000FF[Magic] ^0000FF[Food]  ^0000FF[Food]^000000
+
+==================================================================
+[ Magic ] → [ Transfigure ]^fcf6ef======================================^000000< Rank B+ Series >
+==================================================================
+Product: ^B22222Flame Disguise^fcf6ef==========^000000Type: ^B22222[Transfigure]^fcf6ef=====-^000000Min Quality:  ^B2222290^fcf6ef===^000000Min Score: ^B22222160^000000
+Base: ^B22222(Berserk)^fcf6ef===============^000000Specific Main: ^B22222Air Core^fcf6ef================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Mistress' Essence)^fcf6ef=======^000000Recipe: ^B22222[Magic] ^B22222[Beast] ^B22222[Wood] ^B22222[Magic]^000000
+
+Product: ^2E8B57Nature Disguise^fcf6ef=========^000000Type: ^2E8B57[Transfigure]^fcf6ef=====-^000000Min Quality:  ^2E8B5790^fcf6ef===^000000Min Score: ^2E8B57160^000000
+Base: ^2E8B57(Berserk)^fcf6ef===============^000000Specific Main: ^2E8B57Air Core^fcf6ef================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Mistress' Essence)^fcf6ef=======^000000Recipe: ^2E8B57[Magic] ^2E8B57[Alloy]  ^2E8B57[Sand]  ^2E8B57[Beast]^000000
+
+Product: ^8C7000Rider Disguise^fcf6ef==========^000000Type: ^8C7000[Transfigure]^fcf6ef======^000000Min Quality:  ^8C700090^fcf6ef===^000000Min Score: ^8C7000160^000000
+Base: ^8C7000(Berserk)^fcf6ef===============^000000Specific Main: ^8C7000Air Core^fcf6ef================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Mistress' Essence)^fcf6ef=======^000000Recipe: ^8C7000[Magic] ^8C7000[Beast] ^8C7000[Alloy]  ^8C7000[Alloy]^000000
+
+Product: ^0000FFAqua Disguise^fcf6ef==========^000000Type: ^0000FF[Transfigure]^fcf6ef======^000000Min Quality:  ^0000FF90^fcf6ef===^000000Min Score: ^0000FF160^000000
+Base: ^0000FF(Berserk)^fcf6ef===============^000000Specific Main: ^0000FFAir Core^fcf6ef================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Mistress' Essence)^fcf6ef=======^000000Recipe: ^0000FF[Magic] ^0000FF[Magic] ^0000FF[Magic] ^0000FF[Beast]^000000
+
+==================================================================
+[ Magic ] → [ Creation ]^fcf6ef========================================^000000< Rank B+ Series >
+==================================================================
+Product: ^B22222Passion^fcf6ef==============^000000Type: ^B22222[Creation]^fcf6ef=======|^000000Min Quality:  ^B2222290^fcf6ef===^000000Min Score: ^B22222160^000000
+Base: ^B22222(Berserk)^fcf6ef===============^000000Specific Main: ^B22222Water Core^fcf6ef=============||^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Garm's Essence)^fcf6ef========^000000Recipe: ^B22222[Magic] ^B22222[Food]  ^B22222[Wood] ^B22222[Alloy]^000000
+
+Product: ^2E8B57Vessel^fcf6ef===============^000000Type: ^2E8B57[Creation]^fcf6ef=======^000000Min Quality:  ^2E8B5790^fcf6ef===^000000Min Score: ^2E8B57160^000000
+Base: ^2E8B57(Berserk)^fcf6ef===============^000000Specific Main: ^2E8B57Water Core^fcf6ef=============||^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Garm's Essence)^fcf6ef========^000000Recipe: ^2E8B57[Magic] ^2E8B57[Sand]  ^2E8B57[Food]  ^2E8B57[Alloy]^000000
+
+Product: ^8C7000Insight^fcf6ef==============|^000000Type: ^8C7000[Creation]^fcf6ef=======|^000000Min Quality:  ^8C700090^fcf6ef===^000000Min Score: ^8C7000160^000000
+Base: ^8C7000(Berserk)^fcf6ef===============^000000Specific Main: ^8C7000Water Core^fcf6ef=============||^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Garm's Essence)^fcf6ef========^000000Recipe: ^8C7000[Magic] ^8C7000[Magic] ^8C7000[Alloy]  ^8C7000[Food]^000000
+
+Product: ^0000FFHeartplace^fcf6ef============^000000Type: ^0000FF[Creation]^fcf6ef=======|^000000Min Quality:  ^0000FF90^fcf6ef===^000000Min Score: ^0000FF160^000000
+Base: ^0000FF(Berserk)^fcf6ef===============^000000Specific Main: ^0000FFWater Core^fcf6ef=============||^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Garm's Essence)^fcf6ef========^000000Recipe: ^0000FF[Magic] ^0000FF[Beast] ^0000FF[Magic] ^0000FF[Beast]^000000

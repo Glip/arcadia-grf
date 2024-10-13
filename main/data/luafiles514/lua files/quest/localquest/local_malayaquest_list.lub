@@ -1,0 +1,190 @@
+LOCAL_MalayaQuest_List = {
+	{
+		name = [[ ]],
+		imagefile = [[airship_button.bmp]],
+		list = {
+			{
+				name  =	[[Domestic]],
+				list = {
+					{
+						name =[[Einbroch]],
+						scrfilename = [[malayaQuest]],
+						questID = 14200,
+					},
+					{
+						name =[[Hugel]],
+						scrfilename = [[malayaQuest]],
+						questID = 14201,
+					},
+					{
+						name =[[Juno]],
+						scrfilename = [[malayaQuest]],
+						questID = 14202,
+					},
+					{
+						name =[[Lighthalzen]],
+						scrfilename = [[malayaQuest]],
+						questID = 14203,
+					},
+				}
+			},
+			{
+				name  =	[[International]],
+				list = {
+					{
+						name =[[Izlude]],
+						scrfilename = [[malayaQuest]],
+						questID = 14204,
+					},
+					{
+						name =[[Juno]],
+						scrfilename = [[malayaQuest]],
+						questID = 14205,
+					},
+--					{
+--						name =[[(Disabled) Rachel]],
+--						scrfilename = [[malayaQuest]],
+--						questID = 20001,
+--					},
+--					{
+--						name =[[(Disabled) Veins]],
+--						scrfilename = [[malayaQuest]],
+--						questID = 20001,
+--					},
+				}
+			},
+		},
+	},
+	{
+		name = [[ ]],
+		imagefile = [[alb_docks_button.bmp]],
+		list = {
+			{
+				name  =	[[Amatsu]],
+				list = {
+					{
+						name =[[Sailor]],
+						scrfilename = [[malayaQuest]],
+						questID = 14210,
+					},
+					{
+						name =[[Dungeon]],
+						scrfilename = [[malayaQuest]],
+						questID = 14211,
+					},
+				}
+			},
+			{
+				name  =	[[Ayothaya]],
+				list = {
+					{
+						name =[[Sailor]],
+						scrfilename = [[malayaQuest]],
+						questID = 14212,
+					},
+					{
+						name =[[Dungeon]],
+						scrfilename = [[malayaQuest]],
+						questID = 14213,
+					},
+				}
+			},
+			{
+				name  =	[[Kunlun]],
+				list = {
+					{
+						name =[[Sailor]],
+						scrfilename = [[malayaQuest]],
+						questID = 14214,
+					},
+					{
+						name =[[Dungeon]],
+						scrfilename = [[malayaQuest]],
+						questID = 14215,
+					},
+				}
+			},
+			{
+				name  =	[[Luoyang]],
+				list = {
+					{
+						name =[[Sailor]],
+						scrfilename = [[malayaQuest]],
+						questID = 14216,
+					},
+					{
+						name =[[Dungeon]],
+						scrfilename = [[malayaQuest]],
+						questID = 14217,
+					},
+				}
+			},
+			{
+				name  =	[[Dungeons & Others]],
+				list = {
+					{
+						name =[[Izlude]],
+						scrfilename = [[malayaQuest]],
+						questID = 14218,
+					},
+					{
+						name =[[Turtle Island]],
+						scrfilename = [[malayaQuest]],
+						questID = 14220,
+					},
+					{
+						name =[[Alberta Island]],
+						scrfilename = [[malayaQuest]],
+						questID = 14221,
+					},
+				}
+			},
+		},
+	},
+	{
+		name = [[ ]],
+		imagefile = [[other_docks_button.bmp]],
+		list = {
+			{
+				name  =	[[Izlude Dock]],
+				list = {
+					{
+						name =[[Alberta]],
+						scrfilename = [[malayaQuest]],
+						questID = 14230,
+					},
+					{
+						name =[[Jawaii]],
+						scrfilename = [[malayaQuest]],
+						questID = 14231,
+					},
+					{
+						name =[[Byalan Island]],
+						scrfilename = [[malayaQuest]],
+						questID = 14232,
+					},
+				}
+			},
+			{
+				name  =	[[Comodo P.L. Dock]],
+				list = {
+					{
+						name =[[Alberta & Izlude]],
+						scrfilename = [[malayaQuest]],
+						questID = 14233,
+					},
+				}
+			},
+			{
+				name  =	[[Hugel Dock]],
+				list = {
+					{
+						name =[[Odin Shrine]],
+						scrfilename = [[malayaQuest]],
+						questID = 14234,
+					},
+				}
+			},
+		},
+	},
+}

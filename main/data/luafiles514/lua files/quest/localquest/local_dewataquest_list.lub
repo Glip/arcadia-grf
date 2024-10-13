@@ -1,0 +1,349 @@
+LOCAL_DewataQuest_List = {
+	{
+		name = [[ ]],
+		imagefile = [[services_button.bmp]],
+		list = {
+			{
+				name  =	[[Body and Beauty]],
+				list = {
+					{
+						name =[[Physiotherapist]],
+						scrfilename = [[DewataQuest]],
+						questID = 14000,
+					},
+					{
+						name =[[Hypnotist]],
+						scrfilename = [[DewataQuest]],
+						questID = 14001,
+					},
+					{
+						name =[[Skin Clinic]],
+						scrfilename = [[DewataQuest]],
+						questID = 14002,
+					},
+					{
+						name =[[Stylist]],
+						scrfilename = [[DewataQuest]],
+						questID = 14003,
+					},
+				}
+			},
+			{
+				name  =	[[Kafra Headquarters]],
+				list = {
+					{
+						name =[[Storage Expansion]],
+						scrfilename = [[DewataQuest]],
+						questID = 14010,
+					},
+					{
+						name =[[Name Change]],
+						scrfilename = [[DewataQuest]],
+						questID = 14011,
+					},
+					{
+						name =[[Rewarder]],
+						scrfilename = [[DewataQuest]],
+						questID = 14012,
+					},
+				}
+			},
+			{
+				name  =	[[Lighthalzen Bank]],
+				list = {
+					{
+						name =[[Zeny Account]],
+						scrfilename = [[DewataQuest]],
+						questID = 14020,
+					},
+				}
+			},
+
+		},
+	},
+	{
+		name = [[ ]],
+		imagefile = [[daily_life_button.bmp]],
+		list = {
+			{
+				name  =	[[Experience]],
+				list = {
+					{
+						name =[[Monster of the Day]],
+						scrfilename = [[DewataQuest]],
+						questID = 14030,
+					},
+					{
+						name =[[Floating Rates]],
+						scrfilename = [[DewataQuest]],
+						questID = 14031,
+					},
+				}
+			},
+			{
+				name  =	[[Outlaws]],
+				list = {
+					{
+						name =[[Rune-Midgarts Guards]],
+						scrfilename = [[DewataQuest]],
+						questID = 14040,
+					},
+					{
+						name =[[Schwarzwald Police]],
+						scrfilename = [[DewataQuest]],
+						questID = 14041,
+					},
+				}
+			},
+		},
+	},
+}
+
+LOCAL_ArcadiaQuest_List = {
+	{
+		name = [[ ]],
+		imagefile = [[sideworld_button.bmp]],
+		list = {
+			{
+				name  =	[[Discovering Sideworld]],
+				list = {
+					{
+						name =[[Investigating the Past]],
+						scrfilename = [[DewataQuest]],
+						questID = 14050,
+					},
+					{
+						name =[[Poring Coins]],
+						scrfilename = [[DewataQuest]],
+						questID = 14051,
+					},
+					{
+						name =[[Everchanging Days]],
+						scrfilename = [[DewataQuest]],
+						questID = 14052,
+					},
+					{
+						name =[[New Cart!?]],
+						scrfilename = [[DewataQuest]],
+						questID = 14053,
+					},
+					{
+						name =[[Fisherline]],
+						scrfilename = [[DewataQuest]],
+						questID = 14054,
+					},
+					{
+						name =[[Atelier Richelle]],
+						scrfilename = [[DewataQuest]],
+						questID = 14055,
+					},
+				}
+			},
+			{
+				name  =	[[Quality of Life]],
+				list = {
+					{
+						name =[[Ammunition]],
+						scrfilename = [[DewataQuest]],
+						questID = 14070,
+					},
+					{
+						name =[[Ninjas & Gunslingers Shops]],
+						scrfilename = [[DewataQuest]],
+						questID = 14071,
+					},
+					{
+						name =[[Venom Knife Seller]],
+						scrfilename = [[DewataQuest]],
+						questID = 14072,
+					},
+				}
+			},
+			{
+				name  =	[[Client Modifications]],
+				list = {
+					{
+						name =[[Special Settings]],
+						scrfilename = [[DewataQuest]],
+						questID = 14080,
+					},
+					{
+						name =[[Equipment Sets]],
+						scrfilename = [[DewataQuest]],
+						questID = 14081,
+					},
+					{
+						name =[[Restocking Window]],
+						scrfilename = [[DewataQuest]],
+						questID = 14082,
+					},
+					{
+						name =[[Improvements (Part 1)]],
+						scrfilename = [[DewataQuest]],
+						questID = 14083,
+					},
+					{
+						name =[[Improvements (Part 2)]],
+						scrfilename = [[DewataQuest]],
+						questID = 14084,
+					},
+					{
+						name =[[Improvements (Part 3)]],
+						scrfilename = [[DewataQuest]],
+						questID = 14085,
+					},
+
+				}
+			},
+		},
+	},
+	{
+		name = [[   ]],
+		imagefile = [[ep10_button.bmp]],
+		list = {
+			{
+				name  =	[[The Steel Town]],
+				list = {
+					{
+						name =[[Einbroch]],
+						scrfilename = [[DewataQuest]],
+						questID = 14090,
+					},
+				}
+			},
+			{
+				name  =	[[The Corporate City]],
+				list = {
+					{
+						name =[[Lighthalzen]],
+						scrfilename = [[DewataQuest]],
+						questID = 14091,
+					},
+				}
+			},
+			{
+				name  =	[[Noghalt]],
+				list = {
+					{
+						name =[[The Tower of Death]],
+						scrfilename = [[DewataQuest]],
+						questID = 14092,
+					},
+					{
+						name =[[The Abyss Lake]],
+						scrfilename = [[DewataQuest]],
+						questID = 14093,
+					},
+				}
+			},
+			{
+				name  =	[[A Haven for the Forgotten]],
+				list = {
+					{
+						name =[[Hugel]],
+						scrfilename = [[DewataQuest]],
+						questID = 14094,
+					},
+				}
+			},
+		},
+	},
+	{
+		name = [[  ]],
+		imagefile = [[ep_recap_button.bmp]],
+		list = {
+			{
+				name  =	[[Historical Saga]],
+				list = {
+					{
+						name =[[9. Valhalla]],
+						scrfilename = [[DewataQuest]],
+						questID = 14100,
+					},
+					{
+						name =[[8. Niflheim]],
+						scrfilename = [[DewataQuest]],
+						questID = 14101,
+					},
+					{
+						name =[[7. Umbala]],
+						scrfilename = [[DewataQuest]],
+						questID = 14102,
+					},
+					{
+						name =[[6. The Global Project]],
+						scrfilename = [[DewataQuest]],
+						questID = 14103,
+					},
+					{
+						name =[[5. Juno]],
+						scrfilename = [[DewataQuest]],
+						questID = 14104,
+					},
+					{
+						name =[[4. War of Emperium]],
+						scrfilename = [[DewataQuest]],
+						questID = 14105,
+					},
+					{
+						name =[[3. Comodo]],
+						scrfilename = [[DewataQuest]],
+						questID = 14106,
+					},
+					{
+						name =[[2. Lutie]],
+						scrfilename = [[DewataQuest]],
+						questID = 14107,
+					},
+						{
+						name =[[1. Start of the Adventure]],
+						scrfilename = [[DewataQuest]],
+						questID = 14108,
+					},
+				}
+			},
+			{
+				name  =	[[Gossips & Lore]],
+				list = {
+-- Talk about Odin, Ymir and Porings --
+					{
+						name =[[Midgard]],
+						scrfilename = [[DewataQuest]],
+						questID = 14109,
+					},
+-- Einherjars --
+					{
+						name =[[Normans]],
+						scrfilename = [[DewataQuest]],
+						questID = 14110,
+					},
+-- Lore about Geffenia --
+					{
+						name =[[Elves]],
+						scrfilename = [[DewataQuest]],
+						questID = 14111,
+					},
+				}
+			},
+		},
+	},
+}
+
+LOCAL_ArcEvtQuest_List = {
+	{
+		name = [[ ]],
+		imagefile = [[event_button.bmp]],
+		list = {
+			{
+				name  =	[[Relaunch Event]],
+				list = {
+					{
+						name =[[Arcadia's Festival]],
+						scrfilename = [[DewataQuest]],
+						questID = 14300,
+					},
+				}
+			},
+		}, 
+	},
+}

@@ -1,0 +1,1244 @@
+DewataQuest_List = {
+
+
+-- < link = "PORING">Poring<\end> x 10
+-- < image = "30427"> Hakarl Hat<\end> (1)
+-- ^0000FFCost : 1,200z^000000 <T> <\end> 
+		[14000] = {
+				NPCFromName = [[Physiotherapist]],
+				NPCFromMap = [[cmd_in01]],
+				NPCFromSpr = [[4_M_TELEPORTER]],
+				NPCFromX = 121,
+				NPCFromY = 80,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Its cost is based on the amount of status points refunded. However, you don't need to use all 33 status points.]],
+				PrizeItem = [[]],
+				Title = [[Stat Refunder]],
+				Info = [[A specialist skilled enough to modify your body.
+				<T> <\end> 
+				You will be able to refund your stats to a maximum of 33 status points once every 3 months.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14001] = {
+				NPCFromName = [[Hypnotist]],
+				NPCFromMap = [[prontera]],
+				NPCFromSpr = [[4_F_TELEPORTER]],
+				NPCFromX = 146,
+				NPCFromY = 232,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[^FF0000Your character must carry 0 weight.^000000 <T> <\end> 
+				You cannot use this service if your character is trascendant, or more than level 40. <T> <\end> 
+				]],
+				PrizeItem = [[]],
+				Title = [[Hypnotist]],
+				Info = [[A specialist skill enought to modify your mind.
+				<T> <\end> 
+				You will be able to reset your leveled skills.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14002] = {
+				NPCFromName = [[Eddie]],
+				NPCFromMap = [[morocc]],
+				NPCFromSpr = [[4_M_ROGUE]],
+				NPCFromX = 140,
+				NPCFromY = 155,
+				NPCToName = [[Moretti]],
+				NPCToMap = [[que_skin]],
+				NPCToSpr = [[4_M_SCIENCE]],
+				NPCToX = 51,
+				NPCToY = 81,
+				Item = [[Once the quest is done, talk to Moretti to change your skin color for 1,000,000z.]],
+				PrizeItem = [[]],
+				Title = [[Skin Clinic]],
+				Info = [[Players can choose their skin tone when creating a Game Account. <T> <\end> 
+				Currently there are 4 kinds of skin tones; standard (original), pale, tan and dark. <T> <\end> 
+				<T> <\end> 
+				To change your skin tone, you need to start the Skin Clinic quest by talking to Eddie.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14003] = {
+				NPCFromName = [[Tailor Assistant]],
+				NPCFromMap = [[prontera]],
+				NPCFromSpr = [[4_M_OILMAN_S]],
+				NPCFromX = 80,
+				NPCFromY = 90,
+				NPCToName = [[Hair Dresser]],
+				NPCToMap = [[prontera]],
+				NPCToSpr = [[4_F_02]],
+				NPCToX = 74,
+				NPCToY = 96,
+				Item = [[Once a cloth color is bought, it can be checked through the Wardrobe option. <T> <\end> 
+				Clothes can be sold for half its price.]],
+				PrizeItem = [[]],
+				Title = [[Stylist]],
+				Info = [[Hairstyle, Hair color and clothing colors can be changed by using this service located in Prontera.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14010] = { 
+				NPCFromName = [[Katfra Service]],
+				NPCFromMap = [[aldeba_in]],
+				NPCFromSpr = [[4_F_DRKAFRA01]],
+				NPCFromX = 77,
+				NPCFromY = 242,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Katfra doesn't work on Meowndays.]],
+				PrizeItem = [[]],
+				Title = [[Storage Expansion]],
+				Info = [[Thanks to coopurration between the Katfra Corpurration and the Dorams, it's pawssible to increase the clawpacity of the Mastpurr Storage.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14011] = { 
+				NPCFromName = [[Civil Registry Clerk]],
+				NPCFromMap = [[aldeba_in]],
+				NPCFromSpr = [[4_M_ATEIL]],
+				NPCFromX = 148,
+				NPCFromY = 243,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[]],
+				PrizeItem = [[]],
+				Title = [[Name Change]],
+				Info = [[For a fee, you will be able to get a name change of character, homunculus or pet.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14012] = { 
+				NPCFromName = [[Event Rewards Clerk]],
+				NPCFromMap = [[aldeba_in]],
+				NPCFromSpr = [[4_F_KAFRA8]],
+				NPCFromX = 75,
+				NPCFromY = 165,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[To know if you are elegible for a reward, a message will appear once you log into the game.]],
+				PrizeItem = [[]],
+				Title = [[Rewarder]],
+				Info = [[In case that you win a price; said item will be rewarded throught this Kafra.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14020] = { 
+				NPCFromName = [[Zonda Employee]],
+				NPCFromMap = [[lhz_in02]],
+				NPCFromSpr = [[4_M_ZONDAMAN]],
+				NPCFromX = 25,
+				NPCFromY = 19,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[To enable the bank option, a quest is required.]],
+				PrizeItem = [[]],
+				Title = [[Bank Access]],
+				Info = [[Bank system that is linked to all the Game Accounts of your Master Account.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14030] = { 
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[prontera]],
+				NPCFromSpr = [[RAYDRIC]],
+				NPCFromX = 158,
+				NPCFromY = 192,
+				NPCToName = [[ ]],
+				NPCToMap = [[]],
+				NPCToSpr = [[PORING]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Specific monsters will be excluded, normally based on low amount of experience and spawn number.]],
+				PrizeItem = [[]],
+				Title = [[Monster of the Day]],
+				Info = [[Every day a monster will be picked, and it will grant double experience for the rest of the day. <T> <\end> 
+				<T> <\end> 
+				To know what's today's monster, send @expmission on chat window.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14031] = { 
+				NPCFromName = [[Brave Warrior]],
+				NPCFromMap = [[prontera]],
+				NPCFromSpr = [[1_M_YOUNGKNIGHT]],
+				NPCFromX = 61,
+				NPCFromY = 341,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Once the 2-day period ends, a 2-week cooldown will be applied before this event happens again.]],
+				PrizeItem = [[]],
+				Title = [[Floating Rates]],
+				Info = [[Once the whole servers funds a specific fee, for 48 hours, the base and job experience rates will be increased at random intervals.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14040] = { 
+				NPCFromName = [[Jail Master]],
+				NPCFromMap = [[prt_in]],
+				NPCFromSpr = [[4_M_KY_SOLD]],
+				NPCFromX = 88,
+				NPCFromY = 107,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Outlaws look like any other player. To attack them, press Shift key or use the command /noshift.]],
+				PrizeItem = [[]],
+				Title = [[Outlaw (Rune-Midgarts)]],
+				Info = [[One Outlaw will appear in a random town of Rune-Midgarts. <T> <\end>
+				<T> <\end>
+				Every kill will reward an Outlaw point, which are exchanged for unique rewards.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14041] = { 
+				NPCFromName = [[Jail Master]],
+				NPCFromMap = [[lhz_in02]],
+				NPCFromSpr = [[4_M_LGTGUARD]],
+				NPCFromX = 148,
+				NPCFromY = 199,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Outlaws look like any other player. To attack them, press Shift key or use the command /noshift.]],
+				PrizeItem = [[]],
+				Title = [[Outlaw (Schwarzwald)]],
+				Info = [[One Outlaw will appear in a random city of Schwarzwald. <T> <\end>
+				<T> <\end>
+				Every kill will reward an Outlaw point, which are exchanged for unique rewards.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14050] = {
+				NPCFromName = [[Young Scholar]],
+				NPCFromMap = [[prt_in]],
+				NPCFromSpr = [[4_M_ALCHE_A]],
+				NPCFromX = 158,
+				NPCFromY = 66,
+				NPCToName = [[ ]],
+				NPCToMap = [[]],
+				NPCToSpr = [[4_M_OLDFRIAR]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				Character must be at least level 80+ or a rebirth class to begin this journey. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Troubled Present And A Troubled Past]],
+				Info = [[
+				A Young Scholar at the East Library of Prontera is having trouble with his research. <T> <\end>
+				Maybe your adventure knowledge can come to his aid and uncover the secret behind our current ruler, King Grenholm Von Gaebolg. <T> <\end>
+				^0000FFReward^000000 : <T> <\end>
+				 - Entrance to Sideworld and its related content. <T> <\end>
+				 -  < image = "7539"> Poring Coin<\end>.
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14051] = {
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[PORING]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[In order to obtain more < image = "7539"> Poring Coin<\end>, perform requests through the ^0000FFAtelier System^000000, by trading with Fisherline members, or by finishing quests.]],
+				PrizeItem = [[]],
+				Title = [[Sideworld's Currency]],
+				Info = [[In order to perform some transactions, aside from the usual Zeny, < image = "7539"> Poring Coin<\end> will be asked.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14052] = {
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[DROPS]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[ ]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Once the change happens, monsters that engaged in battle will also disappear.]],
+				PrizeItem = [[]],
+				Title = [[Day and Night]],
+				Info = [[Based on the time of the day, monsters will change.]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14053] = {
+				NPCFromName = [[Manager]],
+				NPCFromMap = [[moc_intr01]],
+				NPCFromSpr = [[4_M_DESERT]],
+				NPCFromX = 141,
+				NPCFromY = 44,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				Completion of Sideworld Entrance Quest and being a Merchant base class with the skill Change Cart is required to begin this quest. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Cart Decoration]],
+				Info = [[
+				The merchant's logistics is in dire need of a courier. Find out what they need at the Morocc's warehouse. <T> <\end>
+				^0000FFReward^000000 : <T> <\end>
+				 - Unlocks a total of 7 new carts.
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14054] = {
+				NPCFromName = [[Vatn]],
+				NPCFromMap = [[aldebaran]],
+				NPCFromSpr = [[4_F_KID2]],
+				NPCFromX = 121,
+				NPCFromY = 88,
+				NPCToName = [[Olivine]],
+				NPCToMap = [[prt_intr01]],
+				NPCToSpr = [[4_F_BRZ_WOMAN]],
+				NPCToX = 184,
+				NPCToY = 175,
+				Item = [[
+				^FF0000Sideworld Entrance Quest needs to be finished first.^000000 <T> <\end>
+				Fisherline members live around the whole world (both current time and Sideworld). <T> <\end>
+				Some members will help you to find fishing spots, by marking them on your map. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Timeless Fishing]],
+				Info = [[
+				The influence of Sideworld allowed the restoration of lost technologies and ecosystems. <T> <\end>
+				Fisherline, a long lost fishing group is getting new members lately, saving it from bankruptcy. <T> <\end>
+				An old man in Aldebaran is the last person alive with information about this group.
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14055] = {
+				NPCFromName = [[Princess Richelle]],
+				NPCFromMap = [[prt_cstl00]],
+				NPCFromSpr = [[4_F_SHALOSH]],
+				NPCFromX = 20,
+				NPCFromY = 32,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				^FF0000Completion of Sideworld Entrance Quest is required to begin this journey.^000000
+				]],
+				PrizeItem = [[]],
+				Title = [[Alchemy of The Past]],
+				Info = [[
+				^0000FF"By royal decree with the authority of the king, your presence is required by Princess Richelle at the Prontera Castle."^000000 <T> <\end>
+				Princess Richelle is very interested in running an atelier shop but she needs an alchemist mentor and your help. <T> <\end>
+				^0000FFRewards^000000 : <T> <\end>
+				- Unlocks ^FF0000Atelier Richelle^000000 mini-game <T> <\end>
+				- < image = "7539"> Poring Coin<\end> <T> <\end>
+				- and more.
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14070] = { 
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[4_BOARD3]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[]],
+				PrizeItem = [[]],
+				Title = [[Ammunition Icons]],
+				Info = [[All ammunition will have a unique buff icons instead of the general one. <T> <\end>
+				<T> <\end>
+				^0000FFCATEGORIES^000000 : <T> <\end>
+				 - Arrow<T> <\end>
+				 - Shuriken <T> <\end>
+				 - Kunai<T> <\end>
+				 - Bullet]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14071] = { 
+				NPCFromName = [[Bullet Dealer Tony]],
+				NPCFromMap = [[alberta]],
+				NPCFromSpr = [[4_M_04]],
+				NPCFromX = 118,
+				NPCFromY = 160,
+				NPCToName = [[Amatsu Trader]],
+				NPCToMap = [[alberta_in]],
+				NPCToSpr = [[4_M_NINJA_BLUE]],
+				NPCToX = 169,
+				NPCToY = 81,
+				Item = [[^FF0000Kunai Maker was replaced by Ninja Ammo Box Maker.^000000]],
+				PrizeItem = [[]],
+				Title = [[Ninjas & Gunslingers Shops]],
+				Info = [[ The following changes were applied to Ninja & Gunslinger shops. <T> <\end>
+				^0000FFGUNSLINGER^000000 : <T> <\end>
+				 - Bullet and Cartridge dealers will trade with characters of any class (not only Gunslingers).<T> <\end>
+				^0000FFNINJA^000000 : <T> <\end>
+				 - Kunai can be directly bought from shops.<T> <\end>
+				 - A shop was added to Alberta's tool dealer.<T> <\end>
+				 - Ammunition can be turned into ammo boxes outside of Alberta's tool dealer.<T> <\end>]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14072] = { 
+				NPCFromName = [[Sepulchral Merchant]],
+				NPCFromMap = [[morocc]],
+				NPCFromSpr = [[4_M_MASKMAN]],
+				NPCFromX = 49,
+				NPCFromY = 110,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[]],
+				PrizeItem = [[]],
+				Title = [[Venom Knife Seller]],
+				Info = [[ A Venom Knife seller has appeared next to the Assassin's Pub in Morocc. <T> <\end>]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14080] = { 
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[4_BOARD3]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				^0000FF/smartprocessing^000000 <T> <\end>
+				Enabling this will replace the client's logic for target and movement behavior when using skills or attacking. <T> <\end>
+				This should improve you sometimes not moving when issuing an attack at a target past obstacles. <T> <\end>
+				This should ensure that you only ever walk as close as you need to be,
+				meaning your swordman no longer gets whacked by Great Generals when trying to attack them with a Spear from further away. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Special Settings]],
+				Info = [[In order to easily see all custom settings we've accumulated over the years, this window has been added. <T> <\end>
+				Hotkey for it can be set in the Keyboard Settings in the Window Interface Tab. <T> <\end>
+				<T> <\end>
+				^0000FF/quickcast in PvP / GvG^000000 <T> <\end>
+				When this setting is enabled a single left-click will be executed whenever you click a skill or item hotkey.<T> <\end>
+				This skips the targeting phase, so you better have your cursor already over your desired target!<T> <\end>
+				------ <T> <\end>
+				^0000FF/improvebattlemode^000000 <T> <\end>
+				When this setting is enabled the chat input field will hide as soon as you press enter. <T> <\end>
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14081] = { 
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[4_BOARD3]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[The window can also be opened via its own button in the Equipment Window.]],
+				PrizeItem = [[]],
+				Title = [[Equipment Sets]],
+				Info = [[Set up three sets of equipment that you can quickly equip with the press of a hotkey. <T> <\end>
+				Hotkey for the sets themselves can be set in the Keyboard Settings in the Emotion Tab. <T> <\end>
+				Hotkey for the window can be set in the Keyboard Settings in the Window Interface Tab. <T> <\end>
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14082] = { 
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[4_BOARD3]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Hotkey for the window can be set in the Keyboard Settings in the Window Interface Tab.]],
+				PrizeItem = [[]],
+				Title = [[Restocking Window]],
+				Info = [[Set up global (master-account wide) settings for items which you want to restock in your inventory or storage. <T> <\end>
+				<T> <\end>
+				^0000FFYou're able to configure : ^000000<T> <\end>
+				 - Items to be only stored, never bought.<T> <\end>
+				 - Items to be only bought if highest discount available.<T> <\end>
+				 - Individually Enable items.<T> <\end>
+				------ <T> <\end>
+				^0000FFYou can temporarily : ^000000<T> <\end>
+				 - Disable current tabs.<T> <\end>
+				 - Activate Restocking Mode so you don't refill inventory and buy the maximum possible amount that you can carry to fill up your storage.<T> <\end>
+				 - Fill a Session-based Tab that will be remembered as long as your client is open, such as for Brewing Sessions.<T> <\end>
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14083] = { 
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[4_BOARD3]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[]],
+				PrizeItem = [[]],
+				Title = [[Improvements (Part 1)]],
+				Info = [[
+				^0000FFFriend Settings :^000000<T> <\end>
+				/alarmnormalwhisper: You can now choose to get an Alarm when receiving non 1:1 whispers. <T> <\end>
+				------ <T> <\end>
+				^0000FFSound Settings :^000000<T> <\end>
+				/bgmbg & /effbg: Mutes BGM or SFX when game window is in background or not focused.<T> <\end>
+				------ <T> <\end>
+				^0000FFMore Emotions :^000000<T> <\end>
+				Check out the new emotions in the Emotion Window! <T> <\end>
+				------ <T> <\end>
+				^0000FFChat Window :^000000<T> <\end>
+				When the chat input field is hidden Tab, Arrow Up and Arrow Down key inputs are no longer processed for the chat window. <T> <\end>
+				<T> <\end>
+				Pressing enter after having typed a whisper target will no longer delete the name, instead you will swap to the message input field,
+				unless you already typed a message in that case that message will also be sent. <T> <\end>
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14084] = { 
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[4_BOARD3]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Ping hotkey can be set in the Emotions Settings in the Window Interface Tab.]],
+				PrizeItem = [[]],
+				Title = [[Improvements (Part 2)]],
+				Info = [[
+				^0000FFParty Related : ^000000 <T> <\end>
+				You can now change the order of your party members locally per session. <T> <\end>
+				Relogging to char-screen should keep the order remembered. <T> <\end>
+				Quitting the game entirely will reset the order. <T> <\end>
+				^0000FFPing : ^000000 <T> <\end>
+				You are able to alert your party members via hotkey which will issue a sound and show a "ping"-like animation on the ground tile as well as on the minimap.<T> <\end>
+				------ <T> <\end>
+				^0000FFAmmunition Status Icons : ^000000 <T> <\end>
+				You will now see what type of Ammunition you have equipped based on the displayed Status Icon. <T> <\end>
+				------ <T> <\end>
+				^0000FFMinimap : ^000000<T> <\end>
+				If the minimap isn't hidden you'll see your coordinates at the bottom left now. <T> <\end>
+				<T> <\end>
+				Player Markers such as yours, guild members and party members no longer vanish when near the border of a map. <T> <\end>
+				------ <T> <\end>
+				^0000FFAutofollow : ^0000FF<T> <\end>
+				Autofollow no longer breaks when used after changing /nc or /ns or when used for the first time after logging in. <T> <\end>
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14085] = { 
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[4_BOARD3]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				^0000FFItem Movement : ^000000<T> <\end>
+				Moving items between different kinds of inventory, storage, carts, etc. will no longer stop working if canceled due to weight issues or other reasons. <T> <\end>
+				When typing zero to cancel the movement of an item, movement will now be always canceled instead of sometimes still moving one. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Improvements (Part 3)]],
+				Info = [[
+				^0000FFTrading : ^000000<T> <\end>
+				You can now choose to mark a trade to be continued. If both sides do so, the trade window will automatically re-open, until unmarked or trade cancelled. <T> <\end>
+				------ <T> <\end>
+				^0000FFSpiritual Potion Creation I : ^000000<T> <\end>
+				Now has a selectable second level, which enables you to attempt to create 200 Blue Potions. <T> <\end>
+				------ <T> <\end>
+				^0000FFStorage : ^000000<T> <\end>
+				Broken armor & weapons now have their name already colored red inside the storage item list. <T> <\end>
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14090] = {
+				NPCFromName = [[Guide]],
+				NPCFromMap = [[einbroch]],
+				NPCFromSpr = [[4_M_EIN_SOLDIER]],
+				NPCFromX = 72,
+				NPCFromY = 202,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				Strahlenstein continued his research, and the more powerful machinery made it possible to extract even more minerals. <T> <\end>
+				People started establishing refineries and factories in a land near Einbech, and a railroad was laid to meet the demands. <T> <\end>
+				This community grew to become what is now known as Einbroch, the first modern city.
+				]],
+				PrizeItem = [[]],
+				Title = [[Einbroch ~ The Steel Town]],
+				Info = [[
+				Schwarzwald Republic is home to many brilliant scientists. <T> <\end>
+				Its history books speak of Lowin Ard Strahenstein, the name most closely associated with the invention of the steam engine, and the beginning of the Industrial Age. <T> <\end>
+				Steam engines revolutionized transportation and the manufacturing industry, but also demanded greatly increasing extraction and processing of minerals. Thus, Einbench, a city close to a steel mine was established.
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14091] = {
+				NPCFromName = [[Kafra Employee]],
+				NPCFromMap = [[lighthalzen]],
+				NPCFromSpr = [[4_F_KAFRA8]],
+				NPCFromX = 164,
+				NPCFromY = 100,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[There's a rumor that a scientist at Rekenber has made an incredible discovery.]],
+				PrizeItem = [[]],
+				Title = [[Lighthalzen ~ The Corporate City]],
+				Info = [[
+				Deep in the heart of the Schwarzwald Republic lies the city of Lighthalzen. <T> <\end>
+				A bustling metropolis that has earned its title as the commercial center of the world, Lighthalzen is not all it seems. <T> <\end>
+				There are rumors, dark rumors. Parents that go missing, secret experiments beneath the Rekenber headquarters, a man who claims to have created life. 
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14092] = {
+				NPCFromName = [[Guide]],
+				NPCFromMap = [[tha_t01]],
+				NPCFromSpr = [[4_F_01]],
+				NPCFromX = 149,
+				NPCFromY = 74,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				Demon King Surt is also known as Satan Morocc. <T> <\end>
+				Rekenber Corporation has started renovations of the lowest levels of the tower, opening its floors to the public.]],
+				PrizeItem = [[]],
+				Title = [[The Tower of Death!]],
+				Info = [[
+				Aside from scarce historical documentation and spoken legends, very little is known about Thanatos Tower's origin. <T> <\end>
+				The most widely accepted theory is that the tower was built to honor the legendary magic wielding swordsman Thanatos' victory over Demon King Surt, an ancient jotunn that devastated the Norman world during the Thousand-Year War. <T> <\end>
+				According to the legends, Thanatos battled Surt for 10 days and nights before he sealed it in the southern Rune-Midgarts desert.
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14093] = {
+				NPCFromName = [[Entrance]],
+				NPCFromMap = [[hu_fild05]],
+				NPCFromSpr = [[2_BOARD2]],
+				NPCFromX = 168,
+				NPCFromY = 301,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				In order to activate the column (and the portal), the following items are needed : <T> <\end>
+				 - < image = "1035"> Dragon Canine<\end> (1)<T> <\end>
+				 - < image = "1036"> Dragon Scale<\end> (1)<T> <\end>
+				 - < image = "1037"> Dragon Tail<\end> (1)<T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[The Abyss Lake!]],
+				Info = [[
+				A deep lake that lies southwest of the small town of Hugel. <T> <\end>
+				Dangerous monsters reside around the lake as well as within the island in the midst of the lake itself.
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14094] = {
+				NPCFromName = [[Kafra Employee]],
+				NPCFromMap = [[hugel]],
+				NPCFromSpr = [[4_F_KAFRA8]],
+				NPCFromX = 101,
+				NPCFromY = 118,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[On Angrboda Island, Odin Temple was built by an ancient civilization. A civil war broke and the survivors slowly abandoned the island in search of a better future elsewhere.]],
+				PrizeItem = [[]],
+				Title = [[Hugel ~ A Haven for the Forgotten]],
+				Info = [[
+				^0000FF"No one asked anyone where they came from, what they did, and how they got here..."^000000 <T> <\end>
+				<T> <\end>
+				However, Hugel is now the eye of the storm. <T> <\end>
+				As pursuers who seek Odin Shrine's relics, Gigantes, and Ymir's Heart appeared, and the airship route opened, Hugel's peace and isolation has come to the end. <T> <\end>
+				People in Hugel, especially ones who left their hometown for specific reasons, are now desperate to hide their secrets from the outsiders. 
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14100] = {
+				NPCFromName = [[Metheus Sylphe]],
+				NPCFromMap = [[yuno_in02]],
+				NPCFromSpr = [[2_M_SAGE_B]],
+				NPCFromX = 88,
+				NPCFromY = 164,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				Characters must hold no weight nor money. <T> <\end>
+				A fee of ^0000FF1,285,000z^000000 is asked to whomever wants to read a copy of the Book of Ymir.
+				]],
+				PrizeItem = [[]],
+				Title = [[Valhalla ~ Hall of the Einherjar]],
+				Info = [[
+				Within the walls of the Library of the Schweicherbil Magic Academy lies a Heart of Ymir, which is what powers the city of Juno and allows it to float in the air. <T> <\end>
+				Those who come into contact with it are transported to the realm of Valhalla, where they can choose to die and be reborn into a being more powerful than a mere mortal, a transcendent.
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14101] = {
+				NPCFromName = [[Kafra Employee]],
+				NPCFromMap = [[niflheim]],
+				NPCFromSpr = [[4_F_NFDEADKAFRA]],
+				NPCFromX = 202,
+				NPCFromY = 180,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				Niflheim is the realm of primordial ice and cold with nine frozen rivers. <T> <\end>
+				It later became the abode of Hel, goddess of the dead. It is the final resting place of those who did not die a heroic or notable death.
+				]],
+				PrizeItem = [[]],
+				Title = [[Niflheim ~ City of the Dead]],
+				Info = [[
+				After conducting much research, scholars have concluded that the famous Tree of Umbala might be a part of the legendary Yggdrasil Tree. They began to wonder where the tree may lead them. Rumors of an incredible fortune at the end of the tree were spread amongst the adventurers of Rune-Midgard. <T> <\end>
+				It wasn't long before brave fortune seekers started traveling into the Umbala tree. One by one, they entered with hopes of finding a dreamland where they could find vast riches. Strangely enough, they never came back. Alarmed by the number of missing people, Tristram III, the King of Rune-Midgarts, ordered his troops to find out what happened to them.]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14102] = {
+				NPCFromName = [[Kafra Employee]],
+				NPCFromMap = [[umbala]],
+				NPCFromSpr = [[4_F_KAFRA7]],
+				NPCFromX = 87,
+				NPCFromY = 160,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				Rumors say that the Umbala Tree may be related to the Yggdrasil Tree, and adventurers may be able to reach another world through it.
+				]],
+				PrizeItem = [[]],
+				Title = [[Umbala ~ Village of the Utan Tribe]],
+				Info = [[
+				According to legend, there is a forgotten path somewhere near north Comodo. <T> <\end>
+				At the end of the path, there is a giant tree from which treasure springs forth. <T> <\end>
+				It has been said: ^0000FF"Men ruled by avarice will obtain treasure. But men who are not will be led to a new world."^000000 <T> <\end>
+				<T> <\end>
+				After several years of research around Ruande and Zenhai Marsh, the long forgotten path has finally been found. <T> <\end>
+				Through an old wooden bridge, over a canyon that makes you understand how small and insignificant humans can be, adventurers can reach a great jungle forest, so large that it almost envelopes the sky. <T> <\end>
+				Far into the jungle, there is a small tribal village full of people wearing strange masks who worship the Mother Tree. They call themselves the Utan Tribe of Umbala.
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14103] = {
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[4W_SAILOR]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Check the ^0000FFLocal^000000 tab to know more about the Alberta Docks.]],
+				PrizeItem = [[]],
+				Title = [[Beyond Rune-Midgarts]],
+				Info = [[
+				^0000FF1. Amatsu :^000000 <T> <\end>
+				Thanks to an agreement between King Tristan Gaebolg III and Ishida Yoshinaga of Amatsu, an official trade route has been opened between the two countries. <T> <\end>
+				<T> <\end>
+				^0000FF2. Kunlun :^000000 <T> <\end>
+				An exotic looking stranger arrived in Alberta and was escorted to Prontera. King Tristan Gaebolg III came to learn about the culture from where he came: a town upon a giant rock floating high above the clouds. <T> <\end>
+				<T> <\end>
+				^0000FF3. Luoyang :^000000 <T> <\end>
+				During an exploration campaign promoted by King Tristan Gaebolg III, adventurers discovered a captivating faraway city embedded within a mountainous region surrounded by forests. <T> <\end>
+				<T> <\end>
+				^0000FF4. Ayothaya :^000000 <T> <\end>
+				Recognizing the profit from exploration, King Tristan III proclaimed that pioneers that discovered previously unknown lands would be richly rewarded. The Village of Ayothaya was found due to this.
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14104] = {
+				NPCFromName = [[Kafra Employee]],
+				NPCFromMap = [[yuno]],
+				NPCFromSpr = [[4_F_KAFRA8]],
+				NPCFromX = 152,
+				NPCFromY = 187,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				In Juno, there is a tradition in which the 3 best Sages are chosen to represent each of Juno's islands. <T> <\end>
+				The current Sages are : <T> <\end>
+				- Yklah (Sage of Mineta) <T> <\end>
+				- Syklah (Sage of Snotora) <T> <\end>
+				- Esklah (Sage of Solomon)
+				]],
+				PrizeItem = [[]],
+				Title = [[Juno ~ Forgotten Legacy of an Ancient Era]],
+				Info = [[
+				The floating capital city of the Republic of Schwarzwald. <T> <\end>
+				It contains three islands: the glorious island Solomon (north), island of intelligence Snotora (east), and island of prosperity Mineta (center).
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14105] = {
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[4_M_CRU]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[]],
+				PrizeItem = [[]],
+				Title = [[War of Emperium]],
+				Info = [[
+				Following the recent friendship treaty with the Schwarzwald Republic, defense of the castles of the Rune-Midgarts Kingdom weakened. <T> <\end>
+				Armies of monsters are marching and attempting to take control of the castles in all the major towns, causing a real threat to the Kingdom. <T> <\end>
+				"The castles and the treasures on them are properties for those who deserve them. And whoever control the castles with the legendary Emperium stone, will be considered the kingdom Knights of honor.", announced King Tristan Gaebolg III.
+						]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14106] = {
+				NPCFromName = [[Kafra Employee]],
+				NPCFromMap = [[comodo]],
+				NPCFromSpr = [[4_F_KAFRA7]],
+				NPCFromX = 195,
+				NPCFromY = 150,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[]],
+				PrizeItem = [[]],
+				Title = [[Island of Illusion, Comodo]],
+				Info = [[
+				Comodo is a beach located at the far south region of Rune Midgard Kingdom. <T> <\end>
+				To get there, you have to go through a wild marsh area, across a large river and a giant cave where aggressive monsters reside in. <T> <\end>
+				Due to the local region, the sun does not shine. You will be dazed by the glow of the blue moon, and drawn in by the enchanted night life. <T> <\end>
+				So be prepared to see the beauty and be amazed by the excitement Comodo has for you.]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14107] = {
+				NPCFromName = [[Kafra Employee]],
+				NPCFromMap = [[xmas]],
+				NPCFromSpr = [[4_F_KAFRA6]],
+				NPCFromX = 149,
+				NPCFromY = 136,
+				NPCToName = [[Mr. Claus]],
+				NPCToMap = [[aldebaran]],
+				NPCToSpr = [[4_M_SANTA]],
+				NPCToX = 223,
+				NPCToY = 222,
+				Item = [[Santa Claus will teleport you, for free, to the snowy Lutie land.]],
+				PrizeItem = [[]],
+				Title = [[Lutie]],
+				Info = [[
+				The Kafra Corporation, in collaboration with the Toy Factory in Lutie, is proud to announce the possibility to visit a far away snowy town, where you can feel the Christmas atmosphere all year long.
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14108] = {
+				NPCFromName = [[ ]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[4_F_KAFRA6]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				^0000FFAlternative Title^000000 : <T> <\end>
+				Ragnarok Online - The Final Destiny of the Gods
+				]],
+				PrizeItem = [[]],
+				Title = [[Start of the Adventure]],
+				Info = [[
+				^0000FFIn a time of strife between God, Normans, and demons...^000000 <T> <\end>
+				<T> <\end>
+				Scarred during the gruesome war and avoiding total destruction altogether, God, Normans, and demons manage to enter into a truce... <T> <\end>
+				The lengthy peace eventually led the Normans to forget their memories of the scars and hardship from the war. As they forgot faults of the past, selfishness, corruption, and arrogance slowly spread throughout the land... <T> <\end>
+				<T> <\end>
+				Finally, the balance of peace broke and strange occurrences started happening. <T> <\end>
+				There came a strange howl from the boundaries that divided God, Normans, and demons. Peaceful creatures became aggressive and attacked innocent villagers. Violent earthquakes ripped whole continents apart. Great hail storms drove some species to the brink of extinction...<T> <\end>
+				<T> <\end>
+				As the fragile peace began to fall apart, stories about the parts of Ymir protecting the peace began to spread among the adventurers. Forgetting the true nature of the ancient relics, people set out to seek the pieces out of selfishness and the promise of wealth that would come with it...
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14109] = {
+				NPCFromName = [[Archiver]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[1_F_LIBRARYGIRL]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				The only other continent that exists is Pasta, home of the Doram.
+				]],
+				PrizeItem = [[]],
+				Title = [[Midgard]],
+				Info = [[
+				The main continent of the world. <T> <\end>
+				On it resides four Norman countries : Rune-Midgarts, the Schwarzwald Republic, the Arunafeltz States, and Maroll. <T> <\end>
+				<T> <\end>
+				A long time ago, the Thousand-Year War took place, resulting in the deaths of Baldr and Fenrir. <T> <\end>
+				During this time, the Jotunn Surt unleashed his minions on the world but was defeated by the Aesir. <T> <\end>
+				Meanwhile, Jormungandr's attack on Midgard was halted by Tristan Gaebolg I and 6 other warriors, all of whom would cooperate together to establish the Rune-Midgarts Kingdom.
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14110] = {
+				NPCFromName = [[Archiver]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[1_F_LIBRARYGIRL]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Normans are the main race of the world of Midgard.]],
+				PrizeItem = [[]],
+				Title = [[Normans]],
+				Info = [[
+				^0000FFIn the beginning, Normans were not much more than cavemen, using primitive means to hunt and survive.^000000 <T> <\end>
+				<T> <\end>
+				It was not until elves came to Midgard that Normans began learning the basics of civilization from them. <T> <\end>
+				As a result, Normans became tenacious and greedy. In return for the elves' charity, the Normans allied with the Dwarfs and overran the elven kingdom of Geffenia. <T> <\end>
+				Before the Normans could conquer the realm as their own, the elves locked it away using powerful magic. <T> <\end>
+				<T> <\end>
+				The Normans were forced back to Midgard and began building their own cities and towns.
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14111] = {
+				NPCFromName = [[Archiver]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[1_F_LIBRARYGIRL]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				Elves are the main race of Alfheim. <T> <\end>
+				Dwarves (dark elves or Dvergar) are the main race of Svartalfaheim.
+				]],
+				PrizeItem = [[]],
+				Title = [[Elves]],
+				Info = [[
+				The elven race pitied the primitive Normans and sought to help the race advance by teaching them the ways of their people. <T> <\end>
+				<T> <\end>
+				So proud and almighty were the elves that they failed to notice signs of rebellion from the Normans. <T> <\end>
+				All elves who managed to survive the onslaught were driven out of Geffenia and scattered all over Midgard. <T> <\end>
+				In response, the kingdom of Geffenia was sealed and cut off from the world.
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14300] = {
+				NPCFromName = [[Originio]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[4_M_EINOLD]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[Arcadeas]],
+				NPCToMap = [[aldeba_in]],
+				NPCToSpr = [[1_F_SIGNZISK]],
+				NPCToX = 75,
+				NPCToY = 182,
+				Item = [[
+				Only one character per Master Account is allowed to participate. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Arcadia's Festival]],
+				Info = [[
+				To celebrate our relaunch, Originio is organizing a leveling event. <T> <\end>
+				Those who wish to participate need to meet him at the Training Grounds. <T> <\end>
+				^0000FFReward^000000 : <T> <\end>
+				 - Three tiers of items (Lv 40, 60 and 80). <T> <\end>
+				 -  < image = "30451"> Mr Poring Hat Costume<\end> at lv 80.
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+}

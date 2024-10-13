@@ -1,0 +1,115 @@
+%fcf6ef
+==================================================================
+[ Natural Catalyst ]
+==================================================================
+Catalyst: ^993399Red Gemstone^000000
+Item ID: ^993399716^000000
+Comment: A gemstone that bolster the 'power' characteristic.^000000
+
+Catalyst: ^993399Cyfar^000000
+Item ID: ^9933997053^000000
+Comment: A crystal that strengthen the 'stability' characteristic.^000000
+
+Catalyst: ^993399Yellow Gemstone^000000
+Item ID: ^993399715^000000
+Comment: A gemstone that increase the 'mind' characteristic.^000000
+
+Catalyst: ^993399Blue Gemstone^000000
+Item ID: ^993399717^000000
+Comment: A gemstone that intensify the 'spiritual' characteristic.^000000
+
+==================================================================
+[ Synthesized Catalyst ]
+==================================================================
+Catalyst: ^993399Ifrit's Essence^000000
+Item ID: ^99339940080^000000
+Comment: Essence with a strong 'aggression' characteristic. Needs to be synthesized.^000000
+
+Catalyst: ^993399Maya's Essence^000000
+Item ID: ^99339940081^000000
+Comment: Essence with a strong 'permanence' characteristic. Needs to be synthesized.^000000
+
+Catalyst: ^993399Mistress' Essence^000000
+Item ID: ^99339940082^000000
+Comment: Essence with a strong 'conscious' characteristic. Needs to be synthesized.^000000
+
+Catalyst: ^993399Garm's Essence^000000
+Item ID: ^99339940083^000000
+Comment: Essence with a strong 'psychical' characteristic. Needs to be synthesized.^000000
+
+==================================================================
+[ Fire Property Agents ]
+==================================================================
+Agent: ^B22222Red Blood^000000
+Item ID: ^B22222990^000000
+Quality:  ^B222220^fcf6ef===^000000Fire:   ^B2222220^fcf6ef===^000000Earth:   ^B222220^fcf6ef===^000000Air:     ^B222220^fcf6ef===^000000Water:   ^B222220^000000
+Comment: A minor boost to ^B22222Fire^000000 score.^000000
+
+
+Agent: ^B22222Flame Heart^000000
+Item ID: ^B22222994^000000
+Quality:  ^B222220^fcf6ef===^000000Fire:   ^B2222240^fcf6ef===^000000Earth:   ^B222220^fcf6ef===^000000Air:     ^B222220^fcf6ef===^000000Water:   ^B222220^000000
+Comment: Greatly enhance ^B22222Fire^000000 score.^000000
+
+
+Agent: ^B22222Crimson Maxima^000000
+Item ID: ^B2222240064^000000
+Quality:  ^B2222220^fcf6ef===^000000Fire:   ^B2222240^fcf6ef===^000000Earth:   ^B222220^fcf6ef===^000000Air:     ^B222220^fcf6ef===^000000Water:   ^B222220^000000
+Comment: Greatly enhance ^B22222Fire^000000 score and quality. Needs to be synthesized.^000000
+==================================================================
+[ Earth Property Agents ]
+==================================================================
+Agent: ^2E8B57Green Live^000000
+Item ID: ^2E8B57993^000000
+Quality:  ^2E8B570^fcf6ef===^000000Fire:    ^2E8B570^fcf6ef===^000000Earth:  ^2E8B5720^fcf6ef===^000000Air:     ^2E8B570^fcf6ef===^000000Water:   ^2E8B570^000000
+Comment: A minor boost to ^2E8B57Earth^000000 score.^000000
+
+
+Agent: ^2E8B57Great Nature^000000
+Item ID: ^2E8B57997^000000
+Quality:  ^2E8B570^fcf6ef===^000000Fire:    ^2E8B570^fcf6ef===^000000Earth:  ^2E8B5740^fcf6ef===^000000Air:     ^2E8B570^fcf6ef===^000000Water:   ^2E8B570^000000
+Comment: Greatly enhance ^2E8B57Earth^000000 score.^000000
+
+
+Agent: ^2E8B57Nature Maxima^000000
+Item ID: ^2E8B5740065^000000
+Quality:  ^2E8B5720^fcf6ef===^000000Fire:    ^2E8B570^fcf6ef===^000000Earth:  ^2E8B5740^fcf6ef===^000000Air:     ^2E8B570^fcf6ef===^000000Water:   ^2E8B570^000000
+Comment: Greatly enhance ^2E8B57Earth^000000 score and quality. Needs to be synthesized.^000000
+==================================================================
+[ Air Property Agents ]
+==================================================================
+Agent: ^8C7000Wind of Verdure^000000
+Item ID: ^8C7000992^000000
+Quality:  ^8C70000^fcf6ef===^000000Fire:    ^8C70000^fcf6ef===^000000Earth:   ^8C70000^fcf6ef===^000000Air:    ^8C700020^fcf6ef===^000000Water:   ^8C70000^000000
+Comment: A minor boost to ^8C7000Air^000000 score.^000000
+
+
+Agent: ^8C7000Rough Wind^000000
+Item ID: ^8C7000996^000000
+Quality:  ^8C70000^fcf6ef===^000000Fire:    ^8C70000^fcf6ef===^000000Earth:   ^8C70000^fcf6ef===^000000Air:    ^8C700040^fcf6ef===^000000Water:   ^8C70000^000000
+Comment: Greatly enhance ^8C7000Air^000000 score.^000000
+
+
+Agent: ^8C7000Prism Maxima^000000
+Item ID: ^8C700040066^000000
+Quality:  ^8C700020^fcf6ef===^000000Fire:    ^8C70000^fcf6ef===^000000Earth:   ^8C70000^fcf6ef===^000000Air:    ^8C700040^fcf6ef===^000000Water:   ^8C70000^000000
+Comment: Greatly enhance ^8C7000Air^000000 score and quality. Needs to be synthesized.^000000
+==================================================================
+[ Water Property Agents ]
+==================================================================
+Agent: ^0000FFCrystal Blue^000000
+Item ID: ^0000FF991^000000
+Quality:  ^0000FF0^fcf6ef===^000000Fire:    ^0000FF0^fcf6ef===^000000Earth:   ^0000FF0^fcf6ef===^000000Air:     ^0000FF0^fcf6ef===^000000Water:  ^0000FF20^000000
+Comment: A minor boost to ^0000FFWater^000000 score.^000000
+
+
+Agent: ^0000FFMystic Frozen^000000
+Item ID: ^0000FF995^000000
+Quality:  ^0000FF0^fcf6ef===^000000Fire:    ^0000FF0^fcf6ef===^000000Earth:   ^0000FF0^fcf6ef===^000000Air:     ^0000FF0^fcf6ef===^000000Water:  ^0000FF40^000000
+Comment: Greatly enhance ^0000FFWater^000000 score.^000000
+
+
+Agent: ^0000FFMana Maxima^000000
+Item ID: ^0000FF40067^000000
+Quality:  ^0000FF20^fcf6ef===^000000Fire:    ^0000FF0^fcf6ef===^000000Earth:   ^0000FF0^fcf6ef===^000000Air:     ^0000FF0^fcf6ef===^000000Water:  ^0000FF40^000000
+Comment: Greatly enhance ^0000FFWater^000000 score and quality. Needs to be synthesized.^000000

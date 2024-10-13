@@ -1,0 +1,5 @@
+DELETE_FILES = {
+	"OrigRO\\SetupInfo.lua",
+	"OrigRO\\MsgString.lua",
+	"OrigRO\\CmdInfo.lub"
+}

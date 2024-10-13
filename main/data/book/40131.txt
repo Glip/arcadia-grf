@@ -1,0 +1,476 @@
+%fcf6ef
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=       Topics       =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+^fcf6ef===========^000000[ Food ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
+^fcf6ef=================^000000Fire . . .   2^fcf6ef=====^000000Earth . . .   3
+^fcf6ef=================-^000000Air . . .   4^fcf6ef====-^000000Water . . .   5
+^fcf6ef===========^000000[ Wood ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6
+^fcf6ef=================^000000Fire . . .   6^fcf6ef=====^000000Earth . . .   7
+^fcf6ef=================-^000000Air . . .   8^fcf6ef====-^000000Water . . .   9
+^fcf6ef===========^000000[ Sand ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+^fcf6ef=================^000000Fire . . . 10^fcf6ef=====^000000Earth . . . 11
+^fcf6ef=================-^000000Air . . . 12^fcf6ef====-^000000Water . . . 13
+^fcf6ef===========^000000[ Beast ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .14
+^fcf6ef=================^000000Fire . . . 14^fcf6ef=====^000000Earth . . . 15
+^fcf6ef=================-^000000Air . . . 16^fcf6ef====-^000000Water . . . 17
+^fcf6ef===========^000000[ Alloy ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+^fcf6ef=================^000000Fire . . . 18^fcf6ef=====^000000Earth . . . 19
+^fcf6ef=================-^000000Air . . . 20^fcf6ef====-^000000Water . . . 21
+^fcf6ef===========^000000[ Magic ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .22
+^fcf6ef=================^000000Fire . . . 22^fcf6ef=====^000000Earth . . . 23
+^fcf6ef=================-^000000Air . . . 24^fcf6ef====-^000000Water . . . 25
+Material: ^B22222Meat^fcf6ef===================-^000000Item ID:   ^B22222517^fcf6ef===^000000Type: ^B22222Food^000000
+Quality:  ^B2222210^fcf6ef===^000000Fire:  ^B22222100^fcf6ef===^000000Earth:   ^B2222225^fcf6ef===^000000Air:     ^B2222250^fcf6ef===^000000Water:   ^B2222275^000000
+Comment: Tasty but also a cheap material for alchemy. Purchasable from shop.^000000
+
+Material: ^B22222Bread^fcf6ef===================^000000Item ID:   ^B22222580^fcf6ef===^000000Type: ^B22222Food^000000
+Quality:  ^B2222230^fcf6ef===^000000Fire:    ^B2222280^fcf6ef===^000000Earth:   ^B2222220^fcf6ef===^000000Air:     ^B2222240^fcf6ef===^000000Water:   ^B2222260^000000
+Comment: Staple food for humans and the cauldron. Purchasable from shop.^000000
+
+Material: ^B22222Bao^fcf6ef====================-^000000Item ID:   ^B22222553^fcf6ef===^000000Type: ^B22222Food^000000
+Quality:  ^B2222250^fcf6ef===^000000Fire:    ^B2222260^fcf6ef===^000000Earth:   ^B2222215^fcf6ef===^000000Air:     ^B2222230^fcf6ef===^000000Water:   ^B2222245^000000
+Comment: Very hot! Be careful when you handle this.^000000
+
+Material: ^B22222Piece of Cake^fcf6ef==============|^000000Item ID:   ^B22222539^fcf6ef===^000000Type: ^B22222Food^000000
+Quality:  ^B2222270^fcf6ef===^000000Fire:    ^B2222240^fcf6ef===^000000Earth:   ^B2222210^fcf6ef===^000000Air:     ^B2222220^fcf6ef===^000000Water:   ^B2222230^000000
+Comment: Quit now and cake will be served immediately.^000000
+
+Material: ^B22222Alchemic Food (Red)^fcf6ef==========|^000000Item ID: ^B2222240000^fcf6ef===^000000Type: ^B22222Food^000000
+Quality:  ^B2222290^fcf6ef===^000000Fire:    ^B2222220^fcf6ef===^000000Earth:     ^B222225^fcf6ef===^000000Air:     ^B2222210^fcf6ef===^000000Water:   ^B2222215^000000
+Comment: A refined [Food] material with ^B22222Fire^000000 property. Needs to be synthesized.^000000
+Material: ^2E8B57Pumpkin^fcf6ef==================^000000Item ID:   ^2E8B57535^fcf6ef===^000000Type: ^2E8B57Food^000000
+Quality:  ^2E8B5710^fcf6ef===^000000Fire:    ^2E8B5775^fcf6ef===^000000Earth: ^2E8B57100^fcf6ef===^000000Air:     ^2E8B5725^fcf6ef===^000000Water:   ^2E8B5750^000000
+Comment: Make sure it is the edible one purchasable from shop!^000000
+
+Material: ^2E8B57Edible Mushroom^fcf6ef============-^000000Item ID:   ^2E8B57581^fcf6ef===^000000Type: ^2E8B57Food^000000
+Quality:  ^2E8B5730^fcf6ef===^000000Fire:    ^2E8B5760^fcf6ef===^000000Earth:   ^2E8B5780^fcf6ef===^000000Air:     ^2E8B5720^fcf6ef===^000000Water:   ^2E8B5740^000000
+Comment: A fungi of the class Basidiomycota. Purchasable from shop!^000000
+
+Material: ^2E8B57Yellow Herb^fcf6ef===============|^000000Item ID:   ^2E8B57508^fcf6ef===^000000Type: ^2E8B57Food^000000
+Quality:  ^2E8B5750^fcf6ef===^000000Fire:    ^2E8B5745^fcf6ef===^000000Earth:   ^2E8B5760^fcf6ef===^000000Air:     ^2E8B5715^fcf6ef===^000000Water:   ^2E8B5730^000000
+Comment: A common earthly herb with many applications to alchemy.^000000
+
+Material: ^2E8B57Yam^fcf6ef====================^000000Item ID:   ^2E8B57549^fcf6ef===^000000Type: ^2E8B57Food^000000
+Quality:  ^2E8B5770^fcf6ef===^000000Fire:    ^2E8B5730^fcf6ef===^000000Earth:   ^2E8B5740^fcf6ef===^000000Air:     ^2E8B5710^fcf6ef===^000000Water:   ^2E8B5720^000000
+Comment: A baked one is for eating, and a raw one is for alchemy work.^000000
+
+Material: ^2E8B57Alchemic Food (Green)^fcf6ef=========^000000Item ID: ^2E8B5740001^fcf6ef===^000000Type: ^2E8B57Food^000000
+Quality:  ^2E8B5790^fcf6ef===^000000Fire:    ^2E8B5715^fcf6ef===^000000Earth:   ^2E8B5720^fcf6ef===^000000Air:       ^2E8B575^fcf6ef===^000000Water:   ^2E8B5710^000000
+Comment: A refined [Food] material with ^2E8B57Earth^000000 property. Needs to be synthesized.^000000
+Material: ^8C7000Banana^fcf6ef==================^000000Item ID:   ^8C7000513^fcf6ef===^000000Type: ^8C7000Food^000000
+Quality:  ^8C700010^fcf6ef===^000000Fire:    ^8C700050^fcf6ef===^000000Earth:   ^8C700075^fcf6ef===^000000Air:   ^8C7000100^fcf6ef===^000000Water:   ^8C700025^000000
+Comment: Technically you only need the peel. Purchasable from shop.^000000
+
+Material: ^8C7000Bag of Grain^fcf6ef===============^000000Item ID:   ^8C7000577^fcf6ef===^000000Type: ^8C7000Food^000000
+Quality:  ^8C700030^fcf6ef===^000000Fire:    ^8C700040^fcf6ef===^000000Earth:   ^8C700060^fcf6ef===^000000Air:     ^8C700080^fcf6ef===^000000Water:   ^8C700020^000000
+Comment: Time to cook up some alchemy recipes! Purchasable from shop.^000000
+
+Material: ^8C7000Hinalle Leaflet^fcf6ef==============^000000Item ID:   ^8C7000520^fcf6ef===^000000Type: ^8C7000Food^000000
+Quality:  ^8C700050^fcf6ef===^000000Fire:    ^8C700030^fcf6ef===^000000Earth:   ^8C700045^fcf6ef===^000000Air:     ^8C700060^fcf6ef===^000000Water:   ^8C700015^000000
+Comment: Not the flower, only the leaflet.^000000
+
+Material: ^8C7000Rice Cake^fcf6ef================|^000000Item ID:   ^8C7000550^fcf6ef===^000000Type: ^8C7000Food^000000
+Quality:  ^8C700070^fcf6ef===^000000Fire:    ^8C700020^fcf6ef===^000000Earth:   ^8C700030^fcf6ef===^000000Air:     ^8C700040^fcf6ef===^000000Water:   ^8C700010^000000
+Comment: Can you make pie with these?^000000
+
+Material: ^8C7000Alchemic Food (White)^fcf6ef=========^000000Item ID: ^8C700040002^fcf6ef===^000000Type: ^8C7000Food^000000
+Quality:  ^8C700090^fcf6ef===^000000Fire:    ^8C700010^fcf6ef===^000000Earth:   ^8C700015^fcf6ef===^000000Air:     ^8C700020^fcf6ef===^000000Water:     ^8C70005^000000
+Comment: A refined [Food] material with ^8C7000Air^000000 property. Needs to be synthesized.^000000
+Material: ^0000FFApple^fcf6ef===================^000000Item ID:   ^0000FF512^fcf6ef===^000000Type: ^0000FFFood^000000
+Quality:  ^0000FF10^fcf6ef===^000000Fire:    ^0000FF25^fcf6ef===^000000Earth:   ^0000FF50^fcf6ef===^000000Air:     ^0000FF75^fcf6ef===^000000Water: ^0000FF100^000000
+Comment: I have a pen... I have an apple... Uh! APPLE-PEN! Purchasable from shop.^000000
+
+Material: ^0000FFFresh Fish^fcf6ef================|^000000Item ID:   ^0000FF579^fcf6ef===^000000Type: ^0000FFFood^000000
+Quality:  ^0000FF30^fcf6ef===^000000Fire:    ^0000FF20^fcf6ef===^000000Earth:   ^0000FF40^fcf6ef===^000000Air:     ^0000FF60^fcf6ef===^000000Water:   ^0000FF80^000000
+Comment: You can build an aquarium using the cauldron. Purchasable from shop.^000000
+
+Material: ^0000FFHoney^fcf6ef===================^000000Item ID:   ^0000FF518^fcf6ef===^000000Type: ^0000FFFood^000000
+Quality:  ^0000FF50^fcf6ef===^000000Fire:    ^0000FF15^fcf6ef===^000000Earth:   ^0000FF30^fcf6ef===^000000Air:     ^0000FF45^fcf6ef===^000000Water:   ^0000FF60^000000
+Comment: Leave some for the bees!^000000
+
+Material: ^0000FFAloe Leaflet^fcf6ef===============|^000000Item ID:   ^0000FF521^fcf6ef===^000000Type: ^0000FFFood^000000
+Quality:  ^0000FF70^fcf6ef===^000000Fire:    ^0000FF10^fcf6ef===^000000Earth:   ^0000FF20^fcf6ef===^000000Air:     ^0000FF30^fcf6ef===^000000Water:   ^0000FF40^000000
+Comment: Also not the flower, only the leaflet!^000000
+
+Material: ^0000FFAlchemic Food (Blue)^fcf6ef==========^000000Item ID: ^0000FF40003^fcf6ef===^000000Type: ^0000FFFood^000000
+Quality:  ^0000FF90^fcf6ef===^000000Fire:      ^0000FF5^fcf6ef===^000000Earth:   ^0000FF10^fcf6ef===^000000Air:     ^0000FF15^fcf6ef===^000000Water:   ^0000FF20^000000
+Comment: A refined [Food] material with ^0000FFWater^000000 property. Needs to be synthesized.^000000
+Material: ^B22222Maneater Root^fcf6ef=============-^000000Item ID:  ^B222221033^fcf6ef===^000000Type: ^B22222Wood^000000
+Quality:  ^B2222210^fcf6ef===^000000Fire:  ^B22222100^fcf6ef===^000000Earth:   ^B2222225^fcf6ef===^000000Air:     ^B2222250^fcf6ef===^000000Water:   ^B2222275^000000
+Comment: Some call it a ginseng.^000000
+
+Material: ^B22222Coal^fcf6ef====================^000000Item ID:  ^B222221003^fcf6ef===^000000Type: ^B22222Wood^000000
+Quality:  ^B2222230^fcf6ef===^000000Fire:    ^B2222280^fcf6ef===^000000Earth:   ^B2222220^fcf6ef===^000000Air:     ^B2222240^fcf6ef===^000000Water:   ^B2222260^000000
+Comment: Useful for blacksmithing and also alchemy work.^000000
+
+Material: ^B22222Burnt Tree^fcf6ef================|^000000Item ID:  ^B222227068^fcf6ef===^000000Type: ^B22222Wood^000000
+Quality:  ^B2222250^fcf6ef===^000000Fire:    ^B2222260^fcf6ef===^000000Earth:   ^B2222215^fcf6ef===^000000Air:     ^B2222230^fcf6ef===^000000Water:   ^B2222245^000000
+Comment: Do not sell it to the shop, use it for alchemy!^000000
+
+Material: ^B22222Live Coal^fcf6ef=================|^000000Item ID:  ^B222227098^fcf6ef===^000000Type: ^B22222Wood^000000
+Quality:  ^B2222270^fcf6ef===^000000Fire:    ^B2222240^fcf6ef===^000000Earth:   ^B2222210^fcf6ef===^000000Air:     ^B2222220^fcf6ef===^000000Water:   ^B2222230^000000
+Comment: A burning coal that provides more energy than a Coal.^000000
+
+Material: ^B22222Everdry Plant^fcf6ef==============-^000000Item ID: ^B2222240004^fcf6ef===^000000Type: ^B22222Wood^000000
+Quality:  ^B2222290^fcf6ef===^000000Fire:    ^B2222220^fcf6ef===^000000Earth:     ^B222225^fcf6ef===^000000Air:     ^B2222210^fcf6ef===^000000Water:   ^B2222215^000000
+Comment: A refined [Wood] material with ^B22222Fire^000000 property. Needs to be synthesized.^000000
+Material: ^2E8B57Trunk^fcf6ef===================^000000Item ID:  ^2E8B571019^fcf6ef===^000000Type: ^2E8B57Wood^000000
+Quality:  ^2E8B5710^fcf6ef===^000000Fire:    ^2E8B5775^fcf6ef===^000000Earth: ^2E8B57100^fcf6ef===^000000Air:     ^2E8B5725^fcf6ef===^000000Water:   ^2E8B5750^000000
+Comment: The common trunk, not the other three fancy ones.^000000
+
+Material: ^2E8B57Brown Root^fcf6ef===============-^000000Item ID:  ^2E8B577188^fcf6ef===^000000Type: ^2E8B57Wood^000000
+Quality:  ^2E8B5730^fcf6ef===^000000Fire:    ^2E8B5760^fcf6ef===^000000Earth:   ^2E8B5780^fcf6ef===^000000Air:     ^2E8B5720^fcf6ef===^000000Water:   ^2E8B5740^000000
+Comment: A common earthly flavoured root.^000000
+
+Material: ^2E8B57Log^fcf6ef====================-^000000Item ID:  ^2E8B577201^fcf6ef===^000000Type: ^2E8B57Wood^000000
+Quality:  ^2E8B5750^fcf6ef===^000000Fire:    ^2E8B5745^fcf6ef===^000000Earth:   ^2E8B5760^fcf6ef===^000000Air:     ^2E8B5715^fcf6ef===^000000Water:   ^2E8B5730^000000
+Comment: Better if it was grown naturally.^000000
+
+Material: ^2E8B57Shoulder Protector^fcf6ef===========|^000000Item ID:  ^2E8B577196^fcf6ef===^000000Type: ^2E8B57Wood^000000
+Quality:  ^2E8B5770^fcf6ef===^000000Fire:    ^2E8B5730^fcf6ef===^000000Earth:   ^2E8B5740^fcf6ef===^000000Air:     ^2E8B5710^fcf6ef===^000000Water:   ^2E8B5720^000000
+Comment: Really just a refined log...^000000
+
+Material: ^2E8B57Tea Plant^fcf6ef=================^000000Item ID: ^2E8B5740005^fcf6ef===^000000Type: ^2E8B57Wood^000000
+Quality:  ^2E8B5790^fcf6ef===^000000Fire:    ^2E8B5715^fcf6ef===^000000Earth:   ^2E8B5720^fcf6ef===^000000Air:       ^2E8B575^fcf6ef===^000000Water:   ^2E8B5710^000000
+Comment: A refined [Wood] material with ^2E8B57Earth^000000 property. Needs to be synthesized.^000000
+Material: ^8C7000Acorn^fcf6ef===================^000000Item ID:  ^8C70001026^fcf6ef===^000000Type: ^8C7000Wood^000000
+Quality:  ^8C700010^fcf6ef===^000000Fire:    ^8C700050^fcf6ef===^000000Earth:   ^8C700075^fcf6ef===^000000Air:   ^8C7000100^fcf6ef===^000000Water:   ^8C700025^000000
+Comment: Stop stealing nuts from Coco.^000000
+
+Material: ^8C7000Strong Branch^fcf6ef==============^000000Item ID:  ^8C70007203^fcf6ef===^000000Type: ^8C7000Wood^000000
+Quality:  ^8C700030^fcf6ef===^000000Fire:    ^8C700040^fcf6ef===^000000Earth:   ^8C700060^fcf6ef===^000000Air:     ^8C700080^fcf6ef===^000000Water:   ^8C700020^000000
+Comment: Your average looking branch, useful for alchemy.^000000
+
+Material: ^8C7000Slingshot^fcf6ef=================^000000Item ID:  ^8C70007195^fcf6ef===^000000Type: ^8C7000Wood^000000
+Quality:  ^8C700050^fcf6ef===^000000Fire:    ^8C700030^fcf6ef===^000000Earth:   ^8C700045^fcf6ef===^000000Air:     ^8C700060^fcf6ef===^000000Water:   ^8C700015^000000
+Comment: Technically a tool but it can be use as raw material.^000000
+
+Material: ^8C7000Straw Basket^fcf6ef==============|^000000Item ID:  ^8C70007299^fcf6ef===^000000Type: ^8C7000Wood^000000
+Quality:  ^8C700070^fcf6ef===^000000Fire:    ^8C700020^fcf6ef===^000000Earth:   ^8C700030^fcf6ef===^000000Air:     ^8C700040^fcf6ef===^000000Water:   ^8C700010^000000
+Comment: A more refined tool that can also be use as raw material.^000000
+
+Material: ^8C7000Fragrant Plant^fcf6ef==============^000000Item ID: ^8C700040006^fcf6ef===^000000Type: ^8C7000Wood^000000
+Quality:  ^8C700090^fcf6ef===^000000Fire:    ^8C700010^fcf6ef===^000000Earth:   ^8C700015^fcf6ef===^000000Air:     ^8C700020^fcf6ef===^000000Water:     ^8C70005^000000
+Comment: A refined [Wood] material with ^8C7000Air^000000 property. Needs to be synthesized.^000000
+Material: ^0000FFTree Root^fcf6ef================|^000000Item ID:   ^0000FF902^fcf6ef===^000000Type: ^0000FFWood^000000
+Quality:  ^0000FF10^fcf6ef===^000000Fire:    ^0000FF25^fcf6ef===^000000Earth:   ^0000FF50^fcf6ef===^000000Air:     ^0000FF75^fcf6ef===^000000Water: ^0000FF100^000000
+Comment: Contains lots of water. Purchasable from shop.^000000
+
+Material: ^0000FFRotten Bandage^fcf6ef=============^000000Item ID:   ^0000FF930^fcf6ef===^000000Type: ^0000FFWood^000000
+Quality:  ^0000FF30^fcf6ef===^000000Fire:    ^0000FF20^fcf6ef===^000000Earth:   ^0000FF40^fcf6ef===^000000Air:     ^0000FF60^fcf6ef===^000000Water:   ^0000FF80^000000
+Comment: It cannot heal wounds anymore but it can stink.^000000
+
+Material: ^0000FFDecomposed Rope^fcf6ef===========-^000000Item ID:  ^0000FF7218^fcf6ef===^000000Type: ^0000FFWood^000000
+Quality:  ^0000FF50^fcf6ef===^000000Fire:    ^0000FF15^fcf6ef===^000000Earth:   ^0000FF30^fcf6ef===^000000Air:     ^0000FF45^fcf6ef===^000000Water:   ^0000FF60^000000
+Comment: Use it before it breaks down any further.^000000
+
+Material: ^0000FFDenture from Dragon Mask^fcf6ef======|^000000Item ID:  ^0000FF7266^fcf6ef===^000000Type: ^0000FFWood^000000
+Quality:  ^0000FF70^fcf6ef===^000000Fire:    ^0000FF10^fcf6ef===^000000Earth:   ^0000FF20^fcf6ef===^000000Air:     ^0000FF30^fcf6ef===^000000Water:   ^0000FF40^000000
+Comment: Beware of the splinters!^000000
+
+Material: ^0000FFPoisonous Plant^fcf6ef=============|^000000Item ID: ^0000FF40007^fcf6ef===^000000Type: ^0000FFWood^000000
+Quality:  ^0000FF90^fcf6ef===^000000Fire:      ^0000FF5^fcf6ef===^000000Earth:   ^0000FF10^fcf6ef===^000000Air:     ^0000FF15^fcf6ef===^000000Water:   ^0000FF20^000000
+Comment: A refined [Wood] material with ^0000FFWater^000000 property. Needs to be synthesized.^000000
+Material: ^B22222Red Spice^fcf6ef=================^000000Item ID:  ^B222227456^fcf6ef===^000000Type: ^B22222Sand^000000
+Quality:  ^B2222210^fcf6ef===^000000Fire:  ^B22222100^fcf6ef===^000000Earth:   ^B2222225^fcf6ef===^000000Air:     ^B2222250^fcf6ef===^000000Water:   ^B2222275^000000
+Comment: At 2.2 milion scoville heat unit! Purchasable from shop.^000000
+
+Material: ^B22222Grit^fcf6ef====================|^000000Item ID:  ^B222221056^fcf6ef===^000000Type: ^B22222Sand^000000
+Quality:  ^B2222230^fcf6ef===^000000Fire:    ^B2222280^fcf6ef===^000000Earth:   ^B2222220^fcf6ef===^000000Air:     ^B2222240^fcf6ef===^000000Water:   ^B2222260^000000
+Comment: It is really just sand...^000000
+
+Material: ^B22222Fine Grit^fcf6ef=================|^000000Item ID:  ^B222227041^fcf6ef===^000000Type: ^B22222Sand^000000
+Quality:  ^B2222250^fcf6ef===^000000Fire:    ^B2222260^fcf6ef===^000000Earth:   ^B2222215^fcf6ef===^000000Air:     ^B2222230^fcf6ef===^000000Water:   ^B2222245^000000
+Comment: A more refined sand...^000000
+
+Material: ^B22222Lava^fcf6ef===================-^000000Item ID:  ^B222227096^fcf6ef===^000000Type: ^B22222Sand^000000
+Quality:  ^B2222270^fcf6ef===^000000Fire:    ^B2222240^fcf6ef===^000000Earth:   ^B2222210^fcf6ef===^000000Air:     ^B2222220^fcf6ef===^000000Water:   ^B2222230^000000
+Comment: Do not touch with bare hands!^000000
+
+Material: ^B22222Warmth Powder^fcf6ef=============^000000Item ID: ^B2222240008^fcf6ef===^000000Type: ^B22222Sand^000000
+Quality:  ^B2222290^fcf6ef===^000000Fire:    ^B2222220^fcf6ef===^000000Earth:     ^B222225^fcf6ef===^000000Air:     ^B2222210^fcf6ef===^000000Water:   ^B2222215^000000
+Comment: A refined [Sand] material with ^B22222Fire^000000 property. Needs to be synthesized.^000000
+Material: ^2E8B57Yellow Spice^fcf6ef===============|^000000Item ID:  ^2E8B577452^fcf6ef===^000000Type: ^2E8B57Sand^000000
+Quality:  ^2E8B5710^fcf6ef===^000000Fire:    ^2E8B5775^fcf6ef===^000000Earth: ^2E8B57100^fcf6ef===^000000Air:     ^2E8B5725^fcf6ef===^000000Water:   ^2E8B5750^000000
+Comment: Mild flavour, but it matters not in alchemy. Purchasable from shop.^000000
+
+Material: ^2E8B57Dry Sand^fcf6ef=================^000000Item ID:  ^2E8B577264^fcf6ef===^000000Type: ^2E8B57Sand^000000
+Quality:  ^2E8B5730^fcf6ef===^000000Fire:    ^2E8B5760^fcf6ef===^000000Earth:   ^2E8B5780^fcf6ef===^000000Air:     ^2E8B5720^fcf6ef===^000000Water:   ^2E8B5740^000000
+Comment: The real sand and a dry one!^000000
+
+Material: ^2E8B57Fine Sand^fcf6ef================-^000000Item ID:  ^2E8B577043^fcf6ef===^000000Type: ^2E8B57Sand^000000
+Quality:  ^2E8B5750^fcf6ef===^000000Fire:    ^2E8B5745^fcf6ef===^000000Earth:   ^2E8B5760^fcf6ef===^000000Air:     ^2E8B5715^fcf6ef===^000000Water:   ^2E8B5730^000000
+Comment: The real refined sand!^000000
+
+Material: ^2E8B57Stone Fragment^fcf6ef=============^000000Item ID:  ^2E8B577067^fcf6ef===^000000Type: ^2E8B57Sand^000000
+Quality:  ^2E8B5770^fcf6ef===^000000Fire:    ^2E8B5730^fcf6ef===^000000Earth:   ^2E8B5740^fcf6ef===^000000Air:     ^2E8B5710^fcf6ef===^000000Water:   ^2E8B5720^000000
+Comment: Make sure it is the one that can be sold for some Zeny!^000000
+
+Material: ^2E8B57Refined Powder^fcf6ef============||^000000Item ID: ^2E8B5740009^fcf6ef===^000000Type: ^2E8B57Sand^000000
+Quality:  ^2E8B5790^fcf6ef===^000000Fire:    ^2E8B5715^fcf6ef===^000000Earth:   ^2E8B5720^fcf6ef===^000000Air:       ^2E8B575^fcf6ef===^000000Water:   ^2E8B5710^000000
+Comment: A refined [Sand] material with ^2E8B57Earth^000000 property. Needs to be synthesized.^000000
+Material: ^8C7000Poisonous Powder^fcf6ef===========|^000000Item ID:  ^8C70007154^fcf6ef===^000000Type: ^8C7000Sand^000000
+Quality:  ^8C700010^fcf6ef===^000000Fire:    ^8C700050^fcf6ef===^000000Earth:   ^8C700075^fcf6ef===^000000Air:   ^8C7000100^fcf6ef===^000000Water:   ^8C700025^000000
+Comment: Do not inhale! Purchasable from shop.^000000
+
+Material: ^8C7000Powder of Butterfly^fcf6ef==========-^000000Item ID:   ^8C7000924^fcf6ef===^000000Type: ^8C7000Sand^000000
+Quality:  ^8C700030^fcf6ef===^000000Fire:    ^8C700040^fcf6ef===^000000Earth:   ^8C700060^fcf6ef===^000000Air:     ^8C700080^fcf6ef===^000000Water:   ^8C700020^000000
+Comment: Sometimes they disappear to a safe spot.^000000
+
+Material: ^8C7000Moth Dust^fcf6ef===============||^000000Item ID:  ^8C70001057^fcf6ef===^000000Type: ^8C7000Sand^000000
+Quality:  ^8C700050^fcf6ef===^000000Fire:    ^8C700030^fcf6ef===^000000Earth:   ^8C700045^fcf6ef===^000000Air:     ^8C700060^fcf6ef===^000000Water:   ^8C700015^000000
+Comment: This is not fairy dust!^000000
+
+Material: ^8C7000Mould Powder^fcf6ef==============^000000Item ID:  ^8C70007001^fcf6ef===^000000Type: ^8C7000Sand^000000
+Quality:  ^8C700070^fcf6ef===^000000Fire:    ^8C700020^fcf6ef===^000000Earth:   ^8C700030^fcf6ef===^000000Air:     ^8C700040^fcf6ef===^000000Water:   ^8C700010^000000
+Comment: Do not eat!^000000
+
+Material: ^8C7000Aromatic Powder^fcf6ef============-^000000Item ID: ^8C700040010^fcf6ef===^000000Type: ^8C7000Sand^000000
+Quality:  ^8C700090^fcf6ef===^000000Fire:    ^8C700010^fcf6ef===^000000Earth:   ^8C700015^fcf6ef===^000000Air:     ^8C700020^fcf6ef===^000000Water:     ^8C70005^000000
+Comment: A refined [Sand] material with ^8C7000Air^000000 property. Needs to be synthesized.^000000
+Material: ^0000FFMud Lump^fcf6ef================|^000000Item ID:  ^0000FF7004^fcf6ef===^000000Type: ^0000FFSand^000000
+Quality:  ^0000FF10^fcf6ef===^000000Fire:    ^0000FF25^fcf6ef===^000000Earth:   ^0000FF50^fcf6ef===^000000Air:     ^0000FF75^fcf6ef===^000000Water: ^0000FF100^000000
+Comment: Swamp ooze...^000000
+
+Material: ^0000FFSand Clump^fcf6ef===============|^000000Item ID:  ^0000FF7124^fcf6ef===^000000Type: ^0000FFSand^000000
+Quality:  ^0000FF30^fcf6ef===^000000Fire:    ^0000FF20^fcf6ef===^000000Earth:   ^0000FF40^fcf6ef===^000000Air:     ^0000FF60^fcf6ef===^000000Water:   ^0000FF80^000000
+Comment: Yes we use a lot of sands in alchemy!^000000
+
+Material: ^0000FFYellow Plate^fcf6ef===============|^000000Item ID:  ^0000FF7149^fcf6ef===^000000Type: ^0000FFSand^000000
+Quality:  ^0000FF50^fcf6ef===^000000Fire:    ^0000FF15^fcf6ef===^000000Earth:   ^0000FF30^fcf6ef===^000000Air:     ^0000FF45^fcf6ef===^000000Water:   ^0000FF60^000000
+Comment: Break easily... Otherwise contains lots of water.^000000
+
+Material: ^0000FFBroken Liquor Jar^fcf6ef============^000000Item ID:  ^0000FF7158^fcf6ef===^000000Type: ^0000FFSand^000000
+Quality:  ^0000FF70^fcf6ef===^000000Fire:    ^0000FF10^fcf6ef===^000000Earth:   ^0000FF20^fcf6ef===^000000Air:     ^0000FF30^fcf6ef===^000000Water:   ^0000FF40^000000
+Comment: Can't break something that is broken already! 100% sturdy!^000000
+
+Material: ^0000FFChilling Powder^fcf6ef=============|^000000Item ID: ^0000FF40011^fcf6ef===^000000Type: ^0000FFSand^000000
+Quality:  ^0000FF90^fcf6ef===^000000Fire:      ^0000FF5^fcf6ef===^000000Earth:   ^0000FF10^fcf6ef===^000000Air:     ^0000FF15^fcf6ef===^000000Water:   ^0000FF20^000000
+Comment: A refined [Sand] material with ^0000FFWater^000000 property. Needs to be synthesized.^000000
+Material: ^B22222Animal Skin^fcf6ef================^000000Item ID:   ^B22222919^fcf6ef===^000000Type: ^B22222Beast^000000
+Quality:  ^B2222210^fcf6ef===^000000Fire:  ^B22222100^fcf6ef===^000000Earth:   ^B2222225^fcf6ef===^000000Air:     ^B2222250^fcf6ef===^000000Water:   ^B2222275^000000
+Comment: Useful materials in many different areas. Purchasable from shop.^000000
+
+Material: ^B22222Dragon Scale^fcf6ef===============^000000Item ID:  ^B222221036^fcf6ef===^000000Type: ^B22222Beast^000000
+Quality:  ^B2222230^fcf6ef===^000000Fire:    ^B2222280^fcf6ef===^000000Earth:   ^B2222220^fcf6ef===^000000Air:     ^B2222240^fcf6ef===^000000Water:   ^B2222260^000000
+Comment: Be glad it is not the Fire Dragon Scale.^000000
+
+Material: ^B22222Nine Tails^fcf6ef=================^000000Item ID:  ^B222221022^fcf6ef===^000000Type: ^B22222Beast^000000
+Quality:  ^B2222250^fcf6ef===^000000Fire:    ^B2222260^fcf6ef===^000000Earth:   ^B2222215^fcf6ef===^000000Air:     ^B2222230^fcf6ef===^000000Water:   ^B2222245^000000
+Comment: Soft and fluffy but also fiery.^000000
+
+Material: ^B22222Glitter Shell^fcf6ef================^000000Item ID:  ^B222227009^fcf6ef===^000000Type: ^B22222Beast^000000
+Quality:  ^B2222270^fcf6ef===^000000Fire:    ^B2222240^fcf6ef===^000000Earth:   ^B2222210^fcf6ef===^000000Air:     ^B2222220^fcf6ef===^000000Water:   ^B2222230^000000
+Comment: The glitter makes the final brew more appealing.^000000
+
+Material: ^B22222Magmaring Spark^fcf6ef============-^000000Item ID: ^B2222240012^fcf6ef===^000000Type: ^B22222Beast^000000
+Quality:  ^B2222290^fcf6ef===^000000Fire:    ^B2222220^fcf6ef===^000000Earth:     ^B222225^fcf6ef===^000000Air:     ^B2222210^fcf6ef===^000000Water:   ^B2222215^000000
+Comment: A refined [Beast] material with ^B22222Fire^000000 property. Needs to be synthesized.^000000
+Material: ^2E8B57Jack o' Pumpkin^fcf6ef=============^000000Item ID:  ^2E8B571062^fcf6ef===^000000Type: ^2E8B57Beast^000000
+Quality:  ^2E8B5710^fcf6ef===^000000Fire:    ^2E8B5775^fcf6ef===^000000Earth: ^2E8B57100^fcf6ef===^000000Air:     ^2E8B5725^fcf6ef===^000000Water:   ^2E8B5750^000000
+Comment: Make sure it is the inedible one this time! Purchasable from shop.^000000
+
+Material: ^2E8B57Frill^fcf6ef====================-^000000Item ID:  ^2E8B571012^fcf6ef===^000000Type: ^2E8B57Beast^000000
+Quality:  ^2E8B5730^fcf6ef===^000000Fire:    ^2E8B5760^fcf6ef===^000000Earth:   ^2E8B5780^fcf6ef===^000000Air:     ^2E8B5720^fcf6ef===^000000Water:   ^2E8B5740^000000
+Comment: Make sure it is not from a garment.^000000
+
+Material: ^2E8B57Round Shell^fcf6ef===============|^000000Item ID:  ^2E8B571096^fcf6ef===^000000Type: ^2E8B57Beast^000000
+Quality:  ^2E8B5750^fcf6ef===^000000Fire:    ^2E8B5745^fcf6ef===^000000Earth:   ^2E8B5760^fcf6ef===^000000Air:     ^2E8B5715^fcf6ef===^000000Water:   ^2E8B5730^000000
+Comment: The round one is less disgusting to pick up.^000000
+
+Material: ^2E8B57Poisonous Toad Skin^fcf6ef==========|^000000Item ID:  ^2E8B577155^fcf6ef===^000000Type: ^2E8B57Beast^000000
+Quality:  ^2E8B5770^fcf6ef===^000000Fire:    ^2E8B5730^fcf6ef===^000000Earth:   ^2E8B5740^fcf6ef===^000000Air:     ^2E8B5710^fcf6ef===^000000Water:   ^2E8B5720^000000
+Comment: Do not kiss!^000000
+
+Material: ^2E8B57Stapo Spark^fcf6ef===============|^000000Item ID: ^2E8B5740013^fcf6ef===^000000Type: ^2E8B57Beast^000000
+Quality:  ^2E8B5790^fcf6ef===^000000Fire:    ^2E8B5715^fcf6ef===^000000Earth:   ^2E8B5720^fcf6ef===^000000Air:       ^2E8B575^fcf6ef===^000000Water:   ^2E8B5710^000000
+Comment: A refined [Beast] material with ^2E8B57Earth^000000 property. Needs to be synthesized.^000000
+Material: ^8C7000Antelope Horn^fcf6ef==============^000000Item ID:  ^8C70007106^fcf6ef===^000000Type: ^8C7000Beast^000000
+Quality:  ^8C700010^fcf6ef===^000000Fire:    ^8C700050^fcf6ef===^000000Earth:   ^8C700075^fcf6ef===^000000Air:   ^8C7000100^fcf6ef===^000000Water:   ^8C700025^000000
+Comment: Maybe too big to fit inside a cauldron... Purchasable from shop.^000000
+
+Material: ^8C7000Peco Peco Feather^fcf6ef===========^000000Item ID:  ^8C70007101^fcf6ef===^000000Type: ^8C7000Beast^000000
+Quality:  ^8C700030^fcf6ef===^000000Fire:    ^8C700040^fcf6ef===^000000Earth:   ^8C700060^fcf6ef===^000000Air:     ^8C700080^fcf6ef===^000000Water:   ^8C700020^000000
+Comment: Obtain from giant chicken!^000000
+
+Material: ^8C7000Giant Butterfly Wing^fcf6ef==========|^000000Item ID:  ^8C70007168^fcf6ef===^000000Type: ^8C7000Beast^000000
+Quality:  ^8C700050^fcf6ef===^000000Fire:    ^8C700030^fcf6ef===^000000Earth:   ^8C700045^fcf6ef===^000000Air:     ^8C700060^fcf6ef===^000000Water:   ^8C700015^000000
+Comment: Make sure it has been air dried.^000000
+
+Material: ^8C7000Harpy Talon^fcf6ef===============|^000000Item ID:  ^8C70007116^fcf6ef===^000000Type: ^8C7000Beast^000000
+Quality:  ^8C700070^fcf6ef===^000000Fire:    ^8C700020^fcf6ef===^000000Earth:   ^8C700030^fcf6ef===^000000Air:     ^8C700040^fcf6ef===^000000Water:   ^8C700010^000000
+Comment: Careful they are VERY sharp!^000000
+
+Material: ^8C7000Poporing Spark^fcf6ef=============-^000000Item ID: ^8C700040014^fcf6ef===^000000Type: ^8C7000Beast^000000
+Quality:  ^8C700090^fcf6ef===^000000Fire:    ^8C700010^fcf6ef===^000000Earth:   ^8C700015^fcf6ef===^000000Air:     ^8C700020^fcf6ef===^000000Water:     ^8C70005^000000
+Comment: A refined [Beast] material with ^8C7000Air^000000 property. Needs to be synthesized.^000000
+Material: ^0000FFSingle Cell^fcf6ef================-^000000Item ID:  ^0000FF1052^fcf6ef===^000000Type: ^0000FFBeast^000000
+Quality:  ^0000FF10^fcf6ef===^000000Fire:    ^0000FF25^fcf6ef===^000000Earth:   ^0000FF50^fcf6ef===^000000Air:     ^0000FF75^fcf6ef===^000000Water: ^0000FF100^000000
+Comment: Maybe it is the only one inside the brain. Purchasable from shop.^000000
+
+Material: ^0000FFStinky Scale^fcf6ef===============-^000000Item ID:   ^0000FF959^fcf6ef===^000000Type: ^0000FFBeast^000000
+Quality:  ^0000FF30^fcf6ef===^000000Fire:    ^0000FF20^fcf6ef===^000000Earth:   ^0000FF40^fcf6ef===^000000Air:     ^0000FF60^fcf6ef===^000000Water:   ^0000FF80^000000
+Comment: If only there is a way to wash away the smell...^000000
+
+Material: ^0000FFTongue^fcf6ef==================^000000Item ID:  ^0000FF1015^fcf6ef===^000000Type: ^0000FFBeast^000000
+Quality:  ^0000FF50^fcf6ef===^000000Fire:    ^0000FF15^fcf6ef===^000000Earth:   ^0000FF30^fcf6ef===^000000Air:     ^0000FF45^fcf6ef===^000000Water:   ^0000FF60^000000
+Comment: Do not lick!^000000
+
+Material: ^0000FFAnimal Gore^fcf6ef===============|^000000Item ID:   ^0000FF702^fcf6ef===^000000Type: ^0000FFBeast^000000
+Quality:  ^0000FF70^fcf6ef===^000000Fire:    ^0000FF10^fcf6ef===^000000Earth:   ^0000FF20^fcf6ef===^000000Air:     ^0000FF30^fcf6ef===^000000Water:   ^0000FF40^000000
+Comment: You are not a vampire! Do not drink!^000000
+
+Material: ^0000FFPouring Spark^fcf6ef==============-^000000Item ID: ^0000FF40015^fcf6ef===^000000Type: ^0000FFBeast^000000
+Quality:  ^0000FF90^fcf6ef===^000000Fire:      ^0000FF5^fcf6ef===^000000Earth:   ^0000FF10^fcf6ef===^000000Air:     ^0000FF15^fcf6ef===^000000Water:   ^0000FF20^000000
+Comment: A refined [Beast] material with ^0000FFWater^000000 property. Needs to be synthesized.^000000
+Material: ^B22222Lantern^fcf6ef==================^000000Item ID:  ^B222221041^fcf6ef===^000000Type: ^B22222Alloy^000000
+Quality:  ^B2222210^fcf6ef===^000000Fire:  ^B22222100^fcf6ef===^000000Earth:   ^B2222225^fcf6ef===^000000Air:     ^B2222250^fcf6ef===^000000Water:   ^B2222275^000000
+Comment: Works better if it is still lit.^000000
+
+Material: ^B22222Used Iron Plate^fcf6ef=============^000000Item ID:  ^B222227319^fcf6ef===^000000Type: ^B22222Alloy^000000
+Quality:  ^B2222230^fcf6ef===^000000Fire:    ^B2222280^fcf6ef===^000000Earth:   ^B2222220^fcf6ef===^000000Air:     ^B2222240^fcf6ef===^000000Water:   ^B2222260^000000
+Comment: The hotter the better.^000000
+
+Material: ^B22222Burning Horseshoe^fcf6ef===========^000000Item ID:  ^B222227120^fcf6ef===^000000Type: ^B22222Alloy^000000
+Quality:  ^B2222250^fcf6ef===^000000Fire:    ^B2222260^fcf6ef===^000000Earth:   ^B2222215^fcf6ef===^000000Air:     ^B2222230^fcf6ef===^000000Water:   ^B2222245^000000
+Comment: Still burning!^000000
+
+Material: ^B22222Burnt Part^fcf6ef================|^000000Item ID:  ^B222227512^fcf6ef===^000000Type: ^B22222Alloy^000000
+Quality:  ^B2222270^fcf6ef===^000000Fire:    ^B2222240^fcf6ef===^000000Earth:   ^B2222210^fcf6ef===^000000Air:     ^B2222220^fcf6ef===^000000Water:   ^B2222230^000000
+Comment: Metal refined with burning fire. Perfection!^000000
+
+Material: ^B22222Precious Steel^fcf6ef==============^000000Item ID: ^B2222240016^fcf6ef===^000000Type: ^B22222Alloy^000000
+Quality:  ^B2222290^fcf6ef===^000000Fire:    ^B2222220^fcf6ef===^000000Earth:     ^B222225^fcf6ef===^000000Air:     ^B2222210^fcf6ef===^000000Water:   ^B2222215^000000
+Comment: A refined [Alloy] material with ^B22222Fire^000000 property. Needs to be synthesized.^000000
+Material: ^2E8B57Phracon^fcf6ef=================-^000000Item ID:  ^2E8B571010^fcf6ef===^000000Type: ^2E8B57Alloy^000000
+Quality:  ^2E8B5710^fcf6ef===^000000Fire:    ^2E8B5775^fcf6ef===^000000Earth: ^2E8B57100^fcf6ef===^000000Air:     ^2E8B5725^fcf6ef===^000000Water:   ^2E8B5750^000000
+Comment: Easily obtainable from blacksmiths. Purchasable from shop.^000000
+
+Material: ^2E8B57Iron Ore^fcf6ef=================-^000000Item ID:  ^2E8B571002^fcf6ef===^000000Type: ^2E8B57Alloy^000000
+Quality:  ^2E8B5730^fcf6ef===^000000Fire:    ^2E8B5760^fcf6ef===^000000Earth:   ^2E8B5780^fcf6ef===^000000Air:     ^2E8B5720^fcf6ef===^000000Water:   ^2E8B5740^000000
+Comment: Easily obtainable from Kafra ladies... Maybe.^000000
+
+Material: ^2E8B57Spoon Stub^fcf6ef===============-^000000Item ID:  ^2E8B577016^fcf6ef===^000000Type: ^2E8B57Alloy^000000
+Quality:  ^2E8B5750^fcf6ef===^000000Fire:    ^2E8B5745^fcf6ef===^000000Earth:   ^2E8B5760^fcf6ef===^000000Air:     ^2E8B5715^fcf6ef===^000000Water:   ^2E8B5730^000000
+Comment: Made from refined metals.^000000
+
+Material: ^2E8B57Metal Fragment^fcf6ef=============^000000Item ID:  ^2E8B577095^fcf6ef===^000000Type: ^2E8B57Alloy^000000
+Quality:  ^2E8B5770^fcf6ef===^000000Fire:    ^2E8B5730^fcf6ef===^000000Earth:   ^2E8B5740^fcf6ef===^000000Air:     ^2E8B5710^fcf6ef===^000000Water:   ^2E8B5720^000000
+Comment: Unidentified metal, but hey IT WORKS IN ALCHEMY!^000000
+
+Material: ^2E8B57Fusion Alloy^fcf6ef===============-^000000Item ID: ^2E8B5740017^fcf6ef===^000000Type: ^2E8B57Alloy^000000
+Quality:  ^2E8B5790^fcf6ef===^000000Fire:    ^2E8B5715^fcf6ef===^000000Earth:   ^2E8B5720^fcf6ef===^000000Air:       ^2E8B575^fcf6ef===^000000Water:   ^2E8B5710^000000
+Comment: A refined [Alloy] material with ^2E8B57Earth^000000 property. Needs to be synthesized.^000000
+Material: ^8C7000Broken Needle^fcf6ef==============^000000Item ID:  ^8C70007215^fcf6ef===^000000Type: ^8C7000Alloy^000000
+Quality:  ^8C700010^fcf6ef===^000000Fire:    ^8C700050^fcf6ef===^000000Earth:   ^8C700075^fcf6ef===^000000Air:   ^8C7000100^fcf6ef===^000000Water:   ^8C700025^000000
+Comment: May need several to make up for the broken off parts.^000000
+
+Material: ^8C7000Broken Shuriken^fcf6ef=============^000000Item ID:  ^8C70007156^fcf6ef===^000000Type: ^8C7000Alloy^000000
+Quality:  ^8C700030^fcf6ef===^000000Fire:    ^8C700040^fcf6ef===^000000Earth:   ^8C700060^fcf6ef===^000000Air:     ^8C700080^fcf6ef===^000000Water:   ^8C700020^000000
+Comment: Good luck getting it off a deadly ninja.^000000
+
+Material: ^8C7000Bat Cage^fcf6ef=================^000000Item ID:  ^8C70007214^fcf6ef===^000000Type: ^8C7000Alloy^000000
+Quality:  ^8C700050^fcf6ef===^000000Fire:    ^8C700030^fcf6ef===^000000Earth:   ^8C700045^fcf6ef===^000000Air:     ^8C700060^fcf6ef===^000000Water:   ^8C700015^000000
+Comment: You only need the cage, not the bat.^000000
+
+Material: ^8C7000Old Shuriken^fcf6ef===============^000000Item ID:  ^8C70007072^fcf6ef===^000000Type: ^8C7000Alloy^000000
+Quality:  ^8C700070^fcf6ef===^000000Fire:    ^8C700020^fcf6ef===^000000Earth:   ^8C700030^fcf6ef===^000000Air:     ^8C700040^fcf6ef===^000000Water:   ^8C700010^000000
+Comment: Good luck getting it off from a more deadly ninja...^000000
+
+Material: ^8C7000Metallic Gas^fcf6ef===============|^000000Item ID: ^8C700040018^fcf6ef===^000000Type: ^8C7000Alloy^000000
+Quality:  ^8C700090^fcf6ef===^000000Fire:    ^8C700010^fcf6ef===^000000Earth:   ^8C700015^fcf6ef===^000000Air:     ^8C700020^fcf6ef===^000000Water:     ^8C70005^000000
+Comment: A refined [Alloy] material with ^8C7000Air^000000 property. Needs to be synthesized.^000000
+Material: ^0000FFRusty Screw^fcf6ef===============^000000Item ID:  ^0000FF7317^fcf6ef===^000000Type: ^0000FFAlloy^000000
+Quality:  ^0000FF10^fcf6ef===^000000Fire:    ^0000FF25^fcf6ef===^000000Earth:   ^0000FF50^fcf6ef===^000000Air:     ^0000FF75^fcf6ef===^000000Water: ^0000FF100^000000
+Comment: It is really the rust that you are after.^000000
+
+Material: ^0000FFNose Ring^fcf6ef================-^000000Item ID:   ^0000FF941^fcf6ef===^000000Type: ^0000FFAlloy^000000
+Quality:  ^0000FF30^fcf6ef===^000000Fire:    ^0000FF20^fcf6ef===^000000Earth:   ^0000FF40^fcf6ef===^000000Air:     ^0000FF60^fcf6ef===^000000Water:   ^0000FF80^000000
+Comment: You do want the rust for the recipe.^000000
+
+Material: ^0000FFRusty Kitchen Knife^fcf6ef===========^000000Item ID:  ^0000FF7208^fcf6ef===^000000Type: ^0000FFAlloy^000000
+Quality:  ^0000FF50^fcf6ef===^000000Fire:    ^0000FF15^fcf6ef===^000000Earth:   ^0000FF30^fcf6ef===^000000Air:     ^0000FF45^fcf6ef===^000000Water:   ^0000FF60^000000
+Comment: Maybe if you dip it into the Animal Gore...^000000
+
+Material: ^0000FFReins^fcf6ef==================|||^000000Item ID:  ^0000FF1064^fcf6ef===^000000Type: ^0000FFAlloy^000000
+Quality:  ^0000FF70^fcf6ef===^000000Fire:    ^0000FF10^fcf6ef===^000000Earth:   ^0000FF20^fcf6ef===^000000Air:     ^0000FF30^fcf6ef===^000000Water:   ^0000FF40^000000
+Comment: The more rust the better!^000000
+
+Material: ^0000FFQuicksilver^fcf6ef================|^000000Item ID: ^0000FF40019^fcf6ef===^000000Type: ^0000FFAlloy^000000
+Quality:  ^0000FF90^fcf6ef===^000000Fire:      ^0000FF5^fcf6ef===^000000Earth:   ^0000FF10^fcf6ef===^000000Air:     ^0000FF15^fcf6ef===^000000Water:   ^0000FF20^000000
+Comment: A refined [Alloy] material with ^0000FFWater^000000 property. Needs to be synthesized.^000000
+Material: ^B22222Star Crumb^fcf6ef===============||^000000Item ID:  ^B222221000^fcf6ef===^000000Type: ^B22222Magic^000000
+Quality:  ^B2222210^fcf6ef===^000000Fire:  ^B22222100^fcf6ef===^000000Earth:   ^B2222225^fcf6ef===^000000Air:     ^B2222250^fcf6ef===^000000Water:   ^B2222275^000000
+Comment: Make a wish!^000000
+
+Material: ^B22222Burning Heart^fcf6ef==============|^000000Item ID:  ^B222227097^fcf6ef===^000000Type: ^B22222Magic^000000
+Quality:  ^B2222230^fcf6ef===^000000Fire:    ^B2222280^fcf6ef===^000000Earth:   ^B2222220^fcf6ef===^000000Air:     ^B2222240^fcf6ef===^000000Water:   ^B2222260^000000
+Comment: You only need the magic within the stone.^000000
+
+Material: ^B22222Evil Horn^fcf6ef=================|^000000Item ID:   ^B22222923^fcf6ef===^000000Type: ^B22222Magic^000000
+Quality:  ^B2222250^fcf6ef===^000000Fire:    ^B2222260^fcf6ef===^000000Earth:   ^B2222215^fcf6ef===^000000Air:     ^B2222230^fcf6ef===^000000Water:   ^B2222245^000000
+Comment: A normal Horn won't do! It must be an EVIL one!^000000
+
+Material: ^B22222Worn-out Magic Scroll^fcf6ef=========-^000000Item ID:  ^B222227099^fcf6ef===^000000Type: ^B22222Magic^000000
+Quality:  ^B2222270^fcf6ef===^000000Fire:    ^B2222240^fcf6ef===^000000Earth:   ^B2222210^fcf6ef===^000000Air:     ^B2222220^fcf6ef===^000000Water:   ^B2222230^000000
+Comment: Still has strong residual power!^000000
+
+Material: ^B22222Fire Core^fcf6ef=================^000000Item ID: ^B2222240020^fcf6ef===^000000Type: ^B22222Magic^000000
+Quality:  ^B2222290^fcf6ef===^000000Fire:    ^B2222220^fcf6ef===^000000Earth:     ^B222225^fcf6ef===^000000Air:     ^B2222210^fcf6ef===^000000Water:   ^B2222215^000000
+Comment: A refined [Magic] material with ^B22222Fire^000000 property. Needs to be synthesized.^000000
+Material: ^2E8B57Scell^fcf6ef====================^000000Item ID:   ^2E8B57911^fcf6ef===^000000Type: ^2E8B57Magic^000000
+Quality:  ^2E8B5710^fcf6ef===^000000Fire:    ^2E8B5775^fcf6ef===^000000Earth: ^2E8B57100^fcf6ef===^000000Air:     ^2E8B5725^fcf6ef===^000000Water:   ^2E8B5750^000000
+Comment: Simply works in alchemy. Purchasable from shop.^000000
+
+Material: ^2E8B57Stone Heart^fcf6ef===============|^000000Item ID:   ^2E8B57953^fcf6ef===^000000Type: ^2E8B57Magic^000000
+Quality:  ^2E8B5730^fcf6ef===^000000Fire:    ^2E8B5760^fcf6ef===^000000Earth:   ^2E8B5780^fcf6ef===^000000Air:     ^2E8B5720^fcf6ef===^000000Water:   ^2E8B5740^000000
+Comment: You only need the magic within the stone.^000000
+
+Material: ^2E8B57Crystal Fragment^fcf6ef============^000000Item ID:  ^2E8B577321^fcf6ef===^000000Type: ^2E8B57Magic^000000
+Quality:  ^2E8B5750^fcf6ef===^000000Fire:    ^2E8B5745^fcf6ef===^000000Earth:   ^2E8B5760^fcf6ef===^000000Air:     ^2E8B5715^fcf6ef===^000000Water:   ^2E8B5730^000000
+Comment: Give it a wake-up tap before you put it into the cauldron.^000000
+
+Material: ^2E8B57Torn Magic Book^fcf6ef============||^000000Item ID:  ^2E8B577117^fcf6ef===^000000Type: ^2E8B57Magic^000000
+Quality:  ^2E8B5770^fcf6ef===^000000Fire:    ^2E8B5730^fcf6ef===^000000Earth:   ^2E8B5740^fcf6ef===^000000Air:     ^2E8B5710^fcf6ef===^000000Water:   ^2E8B5720^000000
+Comment: Use one paper at a time is more than enough!^000000
+
+Material: ^2E8B57Earth Core^fcf6ef================^000000Item ID: ^2E8B5740021^fcf6ef===^000000Type: ^2E8B57Magic^000000
+Quality:  ^2E8B5790^fcf6ef===^000000Fire:    ^2E8B5715^fcf6ef===^000000Earth:   ^2E8B5720^fcf6ef===^000000Air:       ^2E8B575^fcf6ef===^000000Water:   ^2E8B5710^000000
+Comment: A refined [Magic] material with ^2E8B57Earth^000000 property. Needs to be synthesized.^000000
+Material: ^8C7000Zargon^fcf6ef==================|^000000Item ID:   ^8C7000912^fcf6ef===^000000Type: ^8C7000Magic^000000
+Quality:  ^8C700010^fcf6ef===^000000Fire:    ^8C700050^fcf6ef===^000000Earth:   ^8C700075^fcf6ef===^000000Air:   ^8C7000100^fcf6ef===^000000Water:   ^8C700025^000000
+Comment: Some crystal-like substance... Purchasable from shop.^000000
+
+Material: ^8C7000Wooden Heart^fcf6ef==============^000000Item ID:  ^8C70007189^fcf6ef===^000000Type: ^8C7000Magic^000000
+Quality:  ^8C700030^fcf6ef===^000000Fire:    ^8C700040^fcf6ef===^000000Earth:   ^8C700060^fcf6ef===^000000Air:     ^8C700080^fcf6ef===^000000Water:   ^8C700020^000000
+Comment: Did I already said you only need the magic within the stone?^000000
+
+Material: ^8C7000Cat's Eye^fcf6ef=================^000000Item ID:  ^8C70007263^fcf6ef===^000000Type: ^8C7000Magic^000000
+Quality:  ^8C700050^fcf6ef===^000000Fire:    ^8C700030^fcf6ef===^000000Earth:   ^8C700045^fcf6ef===^000000Air:     ^8C700060^fcf6ef===^000000Water:   ^8C700015^000000
+Comment: Lights up in the dark and contains strong magical power.^000000
+
+Material: ^8C7000Cloud Crumb^fcf6ef===============^000000Item ID:  ^8C70007162^fcf6ef===^000000Type: ^8C7000Magic^000000
+Quality:  ^8C700070^fcf6ef===^000000Fire:    ^8C700020^fcf6ef===^000000Earth:   ^8C700030^fcf6ef===^000000Air:     ^8C700040^fcf6ef===^000000Water:   ^8C700010^000000
+Comment: Just toss the whole bag into the cauldron.^000000
+
+Material: ^8C7000Air Core^fcf6ef==================^000000Item ID: ^8C700040022^fcf6ef===^000000Type: ^8C7000Magic^000000
+Quality:  ^8C700090^fcf6ef===^000000Fire:    ^8C700010^fcf6ef===^000000Earth:   ^8C700015^fcf6ef===^000000Air:     ^8C700020^fcf6ef===^000000Water:     ^8C70005^000000
+Comment: A refined [Magic] material with ^8C7000Air^000000 property. Needs to be synthesized.^000000
+Material: ^0000FFGarlet^fcf6ef===================^000000Item ID:   ^0000FF910^fcf6ef===^000000Type: ^0000FFMagic^000000
+Quality:  ^0000FF10^fcf6ef===^000000Fire:    ^0000FF25^fcf6ef===^000000Earth:   ^0000FF50^fcf6ef===^000000Air:     ^0000FF75^fcf6ef===^000000Water: ^0000FF100^000000
+Comment: It just works in alchemy ok? Purchasable from shop.^000000
+
+Material: ^0000FFEctoplasm^fcf6ef================-^000000Item ID:  ^0000FF7220^fcf6ef===^000000Type: ^0000FFMagic^000000
+Quality:  ^0000FF30^fcf6ef===^000000Fire:    ^0000FF20^fcf6ef===^000000Earth:   ^0000FF40^fcf6ef===^000000Air:     ^0000FF60^fcf6ef===^000000Water:   ^0000FF80^000000
+Comment: Exuded from the body of a medium... Wet and sticky...^000000
+
+Material: ^0000FFIce Cubic^fcf6ef=================^000000Item ID:  ^0000FF7066^fcf6ef===^000000Type: ^0000FFMagic^000000
+Quality:  ^0000FF50^fcf6ef===^000000Fire:    ^0000FF15^fcf6ef===^000000Earth:   ^0000FF30^fcf6ef===^000000Air:     ^0000FF45^fcf6ef===^000000Water:   ^0000FF60^000000
+Comment: Useful to brew cold potions too!^000000
+
+Material: ^0000FFAmulet^fcf6ef==================-^000000Item ID:   ^0000FF609^fcf6ef===^000000Type: ^0000FFMagic^000000
+Quality:  ^0000FF70^fcf6ef===^000000Fire:    ^0000FF10^fcf6ef===^000000Earth:   ^0000FF20^fcf6ef===^000000Air:     ^0000FF30^fcf6ef===^000000Water:   ^0000FF40^000000
+Comment: I can't pinpoint whether it is the ink or the paper that contains the magic.^000000
+
+Material: ^0000FFWater Core^fcf6ef===============-^000000Item ID: ^0000FF40023^fcf6ef===^000000Type: ^0000FFMagic^000000
+Quality:  ^0000FF90^fcf6ef===^000000Fire:      ^0000FF5^fcf6ef===^000000Earth:   ^0000FF10^fcf6ef===^000000Air:     ^0000FF15^fcf6ef===^000000Water:   ^0000FF20^000000
+Comment: A refined [Magic] material with ^0000FFWater^000000 property. Needs to be synthesized.^000000

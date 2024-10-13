@@ -1,0 +1,209 @@
+%fcf6ef
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=       Recipe Topics       =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+^fcf6ef===========^000000[ Food ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
+^fcf6ef=================^000000[ Food ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
+^fcf6ef=================^000000[ Poison ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   3
+^fcf6ef=================^000000[ Heal ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    4
+^fcf6ef=================^000000[ Tonic ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   5
+^fcf6ef=================^000000[ Condiment ] . . . . . . . . . . . . . . . . . . . . . . . . . . .    6
+
+
+^fcf6ef===========^000000[ Wood ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  7
+^fcf6ef=================^000000[ Wood ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  7
+^fcf6ef=================^000000[ Fuel ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   8
+^fcf6ef=================^000000[ Dye ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   9
+^fcf6ef=================^000000[ Tool ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+^fcf6ef=================^000000[ Paper ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+
+==================================================================
+[ Food ] → [ Food ]^fcf6ef==========================================.^000000< Rank G+ Series >
+==================================================================
+Product: ^B22222Alchemic Food (Red)^fcf6ef======.^000000Type: ^B22222[Food]^fcf6ef==========^000000Min Quality:   ^B222220^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Concentration)^fcf6ef===========^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(None)^fcf6ef==============.^000000Recipe: ^B22222[Food]  ^B22222[Food]  ^B22222[Food]  ^B22222[Food]^000000
+
+Product: ^2E8B57Alchemic Food (Green)^fcf6ef====..^000000Type: ^2E8B57[Food]^fcf6ef==========^000000Min Quality:   ^2E8B570^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Concentration)^fcf6ef===========^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(None)^fcf6ef==============.^000000Recipe: ^2E8B57[Food]  ^2E8B57[Food]  ^2E8B57[Wood] ^2E8B57[Food]^000000
+
+Product: ^8C7000Alchemic Food (White)^fcf6ef====--^000000Type: ^8C7000[Food]^fcf6ef==========^000000Min Quality:   ^8C70000^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Concentration)^fcf6ef===========^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(None)^fcf6ef==============.^000000Recipe: ^8C7000[Food]  ^8C7000[Wood] ^8C7000[Food]  ^8C7000[Wood]^000000
+
+Product: ^0000FFAlchemic Food (Blue)^fcf6ef=====-..^000000Type: ^0000FF[Food]^fcf6ef==========^000000Min Quality:   ^0000FF0^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Concentration)^fcf6ef===========^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(None)^fcf6ef==============.^000000Recipe: ^0000FF[Food]  ^0000FF[Wood] ^0000FF[Wood] ^0000FF[Food]^000000
+
+==================================================================
+[ Food ] → [ Poison ]^fcf6ef=========================================.^000000< Rank G+ Series >
+==================================================================
+Product: ^B22222Charming Potion^fcf6ef========-.^000000Type: ^B22222[Poison]^fcf6ef========..^000000Min Quality:   ^B222220^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Concentration)^fcf6ef===========^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Red Gemstone)^fcf6ef=========^000000Recipe: ^B22222[Food]  ^B22222[Food]  ^B22222[Wood] ^B22222[Beast]^000000
+
+Product: ^2E8B57Alchemic Antidote^fcf6ef========^000000Type: ^2E8B57[Poison]^fcf6ef========--^000000Min Quality:   ^2E8B570^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Concentration)^fcf6ef===========^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Red Gemstone)^fcf6ef=========^000000Recipe: ^2E8B57[Food]  ^2E8B57[Sand]  ^2E8B57[Alloy]  ^2E8B57[Magic]^000000
+
+Product: ^8C7000Pesticide Kit^fcf6ef===========-^000000Type: ^8C7000[Poison]^fcf6ef========--^000000Min Quality:   ^8C70000^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Concentration)^fcf6ef===========^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Red Gemstone)^fcf6ef=========^000000Recipe: ^8C7000[Food]  ^8C7000[Sand]  ^8C7000[Wood] ^8C7000[Food]^000000
+
+Product: ^0000FFDemon Blood^fcf6ef===========^000000Type: ^0000FF[Poison]^fcf6ef========-.^000000Min Quality:   ^0000FF0^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Concentration)^fcf6ef===========^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Red Gemstone)^fcf6ef=========^000000Recipe: ^0000FF[Food]  ^0000FF[Beast] ^0000FF[Beast] ^0000FF[Wood]^000000
+
+==================================================================
+[ Food ] → [ Heal ]^fcf6ef==========================================..^000000< Rank G+ Series >
+==================================================================
+Product: ^B22222Basic Potion^fcf6ef===========-^000000Type: ^B22222[Heal]^fcf6ef=========..^000000Min Quality:   ^B222220^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Concentration)^fcf6ef===========^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Cyfar)^fcf6ef==============^000000Recipe: ^B22222[Food]  ^B22222[Food]  ^B22222[Food]  ^B22222[Food]^000000
+
+Product: ^2E8B57Royal Black Tea^fcf6ef=========^000000Type: ^2E8B57[Heal]^fcf6ef==========-^000000Min Quality:   ^2E8B570^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Concentration)^fcf6ef===========^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Cyfar)^fcf6ef==============^000000Recipe: ^2E8B57[Food]  ^2E8B57[Sand]  ^2E8B57[Sand]  ^2E8B57[Sand]^000000
+
+Product: ^8C7000Jelly Potion^fcf6ef============^000000Type: ^8C7000[Heal]^fcf6ef==========^000000Min Quality:   ^8C70000^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Concentration)^fcf6ef===========^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Cyfar)^fcf6ef==============^000000Recipe: ^8C7000[Food]  ^8C7000[Sand]  ^8C7000[Wood] ^8C7000[Food]^000000
+
+Product: ^0000FFPsychic Potion^fcf6ef==========^000000Type: ^0000FF[Heal]^fcf6ef==========^000000Min Quality:   ^0000FF0^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Concentration)^fcf6ef===========^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Cyfar)^fcf6ef==============^000000Recipe: ^0000FF[Food]  ^0000FF[Wood] ^0000FF[Food]  ^0000FF[Food]^000000
+
+==================================================================
+[ Food ] → [ Tonic ]^fcf6ef==========================================-^000000< Rank G+ Series >
+==================================================================
+Product: ^B22222Power Tonic^fcf6ef===========-^000000Type: ^B22222[Tonic]^fcf6ef=========.^000000Min Quality:   ^B222220^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Concentration)^fcf6ef===========^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Yellow Gemstone)^fcf6ef=======-^000000Recipe: ^B22222[Food]  ^B22222[Beast] ^B22222[Wood] ^B22222[Beast]^000000
+
+Product: ^2E8B57Vigor Tonic^fcf6ef============^000000Type: ^2E8B57[Tonic]^fcf6ef=========.^000000Min Quality:   ^2E8B570^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Concentration)^fcf6ef===========^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Yellow Gemstone)^fcf6ef=======-^000000Recipe: ^2E8B57[Food]  ^2E8B57[Food]  ^2E8B57[Sand]  ^2E8B57[Beast]^000000
+
+Product: ^8C7000Acceleration Tonic^fcf6ef========^000000Type: ^8C7000[Tonic]^fcf6ef=========-^000000Min Quality:   ^8C70000^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Concentration)^fcf6ef===========^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Yellow Gemstone)^fcf6ef=======-^000000Recipe: ^8C7000[Food]  ^8C7000[Beast] ^8C7000[Beast] ^8C7000[Beast]^000000
+
+Product: ^0000FFMagic Tonic^fcf6ef============^000000Type: ^0000FF[Tonic]^fcf6ef=========-^000000Min Quality:   ^0000FF0^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Concentration)^fcf6ef===========^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Yellow Gemstone)^fcf6ef=======-^000000Recipe: ^0000FF[Food]  ^0000FF[Wood] ^0000FF[Magic] ^0000FF[Food]^000000
+
+==================================================================
+[ Food ] → [ Condiment ]^fcf6ef======================================..^000000< Rank G+ Series >
+==================================================================
+Product: ^B22222Pepper X Sauce^fcf6ef=========.^000000Type: ^B22222[Condiment]^fcf6ef======^000000Min Quality:   ^B222220^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Concentration)^fcf6ef===========^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Blue Gemstone)^fcf6ef========.^000000Recipe: ^B22222[Food]  ^B22222[Food]  ^B22222[Sand]  ^B22222[Beast]^000000
+
+Product: ^2E8B57Ajvar^fcf6ef===============.^000000Type: ^2E8B57[Condiment]^fcf6ef======^000000Min Quality:   ^2E8B570^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Concentration)^fcf6ef===========^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Blue Gemstone)^fcf6ef========.^000000Recipe: ^2E8B57[Food]  ^2E8B57[Food]  ^2E8B57[Sand]  ^2E8B57[Sand]^000000
+
+Product: ^8C7000Preserved Lemon^fcf6ef========.^000000Type: ^8C7000[Condiment]^fcf6ef======^000000Min Quality:   ^8C70000^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Concentration)^fcf6ef===========^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Blue Gemstone)^fcf6ef========.^000000Recipe: ^8C7000[Food]  ^8C7000[Sand]  ^8C7000[Alloy]  ^8C7000[Wood]^000000
+
+Product: ^0000FFGrape Jam^fcf6ef============.^000000Type: ^0000FF[Condiment]^fcf6ef======^000000Min Quality:   ^0000FF0^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Concentration)^fcf6ef===========^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Blue Gemstone)^fcf6ef========.^000000Recipe: ^0000FF[Food]  ^0000FF[Food]  ^0000FF[Food]  ^0000FF[Magic]^000000
+
+==================================================================
+[ Wood ] → [ Wood ]^fcf6ef=========================================-^000000< Rank G+ Series >
+==================================================================
+Product: ^B22222Everdry Plant^fcf6ef==========-^000000Type: ^B22222[Wood]^fcf6ef=========-^000000Min Quality:   ^B222220^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Concentration)^fcf6ef===========^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(None)^fcf6ef==============-^000000Recipe: ^B22222[Wood] ^B22222[Food]  ^B22222[Food]  ^B22222[Wood]^000000
+
+Product: ^2E8B57Tea Plant^fcf6ef============--^000000Type: ^2E8B57[Wood]^fcf6ef=========-^000000Min Quality:   ^2E8B570^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Concentration)^fcf6ef===========^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(None)^fcf6ef==============.^000000Recipe: ^2E8B57[Wood] ^2E8B57[Food]  ^2E8B57[Wood] ^2E8B57[Wood]^000000
+
+Product: ^8C7000Fragrant Plant^fcf6ef=========--^000000Type: ^8C7000[Wood]^fcf6ef=========-^000000Min Quality:   ^8C70000^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Concentration)^fcf6ef===========^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(None)^fcf6ef==============.^000000Recipe: ^8C7000[Wood] ^8C7000[Wood] ^8C7000[Food]  ^8C7000[Food]^000000
+
+Product: ^0000FFPoisonous Plant^fcf6ef========--^000000Type: ^0000FF[Wood]^fcf6ef=========-^000000Min Quality:   ^0000FF0^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Concentration)^fcf6ef===========^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(None)^fcf6ef==============.^000000Recipe: ^0000FF[Wood] ^0000FF[Food]  ^0000FF[Wood] ^0000FF[Food]^000000
+
+==================================================================
+[ Wood ] → [ Fuel ]^fcf6ef==========================================-^000000< Rank G+ Series >
+==================================================================
+Product: ^B22222Everlasting Fuel^fcf6ef=========^000000Type: ^B22222[Fuel]^fcf6ef==========-^000000Min Quality:   ^B222220^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Concentration)^fcf6ef===========^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Red Gemstone)^fcf6ef========-^000000Recipe: ^B22222[Wood] ^B22222[Beast] ^B22222[Food]  ^B22222[Beast]^000000
+
+Product: ^2E8B57Black Gold^fcf6ef============-^000000Type: ^2E8B57[Fuel]^fcf6ef==========-^000000Min Quality:   ^2E8B570^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Concentration)^fcf6ef===========^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Red Gemstone)^fcf6ef========-^000000Recipe: ^2E8B57[Wood] ^2E8B57[Sand]  ^2E8B57[Beast] ^2E8B57[Sand]^000000
+
+Product: ^8C7000Flammable Gas^fcf6ef==========^000000Type: ^8C7000[Fuel]^fcf6ef==========^000000Min Quality:   ^8C70000^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Concentration)^fcf6ef===========^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Red Gemstone)^fcf6ef========-^000000Recipe: ^8C7000[Wood] ^8C7000[Beast] ^8C7000[Food]  ^8C7000[Wood]^000000
+
+Product: ^0000FFSynthetic Oil^fcf6ef===========^000000Type: ^0000FF[Fuel]^fcf6ef==========-^000000Min Quality:   ^0000FF0^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Concentration)^fcf6ef===========^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Red Gemstone)^fcf6ef========-^000000Recipe: ^0000FF[Wood] ^0000FF[Sand]  ^0000FF[Beast] ^0000FF[Wood]^000000
+
+==================================================================
+[ Wood ] → [ Dye ]^fcf6ef==========================================-^000000< Rank G+ Series >
+==================================================================
+Product: ^B22222Magenta Pigment^fcf6ef========-^000000Type: ^B22222[Dye]^fcf6ef==========-^000000Min Quality:   ^B222220^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Concentration)^fcf6ef===========^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Cyfar)^fcf6ef==============^000000Recipe: ^B22222[Wood] ^B22222[Food]  ^B22222[Sand]  ^B22222[Magic]^000000
+
+Product: ^2E8B57Shade Pigment^fcf6ef=========-^000000Type: ^2E8B57[Dye]^fcf6ef==========-^000000Min Quality:   ^2E8B570^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Concentration)^fcf6ef===========^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Cyfar)^fcf6ef==============^000000Recipe: ^2E8B57[Wood] ^2E8B57[Food]  ^2E8B57[Sand]  ^2E8B57[Alloy]^000000
+
+Product: ^8C7000Yellow Pigment^fcf6ef=========-^000000Type: ^8C7000[Dye]^fcf6ef==========-^000000Min Quality:   ^8C70000^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Concentration)^fcf6ef===========^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Cyfar)^fcf6ef==============^000000Recipe: ^8C7000[Wood] ^8C7000[Food]  ^8C7000[Sand]  ^8C7000[Sand]^000000
+
+Product: ^0000FFCyan Pigment^fcf6ef==========-^000000Type: ^0000FF[Dye]^fcf6ef==========-^000000Min Quality:   ^0000FF0^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Concentration)^fcf6ef===========^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Cyfar)^fcf6ef==============^000000Recipe: ^0000FF[Wood] ^0000FF[Food]  ^0000FF[Sand]  ^0000FF[Beast]^000000
+
+==================================================================
+[ Wood ] → [ Tool ]^fcf6ef==========================================-^000000< Rank G+ Series >
+==================================================================
+Product: ^B22222Alchemist's Hammer^fcf6ef=======^000000Type: ^B22222[Tool]^fcf6ef==========^000000Min Quality:   ^B222220^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Concentration)^fcf6ef===========^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Yellow Gemstone)^fcf6ef=======.^000000Recipe: ^B22222[Wood] ^B22222[Sand]  ^B22222[Beast] ^B22222[Food]^000000
+
+Product: ^2E8B57Sand Shovel^fcf6ef===========-^000000Type: ^2E8B57[Tool]^fcf6ef==========^000000Min Quality:   ^2E8B570^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Concentration)^fcf6ef===========^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Yellow Gemstone)^fcf6ef=======-^000000Recipe: ^2E8B57[Wood] ^2E8B57[Wood] ^2E8B57[Food]  ^2E8B57[Wood]^000000
+
+Product: ^8C7000Scouter^fcf6ef==============.^000000Type: ^8C7000[Tool]^fcf6ef==========^000000Min Quality:   ^8C70000^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Concentration)^fcf6ef===========^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Yellow Gemstone)^fcf6ef=======-^000000Recipe: ^8C7000[Wood] ^8C7000[Wood] ^8C7000[Sand]  ^8C7000[Wood]^000000
+
+Product: ^0000FFAlchemist's Grimoire^fcf6ef=======^000000Type: ^0000FF[Tool]^fcf6ef==========.^000000Min Quality:   ^0000FF0^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Concentration)^fcf6ef===========^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Yellow Gemstone)^fcf6ef=======-^000000Recipe: ^0000FF[Wood] ^0000FF[Beast] ^0000FF[Alloy]  ^0000FF[Sand]^000000
+
+==================================================================
+[ Wood ] → [ Paper ]^fcf6ef=========================================-^000000< Rank G+ Series >
+==================================================================
+Product: ^B22222Baking Sheet Paper^fcf6ef=======^000000Type: ^B22222[Paper]^fcf6ef=========^000000Min Quality:   ^B222220^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Concentration)^fcf6ef===========^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Blue Gemstone)^fcf6ef========-^000000Recipe: ^B22222[Wood] ^B22222[Food]  ^B22222[Sand]  ^B22222[Food]^000000
+
+Product: ^2E8B57High Quality Paper^fcf6ef=======-^000000Type: ^2E8B57[Paper]^fcf6ef=========^000000Min Quality:   ^2E8B570^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Concentration)^fcf6ef===========^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Blue Gemstone)^fcf6ef========-^000000Recipe: ^2E8B57[Wood] ^2E8B57[Wood] ^2E8B57[Wood] ^2E8B57[Food]^000000
+
+Product: ^8C7000Decorative Paper^fcf6ef=======..^000000Type: ^8C7000[Paper]^fcf6ef=========-^000000Min Quality:   ^8C70000^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Concentration)^fcf6ef===========^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Blue Gemstone)^fcf6ef========-^000000Recipe: ^8C7000[Wood] ^8C7000[Beast] ^8C7000[Wood] ^8C7000[Wood]^000000
+
+Product: ^0000FFEnchanted Paper^fcf6ef========.^000000Type: ^0000FF[Paper]^fcf6ef=========^000000Min Quality:   ^0000FF0^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Concentration)^fcf6ef===========^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Blue Gemstone)^fcf6ef========-^000000Recipe: ^0000FF[Wood] ^0000FF[Sand]  ^0000FF[Magic] ^0000FF[Wood]^000000

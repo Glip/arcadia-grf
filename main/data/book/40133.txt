@@ -1,0 +1,209 @@
+%fcf6ef
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=       Recipe Topics       =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+^fcf6ef===========^000000[ Sand ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
+^fcf6ef=================^000000[ Sand ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
+^fcf6ef=================^000000[ Elemental ] . . . . . . . . . . . . . . . . . . . . . . . . . . . .   3
+^fcf6ef=================^000000[ Refine ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   4
+^fcf6ef=================^000000[ Crystal ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5
+^fcf6ef=================^000000[ Porcelain ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6
+
+
+^fcf6ef===========^000000[ Beast ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  7
+^fcf6ef=================^000000[ Beast ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  7
+^fcf6ef=================^000000[ Bomb ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8
+^fcf6ef=================^000000[ Fertilizer ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  9
+^fcf6ef=================^000000[ Essence ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+^fcf6ef=================^000000[ Talisman ] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+
+==================================================================
+[ Sand ] → [ Sand ]^fcf6ef==========================================-^000000< Rank D+ Series >
+==================================================================
+Product: ^B22222Warmth Powder^fcf6ef=========.^000000Type: ^B22222[Sand]^fcf6ef=========^000000Min Quality:  ^B2222230^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Awakening)^fcf6ef=============^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(None)^fcf6ef==============.^000000Recipe: ^B22222[Sand]  ^B22222[Beast] ^B22222[Wood] ^B22222[Wood]^000000
+
+Product: ^2E8B57Refined Powder^fcf6ef=========.^000000Type: ^2E8B57[Sand]^fcf6ef=========^000000Min Quality:  ^2E8B5730^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Awakening)^fcf6ef=============^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(None)^fcf6ef==============.^000000Recipe: ^2E8B57[Sand]  ^2E8B57[Sand]  ^2E8B57[Wood] ^2E8B57[Wood]^000000
+
+Product: ^8C7000Aromatic Powder^fcf6ef========-^000000Type: ^8C7000[Sand]^fcf6ef=========-^000000Min Quality:  ^8C700030^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Awakening)^fcf6ef=============^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(None)^fcf6ef==============.^000000Recipe: ^8C7000[Sand]  ^8C7000[Food]  ^8C7000[Food]  ^8C7000[Beast]^000000
+
+Product: ^0000FFChilling Powder^fcf6ef=========-^000000Type: ^0000FF[Sand]^fcf6ef=========-^000000Min Quality:  ^0000FF30^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Awakening)^fcf6ef=============^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(None)^fcf6ef==============.^000000Recipe: ^0000FF[Sand]  ^0000FF[Food]  ^0000FF[Wood] ^0000FF[Food]^000000
+
+==================================================================
+[ Sand ] → [ Elemental ]^fcf6ef=======================================-^000000< Rank D+ Series >
+==================================================================
+Product: ^B22222Fire Stone^fcf6ef============.^000000Type: ^B22222[Elemental]^fcf6ef=======^000000Min Quality:  ^B2222255^fcf6ef===^000000Min Score: ^B22222220^000000
+Base: ^B22222(Awakening)^fcf6ef=============^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Red Gemstone)^fcf6ef=========^000000Recipe: ^B22222[Sand]  ^B22222[Magic] ^B22222[Food]  ^B22222[Wood]^000000
+
+Product: ^2E8B57Leaf Stone^fcf6ef============-^000000Type: ^2E8B57[Elemental]^fcf6ef======-^000000Min Quality:  ^2E8B5755^fcf6ef===^000000Min Score: ^2E8B57220^000000
+Base: ^2E8B57(Awakening)^fcf6ef=============^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Red Gemstone)^fcf6ef=========^000000Recipe: ^2E8B57[Sand]  ^2E8B57[Alloy]  ^2E8B57[Beast] ^2E8B57[Alloy]^000000
+
+Product: ^8C7000Thunder Stone^fcf6ef==========^000000Type: ^8C7000[Elemental]^fcf6ef======|^000000Min Quality:  ^8C700055^fcf6ef===^000000Min Score: ^8C7000220^000000
+Base: ^8C7000(Awakening)^fcf6ef=============^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Red Gemstone)^fcf6ef=========^000000Recipe: ^8C7000[Sand]  ^8C7000[Beast] ^8C7000[Wood] ^8C7000[Wood]^000000
+
+Product: ^0000FFWater Stone^fcf6ef===========-^000000Type: ^0000FF[Elemental]^fcf6ef======^000000Min Quality:  ^0000FF55^fcf6ef===^000000Min Score: ^0000FF220^000000
+Base: ^0000FF(Awakening)^fcf6ef=============^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Red Gemstone)^fcf6ef=========^000000Recipe: ^0000FF[Sand]  ^0000FF[Magic] ^0000FF[Magic] ^0000FF[Magic]^000000
+
+==================================================================
+[ Sand ] → [ Refine ]^fcf6ef=========================================-^000000< Rank D+ Series >
+==================================================================
+Product: ^B22222Charged Ore^fcf6ef===========^000000Type: ^B22222[Refine]^fcf6ef========.^000000Min Quality:  ^B2222255^fcf6ef===^000000Min Score: ^B22222220^000000
+Base: ^B22222(Awakening)^fcf6ef=============^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Cyfar)^fcf6ef==============^000000Recipe: ^B22222[Sand]  ^B22222[Wood] ^B22222[Beast] ^B22222[Food]^000000
+
+Product: ^2E8B57Shade Ore^fcf6ef============-^000000Type: ^2E8B57[Refine]^fcf6ef========^000000Min Quality:  ^2E8B5755^fcf6ef===^000000Min Score: ^2E8B57220^000000
+Base: ^2E8B57(Awakening)^fcf6ef=============^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Cyfar)^fcf6ef==============^000000Recipe: ^2E8B57[Sand]  ^2E8B57[Sand]  ^2E8B57[Wood] ^2E8B57[Magic]^000000
+
+Product: ^8C7000Crystal Ore^fcf6ef============^000000Type: ^8C7000[Refine]^fcf6ef========|^000000Min Quality:  ^8C700055^fcf6ef===^000000Min Score: ^8C7000220^000000
+Base: ^8C7000(Awakening)^fcf6ef=============^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Cyfar)^fcf6ef==============^000000Recipe: ^8C7000[Sand]  ^8C7000[Alloy]  ^8C7000[Wood] ^8C7000[Wood]^000000
+
+Product: ^0000FFEnergy Ore^fcf6ef============^000000Type: ^0000FF[Refine]^fcf6ef========.^000000Min Quality:  ^0000FF55^fcf6ef===^000000Min Score: ^0000FF220^000000
+Base: ^0000FF(Awakening)^fcf6ef=============^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Cyfar)^fcf6ef==============^000000Recipe: ^0000FF[Sand]  ^0000FF[Wood] ^0000FF[Magic] ^0000FF[Magic]^000000
+
+==================================================================
+[ Sand ] → [ Crystal ]^fcf6ef=========================================^000000< Rank D+ Series >
+==================================================================
+Product: ^B22222Crimson Maxima^fcf6ef=========^000000Type: ^B22222[Crystal]^fcf6ef========^000000Min Quality:  ^B2222255^fcf6ef===^000000Min Score: ^B22222220^000000
+Base: ^B22222(Awakening)^fcf6ef=============^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Yellow Gemstone)^fcf6ef=======^000000Recipe: ^B22222[Sand]  ^B22222[Alloy]  ^B22222[Wood] ^B22222[Beast]^000000
+
+Product: ^2E8B57Nature Maxima^fcf6ef=========-^000000Type: ^2E8B57[Crystal]^fcf6ef========^000000Min Quality:  ^2E8B5755^fcf6ef===^000000Min Score: ^2E8B57220^000000
+Base: ^2E8B57(Awakening)^fcf6ef=============^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Yellow Gemstone)^fcf6ef=======^000000Recipe: ^2E8B57[Sand]  ^2E8B57[Sand]  ^2E8B57[Alloy]  ^2E8B57[Wood]^000000
+
+Product: ^8C7000Prism Maxima^fcf6ef==========-^000000Type: ^8C7000[Crystal]^fcf6ef========^000000Min Quality:  ^8C700055^fcf6ef===^000000Min Score: ^8C7000220^000000
+Base: ^8C7000(Awakening)^fcf6ef=============^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Yellow Gemstone)^fcf6ef=======^000000Recipe: ^8C7000[Sand]  ^8C7000[Beast] ^8C7000[Food]  ^8C7000[Magic]^000000
+
+Product: ^0000FFMana Maxima^fcf6ef==========-^000000Type: ^0000FF[Crystal]^fcf6ef========^000000Min Quality:  ^0000FF55^fcf6ef===^000000Min Score: ^0000FF220^000000
+Base: ^0000FF(Awakening)^fcf6ef=============^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Yellow Gemstone)^fcf6ef=======^000000Recipe: ^0000FF[Sand]  ^0000FF[Food]  ^0000FF[Sand]  ^0000FF[Magic]^000000
+
+==================================================================
+[ Sand ] → [ Porcelain ]^fcf6ef========================================^000000< Rank D+ Series >
+==================================================================
+Product: ^B22222Hard Paste Porcelain^fcf6ef======-^000000Type: ^B22222[Porcelain]^fcf6ef=======^000000Min Quality:  ^B2222255^fcf6ef===^000000Min Score: ^B22222220^000000
+Base: ^B22222(Awakening)^fcf6ef=============^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Blue Gemstone)^fcf6ef========-^000000Recipe: ^B22222[Sand]  ^B22222[Sand]  ^B22222[Food]  ^B22222[Alloy]^000000
+
+Product: ^2E8B57Glass Bottle^fcf6ef============^000000Type: ^2E8B57[Porcelain]^fcf6ef=======^000000Min Quality:  ^2E8B5755^fcf6ef===^000000Min Score: ^2E8B57220^000000
+Base: ^2E8B57(Awakening)^fcf6ef=============^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Blue Gemstone)^fcf6ef========-^000000Recipe: ^2E8B57[Sand]  ^2E8B57[Sand]  ^2E8B57[Food]  ^2E8B57[Magic]^000000
+
+Product: ^8C7000Pottering^fcf6ef=============^000000Type: ^8C7000[Porcelain]^fcf6ef=======^000000Min Quality:  ^8C700055^fcf6ef===^000000Min Score: ^8C7000220^000000
+Base: ^8C7000(Awakening)^fcf6ef=============^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Blue Gemstone)^fcf6ef========-^000000Recipe: ^8C7000[Sand]  ^8C7000[Sand]  ^8C7000[Beast] ^8C7000[Beast]^000000
+
+Product: ^0000FFHeat Resistant Cookpot^fcf6ef====-^000000Type: ^0000FF[Porcelain]^fcf6ef=======^000000Min Quality:  ^0000FF55^fcf6ef===^000000Min Score: ^0000FF220^000000
+Base: ^0000FF(Awakening)^fcf6ef=============^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Blue Gemstone)^fcf6ef========-^000000Recipe: ^0000FF[Sand]  ^0000FF[Sand]  ^0000FF[Sand]  ^0000FF[Sand]^000000
+
+==================================================================
+[ Beast ] → [ Beast ]^fcf6ef=========================================-^000000< Rank D+ Series >
+==================================================================
+Product: ^B22222Magmaring Spark^fcf6ef========-^000000Type: ^B22222[Beast]^fcf6ef=========^000000Min Quality:  ^B2222240^fcf6ef===^000000Min Score:   ^B222220^000000
+Base: ^B22222(Awakening)^fcf6ef=============^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(None)^fcf6ef==============-^000000Recipe: ^B22222[Beast] ^B22222[Wood] ^B22222[Food]  ^B22222[Wood]^000000
+
+Product: ^2E8B57Stapo Spark^fcf6ef===========-^000000Type: ^2E8B57[Beast]^fcf6ef=========^000000Min Quality:  ^2E8B5740^fcf6ef===^000000Min Score:   ^2E8B570^000000
+Base: ^2E8B57(Awakening)^fcf6ef=============^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(None)^fcf6ef==============-^000000Recipe: ^2E8B57[Beast] ^2E8B57[Sand]  ^2E8B57[Sand]  ^2E8B57[Sand]^000000
+
+Product: ^8C7000Poporing Spark^fcf6ef========---^000000Type: ^8C7000[Beast]^fcf6ef=========^000000Min Quality:  ^8C700040^fcf6ef===^000000Min Score:   ^8C70000^000000
+Base: ^8C7000(Awakening)^fcf6ef=============^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(None)^fcf6ef==============-^000000Recipe: ^8C7000[Beast] ^8C7000[Beast] ^8C7000[Beast] ^8C7000[Beast]^000000
+
+Product: ^0000FFPouring Spark^fcf6ef==========-^000000Type: ^0000FF[Beast]^fcf6ef=========^000000Min Quality:  ^0000FF40^fcf6ef===^000000Min Score:   ^0000FF0^000000
+Base: ^0000FF(Awakening)^fcf6ef=============^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(None)^fcf6ef==============-^000000Recipe: ^0000FF[Beast] ^0000FF[Food]  ^0000FF[Wood] ^0000FF[Sand]^000000
+
+==================================================================
+[ Beast ] → [ Bomb ]^fcf6ef=========================================-^000000< Rank D+ Series >
+==================================================================
+Product: ^B22222Banana Explosive^fcf6ef========-^000000Type: ^B22222[Bomb]^fcf6ef=========^000000Min Quality:  ^B2222260^fcf6ef===^000000Min Score: ^B22222200^000000
+Base: ^B22222(Awakening)^fcf6ef=============^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Red Gemstone)^fcf6ef=========^000000Recipe: ^B22222[Beast] ^B22222[Sand]  ^B22222[Wood] ^B22222[Food]^000000
+
+Product: ^2E8B57Coconut Grenade^fcf6ef========-^000000Type: ^2E8B57[Bomb]^fcf6ef=========^000000Min Quality:  ^2E8B5760^fcf6ef===^000000Min Score: ^2E8B57200^000000
+Base: ^2E8B57(Awakening)^fcf6ef=============^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Red Gemstone)^fcf6ef=========^000000Recipe: ^2E8B57[Beast] ^2E8B57[Alloy]  ^2E8B57[Food]  ^2E8B57[Wood]^000000
+
+Product: ^8C7000Uni Buster!^fcf6ef============-^000000Type: ^8C7000[Bomb]^fcf6ef=========^000000Min Quality:  ^8C700060^fcf6ef===^000000Min Score: ^8C7000200^000000
+Base: ^8C7000(Awakening)^fcf6ef=============^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Red Gemstone)^fcf6ef=========^000000Recipe: ^8C7000[Beast] ^8C7000[Alloy]  ^8C7000[Alloy]  ^8C7000[Alloy]^000000
+
+Product: ^0000FFMelon Spike^fcf6ef============^000000Type: ^0000FF[Bomb]^fcf6ef=========^000000Min Quality:  ^0000FF60^fcf6ef===^000000Min Score: ^0000FF200^000000
+Base: ^0000FF(Awakening)^fcf6ef=============^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Red Gemstone)^fcf6ef=========^000000Recipe: ^0000FF[Beast] ^0000FF[Food]  ^0000FF[Wood] ^0000FF[Alloy]^000000
+
+==================================================================
+[ Beast ] → [ Fertilizer ]^fcf6ef=======================================-^000000< Rank D+ Series >
+==================================================================
+Product: ^B22222Red Fertilizer^fcf6ef===========^000000Type: ^B22222[Fertilizer]^fcf6ef=======^000000Min Quality:  ^B2222260^fcf6ef===^000000Min Score: ^B22222200^000000
+Base: ^B22222(Awakening)^fcf6ef=============^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Cyfar)^fcf6ef==============^000000Recipe: ^B22222[Beast] ^B22222[Beast] ^B22222[Wood] ^B22222[Beast]^000000
+
+Product: ^2E8B57Green Fertilizer^fcf6ef=========-^000000Type: ^2E8B57[Fertilizer]^fcf6ef=======|^000000Min Quality:  ^2E8B5760^fcf6ef===^000000Min Score: ^2E8B57200^000000
+Base: ^2E8B57(Awakening)^fcf6ef=============^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Cyfar)^fcf6ef==============^000000Recipe: ^2E8B57[Beast] ^2E8B57[Beast] ^2E8B57[Alloy]  ^2E8B57[Beast]^000000
+
+Product: ^8C7000Yellow Fertilizer^fcf6ef=========-^000000Type: ^8C7000[Fertilizer]^fcf6ef=======|^000000Min Quality:  ^8C700060^fcf6ef===^000000Min Score: ^8C7000200^000000
+Base: ^8C7000(Awakening)^fcf6ef=============^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Cyfar)^fcf6ef==============^000000Recipe: ^8C7000[Beast] ^8C7000[Beast] ^8C7000[Sand]  ^8C7000[Beast]^000000
+
+Product: ^0000FFBlue Fertilizer^fcf6ef==========-^000000Type: ^0000FF[Fertilizer]^fcf6ef=======|^000000Min Quality:  ^0000FF60^fcf6ef===^000000Min Score: ^0000FF200^000000
+Base: ^0000FF(Awakening)^fcf6ef=============^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Cyfar)^fcf6ef==============^000000Recipe: ^0000FF[Beast] ^0000FF[Beast] ^0000FF[Magic] ^0000FF[Beast]^000000
+
+==================================================================
+[ Beast ] → [ Essence ]^fcf6ef========================================^000000< Rank D+ Series >
+==================================================================
+Product: ^B22222Ifrit's Essence^fcf6ef==========-^000000Type: ^B22222[Essence]^fcf6ef=======^000000Min Quality:  ^B2222260^fcf6ef===^000000Min Score: ^B22222200^000000
+Base: ^B22222(Awakening)^fcf6ef=============^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Yellow Gemstone)^fcf6ef=======^000000Recipe: ^B22222[Beast] ^B22222[Beast] ^B22222[Food]  ^B22222[Wood]^000000
+
+Product: ^2E8B57Maya's Essence^fcf6ef=========^000000Type: ^2E8B57[Essence]^fcf6ef=======-^000000Min Quality:  ^2E8B5760^fcf6ef===^000000Min Score: ^2E8B57200^000000
+Base: ^2E8B57(Awakening)^fcf6ef=============^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Yellow Gemstone)^fcf6ef=======^000000Recipe: ^2E8B57[Beast] ^2E8B57[Sand]  ^2E8B57[Wood] ^2E8B57[Sand]^000000
+
+Product: ^8C7000Mistress' Essence^fcf6ef========^000000Type: ^8C7000[Essence]^fcf6ef========^000000Min Quality:  ^8C700060^fcf6ef===^000000Min Score: ^8C7000200^000000
+Base: ^8C7000(Awakening)^fcf6ef=============^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Yellow Gemstone)^fcf6ef=======^000000Recipe: ^8C7000[Beast] ^8C7000[Food]  ^8C7000[Beast] ^8C7000[Magic]^000000
+
+Product: ^0000FFGarm's Essence^fcf6ef=========-^000000Type: ^0000FF[Essence]^fcf6ef=======-^000000Min Quality:  ^0000FF60^fcf6ef===^000000Min Score: ^0000FF200^000000
+Base: ^0000FF(Awakening)^fcf6ef=============^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Yellow Gemstone)^fcf6ef=======^000000Recipe: ^0000FF[Beast] ^0000FF[Beast] ^0000FF[Sand]  ^0000FF[Wood]^000000
+
+==================================================================
+[ Beast ] → [ Talisman ]^fcf6ef=======================================-^000000< Rank D+ Series >
+==================================================================
+Product: ^B22222Valkyrie Blessing^fcf6ef=========^000000Type: ^B22222[Talisman]^fcf6ef=======^000000Min Quality:  ^B2222260^fcf6ef===^000000Min Score: ^B22222200^000000
+Base: ^B22222(Awakening)^fcf6ef=============^000000Specific Main: ^B22222(None)^fcf6ef=================^000000Element: ^B22222Fire^000000
+Catalyst: ^B22222(Blue Gemstone)^fcf6ef========-^000000Recipe: ^B22222[Beast] ^B22222[Alloy]  ^B22222[Alloy]  ^B22222[Wood]^000000
+
+Product: ^2E8B57Evil Repel Badge^fcf6ef=========^000000Type: ^2E8B57[Talisman]^fcf6ef=======^000000Min Quality:  ^2E8B5760^fcf6ef===^000000Min Score: ^2E8B57200^000000
+Base: ^2E8B57(Awakening)^fcf6ef=============^000000Specific Main: ^2E8B57(None)^fcf6ef=================^000000Element: ^2E8B57Earth^000000
+Catalyst: ^2E8B57(Blue Gemstone)^fcf6ef========-^000000Recipe: ^2E8B57[Beast] ^2E8B57[Wood] ^2E8B57[Alloy]  ^2E8B57[Magic]^000000
+
+Product: ^8C7000Prosperity Charm^fcf6ef========-^000000Type: ^8C7000[Talisman]^fcf6ef=======^000000Min Quality:  ^8C700060^fcf6ef===^000000Min Score: ^8C7000200^000000
+Base: ^8C7000(Awakening)^fcf6ef=============^000000Specific Main: ^8C7000(None)^fcf6ef=================^000000Element: ^8C7000Air^000000
+Catalyst: ^8C7000(Blue Gemstone)^fcf6ef========-^000000Recipe: ^8C7000[Beast] ^8C7000[Magic] ^8C7000[Sand]  ^8C7000[Alloy]^000000
+
+Product: ^0000FFSiren's Tear^fcf6ef============^000000Type: ^0000FF[Talisman]^fcf6ef=======^000000Min Quality:  ^0000FF60^fcf6ef===^000000Min Score: ^0000FF200^000000
+Base: ^0000FF(Awakening)^fcf6ef=============^000000Specific Main: ^0000FF(None)^fcf6ef=================^000000Element: ^0000FFWater^000000
+Catalyst: ^0000FF(Blue Gemstone)^fcf6ef========-^000000Recipe: ^0000FF[Beast] ^0000FF[Magic] ^0000FF[Beast] ^0000FF[Magic]^000000
