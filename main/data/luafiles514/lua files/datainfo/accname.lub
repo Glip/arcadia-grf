@@ -1047,4 +1047,5 @@ AccNameTable = {
 	[ACCESSORY_IDs.ACCESSORY_BLUE_FRAMED_G ] = "_blue_frame_glasses",
 	[ACCESSORY_IDs.ACCESSORY_GREEN_SPARE_CARD ] = "_sideworld_card_costume",
 	[ACCESSORY_IDs.ACCESSORY_PIZZA_IN_MOUTH ] = "_pizza_in_mouth",
+	[ACCESSORY_IDs.ACCESSORY_CLOCK_CASKET ] = "_c_clock_casket_rd",
 }
