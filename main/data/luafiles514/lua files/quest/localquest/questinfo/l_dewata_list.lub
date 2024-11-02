@@ -1291,4 +1291,34 @@ DewataQuest_List = {
 				Time = [[]],
 				LV = [[0]],
 		},
+		[14301] = {
+				NPCFromName = [[Young Boy]],
+				NPCFromMap = [[payon]],
+				NPCFromSpr = [[4_M_RUSCHILD]],
+				NPCFromX = 66,
+				NPCFromY = 156,
+				NPCToName = [[Chef Candycon]],
+				NPCToMap = [[niflheim]],
+				NPCToSpr = [[4_M_NFDEADMAN]],
+				NPCToX = 181,
+				NPCToY = 173,
+				Item = [[
+				All the hats acquired from these events are Costume. <T> <\end>
+				Only one character per Master Account is allowed to participate. <T> <\end>
+				If you finished the Haunted Manor previously, you will still get its rewards. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Arcadia's Halloween Season]],
+				Info = [[
+				In order to allow old and new players to obtain previous rewards, plus some new ones, we will rerun both 2019 and 2020 events, with small additions. <T> <\end>
+				^0000FFReward^000000 : <T> <\end>
+				 - Red Framed Glasses and Spare Card (Lost Manor). <T> <\end>
+				 - Drooping Morocc Minion and Halloween Box (Candycon).
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
 }

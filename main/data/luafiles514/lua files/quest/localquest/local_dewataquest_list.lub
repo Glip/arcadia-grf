@@ -340,6 +340,24 @@ LOCAL_ArcadiaQuest_List = {
 }
 
 LOCAL_ArcEvtQuest_List = {
+-- Halloween 2024 --
+	{
+		name = [[ ]],
+		imagefile = [[halloween_2024.bmp]],
+		list = {
+			{
+				name  =	[[Halloweeeen]],
+				list = {
+					{
+						name =[[Arcadia's Halloween Season]],
+						scrfilename = [[DewataQuest]],
+						questID = 14301,
+					},
+				}
+			},
+		}, 
+	},
+-- Originio Event --
 	{
 		name = [[ ]],
 		imagefile = [[event_button.bmp]],
