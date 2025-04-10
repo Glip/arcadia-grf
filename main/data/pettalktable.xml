@@ -11,19 +11,19 @@
 <hunting>Can we just picnic over here?</hunting>
 <hunting>Poring smell something yummy over there~</hunting>
 <hunting>Go~ Continue our "Hunt For Food" mission~</hunting>
-<hunting>Eee~ poring don't want ... poring doesn't have enough energy already... </hunting>
+<hunting>Eee~ Poring don't want ... Poring doesn't have enough energy already... </hunting>
 
-<danger>Wah~ Scary! Faster runnn~</danger>
+<danger>Wah~ Scary! Faster! runnn~</danger>
 <danger>Oh O! Master in trouble~~~ eat apple to recover some HP~!!</danger>
-<danger>Master, poring think master should get more apple...</danger>
+<danger>Master, Poring think master should get more apple...</danger>
 <danger>Master, you want to drink my juice to cover some HP?</danger>
 <danger>Aiyo! Very scary~~~~</danger>
 
-<dead>Wuwuwu... my master die already.. wuwu.. now who is going to feed me.. T.T</dead>
+<dead>Wuwuwu... my master die already... wuwu... now who is going to feed me... T.T</dead>
 <dead>Help! Wuwuwu... die already~! My master die already~</dead>
-<dead>Poring think poring gonna be next one "on the floor" :(</dead>
-<dead>Hmm, Poring think poring gonna be Angeling soon~~</dead>
-<dead>Hmm... we should get more potion just now..</dead>
+<dead>Poring think Poring gonna be next one "on the floor" :(</dead>
+<dead>Hmm, Poring think Poring gonna be Angeling soon~~</dead>
+<dead>Hmm... we should get more potion just now...</dead>
 
 <stand>Master~ you AFK?</stand>	
 <stand>Hmm... why idle so long... keep jumping on the ground like this more easy to get hungry you know?</stand>	
@@ -50,26 +50,26 @@
 <perfor_3>A for Apple! J for Juice! A+J = Apple Juice!</perfor_3>
 <perfor_3>My dream is to become Angeling~~</perfor_3>
 <perfor_s>Don't~~~~ Don't take away my Jellopy~~~~~~!!</perfor_s>
-<perfor_s>Angeling steal away fly's wing.. actually they are just a Poring!</perfor_s>
+<perfor_s>Angeling steal away fly's wing... actually they are just a Poring!</perfor_s>
 </hungry>
 
 <bit_hungry>
-<feeding>Thank you, Poring was wondering where is the juice.. ^^</feeding>
+<feeding>Thank you, Poring was wondering where is the juice... ^^</feeding>
 <feeding>Just in time~~~ Yippie~~~</feeding>
-<feeding>Hahaha.. thats yummy~ Poring likes yummy juice~</feeding>	
+<feeding>Hahaha... thats yummy~ Poring likes yummy juice~</feeding>	
 <feeding>Feeding time... Thanks master~!</feeding>	
 <feeding>Feed more~ more~~ Drink a lot of juice can make the skin more smooth~~</feeding>
 	
 <hunting>This monster drop apple juice?</hunting>
 <hunting>What are we hunting for? Is it juice?</hunting>	
-<hunting>Can let me try? Poring wanna try also..</hunting>	
-<hunting>Hehehe.. this monster looks kind of stupid.. Poring think poring can make it!</hunting>	
-<hunting>Hahaha.. this monster should be easy~~</hunting>
+<hunting>Can let me try? Poring wanna try also...</hunting>	
+<hunting>Hehehe... this monster looks kind of stupid... Poring think poring can make it!</hunting>	
+<hunting>Hahaha... this monster should be easy~~</hunting>
 
-<danger>Oh~ better becareful~</danger>	
+<danger>Oh~ better be careful~</danger>	
 <danger>Help~~ Someone please help my master~!</danger>	
-<danger>Hey.. don't just stand and watch! My master is in danger! Come and help~!</danger>	
-<danger>Someone please help! My master looks like in danger..</danger>	
+<danger>Hey... don't just stand and watch! My master is in danger! Come and help~!</danger>	
+<danger>Someone please help! My master looks like in danger...</danger>	
 <danger>Hey you... don't bully my master...!</danger>
 
 <dead>Oh My God! Someone call for the ambulance!!!!!!!!!</dead>
@@ -4141,7 +4141,7 @@
 <dead>Wait here, chief! I'll go and kidnap a priest to help revive you!</dead>
 
 <stand>Hmm, If I have Mjolnir, may be I will stronger than High Orc...</stand>
-<stand>I saw a human wearing a fancy flower before, but I think orc warriosr with wild flower will look better.</stand>
+<stand>I saw a human wearing a fancy flower before, but I think orc warriors with wild flower will look better.</stand>
 <stand>Can I get a pet too?</stand>
 <stand>When can I change my job to High Orc?</stand>
 

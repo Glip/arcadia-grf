@@ -1310,6 +1310,8 @@ DewataQuest_List = {
 				PrizeItem = [[]],
 				Title = [[Arcadia's Halloween Season]],
 				Info = [[
+				^FF0000This quest or event is currently not implemented.^000000
+				^FF0000If it becomes available again, this notice will be removed.^000000 <T> <\end>
 				In order to allow old and new players to obtain previous rewards, plus some new ones, we will rerun both 2019 and 2020 events, with small additions. <T> <\end>
 				^0000FFReward^000000 : <T> <\end>
 				 - Red Framed Glasses and Spare Card (Lost Manor). <T> <\end>
@@ -1348,6 +1350,39 @@ DewataQuest_List = {
 				 - Porter's Gift Box naming (if unlocked). <T> <\end>
 				 - Alms's Reward (if unlocked). <T> <\end>
 				 - Caroline's Reward (if unlocked). <T> <\end>
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14303] = {
+				NPCFromName = [[Mailbox]],
+				NPCFromMap = [[prontera]],
+				NPCFromSpr = [[2_POSTBOX]],
+				NPCFromX = 146,
+				NPCFromY = 195,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				The main reward can be obtained once per Character. <T> <\end>
+				Some rewards can only be obtained once per Master Account. <T> <\end>
+				Rotling and Gelbling spawning on every field map.  <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Valentine's Day]],
+				Info = [[
+				Help Lord Sebastián Vectorian to prepare a special Valentine's gift for Lady Veluvia Barrington while observing their entanglement. Uncover a hidden secret that leads to a new adventure. <T> <\end>
+				^0000FFReward^000000 : <T> <\end>
+				 - A costume headgear. <T> <\end>
+				^0000FFExtras^000000 : <T> <\end>
+				 - Shop with peculiar items. <T> <\end>
+				 - Two types of headgears. <T> <\end>
+				 - Restoratives. <T> <\end>
 				]],
 				Hunt1 = [[]],
 				Hunt2 = [[]],

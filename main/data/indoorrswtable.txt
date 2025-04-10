@@ -151,3 +151,7 @@ leik_house.rsw#
 que_sw.rsw#
 evt_mansion.rsw#
 evt_forest.rsw#
+val25_map01.rsw#
+val25_map02.rsw#
+val25_map03.rsw#
+val25_map04.rsw#

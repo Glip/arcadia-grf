@@ -1052,4 +1052,9 @@ AccNameTable = {
 	[ACCESSORY_IDs.ACCESSORY_C_PGstone_Knit_Hat_PK ] = "_C_PGstone_Knit_Hat_PK",
 	[ACCESSORY_IDs.ACCESSORY_C_PGstone_Knit_Hat_BW ] = "_C_PGstone_Knit_Hat_BW",
 	[ACCESSORY_IDs.ACCESSORY_C_Pretty_Bear ] = "_c프리티베어",
+	[ACCESSORY_IDs.ACCESSORY_CHOCO_H_IN_MOUTH ] = "_choco_h_in_mouth",
+	[ACCESSORY_IDs.ACCESSORY_Ladys_Feather_Hat ] = "_귀부인의깃털모자",
+	[ACCESSORY_IDs.ACCESSORY_Bra_Hat ] = "_머리위의브라",
+	[ACCESSORY_IDs.ACCESSORY_C_Sailor_Cap ] = "_c_sailor_cap",
+	[ACCESSORY_IDs.ACCESSORY_C_Whale_Cap ] = "_c_whale_cap",
 }
