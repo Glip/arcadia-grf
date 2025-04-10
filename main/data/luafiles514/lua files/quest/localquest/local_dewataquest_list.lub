@@ -340,6 +340,23 @@ LOCAL_ArcadiaQuest_List = {
 }
 
 LOCAL_ArcEvtQuest_List = {
+-- Valentine 2025 --
+	{
+		name = [[ ]],
+		imagefile = [[valentines_day2025.bmp]],
+		list = {
+			{
+				name  =	[[Valentine's Event]],
+				list = {
+					{
+						name =[[Valentine's Day]],
+						scrfilename = [[DewataQuest]],
+						questID = 14303,
+					},
+				}
+			},
+		}, 
+	},
 -- Christmas 2024 --
 	{
 		name = [[ ]],

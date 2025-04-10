@@ -3094,4 +3094,10 @@ JobNameTable = {
 	[jobtbl.JT_E_GLASSES] = "E_GLASSES",
 	[jobtbl.JT_E_GEMSTONE] = "E_GEMSTONE",
 	[jobtbl.JT_E_CHEST] = "E_CHEST",
+	[jobtbl.JT_4_M_ROOKIE] = "4_M_ROOKIE",
+	[jobtbl.JT_4_F_LEEDSH] = "4_F_LEEDSH",
+	[jobtbl.JT_4_STEELBOX] = "4_STEELBOX",
+	[jobtbl.JT_4_SERVICE_30_F_01] = "4_SERVICE_30_F_01",
+	[jobtbl.JT_4_SERVICE_30_M_01] = "4_SERVICE_30_M_01",
+	[jobtbl.JT_4_EP18_HALFFLOWER] = "4_EP18_HALFFLOWER",
 }

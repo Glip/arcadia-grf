@@ -1141,3 +1141,7 @@ evt_mansion.rsw#Lost Manor#
 leik_house.rsw#Inside Einbroch Field#
 que_dan03.rsw#Unknown House#
 que_sw.rsw#Inside Juno#
+val25_map01.rsw#Noble's Kitchen#
+val25_map02.rsw#Barrington's Mansion#
+val25_map03.rsw#Old Lady's House#
+val25_map04.rsw#Alberta's Shop#

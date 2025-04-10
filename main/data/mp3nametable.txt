@@ -1022,3 +1022,9 @@ que_sw.rsw#bgm\\70.mp3#
 //Halloween 2020
 evt_mansion.rsw#bgm\\902.mp3#
 evt_forest.rsw#bgm\\121.mp3#
+
+//Valentine 2025
+val25_map01.rsw#bgm\\142.mp3#
+val25_map02.rsw#bgm\\177.mp3#
+val25_map03.rsw#bgm\\197.mp3#
+val25_map04.rsw#bgm\\199.mp3#

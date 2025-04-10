@@ -1,0 +1,5496 @@
+USAGE_NONE       = 0  -- reserved
+USAGE_QUEST      = 1
+USAGE_INGREDIENT = 2
+USAGE_SKILL      = 4
+USAGE_FOOD       = 8
+
+usage_tbl = {
+	["ALBERTA_BOY"] = {
+		id = 1,
+		name = "Alberta Boy",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Alberta_Boy",
+		type = USAGE_QUEST,
+	},
+	["ARROW_CRAFTING"] = {
+		id = 2,
+		name = "Arrow Crafting",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Archer_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["AID_POTION_LEVEL_1"] = {
+		id = 3,
+		name = "Aid Potion Level 1",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Aid_Potion",
+		type = USAGE_SKILL,
+	},
+	["SHRINK"] = {
+		id = 4,
+		name = "Shrink",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Crusader_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["GRAPE_JUICE_HERBAL_TEA_INT1"] = {
+		id = 5,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12046,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["HONEY_GRAPE_JUICE_DEX1"] = {
+		id = 6,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12061,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["CONDENSED_RED_POTION"] = {
+		id = 7,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 545,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["HAT_OF_THE_SUN_GOD"] = {
+		id = 8,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5022,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5022",
+		type = USAGE_QUEST,
+	},
+	["MAGE_HAT"] = {
+		id = 9,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5027,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5027",
+		type = USAGE_QUEST,
+	},
+	["MAGICIAN_HAT"] = {
+		id = 10,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5045,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5045",
+		type = USAGE_QUEST,
+	},
+	["SUNDAY_HAT"] = {
+		id = 11,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5032,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5032",
+		type = USAGE_QUEST,
+	},
+	["AID_POTION_LEVEL_3"] = {
+		id = 12,
+		name = "Aid Potion Level 3",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Aid_Potion",
+		type = USAGE_SKILL,
+	},
+	["VEINS_SIBLINGS_QUEST"] = {
+		id = 13,
+		name = "Veins Siblings Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Veins_Siblings_Quest",
+		type = USAGE_QUEST,
+	},
+	["STEAMED_CRAB_NIPPERS_VIT1"] = {
+		id = 14,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12051,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["CONDENSED_YELLOW_POTION"] = {
+		id = 15,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 546,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["AID_POTION_LEVEL_4"] = {
+		id = 16,
+		name = "Aid Potion Level 4",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Aid_Potion",
+		type = USAGE_SKILL,
+	},
+	["FOOTPRINT_QUEST"] = {
+		id = 17,
+		name = "Footprint Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Footprint_Quest",
+		type = USAGE_QUEST,
+	},
+	["MEDICINE_QUEST"] = {
+		id = 18,
+		name = "Medicine Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Medicine_Quest",
+		type = USAGE_QUEST,
+	},
+	["CONDENSED_WHITE_POTION"] = {
+		id = 19,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 547,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["STEAMED_TONGUE_STR10"] = {
+		id = 20,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12075,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["MASTELA_FRUIT_WINE_INT5"] = {
+		id = 21,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12050,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["TRISTAN_XII_INT9"] = {
+		id = 22,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12079,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["CAUTIOUS_VILLAGE"] = {
+		id = 23,
+		name = "Cautious Village",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcardia-online.org/w/index.php?title=Cautious_Village&action=edit&redlink=1",
+		type = USAGE_QUEST,
+	},
+	["CHIEF'S_QUEST"] = {
+		id = 24,
+		name = "Chief's Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Chief's_Quest",
+		type = USAGE_QUEST,
+	},
+	["CURSE_OF_GAEBOLG"] = {
+		id = 25,
+		name = "Curse of Gaebolg",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Curse_of_Gaebolg_(Founding_of_the_Nation_Myth_Quest)",
+		type = USAGE_QUEST,
+	},
+	["POISON_KING_QUEST"] = {
+		id = 26,
+		name = "Poison King Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Poison_King_Quest",
+		type = USAGE_QUEST,
+	},
+	["BIOLOGICAL_WEAPON_QUEST"] = {
+		id = 27,
+		name = "Biological Weapon Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Biological_Weapon_Quest",
+		type = USAGE_QUEST,
+	},
+	["SCARLET_DYESTUFFS"] = {
+		id = 28,
+		name = "Stylist: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 975,
+		url = "https://wiki.arcadia-online.org/Dye_Ingredients",
+		type = USAGE_QUEST,
+	},
+	["ORANGE_DYESTUFFS"] = {
+		id = 29,
+		name = "Stylist: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 980,
+		url = "https://wiki.arcadia-online.org/Dye_Ingredients",
+		type = USAGE_QUEST,
+	},
+	["DARKGREEN_DYESTUFFS"] = {
+		id = 30,
+		name = "Stylist: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 979,
+		url = "https://wiki.arcadia-online.org/Dye_Ingredients",
+		type = USAGE_QUEST,
+	},
+	["VIOLET_DYESTUFFS"] = {
+		id = 31,
+		name = "Stylist: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 981,
+		url = "https://wiki.arcadia-online.org/Dye_Ingredients",
+		type = USAGE_QUEST,
+	},
+	["BLACK_DYESTUFFS"] = {
+		id = 32,
+		name = "Stylist: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 983,
+		url = "https://wiki.arcadia-online.org/Dye_Ingredients",
+		type = USAGE_QUEST,
+	},
+	["DOOMED_SWORDS_AND_COMODO_CHEESE_QUEST"] = {
+		id = 33,
+		name = "Doomed Swords and Comodo Cheese Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Doomed_Swords_and_Comodo_Cheese_Quest",
+		type = USAGE_QUEST,
+	},
+	["HERB_MARINADE_BEEF_STR4"] = {
+		id = 34,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12044,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["AUTUMN_RED_TEA_INT2"] = {
+		id = 35,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12047,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["STEAMED_BAT_WING_IN_PUMPKIN_AGI5"] = {
+		id = 36,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12060,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["SPECIAL_MEAT_STEW_AGI9"] = {
+		id = 37,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12089,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["RED_POTION"] = {
+		id = 38,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 501,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["LEMON_DYESTUFF"] = {
+		id = 39,
+		name = "Stylist: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 976,
+		url = "https://wiki.arcadia-online.org/Dye_Ingredients",
+		type = USAGE_QUEST,
+	},
+	["YELLOW_POTION"] = {
+		id = 40,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 503,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["SEASONED_STICKY_WEBFOOT_STR2"] = {
+		id = 41,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12042,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["SHINY_MARINADE_BEEF_STR6"] = {
+		id = 42,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12071,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["SPICY_FRIED_BAO_VIT5"] = {
+		id = 43,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12055,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["CREAM_SANDWICH_DEX4"] = {
+		id = 44,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12064,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["STEAMED_ALLIGATOR_WITH_VEGETABLE_AGI7"] = {
+		id = 45,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12087,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["WHITE_DYESTUFFS"] = {
+		id = 46,
+		name = "Stylist: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 982,
+		url = "https://wiki.arcadia-online.org/Dye_Ingredients",
+		type = USAGE_QUEST,
+	},
+	["WHITE_POTION"] = {
+		id = 47,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 504,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["WHOLE_ROAST_STR7"] = {
+		id = 48,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12072,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["SEASONED_JELLYFISH_VIT4"] = {
+		id = 49,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12054,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["HONEY_HERBAL_TEA_INT3"] = {
+		id = 50,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12048,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["SPECIAL_ROYAL_JELLY_HERBAL_TEA_INT7"] = {
+		id = 51,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12077,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["STEAMED_ANCIENT_LIPS_LUK4"] = {
+		id = 52,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12069,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["COBALTBLUE_DYESTUFFS"] = {
+		id = 53,
+		name = "Stylist: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 978,
+		url = "https://wiki.arcadia-online.org/Biological_Weapon_Quest",
+		type = USAGE_QUEST,
+	},
+	["BLUE_POTION"] = {
+		id = 54,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 505,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["DRAGON_BREATH_COCKTAIL_INT10"] = {
+		id = 55,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12080,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["GUNSLINGER_JOB_CHANGE_QUEST"] = {
+		id = 56,
+		name = "Gunslinger Job Change Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/First_Expanded_Change_Guides#Gunslinger",
+		type = USAGE_QUEST,
+	},
+	["ROGUE_GUILD_INVESTIGATION_QUEST"] = {
+		id = 57,
+		name = "Rogue Guild Investigation Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Rogue_Guild_Investigation_Quest",
+		type = USAGE_QUEST,
+	},
+	["SIGN_QUEST"] = {
+		id = 58,
+		name = "Sign Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sign_Quest",
+		type = USAGE_QUEST,
+	},
+	["BOMBER_STEAK_STR3"] = {
+		id = 59,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12043,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["TENDON_SATAY_STR9"] = {
+		id = 60,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12074,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["CHARMING_WINK"] = {
+		id = 61,
+		name = "Charming Wink",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Dancer_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["JUICE_INGREDIENTS"] = {
+		id = 62,
+		name = "Juice Ingredients",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Juice_Ingredients",
+		type = USAGE_QUEST,
+	},
+	["FRUIT_MIX_DEX3"] = {
+		id = 63,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12063,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["MOROCC_FRUIT_WINE_INT4"] = {
+		id = 64,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12049,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["LUTIE_LADY'S_PANCAKE_STR5"] = {
+		id = 65,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12045,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["BEARFOOT_SPECIAL_STR8"] = {
+		id = 66,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12073,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["SMOOTH_NOODLE_AGI2"] = {
+		id = 67,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12057,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["LUTIE_COLD_NOODLE_AGI4"] = {
+		id = 68,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12059,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["INCREDIBLY_SPICY_CURRY_AGI8"] = {
+		id = 69,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12088,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["FRIED_SWEET_POTATO_LUK3"] = {
+		id = 70,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12068,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["MEAT_EXCHANGE"] = {
+		id = 71,
+		name = "Meat Exchange",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Meat_Exchange",
+		type = USAGE_QUEST,
+	},
+	["JUICE_QUEST"] = {
+		id = 72,
+		name = "Juice Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Juice_Quest",
+		type = USAGE_QUEST,
+	},
+	["GIANT_BURRITO_VIT8"] = {
+		id = 73,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12083,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["SPECIAL_TOAST_DEX8"] = {
+		id = 74,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12093,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["ASSORTED_SHISH_KEBOB_LUK7"] = {
+		id = 75,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12097,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["ALOEVERA"] = {
+		id = 76,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 606,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["BERSERK"] = {
+		id = 77,
+		name = "Berserk",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Swordsman/#quest-skills",
+		type = USAGE_QUEST,
+	},
+	["CLAM_SOUP_VIT3"] = {
+		id = 78,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12053,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["AWFULLY_BITTER_BRACER_VIT6"] = {
+		id = 79,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12081,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["CRUNCH_TOAST"] = {
+		id = 80,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5107,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5107",
+		type = USAGE_QUEST,
+	},
+	["KIEL_HYRE_QUEST"] = {
+		id = 81,
+		name = "Kiel Hyre Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Kiel_Hyre_Quest",
+		type = USAGE_QUEST,
+	},
+	["KOSCHEI_THE_IMMORTAL"] = {
+		id = 82,
+		name = "Koschei the Immortal",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Koschei_the_Immortal",
+		type = USAGE_QUEST,
+	},
+	["CHOCOLATE_MOUSSE_CAKE_DEX2"] = {
+		id = 83,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12062,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["PEACH_CAKE_DEX6"] = {
+		id = 84,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12091,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["ROYAL_FAMILY_TEA_INT8"] = {
+		id = 85,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12078,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["GREEN_SALAD_DEX5"] = {
+		id = 86,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12065,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["SUMPTUOUS_FEAST_VIT7"] = {
+		id = 87,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12082,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["SOUL_HAUNTED_BREAD_DEX7"] = {
+		id = 88,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12092,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["ATTITUDE_TO_THE_NEW_WORLD"] = {
+		id = 89,
+		name = "Attitude to the New World",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Attitude_to_the_New_World",
+		type = USAGE_QUEST,
+	},
+	["AYOTHAYA_DUNGEON_ENTRANCE_QUEST"] = {
+		id = 90,
+		name = "Ayothaya Dungeon Entrance Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Ayothaya_Dungeon_Entrance_Quest",
+		type = USAGE_QUEST,
+	},
+	["CURSED_SPIRIT_QUEST"] = {
+		id = 91,
+		name = "Cursed Spirit Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Cursed_Spirit_Quest",
+		type = USAGE_QUEST,
+	},
+	["PURSUING_RAYAN_MOORE"] = {
+		id = 92,
+		name = "Pursuing Rayan Moore",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Pursuing_Rayan_Moore",
+		type = USAGE_QUEST,
+	},
+	["UNLUCKY_EMERALD_QUEST"] = {
+		id = 93,
+		name = "Unlucky Emerald Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Unlucky_Emerald_Quest",
+		type = USAGE_QUEST,
+	},
+	["ASPERSIO"] = {
+		id = 95,
+		name = "Aspersio",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Aspersio",
+		type = USAGE_SKILL,
+	},
+	["REDEMPTIO"] = {
+		id = 96,
+		name = "Redemptio",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Priest_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["BABY_PACIFIER"] = {
+		id = 97,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5110,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5110",
+		type = USAGE_QUEST,
+	},
+	["CANDLE"] = {
+		id = 98,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5028,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5028",
+		type = USAGE_QUEST,
+	},
+	["FATAL_BLOW"] = {
+		id = 99,
+		name = "Fatal Blow",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Swordsman/#quest-skills",
+		type = USAGE_QUEST,
+	},
+	["ASCENDING_DRAGON_SOUP_VIT9"] = {
+		id = 100,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12084,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["HVERGELMIR'S_TONIC_DEX10"] = {
+		id = 101,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12095,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["STEAMED_DESERT_SCORPIONS_AGI10"] = {
+		id = 102,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12090,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["BLOOD_FLAVORED_SODA_LUK9"] = {
+		id = 103,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12099,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["CAKE_HAT"] = {
+		id = 104,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5024,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5024",
+		type = USAGE_QUEST,
+	},
+	["SASHIMI_KNIFE_QUEST"] = {
+		id = 105,
+		name = "Sashimi Knife Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sashimi_Knife_Quest",
+		type = USAGE_QUEST,
+	},
+	["CHARGE_ATTACK"] = {
+		id = 106,
+		name = "Charge Attack",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Knight_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["MIXED_JUICE_LUK2"] = {
+		id = 107,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12067,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["ARROW_REPEL"] = {
+		id = 108,
+		name = "Arrow Repel",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Archer_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["CRAZY_UPROAR"] = {
+		id = 109,
+		name = "Crazy Uproar",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Merchant_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["CART_REVOLUTION"] = {
+		id = 110,
+		name = "Cart Revolution",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Merchant_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["RED_MUSHROOM_WINE_INT6"] = {
+		id = 111,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12076,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["HEAVENLY_FRUIT_JUICE_DEX9"] = {
+		id = 112,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12094,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["PART_TIME_JOB"] = {
+		id = 113,
+		name = "Part Time Job",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Part_Time_Job",
+		type = USAGE_QUEST,
+	},
+	["HOMUNCULUS_FOOD_LIF"] = {
+		id = 114,
+		name = "Homunculus Food: Lif",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Homunculus#Types_of_Homunculus",
+		type = USAGE_FOOD,
+	},
+	["PHANTASMIC_ARROW"] = {
+		id = 115,
+		name = "Phantasmic Arrow",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Hunter_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["CHEF_HAT"] = {
+		id = 116,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5026,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5026",
+		type = USAGE_QUEST,
+	},
+	["TENTACLE_AND_CHEESE_GRATIN_AGI3"] = {
+		id = 117,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12058,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["BLUE_FISH"] = {
+		id = 118,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5065,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5065",
+		type = USAGE_QUEST,
+	},
+	["TOM_YUNG_GOONG_QUEST"] = {
+		id = 119,
+		name = "Tom Yung Goong Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Tom_Yung_Goong_Quest",
+		type = USAGE_QUEST,
+	},
+	["CHILE_SHRIMP_GRATIN_AGI6"] = {
+		id = 120,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12086,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["HOW_THE_AIRSHIP_WORKS_QUEST"] = {
+		id = 121,
+		name = "How the Airship Works Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/How_the_Airship_Works_Quest",
+		type = USAGE_QUEST,
+	},
+	["FROG_EGG_AND_SQUID_INK_SOUP_AGI1"] = {
+		id = 122,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12056,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["STRAWBERRY_FLAVORED_RICE_BALL_LUK8"] = {
+		id = 123,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12098,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["ASSORTED_SEAFOOD_VIT2"] = {
+		id = 124,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12052,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["50_SHARP_ARROW"] = {
+		id = 125,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1764,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["50_SLEEP_ARROW"] = {
+		id = 126,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1768,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["40_MUTE_ARROW"] = {
+		id = 127,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1769,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["IMMORTAL_STEW_VIT10"] = {
+		id = 128,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12085,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["40_CURSED_ARROW"] = {
+		id = 129,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1761,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["MESSAGE_DELIVERY_QUEST"] = {
+		id = 130,
+		name = "Message Delivery Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Message_Delivery_Quest",
+		type = USAGE_QUEST,
+	},
+	["COOKED_NINE_TAIL_LUK10"] = {
+		id = 131,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12100,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["GEFFEN_BARD_QUEST"] = {
+		id = 132,
+		name = "Geffen Bard Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Geffen_Bard_Quest",
+		type = USAGE_QUEST,
+	},
+	["RENOWN_DETECTIVE'S_CAP"] = {
+		id = 133,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5108,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5108",
+		type = USAGE_QUEST,
+	},
+	["ALCHEMIST_ITEM_GATHERING"] = {
+		id = 134,
+		name = "Alchemist Item Gathering",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Alchemist_Item_Gathering",
+		type = USAGE_QUEST,
+	},
+	["DUBIOUS_SALESMANSHIP"] = {
+		id = 135,
+		name = "Dubious Salesmanship",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Blacksmith_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["AXE"] = {
+		id = 136,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1301,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["BATTLE_AXE"] = {
+		id = 137,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1351,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["KNIFE"] = {
+		id = 138,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1201,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["CUTTER"] = {
+		id = 139,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1204,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["MAIN_GAUCHE"] = {
+		id = 140,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1207,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["WAGHNAK"] = {
+		id = 141,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1801,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["CLUB"] = {
+		id = 142,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1501,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["MACE"] = {
+		id = 143,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1504,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["JAVELIN"] = {
+		id = 144,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1401,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["SPEAR"] = {
+		id = 145,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1404,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["PIKE"] = {
+		id = 146,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1407,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["SWORD"] = {
+		id = 147,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1101,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["FALCHION"] = {
+		id = 148,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1104,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["BLADE"] = {
+		id = 149,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1107,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["KATANA"] = {
+		id = 150,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1116,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["HAMMER"] = {
+		id = 151,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1354,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["DIRK"] = {
+		id = 152,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1210,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["DAGGER"] = {
+		id = 153,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1213,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["STILETTO"] = {
+		id = 154,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1216,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["KNUCKLE_DUSTER"] = {
+		id = 155,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1803,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["STUDDED_KNUCKLES"] = {
+		id = 156,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1805,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["FLAIL"] = {
+		id = 157,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1510,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["CHAIN"] = {
+		id = 158,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1519,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["GUISARME"] = {
+		id = 159,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1451,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["GLAIVE"] = {
+		id = 160,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1454,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["PARTIZAN"] = {
+		id = 161,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1457,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["RAPIER"] = {
+		id = 162,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1110,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["SCIMITAR"] = {
+		id = 163,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1113,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["RING_POMMEL_SABER"] = {
+		id = 164,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1122,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["SLAYER"] = {
+		id = 165,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1151,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["BASTARD_SWORD"] = {
+		id = 166,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1154,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["BUSTER"] = {
+		id = 167,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1357,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["TWOHANDED_AXE"] = {
+		id = 168,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1360,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["GLADIUS"] = {
+		id = 169,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1219,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["DAMASCUS"] = {
+		id = 170,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1222,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["FIST"] = {
+		id = 171,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1807,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["CLAW"] = {
+		id = 172,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1809,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["FINGER"] = {
+		id = 173,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1811,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["MORNING_STAR"] = {
+		id = 174,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1513,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["SWORD_MACE"] = {
+		id = 175,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1516,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["STUNNER"] = {
+		id = 176,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1522,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["TRIDENT"] = {
+		id = 177,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1460,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["HALBERD"] = {
+		id = 178,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1463,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["LANCE"] = {
+		id = 179,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1410,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["SABER"] = {
+		id = 180,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1126,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["HAEDONGGUM"] = {
+		id = 181,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1123,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["TSURUGI"] = {
+		id = 182,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1119,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["FLAMBERGE"] = {
+		id = 183,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1129,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["TWOHANDED_SWORD"] = {
+		id = 184,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1157,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["BROAD_SWORD"] = {
+		id = 185,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1160,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["CLAYMORE"] = {
+		id = 186,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1163,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["HUGEL_COW_MILKING"] = {
+		id = 187,
+		name = "Hugel Cow Milking",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Hugel_Cow_Milking",
+		type = USAGE_QUEST,
+	},
+	["CREATE_DEADLY_POISON"] = {
+		id = 188,
+		name = "Create Deadly Poison",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Create_Deadly_Poison",
+		type = USAGE_QUEST,
+	},
+	["ZEALOTUS_MASK"] = {
+		id = 189,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5121,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5121",
+		type = USAGE_QUEST,
+	},
+	["HAIR_STYLINGDYE_QUESTS"] = {
+		id = 190,
+		name = "Hair Styling/Dye Quests",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Hair_Styling/Dye_Quests",
+		type = USAGE_QUEST,
+	},
+	["OXYGEN_MASK"] = {
+		id = 191,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5004,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5004",
+		type = USAGE_QUEST,
+	},
+	["PHD_HAT"] = {
+		id = 192,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5012,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5012",
+		type = USAGE_QUEST,
+	},
+	["LUCKY_SOUP_LUK6"] = {
+		id = 193,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12096,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["MR_SMILE"] = {
+		id = 194,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 2278,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#2278",
+		type = USAGE_QUEST,
+	},
+	["BRIDE_MASK"] = {
+		id = 195,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5169,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5169",
+		type = USAGE_QUEST,
+	},
+	["BUNNY_BAND"] = {
+		id = 196,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 2214,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#2214",
+		type = USAGE_QUEST,
+	},
+	["HAHOE_MASK"] = {
+		id = 197,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5176,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5176",
+		type = USAGE_QUEST,
+	},
+	["MYTHICAL_LION_MASK"] = {
+		id = 198,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5177,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5177",
+		type = USAGE_QUEST,
+	},
+	["OPERA_MASQUE"] = {
+		id = 199,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 2281,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#2281",
+		type = USAGE_QUEST,
+	},
+	["ANODYNE"] = {
+		id = 200,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 605,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["ALCHEMIST_JOB_CHANGE_QUEST"] = {
+		id = 201,
+		name = "Alchemist Job Change Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Alchemist_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["EXCRUCIATING_PALM"] = {
+		id = 202,
+		name = "Excruciating Palm",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Monk_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["LOVERS_QUEST"] = {
+		id = 203,
+		name = "Lovers Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Lovers_Quest",
+		type = USAGE_QUEST,
+	},
+	["BROKEN_DIAMOND_QUEST"] = {
+		id = 204,
+		name = "Broken Diamond Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Broken_Diamond_Quest",
+		type = USAGE_QUEST,
+	},
+	["ALCOHOL"] = {
+		id = 206,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 970,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["BOTTLE_GRENADE"] = {
+		id = 207,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 7135,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["ACID_BOTTLE"] = {
+		id = 208,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 7136,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["GLISTENING_COAT"] = {
+		id = 209,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 7139,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["MARINE_SPHERE_BOTTLE"] = {
+		id = 210,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 7138,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["PLANT_BOTTLE"] = {
+		id = 211,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 7137,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["HP_RECOVERY_WHILE_MOVING"] = {
+		id = 212,
+		name = "HP Recovery While Moving",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Swordsman/#quest-skills",
+		type = USAGE_QUEST,
+	},
+	["AQUA_BENEDICTA"] = {
+		id = 213,
+		name = "Aqua Benedicta",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Aqua_Benedicta",
+		type = USAGE_SKILL,
+	},
+	["2_IRON_ARROW"] = {
+		id = 214,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["CROWN_OF_ANCIENT_QUEEN"] = {
+		id = 215,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5080,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5080",
+		type = USAGE_QUEST,
+	},
+	["CROWN_OF_MISTRESS"] = {
+		id = 216,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5081,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5081",
+		type = USAGE_QUEST,
+	},
+	["DECORATIVE_GOLDEN_BELL"] = {
+		id = 217,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5091,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5091",
+		type = USAGE_QUEST,
+	},
+	["LEVEL_4_WEAPONS_TYPE_1"] = {
+		id = 218,
+		name = "Level 4 Weapons (Type 1)",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Level_4_Weapons_(Type_1)",
+		type = USAGE_QUEST,
+	},
+	["ITEM_USE_GUILD_CREATION"] = {
+		id = 219,
+		name = "Item Use - Guild Creation",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Guild#Guild_Creation",
+		type = USAGE_QUEST,
+	},
+	["600_IMMATERIAL_ARROW"] = {
+		id = 220,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1757,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["600_MUTE_ARROW"] = {
+		id = 221,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1769,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["600_ORIDECON_ARROW"] = {
+		id = 222,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1765,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["GEMSTONE_EXCHANGING"] = {
+		id = 223,
+		name = "Gemstone Exchanging",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Gemstone_Exchanging",
+		type = USAGE_QUEST,
+	},
+	["EARTH_RESIST_POTION"] = {
+		id = 224,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12120,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["10_STONE_ARROW"] = {
+		id = 225,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1756,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["1_SLEEP_ARROW"] = {
+		id = 226,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1768,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["MUFF'S_LOAN_QUEST"] = {
+		id = 227,
+		name = "Muff's Loan Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Muff%27s_Loan_Quest",
+		type = USAGE_QUEST,
+	},
+	["ORE_DOWNGRADING"] = {
+		id = 228,
+		name = "Ore Downgrading",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Ore_Downgrading",
+		type = USAGE_QUEST,
+	},
+	["FIRE_RESIST_POTION"] = {
+		id = 229,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12118,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["10_RUSTY_ARROW"] = {
+		id = 230,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1762,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["1_POISON_ARROW"] = {
+		id = 231,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1763,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["1_CURSED_ARROW"] = {
+		id = 232,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1761,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["EYE_OF_HELLION_QUEST"] = {
+		id = 233,
+		name = "Eye of Hellion Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Eye_of_Hellion_Quest",
+		type = USAGE_QUEST,
+	},
+	["COLD_RESIST_POTION"] = {
+		id = 234,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12119,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["THUNDER_RESIST_POTION"] = {
+		id = 235,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12121,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["RESURRECTION"] = {
+		id = 236,
+		name = "Resurrection",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Resurrection",
+		type = USAGE_SKILL,
+	},
+	["SANCTUARY"] = {
+		id = 237,
+		name = "Sanctuary",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sanctuary",
+		type = USAGE_SKILL,
+	},
+	["30_CRYSTAL_ARROW"] = {
+		id = 238,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1754,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["1_FROZEN_ARROW"] = {
+		id = 239,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1759,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["EAR_MUFFS"] = {
+		id = 241,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 2283,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#2283",
+		type = USAGE_QUEST,
+	},
+	["50_CURSED_ARROW"] = {
+		id = 242,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1761,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["10_SLEEP_ARROW"] = {
+		id = 243,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1768,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["PEACE_FOR_ARUNAFELTZ_QUEST"] = {
+		id = 244,
+		name = "Peace for Arunafeltz Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Peace_for_Arunafeltz_Quest",
+		type = USAGE_QUEST,
+	},
+	["HOLY_LIGHT"] = {
+		id = 245,
+		name = "Holy Light",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Acolyte_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["BANISH_WINTER_QUEST"] = {
+		id = 246,
+		name = "Banish Winter Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Banish_Winter_Quest",
+		type = USAGE_QUEST,
+	},
+	["ENERGY_COAT"] = {
+		id = 247,
+		name = "Energy Coat",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Magician/#quest-skills",
+		type = USAGE_QUEST,
+	},
+	["MYSTIC_ROSE"] = {
+		id = 248,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5117,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5117",
+		type = USAGE_QUEST,
+	},
+	["SOUL_LINKER_JOB_CHANGE"] = {
+		id = 249,
+		name = "Soul Linker Job Change",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Soul_Linker_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["AYAM"] = {
+		id = 250,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5174,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5174",
+		type = USAGE_QUEST,
+	},
+	["DOCTOR_BAND"] = {
+		id = 251,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 2273,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#2273",
+		type = USAGE_QUEST,
+	},
+	["MAGISTRATE_HAT"] = {
+		id = 252,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5173,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5173",
+		type = USAGE_QUEST,
+	},
+	["FISH_CAKE_SOUP_QUEST"] = {
+		id = 253,
+		name = "Fish Cake Soup Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Fish_Cake_Soup_Quest",
+		type = USAGE_QUEST,
+	},
+	["BULB_BAND"] = {
+		id = 255,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5034,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5034",
+		type = USAGE_QUEST,
+	},
+	["MINE_HAT"] = {
+		id = 256,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5031,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5031",
+		type = USAGE_QUEST,
+	},
+	["WINTER_HAT"] = {
+		id = 257,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5115,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5115",
+		type = USAGE_QUEST,
+	},
+	["50_ORIDECON_ARROW"] = {
+		id = 258,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1765,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["200_STEEL_ARROW"] = {
+		id = 259,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1753,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["5_STUN_ARROW"] = {
+		id = 260,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1758,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["7_ARROW"] = {
+		id = 261,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1750,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["CREATE_ELEMENTAL_CONVERTER_FIRE"] = {
+		id = 262,
+		name = "Create Elemental Converter - Fire",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Create_Elemental_Converter",
+		type = USAGE_QUEST,
+	},
+	["CREATE_ELEMENTAL_CONVERTER"] = {
+		id = 263,
+		name = "Create Elemental Converter",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sage_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["FRIED_SCORPION_TAILS_LUK5"] = {
+		id = 264,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12070,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["3_RUSTY_ARROW"] = {
+		id = 265,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1762,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["PARCEL_HAT"] = {
+		id = 266,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5023,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5023",
+		type = USAGE_QUEST,
+	},
+	["SUPER_NOVICE_JOB_CHANGE_GUIDE"] = {
+		id = 267,
+		name = "Super Novice Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Super_Novice_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["FIND_STONE"] = {
+		id = 268,
+		name = "Find Stone",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Thief_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["BIOLABS_ENTRANCE_QUEST"] = {
+		id = 270,
+		name = "Biolabs Entrance Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Biolabs_Entrance_Quest",
+		type = USAGE_QUEST,
+	},
+	["HELMET_OF_ORC_HERO"] = {
+		id = 271,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5094,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5094",
+		type = USAGE_QUEST,
+	},
+	["4_ARROW"] = {
+		id = 272,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1750,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["HOMUNCULUS_FOOD_FILIR"] = {
+		id = 273,
+		name = "Homunculus Food: Filir",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Homunculus#Types_of_Homunculus",
+		type = USAGE_FOOD,
+	},
+	["STONE_FLING"] = {
+		id = 274,
+		name = "Stone Fling",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Thief_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["12_IRON_ARROW"] = {
+		id = 275,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["HOMUNCULUS_FOOD_VANILMIRTH"] = {
+		id = 276,
+		name = "Homunculus Food: Vanilmirth",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Homunculus#Types_of_Homunculus",
+		type = USAGE_FOOD,
+	},
+	["8_STEEL_ARROW"] = {
+		id = 277,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1753,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["HOMUNCULUS_FOOD_AMISTR"] = {
+		id = 278,
+		name = "Homunculus Food: Amistr",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Homunculus#Types_of_Homunculus",
+		type = USAGE_FOOD,
+	},
+	["50_SILVER_ARROW"] = {
+		id = 279,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1751,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["1_ARROW_OF_SHADOW"] = {
+		id = 280,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1767,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["BLACK_CAT_EARS"] = {
+		id = 281,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5057,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5057",
+		type = USAGE_QUEST,
+	},
+	["UMBALA_LANGUAGE_QUEST"] = {
+		id = 282,
+		name = "Umbala Language Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Language_Quest",
+		type = USAGE_QUEST,
+	},
+	["FEATHERED_HAT"] = {
+		id = 283,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5018,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5018",
+		type = USAGE_QUEST,
+	},
+	["CART_CHANGE"] = {
+		id = 284,
+		name = "Cart Change",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Merchant_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["15_IRON_ARROW"] = {
+		id = 285,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["DECORATIVE_MUSHROOM"] = {
+		id = 286,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5082,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5082",
+		type = USAGE_QUEST,
+	},
+	["30_IRON_ARROW"] = {
+		id = 287,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["10_STEEL_ARROW"] = {
+		id = 288,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1753,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["1_STONE_ARROW"] = {
+		id = 289,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1756,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["ANTLERS"] = {
+		id = 290,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 2284,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#2284",
+		type = USAGE_QUEST,
+	},
+	["20_ARROW_OF_SHADOW"] = {
+		id = 291,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1767,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["10_FLASH_ARROW"] = {
+		id = 292,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1760,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["GIANT_BAND_AID"] = {
+		id = 293,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5063,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5063",
+		type = USAGE_QUEST,
+	},
+	["CENSOR_BAR"] = {
+		id = 294,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5175,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5175",
+		type = USAGE_QUEST,
+	},
+	["GRIEF_FOR_GREED"] = {
+		id = 295,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5021,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5021",
+		type = USAGE_QUEST,
+	},
+	["1_RUSTY_ARROW"] = {
+		id = 296,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1762,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["FRIED_GRASSHOPPER_LEGS_STR1"] = {
+		id = 297,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12041,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["BACK_SLIDE"] = {
+		id = 298,
+		name = "Back Slide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Thief_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["FRIED_MONKEY_TAILS_LUK1"] = {
+		id = 299,
+		name = "Cooking: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 12066,
+		url = "https://wiki.arcadia-online.org/Cooking/",
+		type = USAGE_INGREDIENT,
+	},
+	["LAZY_SMOKIE"] = {
+		id = 301,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5084,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5084",
+		type = USAGE_QUEST,
+	},
+	["SMOKIE_LEAF"] = {
+		id = 302,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5064,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5064",
+		type = USAGE_QUEST,
+	},
+	["CREATE_ELEMENTAL_CONVERTER_WATER"] = {
+		id = 303,
+		name = "Create Elemental Converter - Water",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Create_Elemental_Converter",
+		type = USAGE_QUEST,
+	},
+	["CREATE_ELEMENTAL_CONVERTER_EARTH"] = {
+		id = 304,
+		name = "Create Elemental Converter - Earth",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Create_Elemental_Converter",
+		type = USAGE_QUEST,
+	},
+	["35_IRON_ARROW"] = {
+		id = 305,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["SOMBRERO"] = {
+		id = 306,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5067,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5067",
+		type = USAGE_QUEST,
+	},
+	["SAND_ATTACK"] = {
+		id = 307,
+		name = "Sand Attack",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Thief_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["50_ARROW"] = {
+		id = 308,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1750,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["80_IRON_ARROW"] = {
+		id = 309,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["150_CRYSTAL_ARROW"] = {
+		id = 310,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1754,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["5_ARROW_OF_SHADOW"] = {
+		id = 311,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1767,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["SEAL_QUEST_SLEIPNIR"] = {
+		id = 312,
+		name = "Seal Quest - Sleipnir",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/God_Items_Quest#Seal_of_Sleipnir",
+		type = USAGE_QUEST,
+	},
+	["BAO_BAO"] = {
+		id = 313,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5042,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5042",
+		type = USAGE_QUEST,
+	},
+	["1_ORIDECON_ARROW"] = {
+		id = 314,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1765,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["50_FLASH_ARROW"] = {
+		id = 315,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1760,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["ZGANG_QUEST"] = {
+		id = 316,
+		name = "Z-Gang Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Z-Gang_Quest",
+		type = USAGE_QUEST,
+	},
+	["COUNTERAGENT"] = {
+		id = 317,
+		name = "Stylist: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 973,
+		url = "https://wiki.arcadia-online.org/Counteragent_and_Mixture_Quest",
+		type = USAGE_QUEST,
+	},
+	["MIXTURE"] = {
+		id = 318,
+		name = "Stylist: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 974,
+		url = "https://wiki.arcadia-online.org/Counteragent_and_Mixture_Quest",
+		type = USAGE_QUEST,
+	},
+	["HEADSET"] = {
+		id = 319,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5001,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5001",
+		type = USAGE_QUEST,
+	},
+	["DYE"] = {
+		id = 320,
+		name = "Dye",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Dye_Ingredients",
+		type = USAGE_QUEST,
+	},
+	["FASHIONABLE_GLASSES"] = {
+		id = 321,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5047,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5047",
+		type = USAGE_QUEST,
+	},
+	["RED_BONNET"] = {
+		id = 322,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5109,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5109",
+		type = USAGE_QUEST,
+	},
+	["TULIP_HAIRPIN"] = {
+		id = 323,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5077,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5077",
+		type = USAGE_QUEST,
+	},
+	["BLUE_HAIRBAND"] = {
+		id = 324,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5052,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5052",
+		type = USAGE_QUEST,
+	},
+	["RAINBOW_EGGSHELL"] = {
+		id = 326,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5039,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5039",
+		type = USAGE_QUEST,
+	},
+	["FEATHER_BERET"] = {
+		id = 327,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5170,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5170",
+		type = USAGE_QUEST,
+	},
+	["HOTBLOODED_HEADBAND"] = {
+		id = 328,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5070,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5070",
+		type = USAGE_QUEST,
+	},
+	["DROOPING_CAT"] = {
+		id = 329,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5058,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5058",
+		type = USAGE_QUEST,
+	},
+	["STOP_POST"] = {
+		id = 330,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 2272,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#2272",
+		type = USAGE_QUEST,
+	},
+	["REFINEMENT_SYSTEM"] = {
+		id = 331,
+		name = "Refinement System",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Refinement_System",
+		type = USAGE_QUEST,
+	},
+	["250_ORIDECON_ARROW"] = {
+		id = 332,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1765,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["1000_STEEL_ARROW"] = {
+		id = 333,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1753,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["50_STUN_ARROW"] = {
+		id = 334,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1758,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["0_BONUS_ON_SUCCESS"] = {
+		id = 335,
+		name = "0% Bonus on success",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["3_BONUS_ON_SUCCESS"] = {
+		id = 336,
+		name = "3% Bonus on success",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["5_BONUS_ON_SUCCESS"] = {
+		id = 337,
+		name = "5% Bonus on success",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["10_BONUS_ON_SUCCESS"] = {
+		id = 338,
+		name = "10% Bonus on success",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["FIRE_ELEMENTAL_CHANGE"] = {
+		id = 339,
+		name = "Fire Elemental Change",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sage_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["SIGHT_BLASTER"] = {
+		id = 340,
+		name = "Sight Blaster",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Wizard_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["600_FIRE_ARROW"] = {
+		id = 341,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1752,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["ORE_REFINE_FLAME_HEART"] = {
+		id = 342,
+		name = "Ore Refine: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 994,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#ore-refining-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["WATER_ELEMENTAL_CHANGE"] = {
+		id = 343,
+		name = "Water Elemental Change",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sage_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["ORE_REFINE_MYSTIC_FROZEN"] = {
+		id = 344,
+		name = "Ore Refine: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 995,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#ore-refining-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["WIND_ELEMENTAL_CHANGE"] = {
+		id = 345,
+		name = "Wind Elemental Change",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sage_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["150_ARROW_OF_WIND"] = {
+		id = 346,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1755,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["ORE_REFINE_ROUGH_WIND"] = {
+		id = 347,
+		name = "Ore Refine: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 996,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#ore-refining-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["EARTH_ELEMENTAL_CHANGE"] = {
+		id = 348,
+		name = "Earth Elemental Change",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sage_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["150_STONE_ARROW"] = {
+		id = 349,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1756,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["ORE_REFINE_GREAT_NATURE"] = {
+		id = 350,
+		name = "Ore Refine: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 997,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#ore-refining-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["ORE_COMBINING"] = {
+		id = 351,
+		name = "Ore Combining",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Ore_Combining",
+		type = USAGE_QUEST,
+	},
+	["TAEKWON_MASTER_JOB_CHANGE_QUEST"] = {
+		id = 352,
+		name = "TaeKwon Master Job Change Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/TaeKwon_Master_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["1800_FIRE_ARROW"] = {
+		id = 353,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1752,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["5_MUTE_ARROW"] = {
+		id = 354,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1769,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["FIRE_ENCHANT"] = {
+		id = 355,
+		name = "Fire enchant.",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging",
+		type = USAGE_INGREDIENT,
+	},
+	["450_CRYSTAL_ARROW"] = {
+		id = 356,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1754,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["5_FROZEN_ARROW"] = {
+		id = 357,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1759,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["WATER_ENCHANT"] = {
+		id = 358,
+		name = "Water enchant.",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging",
+		type = USAGE_INGREDIENT,
+	},
+	["ICE_NECKLACE_QUEST"] = {
+		id = 359,
+		name = "Ice Necklace Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Ice_Necklace_Quest",
+		type = USAGE_QUEST,
+	},
+	["450_ARROW_OF_WIND"] = {
+		id = 360,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1755,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["5_SLEEP_ARROW"] = {
+		id = 361,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1768,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["WIND_ENCHANT"] = {
+		id = 362,
+		name = "Wind enchant.",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging",
+		type = USAGE_INGREDIENT,
+	},
+	["450_STONE_ARROW"] = {
+		id = 363,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1756,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["5_FLASH_ARROW"] = {
+		id = 364,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1760,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["EARTH_ENCHANT"] = {
+		id = 365,
+		name = "Earth enchant.",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging",
+		type = USAGE_INGREDIENT,
+	},
+	["CHANGE_CART"] = {
+		id = 366,
+		name = "Change Cart",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Merchant_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["100_IRON_ARROW"] = {
+		id = 367,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["ORE_REFINE_STEEL"] = {
+		id = 368,
+		name = "Ore Refine: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 999,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#ore-refining-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["HELP_MR_ZABAROO_QUEST"] = {
+		id = 369,
+		name = "Help Mr. Zabaroo Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Help_Mr._Zabaroo_Quest",
+		type = USAGE_QUEST,
+	},
+	["BINOCULARS"] = {
+		id = 370,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 2296,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#2296",
+		type = USAGE_QUEST,
+	},
+	["CRESCENT_HAIRPIN"] = {
+		id = 371,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5048,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5048",
+		type = USAGE_QUEST,
+	},
+	["FLOWER_HAIRPIN"] = {
+		id = 372,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5061,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5061",
+		type = USAGE_QUEST,
+	},
+	["WELDING_MASK"] = {
+		id = 373,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 2292,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#2292",
+		type = USAGE_QUEST,
+	},
+	["100_STEEL_ARROW"] = {
+		id = 375,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1753,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["SMASHER"] = {
+		id = 376,
+		name = "Forging: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1507,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["30_FLASH_ARROW"] = {
+		id = 377,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1760,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["VERY_VERY_VERY_STRONG"] = {
+		id = 378,
+		name = "Very (very very) strong",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["ORE_REFINE_STAR_CRUMB"] = {
+		id = 379,
+		name = "Ore Refine: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1000,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#ore-refining-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["NINJA_JOB_CHANGE_QUEST"] = {
+		id = 380,
+		name = "Ninja Job Change Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/First_Expanded_Change_Guides#Ninja",
+		type = USAGE_QUEST,
+	},
+	["50_IRON_ARROW"] = {
+		id = 381,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["ORE_REFINE_IRON"] = {
+		id = 382,
+		name = "Ore Refine: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 998,
+		url = "https://wiki.arcadia-online.org/Blacksmith/#ore-refining-materials",
+		type = USAGE_INGREDIENT,
+	},
+	["8_ARROW_OF_SHADOW"] = {
+		id = 383,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1767,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["40_SILVER_ARROW"] = {
+		id = 384,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1751,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["20_IRON_ARROW"] = {
+		id = 385,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["CREATE_ELEMENTAL_CONVERTER_WIND"] = {
+		id = 386,
+		name = "Create Elemental Converter - Wind",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Create_Elemental_Converter",
+		type = USAGE_QUEST,
+	},
+	["SPORE_HAT"] = {
+		id = 387,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5029,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5029",
+		type = USAGE_QUEST,
+	},
+	["60_STONE_ARROW"] = {
+		id = 388,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1756,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["SAKKAT"] = {
+		id = 389,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 2280,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#2280",
+		type = USAGE_QUEST,
+	},
+	["40_ARROW"] = {
+		id = 390,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1750,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["40_IRON_ARROW"] = {
+		id = 391,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["2_ARROW_OF_SHADOW"] = {
+		id = 392,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1767,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["KITSUNE_MASK"] = {
+		id = 393,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5069,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5069",
+		type = USAGE_QUEST,
+	},
+	["SHAFKA"] = {
+		id = 394,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5243,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5243",
+		type = USAGE_QUEST,
+	},
+	["FIBER_LOCK"] = {
+		id = 395,
+		name = "Fiber Lock",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Fiber_Lock",
+		type = USAGE_SKILL,
+	},
+	["ACORN_EXCHANGE_QUEST"] = {
+		id = 396,
+		name = "Acorn Exchange Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Acorn_Exchange_Quest",
+		type = USAGE_QUEST,
+	},
+	["70_ARROW"] = {
+		id = 397,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1750,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["30_STONE_ARROW"] = {
+		id = 398,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1756,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["BOY'S_CAP"] = {
+		id = 399,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5016,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5016",
+		type = USAGE_QUEST,
+	},
+	["1_SHARP_ARROW"] = {
+		id = 400,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1764,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["BRIDE'S_COROLLA"] = {
+		id = 401,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5436,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5436",
+		type = USAGE_QUEST,
+	},
+	["RACCOON_HAT"] = {
+		id = 402,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5033,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5033",
+		type = USAGE_QUEST,
+	},
+	["DEVIRUCHI_HAT"] = {
+		id = 403,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5038,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5038",
+		type = USAGE_QUEST,
+	},
+	["2_CURSED_ARROW"] = {
+		id = 404,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1761,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["5_RUSTY_ARROW"] = {
+		id = 405,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1762,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["OPERA_PHANTOM_MASK"] = {
+		id = 406,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5043,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5043",
+		type = USAGE_QUEST,
+	},
+	["PRETEND_MURDERED"] = {
+		id = 407,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 2293,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#2293",
+		type = USAGE_QUEST,
+	},
+	["20_STEEL_ARROW"] = {
+		id = 408,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1753,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["300_CRYSTAL_ARROW"] = {
+		id = 409,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1754,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["2_SHARP_ARROW"] = {
+		id = 410,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1764,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["SUCCESSOR_TO_THE_THRONE_QUEST"] = {
+		id = 411,
+		name = "Successor to the Throne Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Successor_to_the_Throne_Quest",
+		type = USAGE_QUEST,
+	},
+	["50_STEEL_ARROW"] = {
+		id = 412,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1753,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["ARCHER_JOB_CHANGE_QUEST"] = {
+		id = 413,
+		name = "Archer Job Change Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Archer_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["20_ARROW"] = {
+		id = 414,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1750,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["MONK_JOB_CHANGE_GUIDE"] = {
+		id = 415,
+		name = "Monk Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Monk_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["ALARM_MASK"] = {
+		id = 416,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5086,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5086",
+		type = USAGE_QUEST,
+	},
+	["100_ARROW"] = {
+		id = 417,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1750,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["STRIPED_HAIRBAND"] = {
+		id = 418,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5049,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5049",
+		type = USAGE_QUEST,
+	},
+	["BRUSPETTI_QUEST"] = {
+		id = 419,
+		name = "Bruspetti Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Bruspetti_Quest",
+		type = USAGE_QUEST,
+	},
+	["MODEL_TRAINING_HAT"] = {
+		id = 420,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5073,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5073",
+		type = USAGE_QUEST,
+	},
+	["SPY_QUEST"] = {
+		id = 421,
+		name = "Spy Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Spy_Quest",
+		type = USAGE_QUEST,
+	},
+	["RED_TAILED_RIBBON"] = {
+		id = 422,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5083,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5083",
+		type = USAGE_QUEST,
+	},
+	["BEANIE"] = {
+		id = 423,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5076,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5076",
+		type = USAGE_QUEST,
+	},
+	["HELM_OF_ANGEL"] = {
+		id = 424,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5025,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5025",
+		type = USAGE_QUEST,
+	},
+	["PARTY_HAT"] = {
+		id = 425,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5060,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5060",
+		type = USAGE_QUEST,
+	},
+	["PRESIDENT_QUEST"] = {
+		id = 426,
+		name = "President Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/President_Quest",
+		type = USAGE_QUEST,
+	},
+	["BIOETHICS"] = {
+		id = 427,
+		name = "Bioethics",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Alchemist_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["COWBOY_HAT"] = {
+		id = 428,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5075,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5075",
+		type = USAGE_QUEST,
+	},
+	["ANGEL_WING_EARS"] = {
+		id = 429,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5074,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5074",
+		type = USAGE_QUEST,
+	},
+	["EVIL_WING_EARS"] = {
+		id = 430,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5068,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5068",
+		type = USAGE_QUEST,
+	},
+	["1000_SILVER_ARROW"] = {
+		id = 431,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1751,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["STRAW_HAT"] = {
+		id = 432,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5062,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5062",
+		type = USAGE_QUEST,
+	},
+	["200_SHARP_ARROW"] = {
+		id = 433,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1764,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["300_STEEL_ARROW"] = {
+		id = 434,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1753,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["40_STUN_ARROW"] = {
+		id = 435,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1758,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["X_HAIRPIN"] = {
+		id = 436,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5079,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5079",
+		type = USAGE_QUEST,
+	},
+	["1000_FLASH_ARROW"] = {
+		id = 437,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1760,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["700_ARROW"] = {
+		id = 438,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1750,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["500_IRON_ARROW"] = {
+		id = 439,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["1000_ARROW"] = {
+		id = 440,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1750,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["700_IRON_ARROW"] = {
+		id = 441,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["700_SILVER_ARROW"] = {
+		id = 442,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1751,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["10_IMMATERIAL_ARROW"] = {
+		id = 443,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1757,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["CROSS_HAT"] = {
+		id = 444,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5036,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5036",
+		type = USAGE_QUEST,
+	},
+	["50_ARROW_OF_WIND"] = {
+		id = 445,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1755,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["10_SHARP_ARROW"] = {
+		id = 446,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1764,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["HELP_MIKHAIL_QUEST"] = {
+		id = 447,
+		name = "Help Mikhail Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Help_Mikhail_Quest",
+		type = USAGE_QUEST,
+	},
+	["VALKYRIE_HELM"] = {
+		id = 448,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5171,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5171",
+		type = USAGE_QUEST,
+	},
+	["INDIAN_HEADBAND"] = {
+		id = 449,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5071,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5071",
+		type = USAGE_QUEST,
+	},
+	["200_CRYSTAL_ARROW"] = {
+		id = 450,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1754,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["TEDDYBEAR_HAT"] = {
+		id = 451,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5059,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5059",
+		type = USAGE_QUEST,
+	},
+	["SEA_OTTER_HAT"] = {
+		id = 452,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5078,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5078",
+		type = USAGE_QUEST,
+	},
+	["WONDER_NUTSHELL"] = {
+		id = 453,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5050,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5050",
+		type = USAGE_QUEST,
+	},
+	["BAPHOMET_HORNS"] = {
+		id = 454,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5374,
+		url = "https://wiki.arcadia-online.org/Sealed_Shrine_Quest#Rewards",
+		type = USAGE_QUEST,
+	},
+	["LAPHINE_CRAFTSMAN"] = {
+		id = 455,
+		name = "Laphine Craftsman",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Laphine_Craftsman",
+		type = USAGE_QUEST,
+	},
+	["30_STEEL_ARROW"] = {
+		id = 456,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1753,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["HEART_HAIRPIN"] = {
+		id = 458,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5041,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5041",
+		type = USAGE_QUEST,
+	},
+	["1000_MUTE_ARROW"] = {
+		id = 459,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1769,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["1000_ARROW_OF_SHADOW"] = {
+		id = 460,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1767,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["1000_CURSED_ARROW"] = {
+		id = 461,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1761,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["200_FLASH_ARROW"] = {
+		id = 462,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1760,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["1000_ORIDECON_ARROW"] = {
+		id = 463,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1765,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["600_SHARP_ARROW"] = {
+		id = 464,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1764,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["200_ARROW_OF_SHADOW"] = {
+		id = 465,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1767,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["200_CURSED_ARROW"] = {
+		id = 466,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1761,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["800_STUN_ARROW"] = {
+		id = 467,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1758,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["400_MUTE_ARROW"] = {
+		id = 468,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1769,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["800_SLEEP_ARROW"] = {
+		id = 469,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1768,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["100_ARROW_OF_SHADOW"] = {
+		id = 470,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1767,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["TRIPATRIATE_UNION'S_FEUD"] = {
+		id = 471,
+		name = "Tripatriate Union's Feud",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Tripatriate_Union%27s_Feud",
+		type = USAGE_QUEST,
+	},
+	["1000_FIRE_ARROW"] = {
+		id = 472,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1752,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["100_CRYSTAL_ARROW"] = {
+		id = 473,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1754,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["BLUSH"] = {
+		id = 474,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 5040,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5040",
+		type = USAGE_QUEST,
+	},
+	["FINDING_THE_MOVING_ISLAND_QUEST"] = {
+		id = 476,
+		name = "Finding The Moving Island Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Finding_The_Moving_Island_Quest",
+		type = USAGE_QUEST,
+	},
+	["50_STONE_ARROW"] = {
+		id = 477,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1756,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["30_STUN_ARROW"] = {
+		id = 478,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1758,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["250_FIRE_ARROW"] = {
+		id = 479,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1752,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["150_STEEL_ARROW"] = {
+		id = 480,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1753,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["GOD_ITEM_COMPONENT_SLEIPNIR"] = {
+		id = 481,
+		name = "God Item Component - Sleipnir",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/God_Items_Quest#Ingredients",
+		type = USAGE_QUEST,
+	},
+	["150_FIRE_ARROW"] = {
+		id = 482,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1752,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["CONTINENTAL_GUARD_QUEST"] = {
+		id = 483,
+		name = "Continental Guard Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Continental_Guard_Quest",
+		type = USAGE_QUEST,
+	},
+	["100_FIRE_ARROW"] = {
+		id = 484,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1752,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["30_SHARP_ARROW"] = {
+		id = 485,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1764,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["100_ORIDECON_ARROW"] = {
+		id = 486,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1765,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["300_IMMATERIAL_ARROW"] = {
+		id = 487,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1757,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["DOCTOR_QUEST"] = {
+		id = 488,
+		name = "Doctor Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Doctor_Quest",
+		type = USAGE_QUEST,
+	},
+	["50_MUTE_ARROW"] = {
+		id = 489,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1769,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["EMBRYO"] = {
+		id = 490,
+		name = "Potting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 7142,
+		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
+		type = USAGE_INGREDIENT,
+	},
+	["20_POISON_ARROW"] = {
+		id = 491,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1763,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["20_SHARP_ARROW"] = {
+		id = 492,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1764,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["MARRIAGE_REQUIREMENTS_GROOM"] = {
+		id = 493,
+		name = "Marriage Requirements - Groom",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Marriage_System#The_Groom",
+		type = USAGE_QUEST,
+	},
+	["50_ARROW_OF_SHADOW"] = {
+		id = 494,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1767,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["200_ARROW_OF_WIND"] = {
+		id = 495,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1755,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["LEVEL_4_WEAPONS_TYPE_2"] = {
+		id = 496,
+		name = "Level 4 Weapons (Type 2)",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Level_4_Weapons_(Type_2)",
+		type = USAGE_QUEST,
+	},
+	["30_CURSED_ARROW"] = {
+		id = 497,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1761,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["80_POISON_ARROW"] = {
+		id = 498,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1763,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["FACTORY_QUEST"] = {
+		id = 499,
+		name = "Factory Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Factory_Quest",
+		type = USAGE_QUEST,
+	},
+	["100_RUSTY_ARROW"] = {
+		id = 500,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1762,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["30_SLEEP_ARROW"] = {
+		id = 501,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1768,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["30_POISON_ARROW"] = {
+		id = 502,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1763,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["JUPEROS_RUINS_HISTORY_QUEST"] = {
+		id = 503,
+		name = "Juperos Ruins History Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Juperos_Ruins_History_Quest",
+		type = USAGE_QUEST,
+	},
+	["JUPEROS_QUEST"] = {
+		id = 504,
+		name = "Juperos Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Juperos_Quest",
+		type = USAGE_QUEST,
+	},
+	["200_SILVER_ARROW"] = {
+		id = 506,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1751,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["300_HOLY_ARROW"] = {
+		id = 507,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1772,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["THANATOS_TOWER_QUEST"] = {
+		id = 508,
+		name = "Thanatos Tower Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Thanatos_Tower_Quest",
+		type = USAGE_QUEST,
+	},
+	["100_STONE_ARROW"] = {
+		id = 509,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1756,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["50_CRYSTAL_ARROW"] = {
+		id = 510,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1754,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["80_FROZEN_ARROW"] = {
+		id = 511,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1759,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["80_FLASH_ARROW"] = {
+		id = 512,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1760,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["50_IMMATERIAL_ARROW"] = {
+		id = 513,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1757,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["80_SLEEP_ARROW"] = {
+		id = 514,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1768,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["500_IMMATERIAL_ARROW"] = {
+		id = 515,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1757,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["300_FIRE_ARROW"] = {
+		id = 516,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1752,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["300_STUN_ARROW"] = {
+		id = 517,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1758,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["600_HOLY_ARROW"] = {
+		id = 518,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1772,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["JUNO_REMEDY_QUEST"] = {
+		id = 519,
+		name = "Juno Remedy Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Juno_Remedy_Quest",
+		type = USAGE_QUEST,
+	},
+	["ODIN'S_TEMPLE_EXCAVATION_QUEST"] = {
+		id = 520,
+		name = "Odin's Temple Excavation Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Odin's_Temple_Excavation_Quest",
+		type = USAGE_QUEST,
+	},
+	["300_ARROW_OF_SHADOW"] = {
+		id = 521,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1767,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["150_FLASH_ARROW"] = {
+		id = 522,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1760,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["RACHEL_SANCTUARY_QUEST"] = {
+		id = 523,
+		name = "Rachel Sanctuary Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Rachel_Sanctuary_Quest",
+		type = USAGE_QUEST,
+	},
+	["50_FROZEN_ARROW"] = {
+		id = 524,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1759,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["400_FROZEN_ARROW"] = {
+		id = 525,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1759,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["200_MUTE_ARROW"] = {
+		id = 526,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1769,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["200_POISON_ARROW"] = {
+		id = 527,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1763,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["100_POISON_ARROW"] = {
+		id = 528,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1763,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["50_RUSTY_ARROW"] = {
+		id = 529,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1762,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["10_IRON_ARROW"] = {
+		id = 530,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1770,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["20_CURSED_ARROW"] = {
+		id = 531,
+		name = "Arrow-Crafting: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		itemId = 1761,
+		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
+		type = USAGE_INGREDIENT,
+	},
+	["HOMUNCULUS_EVOLUTION"] = {
+		id = 532,
+		name = "Homunculus Evolution",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Homunculus#Evolution",
+		type = USAGE_QUEST,
+	},
+	["HIDE_N'_SEEK_QUEST"] = {
+		id = 533,
+		name = "Hide n' Seek Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Hide_n'_Seek_Quest",
+		type = USAGE_QUEST,
+	},
+	["PIANO_KEYS_QUEST"] = {
+		id = 534,
+		name = "Piano Keys Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Piano_Keys_Quest",
+		type = USAGE_QUEST,
+	},
+	["REBELLION_QUEST"] = {
+		id = 535,
+		name = "Rebellion Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Rebellion_Quest",
+		type = USAGE_QUEST,
+	},
+	["DOLL_EXCHANGE"] = {
+		id = 536,
+		name = "Doll Exchange",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Doll_Exchange",
+		type = USAGE_QUEST,
+	},
+	["COOKING_QUEST"] = {
+		id = 538,
+		name = "Cooking Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Cooking_Quest",
+		type = USAGE_QUEST,
+	},
+	["DANDELION'S_REQUEST"] = {
+		id = 539,
+		name = "Dandelion's Request",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Dandelion's_Request",
+		type = USAGE_QUEST,
+	},
+	["ABYSS_LAKE_ENTRANCE_GUIDE"] = {
+		id = 540,
+		name = "Abyss Lake Entrance Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Abyss_Lake_Entrance_Guide",
+		type = USAGE_QUEST,
+	},
+	["SNOWYSNOW_QUEST"] = {
+		id = 541,
+		name = "Snowysnow Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Snowysnow_Quest",
+		type = USAGE_QUEST,
+	},
+	["KAFRA_BAND_QUEST"] = {
+		id = 542,
+		name = "Kafra Band Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Kafra_Band_Quest",
+		type = USAGE_QUEST,
+	},
+	["SKIN_CLINIC_QUEST"] = {
+		id = 543,
+		name = "Skin Clinic Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Skin_Clinic_Quest",
+		type = USAGE_QUEST,
+	},
+	["BANK_QUEST"] = {
+		id = 544,
+		name = "Bank Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Bank_Quest/",
+		type = USAGE_QUEST,
+	},
+	["FIRST_AID_QUEST"] = {
+		id = 545,
+		name = "First Aid Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Novice_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["AUTO_BERSERK_QUEST"] = {
+		id = 548,
+		name = "Auto Berserk Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Swordsman/#quest-skills",
+		type = USAGE_QUEST,
+	},
+	["MAGICIAN_JOB_CHANGE_GUIDE"] = {
+		id = 549,
+		name = "Magician Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Magician_Job_Change_Guide/",
+		type = USAGE_QUEST,
+	},
+	["MAGE_TRAINING_QUEST"] = {
+		id = 551,
+		name = "Mage Training Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Magician_Training_Quest/",
+		type = USAGE_QUEST,
+	},
+	["CHARGE_ARROW_QUEST"] = {
+		id = 554,
+		name = "Charge Arrow Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Archer_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["ARCHER_TRAINING_QUEST"] = {
+		id = 555,
+		name = "Archer Training Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Archer_Training_Quest",
+		type = USAGE_QUEST,
+	},
+	["THIEF_JOB_CHANGE_GUIDE"] = {
+		id = 559,
+		name = "Thief Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Thief_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["THIEF_TRAINING_QUEST"] = {
+		id = 560,
+		name = "Thief Training Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Thief_Training_Quest",
+		type = USAGE_QUEST,
+	},
+	["HOLY_LIGHT_QUEST"] = {
+		id = 561,
+		name = "Holy Light Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Acolyte_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["ACOLYTE_TRAINING_QUEST"] = {
+		id = 562,
+		name = "Acolyte Training Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Acolyte_Training_Quest",
+		type = USAGE_QUEST,
+	},
+	["KNIGHT_JOB_CHANGE_GUIDE"] = {
+		id = 563,
+		name = "Knight Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Knight_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["CRUSADER_JOB_CHANGE_GUIDE"] = {
+		id = 565,
+		name = "Crusader Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Crusader_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["WIZARD_JOB_CHANGE_GUIDE"] = {
+		id = 567,
+		name = "Wizard Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Wizard_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["SAGE_JOB_CHANGE_GUIDE"] = {
+		id = 569,
+		name = "Sage Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sage_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["ELEMENTAL_CHANGE_QUEST"] = {
+		id = 570,
+		name = "Elemental Change Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sage_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["HUNTER_JOB_CHANGE_GUIDE"] = {
+		id = 571,
+		name = "Hunter Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Hunter_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["BARD_JOB_CHANGE_GUIDE"] = {
+		id = 573,
+		name = "Bard Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Bard_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["DANCER_JOB_CHANGE_GUIDE"] = {
+		id = 574,
+		name = "Dancer Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Dancer_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["BLACKSMITH_JOB_CHANGE_GUIDE"] = {
+		id = 575,
+		name = "Blacksmith Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Blacksmith_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["ALCHEMIST_JOB_CHANGE_GUIDE"] = {
+		id = 577,
+		name = "Alchemist Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Alchemist_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["RESISTANCE_POTIONS_GUIDE_QUEST"] = {
+		id = 579,
+		name = "Resistance Potions Guide Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Alchemist_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["ROGUE_JOB_CHANGE_GUIDE"] = {
+		id = 580,
+		name = "Rogue Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Rogue_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["GUNSLINGER_JOB_CHANGE_GUIDE"] = {
+		id = 582,
+		name = "Gunslinger Job Change Guide",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Gunslinger_Job_Change_Guide",
+		type = USAGE_QUEST,
+	},
+	["BACK_SLIDING_QUEST"] = {
+		id = 583,
+		name = "Back Sliding Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Thief_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["PICK_STONE_QUEST"] = {
+		id = 584,
+		name = "Pick Stone Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Thief_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["THROW_STONE_QUEST"] = {
+		id = 586,
+		name = "Throw Stone Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Thief_Skill_Quest",
+		type = USAGE_QUEST,
+	},
+	["ATELIER_QUEST"] = {
+		id = 587,
+		name = "Atelier Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Atelier_Richelle/",
+		type = USAGE_INGREDIENT,
+	},
+	["FISHING_QUEST"] = {
+		id = 588,
+		name = "Fishing Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Fisherline/",
+		type = USAGE_INGREDIENT,
+	},
+	["SIDEWORLD_ENTRANCE_QUEST"] = {
+		id = 589,
+		name = "Sideworld Entrance Quest",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sideworld_Entrance_Quest",
+		type = USAGE_QUEST,
+	},
+	["SIDEWORLD_CARTS"] = {
+		id = 590,
+		name = "Sideworld Carts",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Sideworld_Carts/#items",
+		type = USAGE_QUEST,
+	},
+	["SUMMONING_FLUTE"] = {
+		id = 591,
+		name = "Summoning Flute",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Summoning_Flute",
+		type = USAGE_QUEST,
+	},
+	["SAFETY_WALL"] = {
+		id = 592,
+		name = "Safety Wall",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Safety_Wall",
+		type = USAGE_SKILL,
+	},
+	["WARP_PORTAL"] = {
+		id = 593,
+		name = "Warp Portal",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Warp_Portal",
+		type = USAGE_SKILL,
+	},
+	["VENOM_DUST"] = {
+		id = 594,
+		name = "Venom Dust",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Venom_Dust",
+		type = USAGE_SKILL,
+	},
+	["VENOM_SPLASHER"] = {
+		id = 595,
+		name = "Venom Splasher",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Venom_Splasher",
+		type = USAGE_SKILL,
+	},
+}
