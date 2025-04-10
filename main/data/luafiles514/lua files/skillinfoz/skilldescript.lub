@@ -3386,7 +3386,7 @@ SKILL_DESCRIPT = {
 
 	[SKID.RG_STRIPARMOR] = {
 		"Divest Armor",
-		"Required For:^777777 Divest Weapon (L5), Divest Full Divestment (L5 Stalker)^000000",
+		"Required For:^777777 Divest Weapon (L5), Full Divestment (L5 Stalker)^000000",
 		"Max Level:^777777 5^000000",
 		"Type:^33cc00 Active^000000",
 		"SP Cost:^777777 15 + 2*SkillLV^000000",

@@ -15490,3 +15490,7 @@ Show Chibi you are worthy for the new carts! Complete all the tasks at once and 
 13602#Chibi's 'Hunting Skill' Test 3#SG_FEEL#QUE_NOIMAGE#
 Show Chibi you are worthy for the new carts! Complete all the tasks at once and then find Chibi. Don't forget ^FF00001,000 Poring Coins^000000 as well.#
 #
+
+13603#Cleansing the Ecosystem#SG_FEEL#QUE_NOIMAGE#
+Help Raisin by killing Rogue Eclipses around Prontera.#
+#

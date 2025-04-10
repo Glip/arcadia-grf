@@ -823,4 +823,9 @@ AccNameTable_Eng  = {
 	[ACCESSORY_IDs.ACCESSORY_BLUE_FRAMED_G ] = "_blue_frame_glasses",
 	[ACCESSORY_IDs.ACCESSORY_GREEN_SPARE_CARD ] = "_sideworld_card_costume",
 	[ACCESSORY_IDs.ACCESSORY_PIZZA_IN_MOUTH ] = "_pizza_in_mouth",
+	[ACCESSORY_IDs.ACCESSORY_CLOCK_CASKET ] = "_c_clock_casket_rd",
+	[ACCESSORY_IDs.ACCESSORY_NEO_BLANK_EYES ] = "_neo_blank_eyes",
+	[ACCESSORY_IDs.ACCESSORY_C_PGstone_Knit_Hat_PK ] = "_C_PGstone_Knit_Hat_PK",
+	[ACCESSORY_IDs.ACCESSORY_C_PGstone_Knit_Hat_BW ] = "_C_PGstone_Knit_Hat_BW",
+	[ACCESSORY_IDs.ACCESSORY_C_Pretty_Bear ] = "_c프리티베어",
 }

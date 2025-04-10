@@ -340,6 +340,23 @@ LOCAL_ArcadiaQuest_List = {
 }
 
 LOCAL_ArcEvtQuest_List = {
+-- Christmas 2024 --
+	{
+		name = [[ ]],
+		imagefile = [[christmas_2024.bmp]],
+		list = {
+			{
+				name  =	[[Merry Christmas]],
+				list = {
+					{
+						name =[[Arcadia's Christmas Season]],
+						scrfilename = [[DewataQuest]],
+						questID = 14302,
+					},
+				}
+			},
+		}, 
+	},
 -- Halloween 2024 --
 	{
 		name = [[ ]],

@@ -1052,4 +1052,7 @@ ACCESSORY_IDs = {
 	ACCESSORY_C_H_Knight_Cloak = 2059,
 	ACCESSORY_Der_Meisterpinsel = 1291,
 	ACCESSORY_CLOCK_CASKET = 1777,
+	ACCESSORY_C_PGstone_Knit_Hat_PK = 1984,
+	ACCESSORY_C_PGstone_Knit_Hat_BW = 1985,
+	ACCESSORY_C_Pretty_Bear = 1480,
 }

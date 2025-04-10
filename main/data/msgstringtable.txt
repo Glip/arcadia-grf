@@ -1491,7 +1491,7 @@ This key is already used for '%s'. Do you want to change it?#
 Stored shortcut key combination will be initialized. Do you want to initialize it?#
 Skill Bar#
 Window Interface#
-Emotion#
+Other#
 Shortcut key setting window#
 BGM#
 Effect#
@@ -2644,3 +2644,9 @@ Hiding damage numbers and crit bubbles has been enabled.#
 Hiding damage numbers and crit bubbles has been disabled.#
 https://wiki.arcadia-online.org/Restocking_System/#
 Your session has run out. Please log in again and don't wait outside the character selection.#
+Usage indicator near item icons has been enabled.#
+Usage indicator near item icons has been disabled.#
+Needed in#
+https://wiki.arcadia-online.org/Usage_Information/#
+This item is needed in the following category: #
+This item is needed in the following categories: #

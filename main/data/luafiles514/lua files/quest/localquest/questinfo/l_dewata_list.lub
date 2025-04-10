@@ -1321,4 +1321,38 @@ DewataQuest_List = {
 				Time = [[]],
 				LV = [[0]],
 		},
+		[14302] = {
+				NPCFromName = [[Caroline]],
+				NPCFromMap = [[xmas]],
+				NPCFromSpr = [[4_F_01]],
+				NPCFromX = 163,
+				NPCFromY = 113,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				All the hats acquired from these events are Costume. <T> <\end>
+				You can only get each reward once. <T> <\end>
+				Antonio can be seen roaming around.  <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Arcadia's Christmas Season]],
+				Info = [[
+				A retelling of old stories regarding Caroline, Abigail and Raisin. <T> <\end>
+				^0000FFReward^000000 : <T> <\end>
+				 - Eight different seasonal rewards. <T> <\end>
+				^0000FFExtras^000000 : <T> <\end>
+				 - Raisin's Shop (if unlocked). <T> <\end>
+				 - Porter's Gift Box naming (if unlocked). <T> <\end>
+				 - Alms's Reward (if unlocked). <T> <\end>
+				 - Caroline's Reward (if unlocked). <T> <\end>
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
 }

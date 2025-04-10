@@ -608,13 +608,13 @@
 40148#Unkillable#
 40149#Fragile#
 40150#Shattered#
-40151#Suffering#
-40152#Fragmented#
+40151#Debaitable#
+40152#of Big Chests#
 40153#Dry#
 40154#Avoidant#
 40155#Torn#
 40156#Toothed#
-40157#Scrambled#
+40157#Master Baiter#
 40158#Violent#
 40159#Carbonized#
 40160#of Lava Flow#
@@ -622,12 +622,12 @@
 40162#Spicy#
 40163#of Affection#
 40164#Natural#
-40165#Acrid Smell#
+40165#of Fishy Business#
 40166#of Opportunity#
 40167#of Brotherhood#
 40168#of Sisterhood#
 40169#of Kinship#
-40170#of Shortbow#
+40170#My Precious#
 40171#of Apprentice#
 40172#Omnipotent#
 40173#Wicked#
