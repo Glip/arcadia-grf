@@ -322,7 +322,7 @@ DewataQuest_List = {
 				NPCToX = 0,
 				NPCToY = 0,
 				Item = [[
-				Character must be at least level 80+ or a rebirth class to begin this journey. <T> <\end>
+				Character must be at least level 50+ or a rebirth class to begin this journey. <T> <\end>
 				]],
 				PrizeItem = [[]],
 				Title = [[Troubled Present And A Troubled Past]],
@@ -1342,6 +1342,8 @@ DewataQuest_List = {
 				PrizeItem = [[]],
 				Title = [[Arcadia's Christmas Season]],
 				Info = [[
+				^FF0000This quest or event is currently not implemented.^000000
+				^FF0000If it becomes available again, this notice will be removed.^000000 <T> <\end>
 				A retelling of old stories regarding Caroline, Abigail and Raisin. <T> <\end>
 				^0000FFReward^000000 : <T> <\end>
 				 - Eight different seasonal rewards. <T> <\end>
@@ -1376,6 +1378,8 @@ DewataQuest_List = {
 				PrizeItem = [[]],
 				Title = [[Valentine's Day]],
 				Info = [[
+				^FF0000This quest or event is currently not implemented.^000000
+				^FF0000If it becomes available again, this notice will be removed.^000000 <T> <\end>
 				Help Lord Sebastián Vectorian to prepare a special Valentine's gift for Lady Veluvia Barrington while observing their entanglement. Uncover a hidden secret that leads to a new adventure. <T> <\end>
 				^0000FFReward^000000 : <T> <\end>
 				 - A costume headgear. <T> <\end>
