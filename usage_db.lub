@@ -23,13 +23,13 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Archer_Skill_Quest",
 		type = USAGE_QUEST,
 	},
-	["AID_POTION_LEVEL_1"] = {
+	["POTION_PITCHER_LEVEL_1"] = {
 		id = 3,
-		name = "Aid Potion Level 1",
+		name = "Potion Pitcher Level 1",
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Aid_Potion",
+		url = "https://wiki.arcadia-online.org/Potion_Pitcher",
 		type = USAGE_SKILL,
 	},
 	["SHRINK"] = {
@@ -111,13 +111,13 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5032",
 		type = USAGE_QUEST,
 	},
-	["AID_POTION_LEVEL_3"] = {
+	["POTION_PITCHER_LEVEL_3"] = {
 		id = 12,
-		name = "Aid Potion Level 3",
+		name = "Potion Pitcher Level 3",
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Aid_Potion",
+		url = "https://wiki.arcadia-online.org/Potion_Pitcher",
 		type = USAGE_SKILL,
 	},
 	["VEINS_SIBLINGS_QUEST"] = {
@@ -149,13 +149,13 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
 		type = USAGE_INGREDIENT,
 	},
-	["AID_POTION_LEVEL_4"] = {
+	["POTION_PITCHER_LEVEL_4"] = {
 		id = 16,
-		name = "Aid Potion Level 4",
+		name = "Potion Pitcher Level 4",
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Aid_Potion",
+		url = "https://wiki.arcadia-online.org/Potion_Pitcher",
 		type = USAGE_SKILL,
 	},
 	["FOOTPRINT_QUEST"] = {
@@ -216,15 +216,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Cooking/",
 		type = USAGE_INGREDIENT,
 	},
-	["CAUTIOUS_VILLAGE"] = {
-		id = 23,
-		name = "Cautious Village",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcardia-online.org/w/index.php?title=Cautious_Village&action=edit&redlink=1",
-		type = USAGE_QUEST,
-	},
+
+	-- unused space id 23
+
 	["CHIEF'S_QUEST"] = {
 		id = 24,
 		name = "Chief's Quest",
@@ -546,7 +540,7 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/First_Expanded_Change_Guides#Gunslinger",
+		url = "https://wiki.arcadia-online.org/Gunslinger_Job_Change_Guide/",
 		type = USAGE_QUEST,
 	},
 	["ROGUE_GUILD_INVESTIGATION_QUEST"] = {
@@ -743,13 +737,13 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
 		type = USAGE_INGREDIENT,
 	},
-	["BERSERK"] = {
+	["AUTO_BERSERK_QUEST"] = {
 		id = 77,
-		name = "Berserk",
+		name = "Auto Berserk Quest",
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Swordsman/#quest-skills",
+		url = "https://wiki.arcadia-online.org/Swordsman_Skill_Quest/#auto-berserk-quest",
 		type = USAGE_QUEST,
 	},
 	["CLAM_SOUP_VIT3"] = {
@@ -861,6 +855,7 @@ usage_tbl = {
 		type = USAGE_INGREDIENT,
 	},
 	["ATTITUDE_TO_THE_NEW_WORLD"] = {
+		-- may not be part of future content.
 		id = 89,
 		name = "Attitude to the New World",
 		description = {
@@ -914,9 +909,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Aspersio",
 		type = USAGE_SKILL,
 	},
-	["REDEMPTIO"] = {
+	["REDEMPTIO_QUEST"] = {
 		id = 96,
-		name = "Redemptio",
+		name = "Redemptio Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -943,13 +938,13 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5028",
 		type = USAGE_QUEST,
 	},
-	["FATAL_BLOW"] = {
+	["FATAL_BLOW_QUEST"] = {
 		id = 99,
-		name = "Fatal Blow",
+		name = "Fatal Blow Quest",
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Swordsman/#quest-skills",
+		url = "https://wiki.arcadia-online.org/Swordsman_Skill_Quest/#fatal-blow-quest",
 		type = USAGE_QUEST,
 	},
 	["ASCENDING_DRAGON_SOUP_VIT9"] = {
@@ -1030,27 +1025,27 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Cooking/",
 		type = USAGE_INGREDIENT,
 	},
-	["ARROW_REPEL"] = {
+	["CHARGE_ARROW_QUEST"] = {
 		id = 108,
-		name = "Arrow Repel",
+		name = "Charge Arrow Quest",
 		description = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Archer_Skill_Quest",
 		type = USAGE_QUEST,
 	},
-	["CRAZY_UPROAR"] = {
+	["CRAZY_UPROAR_QUEST"] = {
 		id = 109,
-		name = "Crazy Uproar",
+		name = "Crazy Uproar Quest",
 		description = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Merchant_Skill_Quest",
 		type = USAGE_QUEST,
 	},
-	["CART_REVOLUTION"] = {
+	["CART_REVOLUTION_QUEST"] = {
 		id = 110,
-		name = "Cart Revolution",
+		name = "Cart Revolution Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -1078,6 +1073,7 @@ usage_tbl = {
 		type = USAGE_INGREDIENT,
 	},
 	["PART_TIME_JOB"] = {
+		-- may not be part of future content
 		id = 113,
 		name = "Part Time Job",
 		description = {
@@ -1092,12 +1088,12 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Homunculus#Types_of_Homunculus",
+		url = "https://wiki.arcadia-online.org/Homunculus_System/#what-is-a-homunculus",
 		type = USAGE_FOOD,
 	},
-	["PHANTASMIC_ARROW"] = {
+	["PHANTASMIC_ARROW_QUEST"] = {
 		id = 115,
-		name = "Phantasmic Arrow",
+		name = "Phantasmic Arrow Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -1289,9 +1285,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Alchemist_Item_Gathering",
 		type = USAGE_QUEST,
 	},
-	["DUBIOUS_SALESMANSHIP"] = {
+	["DUBIOUS_SALESMANSHIP_QUEST"] = {
 		id = 135,
-		name = "Dubious Salesmanship",
+		name = "Dubious Salesmanship Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -1836,13 +1832,13 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5121",
 		type = USAGE_QUEST,
 	},
-	["HAIR_STYLINGDYE_QUESTS"] = {
+	["HAIR_STYLING"] = {
 		id = 190,
-		name = "Hair Styling/Dye Quests",
+		name = "Hair Styling",
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Hair_Styling/Dye_Quests",
+		url = "https://wiki.arcadia-online.org/Hair_Styling/",
 		type = USAGE_QUEST,
 	},
 	["OXYGEN_MASK"] = {
@@ -1954,13 +1950,13 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Alchemist_Job_Change_Guide",
 		type = USAGE_QUEST,
 	},
-	["EXCRUCIATING_PALM"] = {
+	["EXCRUCIATING_PALM_QUEST"] = {
 		id = 202,
-		name = "Excruciating Palm",
+		name = "Excruciating Palm Quest",
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Monk_Skill_Quest",
+		url = "https://wiki.arcadia-online.org/Monk_Skill_Quest/#excruciating-palm-quest",
 		type = USAGE_QUEST,
 	},
 	["LOVERS_QUEST"] = {
@@ -2041,9 +2037,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Alchemist/#potion-creation",
 		type = USAGE_INGREDIENT,
 	},
-	["HP_RECOVERY_WHILE_MOVING"] = {
+	["HP_RECOVERY_WHILE_MOVING_QUEST"] = {
 		id = 212,
-		name = "HP Recovery While Moving",
+		name = "HP Recovery While Moving Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -2114,7 +2110,7 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Guild#Guild_Creation",
+		url = "https://wiki.arcadia-online.org/Guild_System/#guild-creation",
 		type = USAGE_QUEST,
 	},
 	["600_IMMATERIAL_ARROW"] = {
@@ -2350,9 +2346,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Peace_for_Arunafeltz_Quest",
 		type = USAGE_QUEST,
 	},
-	["HOLY_LIGHT"] = {
+	["HOLY_LIGHT_QUEST"] = {
 		id = 245,
-		name = "Holy Light",
+		name = "Holy Light Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -2368,13 +2364,13 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Banish_Winter_Quest",
 		type = USAGE_QUEST,
 	},
-	["ENERGY_COAT"] = {
+	["ENERGY_COAT_QUEST"] = {
 		id = 247,
 		name = "Energy Coat",
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Magician/#quest-skills",
+		url = "https://wiki.arcadia-online.org/Magician_Skill_Quest/#energy-coat-quest",
 		type = USAGE_QUEST,
 	},
 	["MYSTIC_ROSE"] = {
@@ -2387,9 +2383,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5117",
 		type = USAGE_QUEST,
 	},
-	["SOUL_LINKER_JOB_CHANGE"] = {
+	["SOUL_LINKER_JOB_CHANGE_QUEST"] = {
 		id = 249,
-		name = "Soul Linker Job Change",
+		name = "Soul Linker Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -2435,6 +2431,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Fish_Cake_Soup_Quest",
 		type = USAGE_QUEST,
 	},
+
+	-- unused id 254
+
 	["BULB_BAND"] = {
 		id = 255,
 		name = "Headgear: ",
@@ -2514,15 +2513,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Create_Elemental_Converter",
 		type = USAGE_QUEST,
 	},
-	["CREATE_ELEMENTAL_CONVERTER"] = {
-		id = 263,
-		name = "Create Elemental Converter",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Sage_Skill_Quest",
-		type = USAGE_QUEST,
-	},
+
+	-- unused id 263
+
 	["FRIED_SCORPION_TAILS_LUK5"] = {
 		id = 264,
 		name = "Cooking: ",
@@ -2553,18 +2546,18 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5023",
 		type = USAGE_QUEST,
 	},
-	["SUPER_NOVICE_JOB_CHANGE_GUIDE"] = {
+	["SUPER_NOVICE_JOB_CHANGE_QUEST"] = {
 		id = 267,
-		name = "Super Novice Job Change Guide",
+		name = "Super Novice Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Super_Novice_Job_Change_Guide",
 		type = USAGE_QUEST,
 	},
-	["FIND_STONE"] = {
+	["PICK_STONE_QUEST"] = {
 		id = 268,
-		name = "Find Stone",
+		name = "Pick Stone Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -2606,12 +2599,12 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Homunculus#Types_of_Homunculus",
+		url = "https://wiki.arcadia-online.org/Homunculus_System/#what-is-a-homunculus",
 		type = USAGE_FOOD,
 	},
-	["STONE_FLING"] = {
+	["THROW_STONE_QUEST"] = {
 		id = 274,
-		name = "Stone Fling",
+		name = "Throw Stone Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -2634,7 +2627,7 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Homunculus#Types_of_Homunculus",
+		url = "https://wiki.arcadia-online.org/Homunculus_System/#what-is-a-homunculus",
 		type = USAGE_FOOD,
 	},
 	["8_STEEL_ARROW"] = {
@@ -2653,7 +2646,7 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Homunculus#Types_of_Homunculus",
+		url = "https://wiki.arcadia-online.org/Homunculus_System/#what-is-a-homunculus",
 		type = USAGE_FOOD,
 	},
 	["50_SILVER_ARROW"] = {
@@ -2705,9 +2698,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5018",
 		type = USAGE_QUEST,
 	},
-	["CART_CHANGE"] = {
+	["CHANGE_CART_QUEST"] = {
 		id = 284,
-		name = "Cart Change",
+		name = "Change Cart Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -2844,9 +2837,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Cooking/",
 		type = USAGE_INGREDIENT,
 	},
-	["BACK_SLIDE"] = {
+	["BACK_SLIDING_QUEST"] = {
 		id = 298,
-		name = "Back Slide",
+		name = "Back Sliding Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -2921,9 +2914,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5067",
 		type = USAGE_QUEST,
 	},
-	["SAND_ATTACK"] = {
+	["SAND_ATTACK_QUEST"] = {
 		id = 307,
-		name = "Sand Attack",
+		name = "Sand Attack Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -2971,6 +2964,7 @@ usage_tbl = {
 		type = USAGE_INGREDIENT,
 	},
 	["SEAL_QUEST_SLEIPNIR"] = {
+		-- placeholder, not implemented.
 		id = 312,
 		name = "Seal Quest - Sleipnir",
 		description = {
@@ -3026,7 +3020,7 @@ usage_tbl = {
 		},
 		itemId = 973,
 		url = "https://wiki.arcadia-online.org/Counteragent_and_Mixture_Quest",
-		type = USAGE_QUEST,
+		type = USAGE_INGREDIENT,
 	},
 	["MIXTURE"] = {
 		id = 318,
@@ -3036,7 +3030,7 @@ usage_tbl = {
 		},
 		itemId = 974,
 		url = "https://wiki.arcadia-online.org/Counteragent_and_Mixture_Quest",
-		type = USAGE_QUEST,
+		type = USAGE_INGREDIENT,
 	},
 	["HEADSET"] = {
 		id = 319,
@@ -3048,15 +3042,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5001",
 		type = USAGE_QUEST,
 	},
-	["DYE"] = {
-		id = 320,
-		name = "Dye",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Dye_Ingredients",
-		type = USAGE_QUEST,
-	},
+
+	-- unused id 320
+
 	["FASHIONABLE_GLASSES"] = {
 		id = 321,
 		name = "Headgear: ",
@@ -3154,7 +3142,7 @@ usage_tbl = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Refinement_System",
-		type = USAGE_QUEST,
+		type = USAGE_INGREDIENT,
 	},
 	["250_ORIDECON_ARROW"] = {
 		id = 332,
@@ -3192,7 +3180,7 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		url = "https://wiki.arcadia-online.org/Blacksmith/#forging-math",
 		type = USAGE_INGREDIENT,
 	},
 	["3_BONUS_ON_SUCCESS"] = {
@@ -3201,7 +3189,7 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		url = "https://wiki.arcadia-online.org/Blacksmith/#forging-math",
 		type = USAGE_INGREDIENT,
 	},
 	["5_BONUS_ON_SUCCESS"] = {
@@ -3210,7 +3198,7 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		url = "https://wiki.arcadia-online.org/Blacksmith/#forging-math",
 		type = USAGE_INGREDIENT,
 	},
 	["10_BONUS_ON_SUCCESS"] = {
@@ -3219,12 +3207,12 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging-materials",
+		url = "https://wiki.arcadia-online.org/Blacksmith/#forging-math",
 		type = USAGE_INGREDIENT,
 	},
 	["FIRE_ELEMENTAL_CHANGE"] = {
 		id = 339,
-		name = "Fire Elemental Change",
+		name = "Fire Elemental Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -3233,7 +3221,7 @@ usage_tbl = {
 	},
 	["SIGHT_BLASTER"] = {
 		id = 340,
-		name = "Sight Blaster",
+		name = "Sight Blaster Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -3262,7 +3250,7 @@ usage_tbl = {
 	},
 	["WATER_ELEMENTAL_CHANGE"] = {
 		id = 343,
-		name = "Water Elemental Change",
+		name = "Water Elemental Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -3281,7 +3269,7 @@ usage_tbl = {
 	},
 	["WIND_ELEMENTAL_CHANGE"] = {
 		id = 345,
-		name = "Wind Elemental Change",
+		name = "Wind Elemental Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -3310,7 +3298,7 @@ usage_tbl = {
 	},
 	["EARTH_ELEMENTAL_CHANGE"] = {
 		id = 348,
-		name = "Earth Elemental Change",
+		name = "Earth Elemental Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -3346,13 +3334,13 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Ore_Combining",
 		type = USAGE_QUEST,
 	},
-	["TAEKWON_MASTER_JOB_CHANGE_QUEST"] = {
+	["STAR_GLADIATOR_JOB_CHANGE_QUEST"] = {
 		id = 352,
-		name = "TaeKwon Master Job Change Quest",
+		name = "Star Gladiator Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/TaeKwon_Master_Job_Change_Guide",
+		url = "https://wiki.arcadia-online.org/Star_Gladiator_Job_Change_Guide/",
 		type = USAGE_QUEST,
 	},
 	["1800_FIRE_ARROW"] = {
@@ -3480,15 +3468,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Blacksmith/#weapon-forging",
 		type = USAGE_INGREDIENT,
 	},
-	["CHANGE_CART"] = {
-		id = 366,
-		name = "Change Cart",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Merchant_Skill_Quest",
-		type = USAGE_QUEST,
-	},
+
+	-- unused id 366
+
 	["100_IRON_ARROW"] = {
 		id = 367,
 		name = "Arrow-Crafting: ",
@@ -3613,7 +3595,7 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/First_Expanded_Change_Guides#Ninja",
+		url = "https://wiki.arcadia-online.org/Ninja_Job_Change_Guide/",
 		type = USAGE_QUEST,
 	},
 	["50_IRON_ARROW"] = {
@@ -3951,9 +3933,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
 		type = USAGE_INGREDIENT,
 	},
-	["MONK_JOB_CHANGE_GUIDE"] = {
+	["MONK_JOB_CHANGE_QUEST"] = {
 		id = 415,
-		name = "Monk Job Change Guide",
+		name = "Monk Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -4073,7 +4055,7 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Alchemist_Skill_Quest",
+		url = "https://wiki.arcadia-online.org/Alchemist_Skill_Quest/#bioethics-quest",
 		type = USAGE_QUEST,
 	},
 	["COWBOY_HAT"] = {
@@ -4335,25 +4317,11 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#5050",
 		type = USAGE_QUEST,
 	},
-	["BAPHOMET_HORNS"] = {
-		id = 454,
-		name = "Headgear: ",
-		description = {
-			"Click to open in wiki.",
-		},
-		itemId = 5374,
-		url = "https://wiki.arcadia-online.org/Sealed_Shrine_Quest#Rewards",
-		type = USAGE_QUEST,
-	},
-	["LAPHINE_CRAFTSMAN"] = {
-		id = 455,
-		name = "Laphine Craftsman",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Laphine_Craftsman",
-		type = USAGE_QUEST,
-	},
+
+	-- unused id 454
+
+	-- unused id 455
+
 	["30_STEEL_ARROW"] = {
 		id = 456,
 		name = "Arrow-Crafting: ",
@@ -4484,25 +4452,10 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
 		type = USAGE_INGREDIENT,
 	},
-	["100_ARROW_OF_SHADOW"] = {
-		id = 470,
-		name = "Arrow-Crafting: ",
-		description = {
-			"Click to open in wiki.",
-		},
-		itemId = 1767,
-		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
-		type = USAGE_INGREDIENT,
-	},
-	["TRIPATRIATE_UNION'S_FEUD"] = {
-		id = 471,
-		name = "Tripatriate Union's Feud",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Tripatriate_Union%27s_Feud",
-		type = USAGE_QUEST,
-	},
+
+	-- unused id 470
+	-- unused id 471
+
 	["1000_FIRE_ARROW"] = {
 		id = 472,
 		name = "Arrow-Crafting: ",
@@ -4582,15 +4535,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
 		type = USAGE_INGREDIENT,
 	},
-	["GOD_ITEM_COMPONENT_SLEIPNIR"] = {
-		id = 481,
-		name = "God Item Component - Sleipnir",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/God_Items_Quest#Ingredients",
-		type = USAGE_QUEST,
-	},
+
+	-- unused id 481
+
 	["150_FIRE_ARROW"] = {
 		id = 482,
 		name = "Arrow-Crafting: ",
@@ -4607,7 +4554,7 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Continental_Guard_Quest",
+		url = "https://wiki.arcadia-online.org/Continental_Guard_Quest_%28Resurrection_of_Satan_Morocc%29/",
 		type = USAGE_QUEST,
 	},
 	["100_FIRE_ARROW"] = {
@@ -5030,13 +4977,13 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
 		type = USAGE_INGREDIENT,
 	},
-	["100_POISON_ARROW"] = {
+	["100_SHADOW_ARROW"] = {
 		id = 528,
 		name = "Arrow-Crafting: ",
 		description = {
 			"Click to open in wiki.",
 		},
-		itemId = 1763,
+		itemId = 1767,
 		url = "https://wiki.arcadia-online.org/Arrow_Crafting/",
 		type = USAGE_INGREDIENT,
 	},
@@ -5076,7 +5023,7 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Homunculus#Evolution",
+		url = "https://wiki.arcadia-online.org/Homunculus_System/#evolution",
 		type = USAGE_QUEST,
 	},
 	["HIDE_N'_SEEK_QUEST"] = {
@@ -5133,9 +5080,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Dandelion's_Request",
 		type = USAGE_QUEST,
 	},
-	["ABYSS_LAKE_ENTRANCE_GUIDE"] = {
+	["ABYSS_LAKE_ENTRANCE_QUEST"] = {
 		id = 540,
-		name = "Abyss Lake Entrance Guide",
+		name = "Abyss Lake Entrance Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -5187,18 +5134,14 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Novice_Skill_Quest",
 		type = USAGE_QUEST,
 	},
-	["AUTO_BERSERK_QUEST"] = {
-		id = 548,
-		name = "Auto Berserk Quest",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Swordsman/#quest-skills",
-		type = USAGE_QUEST,
-	},
-	["MAGICIAN_JOB_CHANGE_GUIDE"] = {
+
+	-- unused space id 546
+	-- unused space id 547
+	-- unused space id 548
+
+	["MAGICIAN_JOB_CHANGE_QUEST"] = {
 		id = 549,
-		name = "Magician Job Change Guide",
+		name = "Magician Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -5214,15 +5157,11 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Magician_Training_Quest/",
 		type = USAGE_QUEST,
 	},
-	["CHARGE_ARROW_QUEST"] = {
-		id = 554,
-		name = "Charge Arrow Quest",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Archer_Skill_Quest",
-		type = USAGE_QUEST,
-	},
+
+	-- unused space id 552
+	-- unused space id 553
+	-- unused space id 554
+
 	["ARCHER_TRAINING_QUEST"] = {
 		id = 555,
 		name = "Archer Training Quest",
@@ -5232,9 +5171,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Archer_Training_Quest",
 		type = USAGE_QUEST,
 	},
-	["THIEF_JOB_CHANGE_GUIDE"] = {
+	["THIEF_JOB_CHANGE_QUEST"] = {
 		id = 559,
-		name = "Thief Job Change Guide",
+		name = "Thief Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -5250,15 +5189,9 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Thief_Training_Quest",
 		type = USAGE_QUEST,
 	},
-	["HOLY_LIGHT_QUEST"] = {
-		id = 561,
-		name = "Holy Light Quest",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Acolyte_Skill_Quest",
-		type = USAGE_QUEST,
-	},
+
+	-- unused id 561
+
 	["ACOLYTE_TRAINING_QUEST"] = {
 		id = 562,
 		name = "Acolyte Training Quest",
@@ -5268,36 +5201,36 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Acolyte_Training_Quest",
 		type = USAGE_QUEST,
 	},
-	["KNIGHT_JOB_CHANGE_GUIDE"] = {
+	["KNIGHT_JOB_CHANGE_QUEST"] = {
 		id = 563,
-		name = "Knight Job Change Guide",
+		name = "Knight Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Knight_Job_Change_Guide",
 		type = USAGE_QUEST,
 	},
-	["CRUSADER_JOB_CHANGE_GUIDE"] = {
+	["CRUSADER_JOB_CHANGE_QUEST"] = {
 		id = 565,
-		name = "Crusader Job Change Guide",
+		name = "Crusader Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Crusader_Job_Change_Guide",
 		type = USAGE_QUEST,
 	},
-	["WIZARD_JOB_CHANGE_GUIDE"] = {
+	["WIZARD_JOB_CHANGE_QUEST"] = {
 		id = 567,
-		name = "Wizard Job Change Guide",
+		name = "Wizard Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Wizard_Job_Change_Guide",
 		type = USAGE_QUEST,
 	},
-	["SAGE_JOB_CHANGE_GUIDE"] = {
+	["SAGE_JOB_CHANGE_QUEST"] = {
 		id = 569,
-		name = "Sage Job Change Guide",
+		name = "Sage Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
@@ -5313,105 +5246,73 @@ usage_tbl = {
 		url = "https://wiki.arcadia-online.org/Sage_Skill_Quest",
 		type = USAGE_QUEST,
 	},
-	["HUNTER_JOB_CHANGE_GUIDE"] = {
+	["HUNTER_JOB_CHANGE_QUEST"] = {
 		id = 571,
-		name = "Hunter Job Change Guide",
+		name = "Hunter Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Hunter_Job_Change_Guide",
 		type = USAGE_QUEST,
 	},
-	["BARD_JOB_CHANGE_GUIDE"] = {
+	["BARD_JOB_CHANGE_QUEST"] = {
 		id = 573,
-		name = "Bard Job Change Guide",
+		name = "Bard Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Bard_Job_Change_Guide",
 		type = USAGE_QUEST,
 	},
-	["DANCER_JOB_CHANGE_GUIDE"] = {
+	["DANCER_JOB_CHANGE_QUEST"] = {
 		id = 574,
-		name = "Dancer Job Change Guide",
+		name = "Dancer Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Dancer_Job_Change_Guide",
 		type = USAGE_QUEST,
 	},
-	["BLACKSMITH_JOB_CHANGE_GUIDE"] = {
+	["BLACKSMITH_JOB_CHANGE_QUEST"] = {
 		id = 575,
-		name = "Blacksmith Job Change Guide",
+		name = "Blacksmith Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Blacksmith_Job_Change_Guide",
 		type = USAGE_QUEST,
 	},
-	["ALCHEMIST_JOB_CHANGE_GUIDE"] = {
-		id = 577,
-		name = "Alchemist Job Change Guide",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Alchemist_Job_Change_Guide",
-		type = USAGE_QUEST,
-	},
+
+	-- unused id 576
+	-- unused id 577
+	-- unused id 578
+
 	["RESISTANCE_POTIONS_GUIDE_QUEST"] = {
 		id = 579,
 		name = "Resistance Potions Guide Quest",
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Alchemist_Skill_Quest",
+		url = "https://wiki.arcadia-online.org/Alchemist_Skill_Quest/#resistance-potions-guide-quest",
 		type = USAGE_QUEST,
 	},
-	["ROGUE_JOB_CHANGE_GUIDE"] = {
+	["ROGUE_JOB_CHANGE_QUEST"] = {
 		id = 580,
-		name = "Rogue Job Change Guide",
+		name = "Rogue Job Change Quest",
 		description = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Rogue_Job_Change_Guide",
 		type = USAGE_QUEST,
 	},
-	["GUNSLINGER_JOB_CHANGE_GUIDE"] = {
-		id = 582,
-		name = "Gunslinger Job Change Guide",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Gunslinger_Job_Change_Guide",
-		type = USAGE_QUEST,
-	},
-	["BACK_SLIDING_QUEST"] = {
-		id = 583,
-		name = "Back Sliding Quest",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Thief_Skill_Quest",
-		type = USAGE_QUEST,
-	},
-	["PICK_STONE_QUEST"] = {
-		id = 584,
-		name = "Pick Stone Quest",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Thief_Skill_Quest",
-		type = USAGE_QUEST,
-	},
-	["THROW_STONE_QUEST"] = {
-		id = 586,
-		name = "Throw Stone Quest",
-		description = {
-			"Click to open in wiki.",
-		},
-		url = "https://wiki.arcadia-online.org/Thief_Skill_Quest",
-		type = USAGE_QUEST,
-	},
+
+	-- unused id 581
+	-- unused id 582
+	-- unused id 583
+	-- unused id 584
+	-- unused id 585
+	-- unused id 586
+
 	["ATELIER_QUEST"] = {
 		id = 587,
 		name = "Atelier Quest",
@@ -5491,6 +5392,24 @@ usage_tbl = {
 			"Click to open in wiki.",
 		},
 		url = "https://wiki.arcadia-online.org/Venom_Splasher",
+		type = USAGE_SKILL,
+	},
+	["POTION_PITCHER_LEVEL_2"] = {
+		id = 596,
+		name = "Potion Pitcher Level 2",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Potion_Pitcher",
+		type = USAGE_SKILL,
+	},
+	["POTION_PITCHER_LEVEL_5"] = {
+		id = 597,
+		name = "Potion Pitcher Level 5",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Potion_Pitcher",
 		type = USAGE_SKILL,
 	},
 }

@@ -2650,3 +2650,7 @@ Needed in#
 https://wiki.arcadia-online.org/Usage_Information/#
 This item is needed in the following category: #
 This item is needed in the following categories: #
+Ignoring the loot on the ground has been disabled.#
+Ignoring the loot on the ground has been enabled.#
+Ignoring pets and homunculi has been disabled.#
+Ignoring pets and homunculi has been enabled.#
