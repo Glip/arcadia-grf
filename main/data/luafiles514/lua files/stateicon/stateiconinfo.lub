@@ -3,6 +3,7 @@ COLOR_TITLE_DEBUFF = { 250, 100, 100 }
 COLOR_TITLE_TOGGLE = { 190, 190, 250 }
 COLOR_SYSTEM = { 255, 255, 0 }
 COLOR_TIME = { 255, 176, 98 }
+COLOR_ARCADIA = { 102, 223, 195 }
 StateIconList = {}
 StateIconList[EFST_IDs.EFST_OVERTHRUSTMAX] = {
 	haveTimeLimit = 1,
@@ -559,8 +560,9 @@ StateIconList[EFST_IDs.EFST_HOVERING] = {
 }
 StateIconList[EFST_IDs.EFST_BENEDICTIO] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 1,
+	posTimeLimitStr = 2,
 	descript = {
+		{"B.S.S. - Holy Armor", COLOR_TITLE_BUFF},
 		{"%s", COLOR_TIME},
 		{"Enchants Armor with Holy Property"}
 	}
@@ -928,7 +930,8 @@ StateIconList[EFST_IDs.EFST_PROVIDENCE] = {
 		{"Resistant Souls", COLOR_TITLE_BUFF},
 		{"%s", COLOR_TIME},
 		{"Increased resistance"},
-		{"to undead and demon monsters"}
+		{"to holy attacks"},
+		{"and demon monsters"}
 	}
 }
 StateIconList[EFST_IDs.EFST_FIGHTINGSPIRIT] = {
@@ -2667,7 +2670,7 @@ StateIconList[EFST_IDs.EFST_EXTREMITYFIST] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{"Asura Strike (Guillotine Fist)", COLOR_TITLE_DEBUFF},
+		{"Asura Strike", COLOR_TITLE_DEBUFF},
 		{"%s", COLOR_TIME},
 		{"SP recovery is disabled"}
 	}
@@ -3901,4 +3904,239 @@ StateIconList[EFST_IDs.EFST_LULLABY] = {
 		{"depending on INT, and resistance."}
 	}
 }
+StateIconList[EFST_IDs.EFST_GOSPEL_MAIN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Gospel", COLOR_TITLE_BUFF},
+		{"%s", COLOR_TIME},
+		{"Random buffs on allies."},
+		{"Random debuffs on enemies."},
+		{"Unable to move."}
+	}
+}
+StateIconList[EFST_IDs.EFST_GOSPEL_SCRES] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Gospel - Immunity", COLOR_ARCADIA},
+		{"%s", COLOR_TIME},
+		{"Immunity to all"},
+		{"status ailments."}
+	}
+}
+StateIconList[EFST_IDs.EFST_GOSPEL_INCMHP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Gospel - HP", COLOR_ARCADIA},
+		{"%s", COLOR_TIME},
+		{"Doubles HP."}
+	}
+}
+StateIconList[EFST_IDs.EFST_GOSPEL_INCMSP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Gospel - SP", COLOR_ARCADIA},
+		{"%s", COLOR_TIME},
+		{"Doubles SP."}
+	}
+}
+StateIconList[EFST_IDs.EFST_GOSPEL_INCALLSTAT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Gospel - STATS", COLOR_ARCADIA},
+		{"%s", COLOR_TIME},
+		{"+20 ALL STATS."}
+	}
+}
+StateIconList[EFST_IDs.EFST_GOSPEL_INCHIT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Gospel - HIT", COLOR_ARCADIA},
+		{"%s", COLOR_TIME},
+		{"+50 HIT."}
+	}
+}
+StateIconList[EFST_IDs.EFST_GOSPEL_INCFLEE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Gospel - FLEE", COLOR_ARCADIA},
+		{"%s", COLOR_TIME},
+		{"+50 FLEE on allies."},
+		{"-100% FLEE on enemies."}
+	}
+}
+StateIconList[EFST_IDs.EFST_GOSPEL_INCDEFRATE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Gospel - DEF", COLOR_ARCADIA},
+		{"%s", COLOR_TIME},
+		{"+25% Hard DEF on allies."},
+		{"-100% DEF on enemies."}
+	}
+}
+StateIconList[EFST_IDs.EFST_GOSPEL_INCATKPER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Gospel - ATK", COLOR_ARCADIA},
+		{"%s", COLOR_TIME},
+		{"+100% ATK on allies."},
+		{"-100% ATK on enemies."}
+	}
+}
+StateIconList[EFST_IDs.EFST_POISONED] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Poison", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
+		{"Unable to regen HP/SP."},
+		{"DEF is reduced."},
+		{"HP is slowly reduced."}
+	}
+}
+StateIconList[EFST_IDs.EFST_SILENCED] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Silence", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
+		{"Blocks usage of skills."}
+	}
+}
+StateIconList[EFST_IDs.EFST_BERSERK] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Berserk", COLOR_TITLE_BUFF},
+		{"%s", COLOR_TIME},
+		{"-5% HP every 15 secs."},
+		{"Blocks items, skills,"},
+		{"chats and regeneration."}
+	}
+}
+StateIconList[EFST_IDs.EFST_MIRACLE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Miracle", COLOR_TITLE_BUFF},
+		{"%s", COLOR_TIME},
+		{"Warmth and Protection"},
+		{"can be cast in the map."},
+		{"All Stellar effects are global."}
+	}
+}
 
+StateIconList[EFST_IDs.EFST_SAFETYWALL] = {
+	descript = {
+		{"Safety Wall", COLOR_TITLE_BUFF},
+		{"Protected from melee hits."},
+	}
+}
+StateIconList[EFST_IDs.EFST_PNEUMA] = {
+	descript = {
+		{"Pneuma", COLOR_TITLE_BUFF},
+		{"Protected from ranged hits."},
+	}
+}
+StateIconList[EFST_IDs.EFST_SACRIFICE] = {
+	descript = {
+		{"Sacrifice", COLOR_TITLE_BUFF},
+		{"Next 5 normal attacks"},
+		{"will be enchanted."}
+	}
+}
+StateIconList[EFST_IDs.EFST_MAGICAMPL] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Mystical Amplification", COLOR_TITLE_BUFF},
+		{"Next skill has increased"},
+		{"magical damage."}
+	}
+}
+StateIconList[EFST_IDs.EFST_FROZEN] = {
+	descript = {
+		{"Frozen", COLOR_TITLE_DEBUFF},
+		{"You cannot act."},
+		{"Ice is not always nice."},
+		{"FLEE reduced to 0."},
+		{"Hard-MDEF increased by 25%."}
+	}
+}
+StateIconList[EFST_IDs.EFST_STUNNED] = {
+	descript = {
+		{"Stunned", COLOR_TITLE_DEBUFF},
+		{"You cannot act."},
+		{"FLEE reduced to 0."}
+		
+	}
+}
+StateIconList[EFST_IDs.EFST_SLEPT] = {
+	descript = {
+		{"Sleeping", COLOR_TITLE_DEBUFF},
+		{"Vewy eepy."},
+		{"You cannot act."},
+		{"Enemy CRIT doubled."},
+		{"FLEE reduced to 0."}
+	}
+}
+StateIconList[EFST_IDs.EFST_CURSED] = {
+	descript = {
+		{"Cursed", COLOR_TITLE_DEBUFF},
+		{"Mov. Speed reduced."},
+		{"ATK reduced by 25%."},
+		{"LUK reduced to 0."}
+	}
+}
+StateIconList[EFST_IDs.EFST_CONFUSED] = {
+	descript = {
+		{"Confused", COLOR_TITLE_DEBUFF},
+		{"Movement is randomized."}
+	}
+}
+StateIconList[EFST_IDs.EFST_BLINDED] = {
+	descript = {
+		{"Blinded", COLOR_TITLE_DEBUFF},
+		{"-25% HIT and FLEE."}
+	}
+}
+StateIconList[EFST_IDs.EFST_SCARED] = {
+	descript = {
+		{"Scared", COLOR_TITLE_DEBUFF},
+		{"Unable to act."}
+	}
+}
+StateIconList[EFST_IDs.EFST_PETRIFIED] = {
+	descript = {
+		{"Stone Cursed", COLOR_TITLE_DEBUFF},
+		{"Unable to act."},
+		{"Armor turns Earth Property"},
+		{"FLEE reduced to 0."},
+		{"MDEF increased by 25%."}
+	}
+}
+StateIconList[EFST_IDs.EFST_PROPERTYUNDEAD2] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Undead Armor", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
+		{"Enchants Armor with Undead Property"}
+	}
+}
+StateIconList[EFST_IDs.EFST_FOGWALL2] = {
+	descript = {
+		{"Blinding Mist", COLOR_TITLE_BUFF},
+		{"Blinds enemies."},
+		{"Single-Target skills"},
+		{"have a 75% chance to fail."}
+	}
+}

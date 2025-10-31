@@ -88,6 +88,7 @@ MsgStrID = {
 	MSI_HK_EQUIPSETWND = "Equipment Sets",
 	MSI_HK_RESTOCKWND = "Restocking Window",
 	MSI_HK_GAME_SETTINGWND = "Game Setting Window",
+	MSI_HK_SMART_PARTY_FRIEND_ONOFF = "Party/Friend List On/Off",
 	-- Hotkey_3 (Macros)
 	MSI_HK_MACRO_1 = "Shortcut 1",
 	MSI_HK_MACRO_2 = "Shortcut 2",

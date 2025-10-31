@@ -223,22 +223,22 @@ map_list = {
 			{name = "In front of Thanatos Tower"}
 		}
 	},
---	{
---		name = "Rachel",
---		list = {
---			{name = "Audumra Grass Land"},
---			{name = "Ida Plane", colorR = 255, colorG = 0, colorB = 0},
---			{name = "Fortu Luna", colorR = 255, colorG = 0, colorB = 0},
---			{name = "Freya's Sacred Precinct F1 (North)"}, --Freya's Sacred Precinct F1
---			{name = "Freya's Sacred Precinct F2 (West)"}, --Freya's Sacred Precinct F2
---			{name = "Freya's Sacred Precinct F3 (East)"}, --Freya's Sacred Precinct F3
---			{name = "Freya's Sacred Precinct F4 (South)"}, --Freya's Sacred Precinct F4
---			{name = "Freya's Sacred Precinct F5 (Center)", colorR = 255, colorG = 0, colorB = 0}, --Freya's Sacred Precinct F5
---			{name = "Ice Cave F1"},
---			{name = "Ice Cave F2"},
---			{name = "Ice Cave F3"}
---		}
---	},
+	{
+		name = "Rachel",
+		list = {
+			{name = "Audumra Grass Land"},
+			{name = "Ida Plane", colorR = 255, colorG = 0, colorB = 0},
+			{name = "Fortu Luna", colorR = 255, colorG = 0, colorB = 0},
+			{name = "Freya's Sacred Precinct F1 (North)"}, --Freya's Sacred Precinct F1
+			{name = "Freya's Sacred Precinct F2 (West)"}, --Freya's Sacred Precinct F2
+			{name = "Freya's Sacred Precinct F3 (East)"}, --Freya's Sacred Precinct F3
+			{name = "Freya's Sacred Precinct F4 (South)"}, --Freya's Sacred Precinct F4
+			{name = "Freya's Sacred Precinct F5 (Center)", colorR = 255, colorG = 0, colorB = 0}, --Freya's Sacred Precinct F5
+			{name = "Ice Cave F1"},
+			{name = "Ice Cave F2"},
+			{name = "Ice Cave F3"}
+		}
+	},
 --	{
 --		name = "Veins",
 --		list = {

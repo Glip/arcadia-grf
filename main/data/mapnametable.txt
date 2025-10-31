@@ -1145,3 +1145,6 @@ val25_map01.rsw#Noble's Kitchen#
 val25_map02.rsw#Barrington's Mansion#
 val25_map03.rsw#Old Lady's House#
 val25_map04.rsw#Alberta's Shop#
+fline_in01.rsw#Harbor's Haven#
+atl_dun01.rsw#Atelier Dungeon#
+s_cat_bar.rsw#Katzenklo Café#

@@ -121,7 +121,7 @@ malayaQuest_List = {
 				^0000FFCost : 1,200z^000000 <T> <\end> 
 				<T> <\end>
 				^0000FFINTERNATIONAL ROUTE^000000 : <T> <\end>
-				Juno -> Rachel (disabled) -> ^FF0000Izlude^000000]],
+				Juno -> Rachel -> ^FF0000Izlude^000000]],
 				QuickInfo  = [[]],
 				Hunt1 = [[]],
 				Hunt2 = [[]],
@@ -147,7 +147,33 @@ malayaQuest_List = {
 				^0000FFCost : 1,200z^000000 <T> <\end> 
 				<T> <\end>
 				^0000FFINTERNATIONAL ROUTE^000000 : <T> <\end>
-				^FF0000Juno^000000 -> Rachel (disabled) -> Izlude]],
+				^FF0000Juno^000000 -> Rachel -> Izlude]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+		[14206] = {
+				NPCFromName = [[Airship Staff]],
+				NPCFromMap = [[ra_fild12]],
+				NPCFromSpr = [[4_F_02]],
+				NPCFromX = 293,
+				NPCFromY = 206,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[Monsters may occasionally attack this route.]],
+				PrizeItem = [[]],
+				Title = [[Rachel Airship]],
+				Info = [[A flying vessel traversing the skies. <T> <\end>
+				^0000FFCost : 1,200z^000000 <T> <\end> 
+				<T> <\end>
+				^0000FFINTERNATIONAL ROUTE^000000 : <T> <\end>
+				Juno -> ^FF0000Rachel^000000 -> Izlude]],
 				QuickInfo  = [[]],
 				Hunt1 = [[]],
 				Hunt2 = [[]],

@@ -630,7 +630,7 @@ Signum Crusis initiated.#
 Signum Crusis canceled.#
 Slow Poison initiated.#
 Slow Poison canceled.#
-HP/SP recovery increased.#
+SP recovery increased.#
 Magnificat canceled.#
 Luck increased.#
 Gloria canceled.#
@@ -2632,7 +2632,7 @@ Demon#
 Demi-Human#
 Angel#
 Dragon#
-A scholar is in dire need of assistance as he struggles to find any documents or texts regarding the eras in which King Grenholm von Gaebolg and its predecessor, King von Schmitz Walter, ruled Rune Midgard.                                                     As adventurers aid in the search, they find themselves meeting the wise sage Mimir, who apparently has the ability to create rifts through time.                                                                            To discover the truth behind lost history, you'll find yourself traveling to the older days of Rune Midgard and experiencing the past firsthand as you play a critical role in investigating who's behind the assassination attempts on the king and try to find how to prevent the culprits from succeeding.#
+Religion became central and foremost in the hearts and minds of the people, naturally merging with Arunafeltz culture and government. As a result, Rachel developed into a major, influential city.                                                     A temple, designed by Nemma and Panno's Alchemist ancestors who traveled from Rune-Midgarts on a religious pilgrimage, becomes available for exploration by doing the Rachel Sanctuary Quest.                                                                            Another welcome challenge for adventurers might be the Ice Cave which is inhabited by Ktullanux and other ice elemental monsters.#
 To add an item, drag and drop from any window containing items. To remove one, drop it to the floor.#
 How many one wants to have at all times inside their inventory.#
 How many one wants to have at most inside any type of storage.#
@@ -2654,3 +2654,8 @@ Ignoring the loot on the ground has been disabled.#
 Ignoring the loot on the ground has been enabled.#
 Ignoring pets and homunculi has been disabled.#
 Ignoring pets and homunculi has been enabled.#
+Rename Guild#
+Guild names can only be changed from Monday to Thursday.#
+Not a valid name or taken already. Please choose another.#
+Guild name change has been queued successfully.#
+The name of a guild leader can only be changed from Monday to Thursday.#

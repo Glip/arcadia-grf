@@ -1028,3 +1028,8 @@ val25_map01.rsw#bgm\\142.mp3#
 val25_map02.rsw#bgm\\177.mp3#
 val25_map03.rsw#bgm\\197.mp3#
 val25_map04.rsw#bgm\\199.mp3#
+
+//Episode 12 - Extras
+fline_in01.rsw#bgm\\b23.mp3#
+atl_dun01.rsw#bgm\\92.mp3#
+s_cat_bar.rsw#bgm\\b24.mp3#

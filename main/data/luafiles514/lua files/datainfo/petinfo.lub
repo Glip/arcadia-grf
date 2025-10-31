@@ -63,7 +63,8 @@ PetIllustNameTable = {
 	[jobtbl.JT_DOMOVOI] = "Æê_µµ¸ðºÛÀÌ.bmp",
 	[jobtbl.JT_LITTLE_PORING] = "Æê_LITTLE_PORING.bmp",
 	[jobtbl.JT_ECLIPSE_F] = "PET_ECLIPSE_F.bmp",
-	[jobtbl.JT_SCATLETON] = "PET_MIU.bmp"
+	[jobtbl.JT_SCATLETON] = "PET_MIU.bmp",
+	[jobtbl.JT_DUCKLING] = "PET_DUCKLING.bmp"
 }
 PetIllustNameTable_Eng = {
 	[jobtbl.JT_BAPHOMET_] = "PET_BAPHOMET.bmp",
@@ -130,7 +131,8 @@ PetIllustNameTable_Eng = {
 	[jobtbl.JT_DOMOVOI] = "PET_DOMOVOI.bmp",
 	[jobtbl.JT_LITTLE_PORING] = "PET_LITTLE_PORING.bmp",
 	[jobtbl.JT_ECLIPSE_F] = "PET_ECLIPSE_F.bmp",
-	[jobtbl.JT_SCATLETON] = "PET_MIU.bmp"
+	[jobtbl.JT_SCATLETON] = "PET_MIU.bmp",
+	[jobtbl.JT_DUCKLING] = "PET_DUCKLING.bmp"
 }
 PetAccIDs = {
 	ACC_FIRST = 10000,

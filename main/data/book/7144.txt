@@ -79,7 +79,7 @@ Process: Pour honey and alcohol into a medicine
 bowl, and stir the mixture. Slowly add a small amount
 of water while continuing to stir the mixture. If you suspect
 the lack of aloe in this procedure, then think carefully about
-why you’re an alchemist, and what you can do with alchemy
+why you're an alchemist, and what you can do with alchemy
 (the correct answer is skip ingredients). You must keep this
 book with you as a reference while you use the Prepare Potion
 skill to pour the resulting solution in an empty bottle.

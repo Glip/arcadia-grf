@@ -41,16 +41,11 @@ LOCAL_MalayaQuest_List = {
 						scrfilename = [[malayaQuest]],
 						questID = 14205,
 					},
---					{
---						name =[[(Disabled) Rachel]],
---						scrfilename = [[malayaQuest]],
---						questID = 20001,
---					},
---					{
---						name =[[(Disabled) Veins]],
---						scrfilename = [[malayaQuest]],
---						questID = 20001,
---					},
+					{
+						name =[[Rachel]],
+						scrfilename = [[malayaQuest]],
+						questID = 14206,
+					},
 				}
 			},
 		},

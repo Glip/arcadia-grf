@@ -223,22 +223,22 @@ map_list = {
 			{name = MsgStrID.MSI_MAP_LIST_NAME_HU_FILD01}
 		}
 	},
---	{
---		name = MsgStrID.MSI_MAP_LIST_NAME_RAHEL,
---		list = {
---			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_FILD01},
---			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_FILD03, colorR = 255, colorG = 0, colorB = 0},
---			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_FILD06, colorR = 255, colorG = 0, colorB = 0},
---			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN01},
---			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN02},
---			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN03},
---			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN04},
---			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN05, colorR = 255, colorG = 0, colorB = 0},
---			{name = MsgStrID.MSI_MAP_LIST_NAME_ICE_DUN01},
---			{name = MsgStrID.MSI_MAP_LIST_NAME_ICE_DUN02},
---			{name = MsgStrID.MSI_MAP_LIST_NAME_ICE_DUN03}
---		}
---	},
+	{
+		name = MsgStrID.MSI_MAP_LIST_NAME_RAHEL,
+		list = {
+			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_FILD01},
+			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_FILD03, colorR = 255, colorG = 0, colorB = 0},
+			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_FILD06, colorR = 255, colorG = 0, colorB = 0},
+			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN01},
+			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN02},
+			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN03},
+			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN04},
+			{name = MsgStrID.MSI_MAP_LIST_NAME_RA_SAN05, colorR = 255, colorG = 0, colorB = 0},
+			{name = MsgStrID.MSI_MAP_LIST_NAME_ICE_DUN01},
+			{name = MsgStrID.MSI_MAP_LIST_NAME_ICE_DUN02},
+			{name = MsgStrID.MSI_MAP_LIST_NAME_ICE_DUN03}
+		}
+	},
 --	{
 --		name = MsgStrID.MSI_MAP_LIST_NAME_VEINS,
 --		list = {

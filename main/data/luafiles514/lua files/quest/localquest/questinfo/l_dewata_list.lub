@@ -473,6 +473,68 @@ DewataQuest_List = {
 				Time = [[]],
 				LV = [[0]],
 			},
+		[14056] = {
+				NPCFromName = [[R. Banner]],
+				NPCFromMap = [[pro_fild01]],
+				NPCFromSpr = [[1_FLAG_LION]],
+				NPCFromX = 97,
+				NPCFromY = 152,
+				NPCToName = [[Lady Erinna]],
+				NPCToMap = [[pro_fild01]],
+				NPCToSpr = [[4_F_CRU]],
+				NPCToX = 95,
+				NPCToY = 149,
+				Item = [[
+				- To be able to enter the Dungeon requires having done the ^FF0000Sideworld Entrance Quest (until Step 8)^000000 and 1 < image = "40180">Recruitment Badge<\end> per character. <T> <\end>
+				- Recruitment Badges can be bought via NPC Lady Erinna for 10,000 Zeny by having achieved the S-Rank in the Atelier Richelle Questline or by trade with a player who has achieved the S-Rank.<T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Atelier Dungeon]],
+				Info = [[
+				Talk to the ^FF0000Recruitment Banner^000000 to enter the Dungeon.  <T> <\end>
+				Be aware, you can only see the Banner NPC while having a ^FF0000Recruitment Badge^000000 in your inventory.<T> <\end>
+				^0000FFResult^000000 : <T> <\end>
+				- Access to the Atelier Dungeon.<T> <\end>
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},	
+		[14057] = {
+				NPCFromName = [[Nemma]],
+				NPCFromMap = [[ra_temple]],
+				NPCFromSpr = [[4_F_TRAINEE]],
+				NPCFromX = 116,
+				NPCFromY = 174,
+				NPCToName = [[Vincent]],
+				NPCToMap = [[ra_in01]],
+				NPCToSpr = [[1_M_01]],
+				NPCToX = 384,
+				NPCToY = 246,
+				Item = [[
+				Character must be at least level 60+ and finish the ^0000FFLost Child Quest^000000. <T> <\end>
+				For the Lost Child Quest, talk to Vincent, on the second floor of the mansion, in Rachel. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Rachel Sanctuary]],
+				Info = [[
+				Talk to Nemma. <T> <\end>
+				She'll complain about the locking mechanism on the Rachel gates. <T> <\end>
+				You'll need to investigate the situation. <T> <\end>
+				^0000FFReward^000000 : <T> <\end>
+				 - Entrance to Sesshumir, Rachel's Dungeon. <T> <\end>
+				]],
+				QuickInfo  = [[]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+			},
+
 		[14070] = { 
 				NPCFromName = [[Informational]],
 				NPCFromMap = [[]],
@@ -1387,6 +1449,220 @@ DewataQuest_List = {
 				 - Shop with peculiar items. <T> <\end>
 				 - Two types of headgears. <T> <\end>
 				 - Restoratives. <T> <\end>
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14058] = {
+				NPCFromName = [[Entrance]],
+				NPCFromMap = [[ra_fild01]],
+				NPCFromSpr = [[2_BOARD2]], 
+				NPCFromX = 233,
+				NPCFromY = 333,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[]],
+				PrizeItem = [[]],
+				Title = [[Ice Cave]],
+				Info = [[
+				The Ice Cave is a cave inhabited by Ktullanux and other ice elemental monsters. <T> <\end>
+				To challenge these inhabitants, you can find the entrance of their dungeon north of Rachel Field. <T> <\end>
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14059] = {
+				NPCFromName = [[Captain Janssen]],
+				NPCFromMap = [[alberta]],
+				NPCFromSpr = [[4_M_SEAMAN]],
+				NPCFromX = 214,
+				NPCFromY = 77,
+				NPCToName = [[Barkadia]],
+				NPCToMap = [[alberta]],
+				NPCToSpr = [[ENCY_BARKADIA]],
+				NPCToX = 215,
+				NPCToY = 80,
+				Item = [[
+				After every 25th floor, the party leader will recieve an ^7744ffEndless Tower Ticket^000000 in their inventory. <T> <\end>
+				The Ticket(s) can be exchanged for an ^7744ffArcadia^000000 Box by talking to Barkadia. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Endless Tower]],
+				Info = [[
+				Talk to the NPC to access the Tower. It has a set of challenges with increasing difficulty. <T> <\end>
+				Participating parties make their way up the 100 floor tower, with a special boss encounter against Entweihter Knochen on the 100th floor, and Naght Sieger afterwards. <T> <\end>
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14060] = {
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[2_BULLETIN_BOARD]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				You can find a little more information about it in our Wiki. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Custom Skins]],
+				Info = [[
+				Now you are able to change your cursor to make it more visible (or just cuter), depending on your needs. <T> <\end>
+				- ^7744ffThis is tied to the Custom Skin:^000000 ..\gamedata\skin\<your_custom_skin> <T> <\end>
+				- The cursor files are called ^7744ffcursor.act^000000 & ^7744ffcursor.spr^000000 <T> <\end>
+				- ^7744ffThey go into:^000000 ..\gamedata\skin\<your_custom_skin>\basic_interface <T> <\end>
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14061] = {
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[2_BULLETIN_BOARD]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				You are able to read about further information about it in our wiki. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Job Related Changes]],
+				Info = [[
+				Some Job Classes have been updated. <T> <\end>
+				For example, the ASPD modifier for Priest Classes wearing Knuckles is now normalized. <T> <\end>
+				In addition, some Skills have been adapted, such as the Venom Splash from Assassin Classes. <T> <\end>
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14062] = {
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[2_BULLETIN_BOARD]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				Further details and info about other items can be found in our Wiki. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Gears and Consumables]],
+				Info = [[
+				Costumes, actual hats, gears and other items have been diligently picked and adjusted by the staff. <T> <\end>
+				From top, mid and bottom headgear, to elemental magic weapons to new cosumables. <T> <\end>
+				To name a few: the ^7744ffPirate Dagger,^000000 the ^7744ffGezeitenschwert^000000 and ^7744ffTimeless Butterfly Wing^000000 are available in game now. <T> <\end>
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14063] = {
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[2_BOARD2]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				Discover for yourself or find out more with the help of our Wiki. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Fishing]],
+				Info = [[
+				New fishing baits and improved treasures will be available for you to discover. <T> <\end>
+				There're also whispers out there about ^7744ffFisherline Ranks^000000 in a bar in Comodo Pharos Beacon. <T> <\end>
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14064] = {
+				NPCFromName = [[Informational]],
+				NPCFromMap = [[]],
+				NPCFromSpr = [[2_BULLETIN_BOARD]],
+				NPCFromX = 0,
+				NPCFromY = 0,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				The list goes on... More info in the Patch Notes and our Wiki. <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[Additions]],
+				Info = [[
+				- A ^7744ffnew Storage Tab^000000 has been added which holds all your ^7744ffCostumes^000000 from now on <T> <\end>
+				- Also several new ^7744ff(De)Buff Icons^000000 have been implemented, e.g. Gospel effect, Pneuma, Miracle and many more <T> <\end>
+				- ^7744ffBullets^000000 have been added as well to their dealers, as well as their ^7744ffboxes^000000 <T> <\end>
+				- The Kafra's Reward Points System has been updated ^7744ff(more categories and better rewards)^000000.<T> <\end>
+				]],
+				Hunt1 = [[]],
+				Hunt2 = [[]],
+				Hunt3 = [[]],
+				Time = [[]],
+				LV = [[0]],
+		},
+		[14301] = {
+				NPCFromName = [[Soonya]],
+				NPCFromMap = [[prontera]],
+				NPCFromSpr = [[soonya]],
+				NPCFromX = 156,
+				NPCFromY = 194,
+				NPCToName = [[]],
+				NPCToMap = [[]],
+				NPCToSpr = [[]],
+				NPCToX = 0,
+				NPCToY = 0,
+				Item = [[
+				Reward: <T> <\end>
+				< image = "30585"> ^7744ffSoon o'Clock Costume^000000 <T> <\end>
+				]],
+				PrizeItem = [[]],
+				Title = [[1 Year Anniversary]],
+				Info = [[
+				Talk to Soonya. <T> <\end>
+				And answer the ^7744ff3 questions^000000 by picking the obvious choices. <T> <\end>
 				]],
 				Hunt1 = [[]],
 				Hunt2 = [[]],

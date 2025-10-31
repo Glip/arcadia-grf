@@ -105,6 +105,64 @@ LOCAL_DewataQuest_List = {
 }
 
 LOCAL_ArcadiaQuest_List = {
+
+	{
+		name = [[ ]],
+		imagefile = [[episode_12.bmp]],
+		list = {
+			{
+				name  =	[[The Sacred Precinct]],
+				list = {
+					{
+						name =[[Rachel Sanctuary]],
+						scrfilename = [[DewataQuest]],
+						questID = 14057,
+					},
+					{
+						name =[[Ice Cave]],
+						scrfilename = [[DewataQuest]],
+						questID = 14058,
+					},
+					{
+						name =[[Endless Tower]],
+						scrfilename = [[DewataQuest]],
+						questID = 14059,
+					},
+				}
+			},
+			{
+				name  =	[[Improvements]],
+				list = {
+					{
+						name =[[Custom Skins]],
+						scrfilename = [[DewataQuest]],
+						questID = 14060,
+					},
+					{
+						name =[[Job Related Changes]],
+						scrfilename = [[DewataQuest]],
+						questID = 14061,
+					},
+					{
+						name =[[Gears and Consumables]],
+						scrfilename = [[DewataQuest]],
+						questID = 14062,
+					},
+					{
+						name =[[Fishing]],
+						scrfilename = [[DewataQuest]],
+						questID = 14063,
+					},
+					{
+						name =[[Additions]],
+						scrfilename = [[DewataQuest]],
+						questID = 14064,
+					},
+				}
+			},
+		
+		}, 
+	},
 	{
 		name = [[ ]],
 		imagefile = [[sideworld_button.bmp]],
@@ -141,6 +199,11 @@ LOCAL_ArcadiaQuest_List = {
 						name =[[Atelier Richelle]],
 						scrfilename = [[DewataQuest]],
 						questID = 14055,
+					},
+					{
+						name =[[Atelier Dungeon]],
+						scrfilename = [[DewataQuest]],
+						questID = 14056,
 					},
 				}
 			},
@@ -340,6 +403,23 @@ LOCAL_ArcadiaQuest_List = {
 }
 
 LOCAL_ArcEvtQuest_List = {
+-- First Aniversary --
+	{
+		name = [[ ]],
+		imagefile = [[1_year_anniversay.bmp]],
+		list = {
+			{
+				name  =	[[1 Year Anniversary]],
+				list = {
+					{
+						name =[[Meet Soonya]],
+						scrfilename = [[DewataQuest]],
+						questID = 14301,
+					},
+				}
+			},
+		}, 	
+	},
 -- Valentine 2025 --
 	{
 		name = [[ ]],
@@ -406,6 +486,6 @@ LOCAL_ArcEvtQuest_List = {
 					},
 				}
 			},
-		}, 
+		},
 	},
 }

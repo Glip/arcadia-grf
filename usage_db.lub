@@ -1,8 +1,27 @@
-USAGE_NONE       = 0  -- reserved
-USAGE_QUEST      = 1
-USAGE_INGREDIENT = 2
-USAGE_SKILL      = 4
-USAGE_FOOD       = 8
+-- types of usage:
+USAGE_NONE       = 0 -- reserved
+USAGE_QUEST      = 1 -- for all types of quests, including headgear quests.
+USAGE_INGREDIENT = 2 -- for all types of crafting ingredients, including potting, cooking, atelier, etc.
+USAGE_SKILL      = 4 -- calalyst of skill (arrows, gemstones etc) NOT as requirement for obtaining quest skill.
+USAGE_FOOD       = 8 -- Homunculus and Pet food items.
+
+-- !!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!
+-- !!!!!! READ this example entry carefully before adding new entries !!!!!!!:
+-- !!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!
+-- example entry
+-- ["CONSTANT_IN_CAPITAL_SNAKE_CASE_FOR_USE_IN_ITEM_INFO_USAGES_LISTS"] = {
+--		id = <sequential ID>,
+--		name = "<name of quest>", -- in the case of USAGE_INGREDIENT, USAGE_QUEST, etc. where the thing produced is an item, you HAVE to provide an itemID
+--      -- name of the resulting item will be *automagically* appended to the name field, so just put a prefix like "Cooking: ", "Potting: ", "Headhear : ", etc.
+--      -- NEVER EVER write an item name into the name field directly, since names are bound to change. Use the itemID field instead and let it append automagically.
+--		description = {
+--			"Click to open in wiki.",
+--			"can have multiple lines.",
+--		},
+--		url = "<link to wiki page>",
+---		itemId = <item ID of resulting item, if applicable, otherwise omit this line>,
+--		type = <types of  usage, see above>,
+--	},
 
 usage_tbl = {
 	["ALBERTA_BOY"] = {
@@ -5411,5 +5430,222 @@ usage_tbl = {
 		},
 		url = "https://wiki.arcadia-online.org/Potion_Pitcher",
 		type = USAGE_SKILL,
+	},
+	["COMODO_GAMBLING"] = {
+		id = 598,
+		name = "Comodo Gambling",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Comodo_Gambling_%28Kachua%29/",
+		type = USAGE_QUEST,
+	},
+	["MONSTER_RACE"] = {
+		id = 599,
+		name = "Hugel's Monster Race",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Hugel_Minigames/#monster-races",
+		type = USAGE_QUEST,
+	},
+	["ENDLESS_TOWER"] = {
+		id = 600,
+		name = "Endless Tower",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Endless_Tower/",
+		type = USAGE_QUEST,
+	},
+	["ANCIENT_ELVEN_EARS"] = {
+		id = 601,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#40189",
+		itemId = 40189,
+		type = USAGE_QUEST,
+	},
+	["BLANK_EYES"] = {
+		id = 602,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30506",
+		itemId = 30506,
+		type = USAGE_QUEST,
+	},
+	["BOLT_EARS"] = {
+		id = 603,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30505",
+		itemId = 30505,
+		type = USAGE_QUEST,
+	},
+	["DRAGON_HELM"] = {
+		id = 604,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30478",
+		itemId = 30478,
+		type = USAGE_QUEST,
+	},
+	["EMPEROR_LAUREL"] = {
+		id = 605,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30282",
+		itemId = 30282,
+		type = USAGE_QUEST,
+	},
+	["FISHER_HAT"] = {
+		id = 606,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30450",
+		itemId = 30450,
+		type = USAGE_QUEST,
+	},
+	["FLOWER_WREATH"] = {
+		id = 607,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30283",
+		itemId = 30283,
+		type = USAGE_QUEST,
+	},
+	["KING_FROG"] = {
+		id = 608,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30476",
+		itemId = 30476,
+		type = USAGE_QUEST,
+	},
+	["LAUREL_WREATH"] = {
+		id = 609,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30284",
+		itemId = 30284,
+		type = USAGE_QUEST,
+	},
+	["MARIN_CROWN"] = {
+		id = 610,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30285",
+		itemId = 30285,
+		type = USAGE_QUEST,
+	},
+	["MARKETEER_HAIRBAND"] = {
+		id = 611,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30281",
+		itemId = 30281,
+		type = USAGE_QUEST,
+	},
+	["PECOPECO_EARS"] = {
+		id = 612,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#40190",
+		itemId = 40190,
+		type = USAGE_QUEST,
+	},
+	["PIZZA_IN_MOUTH"] = {
+		id = 613,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30504",
+		itemId = 30504,
+		type = USAGE_QUEST,
+	},
+	["SAKURA_HAIRBAND"] = {
+		id = 614,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30290",
+		itemId = 30290,
+		type = USAGE_QUEST,
+	},
+	["SHARK_HAT"] = {
+		id = 615,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30427",
+		itemId = 30427,
+		type = USAGE_QUEST,
+	},
+	["SHRINE_MAIDEN_RIBBON"] = {
+		id = 616,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30280",
+		itemId = 30280,
+		type = USAGE_QUEST,
+	},
+	["STARDUST_HAIRBAND"] = {
+		id = 617,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30291",
+		itemId = 30291,
+		type = USAGE_QUEST,
+	},
+	["TWIN_RED_RIBBON"] = {
+		id = 618,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30289",
+		itemId = 30289,
+		type = USAGE_QUEST,
+	},
+	["MALANGDO_HAT"] = {
+		id = 619,
+		name = "Headgear: ",
+		description = {
+			"Click to open in wiki.",
+		},
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30490",
+		itemId = 30490,
+		type = USAGE_QUEST,
 	},
 }

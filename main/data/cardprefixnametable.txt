@@ -593,19 +593,19 @@
 4485#ÇÏÇÁ¾îºñ½º#
 
 //--- Arcadia_Interlude_Patch
-40136#of Sugar Rush#
+40136#Smart#
 40137#Tropical#
 40138#Crawling#
-40139#of Stupid#
+40139#of Poking#
 40140#Glutinous#
 40141#Mycellium#
 40142#Tusking#
 40143#of Reach#
 40144#Banded#
 40145#Simple#
-40146#Fireback#
+40146#Switching#
 40147#Articulate#
-40148#Unkillable#
+40148#of Absolute#
 40149#Fragile#
 40150#Shattered#
 40151#Debaitable#
@@ -619,7 +619,7 @@
 40159#Carbonized#
 40160#of Lava Flow#
 40161#of Fierce Sand#
-40162#Spicy#
+40162#Speedy#
 40163#of Affection#
 40164#Natural#
 40165#of Fishy Business#
@@ -630,10 +630,43 @@
 40170#My Precious#
 40171#of Apprentice#
 40172#Omnipotent#
-40173#Wicked#
+40173#Nyapotism#
 40174#of Blood Feast#
 40175#of Heathen#
 40176#of Gold-footed#
 40177#Precious#
-40178#of Absolute Power#
-40179#of Abstract Thesis#
+40178#Unkillable#
+40179#of Abstract#
+40234#of Shaking#
+40235#of Gale#
+40236#of Antinomy#
+40237#of Quenching#
+40238#of Ember#
+40239#of Blight#
+40240#of Returnals#
+40241#of Entrenchment#
+40242#of Serendipity#
+40243#Lawful#
+40244#of Clementia#
+
+//--- Fishing
+40320#Hai Quality Fisher#
+40321#Shrimp-ly Hooked#
+40322#Shell-ebrity#
+40323#Prawn-Star#
+40324#Prawn-crastinator#
+40325#Fin-tastic#
+40326#Oppor-tuna-ty#
+40327#Shell-ebrational#
+40328#Sea-sonal#
+40329#So-fish-ticated#
+40330#Perchfectionist#
+40331#Fishionista#
+40332#Reel-ly Good#
+40333#Squid Pro Quo#
+40334#Marse-lous#
+40335#Gill-ty Pleasure#
+40336#The Reel Deal#
+40337#Sea-cret Agent#
+40338#Never O-phen-ded#
+40339#King of the Sea-duction#
