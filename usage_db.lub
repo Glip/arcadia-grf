@@ -5474,8 +5474,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30506",
-		itemId = 30506,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30566",
+		itemId = 30566,
 		type = USAGE_QUEST,
 	},
 	["BOLT_EARS"] = {
@@ -5484,8 +5484,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30505",
-		itemId = 30505,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30565",
+		itemId = 30565,
 		type = USAGE_QUEST,
 	},
 	["DRAGON_HELM"] = {
@@ -5504,8 +5504,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30282",
-		itemId = 30282,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30553",
+		itemId = 30553,
 		type = USAGE_QUEST,
 	},
 	["FISHER_HAT"] = {
@@ -5514,8 +5514,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30450",
-		itemId = 30450,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30552",
+		itemId = 30552,
 		type = USAGE_QUEST,
 	},
 	["FLOWER_WREATH"] = {
@@ -5524,8 +5524,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30283",
-		itemId = 30283,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30554",
+		itemId = 30554,
 		type = USAGE_QUEST,
 	},
 	["KING_FROG"] = {
@@ -5534,8 +5534,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30476",
-		itemId = 30476,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30551",
+		itemId = 30551,
 		type = USAGE_QUEST,
 	},
 	["LAUREL_WREATH"] = {
@@ -5544,8 +5544,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30284",
-		itemId = 30284,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30586",
+		itemId = 30586,
 		type = USAGE_QUEST,
 	},
 	["MARIN_CROWN"] = {
@@ -5554,8 +5554,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30285",
-		itemId = 30285,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30555",
+		itemId = 30555,
 		type = USAGE_QUEST,
 	},
 	["MARKETEER_HAIRBAND"] = {
@@ -5564,8 +5564,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30281",
-		itemId = 30281,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30548",
+		itemId = 30548,
 		type = USAGE_QUEST,
 	},
 	["PECOPECO_EARS"] = {
@@ -5574,8 +5574,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#40190",
-		itemId = 40190,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30560",
+		itemId = 30560,
 		type = USAGE_QUEST,
 	},
 	["PIZZA_IN_MOUTH"] = {
@@ -5584,8 +5584,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30504",
-		itemId = 30504,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#40296",
+		itemId = 40296,
 		type = USAGE_QUEST,
 	},
 	["SAKURA_HAIRBAND"] = {
@@ -5594,8 +5594,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30290",
-		itemId = 30290,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30557",
+		itemId = 30557,
 		type = USAGE_QUEST,
 	},
 	["SHARK_HAT"] = {
@@ -5604,8 +5604,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30427",
-		itemId = 30427,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30550",
+		itemId = 30550,
 		type = USAGE_QUEST,
 	},
 	["SHRINE_MAIDEN_RIBBON"] = {
@@ -5614,8 +5614,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30280",
-		itemId = 30280,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30547",
+		itemId = 30547,
 		type = USAGE_QUEST,
 	},
 	["STARDUST_HAIRBAND"] = {
@@ -5624,8 +5624,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30291",
-		itemId = 30291,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30558",
+		itemId = 30558,
 		type = USAGE_QUEST,
 	},
 	["TWIN_RED_RIBBON"] = {
@@ -5634,8 +5634,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30289",
-		itemId = 30289,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30556",
+		itemId = 30556,
 		type = USAGE_QUEST,
 	},
 	["MALANGDO_HAT"] = {
@@ -5644,8 +5644,8 @@ usage_tbl = {
 		description = {
 			"Click to open in wiki.",
 		},
-		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30490",
-		itemId = 30490,
+		url = "https://wiki.arcadia-online.org/Headgear_Ingredients/#30549",
+		itemId = 30549,
 		type = USAGE_QUEST,
 	},
 }
