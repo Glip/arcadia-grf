@@ -1068,3 +1068,14 @@ que_dan03.gnd#que_dan02.gnd#
 que_dan03.gat#que_dan02.gat#
 que_dan03.rsw#que_dan02.rsw#
 유저인터페이스\map\que_dan03.bmp#유저인터페이스\map\1@air2.bmp#
+
+caw_dun01.gnd#1@cor.gnd#
+caw_dun01.gat#1@cor.gat#
+caw_dun01.rsw#1@cor.rsw#
+유저인터페이스\map\caw_dun01.bmp#유저인터페이스\map\1@cor.bmp#
+
+// Easter 2026 event
+xmas_e26.gnd#xmas_in.gnd#
+xmas_e26.gat#xmas_in.gat#
+xmas_e26.rsw#xmas_in.rsw#
+유저인터페이스\map\xmas_e26.bmp#유저인터페이스\map\xmas_in.bmp#

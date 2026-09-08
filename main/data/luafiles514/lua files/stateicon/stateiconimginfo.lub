@@ -36,6 +36,10 @@ StateIconImgList = {
 		[EFST_IDs.EFST_GOSPEL_MAIN] = "gospel_main.tga"
 	},
 	[PRIORITY_BLUE] = {
+		[EFST_IDs.EFST_SU_STOOP] = "su_stoop.tga",
+		[EFST_IDs.EFST_SIEGESTANCE] = "si_siegestance.tga",
+		[EFST_IDs.EFST_METSUBUSHI] = "si_metsubushi.tga",
+		[EFST_IDs.EFST_KASHU] = "si_kashu.tga",
 		[EFST_IDs.EFST_AURABLADE] = "aura_blade.tga",
 		[EFST_IDs.EFST_LKCONCENTRATION] = "lkconcentration.tga",
 		[EFST_IDs.EFST_ATTHASTE_CASH] = "ASPDCASH.TGA",
@@ -183,6 +187,12 @@ StateIconImgList = {
 		[EFST_IDs.EFST_PETRIFIED] = "petrified.tga",
 		[EFST_IDs.EFST_PROPERTYUNDEAD2] = "undeadarmor.tga",
 		[EFST_IDs.EFST_FOGWALL2] = "suhide.tga",
-		[EFST_IDs.EFST_MIRACLE] = "miracled.tga"
+		[EFST_IDs.EFST_MIRACLE] = "miracled.tga",
+		[EFST_IDs.EFST_STOP] = "marshofabyss.tga",
+		[EFST_IDs.EFST_BASILICA] = "엄마아빠사랑해요.tga",
+		[EFST_IDs.EFST_MINDBREAKER] = "masquerade_unlucky.tga",
+		[EFST_IDs.EFST_MEMORIZE] = "i_타로카드.tga",
+		[EFST_IDs.EFST_SPIDERWEB] = "가시나무덫.tga",
+		[EFST_IDs.EFST_MAGNUMBREAK] = "스트라이킹.tga"
 	}
 }

@@ -1109,5 +1109,16 @@ AccNameTable = {
 	[ACCESSORY_IDs.ACCESSORY_COLA_CAN] = "_ÄÝ¶óÄµ",
 	[ACCESSORY_IDs.ACCESSORY_wiki_peaked_cap_black ] = "_wiki_peaked_cap_black",
 	[ACCESSORY_IDs.ACCESSORY_Coppola_Blue] = "_coppola_blue",
-
+	[ACCESSORY_IDs.ACCESSORY_Richelle_Head_Dress] = "_¼£·Î½ÃÀÇÇìµåµå·¹½º",
+	[ACCESSORY_IDs.ACCESSORY_Rune_Helm] = "_·éÇï¸§",
+	[ACCESSORY_IDs.ACCESSORY_Half_Rim_Glasses] = "_c_half_rim_glasses",
+	[ACCESSORY_IDs.ACCESSORY_c_fluffy_bunny_cape_pink] = "_c_fluffy_bunny_cape_pink",
+	[ACCESSORY_IDs.ACCESSORY_c_bunny_magic_hat] = "_c_bunny_magic_hat",
+	[ACCESSORY_IDs.ACCESSORY_c_fluffy_fox_ears] = "_c_fluffy_fox_ears",
+	[ACCESSORY_IDs.ACCESSORY_c_fluffy_bunny_cape_blue] = "_c_fluffy_bunny_cape_blue",
+	[ACCESSORY_IDs.ACCESSORY_die_mohre] = "_die_mohre",
+	[ACCESSORY_IDs.ACCESSORY_small_ribbons_green] = "_small_ribbons_green",
+	[ACCESSORY_IDs.ACCESSORY_posh_glasses_blue] = "_posh_glasses_blue",
+	[ACCESSORY_IDs.ACCESSORY_posh_glasses_red] = "_posh_glasses_red",
+	[ACCESSORY_IDs.ACCESSORY_wh_choco_h_in_mouth] = "_wh_choco_h_in_mouth",
 }

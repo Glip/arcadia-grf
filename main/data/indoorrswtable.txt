@@ -157,3 +157,4 @@ val25_map03.rsw#
 val25_map04.rsw#
 fline_in01.rsw#
 s_cat_bar.rsw#
+xmas_e26.rsw#

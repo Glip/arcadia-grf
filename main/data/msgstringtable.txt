@@ -285,13 +285,13 @@ Skill Tree#
 Skill Point: %d#
 Skill has failed.#
 Passive#
-Each Take#
-Even Share#
-Each Take#
-Party Share#
+Individual#
+Shared#
+Individual#
+Anyone#
 Party Setup#
-How to share EXP#
-How to share Items#
+EXP distribution#
+Loot claim#
 Only the Party Leader can change this setting.#
 Toggle Item Amount.#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
@@ -628,8 +628,8 @@ Blessing aligned.#
 Blessing canceled.#
 Signum Crusis initiated.#
 Signum Crusis canceled.#
-Slow Poison initiated.#
-Slow Poison canceled.#
+Voidspell initiated.#
+Voidspell canceled.#
 SP recovery increased.#
 Magnificat canceled.#
 Luck increased.#
@@ -736,7 +736,7 @@ Chat content will not be displayed in the chat window. [Display OFF]#
 /set1: /noctrl + /showname + /skillfail#
 /fog: Fog effect. On | Off#
 You have received a marriage proposal. Do you accept?#
-Item sharing type#
+Item distribution#
 Individual#
 Shared#
 Improved frame rate in busy environments ON#
@@ -886,7 +886,7 @@ Blacksmith#
 Hunter#
 Assassin#
 Send an adoption request to %s#
-When you become a child, you will be unable to become a Transcendent Class character, all stats will be limited to a maximum of 80, and Max HP/SP will be reduced. Are you sure that you want to be adopted?#
+When you become a child, you will be unable to become a Transcendent Class character, and Max HP/SP will be reduced. Are you sure that you want to be adopted?#
 All abnormal status effects have been removed.#
 You will be immune to abnormal status effects for the next minute.#
 Your Max HP will stay increased for the next minute.#
@@ -1248,7 +1248,7 @@ Hit rate has returned to normal.#
 Critical Rate has increased.#
 Critical Rate has returned to normal.#
 You will receive 1.5 times more EXP from hunting monsters for the next 30 minutes.#
-This character will not receive any EXP penalty if killed within the next 30 minutes.#
+This character will receive reduced EXP penalty if killed within the next 30 minutes.#
 Regular item drops from monsters will be doubled for the next 30 minutes.#
 Boss Monster Map Information for the next 10 minutes.#
 Do you want to purchase these items for %d C?#

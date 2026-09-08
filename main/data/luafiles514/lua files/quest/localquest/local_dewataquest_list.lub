@@ -403,6 +403,23 @@ LOCAL_ArcadiaQuest_List = {
 }
 
 LOCAL_ArcEvtQuest_List = {
+-- Easter 2026 --
+	{
+		name = [[ ]],
+		imagefile = [[easter_valentines2026.bmp]],
+		list = {
+			{
+				name  =	[[Lovers & Fluffers]],
+				list = {
+					{
+						name =[[You got mail]],
+						scrfilename = [[DewataQuest]],
+						questID = 14305,
+					},
+				}
+			},
+		}, 	
+	},
 -- First Aniversary --
 	{
 		name = [[ ]],
@@ -414,7 +431,7 @@ LOCAL_ArcEvtQuest_List = {
 					{
 						name =[[Meet Soonya]],
 						scrfilename = [[DewataQuest]],
-						questID = 14301,
+						questID = 14304,
 					},
 				}
 			},

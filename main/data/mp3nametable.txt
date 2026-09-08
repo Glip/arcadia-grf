@@ -1033,3 +1033,5 @@ val25_map04.rsw#bgm\\199.mp3#
 fline_in01.rsw#bgm\\b23.mp3#
 atl_dun01.rsw#bgm\\92.mp3#
 s_cat_bar.rsw#bgm\\b24.mp3#
+caw_dun01.rsw#bgm\\71.mp3#
+xmas_e26.rsw#bgm\\59.mp3#

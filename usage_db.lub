@@ -5648,4 +5648,13 @@ usage_tbl = {
 		itemId = 30549,
 		type = USAGE_QUEST,
 	},
+	["EASTER_VALENTINES_E26"] = {
+        id = 620,
+        name = "Lovers & Fluffers",
+        description = {
+            "Click to open in wiki.",
+        },
+        url = "https://wiki.arcadia-online.org/Easter_Valentine%27s_Event_%282026%29/",
+        type = USAGE_INGREDIENT,
+    },	
 }

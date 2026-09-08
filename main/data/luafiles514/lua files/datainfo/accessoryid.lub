@@ -1093,6 +1093,19 @@ ACCESSORY_IDs = {
 	ACCESSORY_Pure_Blush = 1422,
 	ACCESSORY_wiki_peaked_cap_black = 1423,
 	ACCESSORY_Coppola_Blue = 1424,
+	ACCESSORY_Richelle_Head_Dress = 1425,
+	ACCESSORY_Rune_Helm = 1426,
+	ACCESSORY_Half_Rim_Glasses = 1427,
+
+	ACCESSORY_c_fluffy_bunny_cape_pink = 1428,
+	ACCESSORY_c_bunny_magic_hat = 1429,
+	ACCESSORY_c_fluffy_fox_ears = 1430,
+	ACCESSORY_c_fluffy_bunny_cape_blue = 1431,
+	ACCESSORY_die_mohre = 1432,
+	ACCESSORY_small_ribbons_green = 1433,
+	ACCESSORY_posh_glasses_blue = 1434,
+	ACCESSORY_posh_glasses_red = 1435,
+	ACCESSORY_wh_choco_h_in_mouth = 1436,
 
 	-- Ports
 	ACCESSORY_Victory_Ear_Accessary = 1185,

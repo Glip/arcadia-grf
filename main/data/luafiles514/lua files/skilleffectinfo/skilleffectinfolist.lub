@@ -211,5 +211,48 @@ SKILL_EFFECT_INFO_LIST = {
 
 	[SKID.SO_EL_CONTROL] = {
 		beginEffectID = EFID.EF_FLOWERCAST
+	},
+
+	[SKID.NJ_HYOUSYOURAKU] = {
+		beginMotionType = ACTOR_STATE.ST_NINJASKILL2,
+		groundEffectNum = 1,
+		groundEffectID = { EFID.EF_HYOUSYOURAKU },
+	},
+	[SKID.GS_SIEGESTANCE] = {
+		beginMotionType = ACTOR_STATE.ST_GUNREADY,
+		beginEffectID = EFID.EF_BEGINSPELL,
+		effectNum = 1,
+		effectID = { EFID.EF_GUARD },
+	},
+	[SKID.GS_SIEGEBLAST] = {
+		beginMotionType = ACTOR_STATE.ST_ATTACK,
+		waveFileName = "effect\\ef_siegeblast.wav",
+		groundEffectNum = 3,
+		groundEffectID = { EFID.EF_MAGNUMBREAK, EFID.EF_CARTREVOLUTION, EFID.EF_BAKU },
+	},
+	[SKID.GS_SIEGEENFEEBLE] = {
+		beginMotionType = ACTOR_STATE.ST_ATTACK,
+		waveFileName = "effect\\ef_siegeenfeeble.wav",
+		groundEffectNum = 3,
+		groundEffectID = { EFID.EF_MAGNUMBREAK, EFID.EF_DANCE_BLADE_ATK, EFID.EF_SANDMAN },
+	},
+	[SKID.SG_NOVA] = {
+		beginMotionType = ACTOR_STATE.ST_BEGIN_SKILL,
+		beginEffectID = EFID.EF_MAGICROD,
+	},
+	[SKID.SL_KASHU] = {
+		beginMotionType = ACTOR_STATE.ST_SKILL,
+		beginEffectID = EFID.EF_BEGINSPELL,
+		waveFileName = "effect\\ef_signum.wav",
+		targetEffectNum = 2,
+		targetEffectID = { EFID.EF_MAGICALATTHIT, EFID.EF_AURABLADE },
+		onTarget = true
+	},
+	[SKID.SL_WEAVESELF] = {
+		beginMotionType = ACTOR_STATE.ST_BEGIN_SKILL,
+		beginEffectID = EFID.EF_DARKCASTING,
+		waveFileName = "effect\\h_blood_lust.wav",
+		effectNum = 3,
+		effectID = { EFID.EF_SOULLINK, EFID.EF_LAMADAN, EFID.EF_QUAKEBODY },
 	}
 }

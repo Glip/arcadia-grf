@@ -16985,7 +16985,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"A spear that has been made to puncture any armor worn by enemies.",
 			"Increases damage inflicted on ^777777Neutral^000000 Property by 25%",
-			"Pierces Defense of its target.",
+			"Pierces Defenses of non-boss type enemies.",
 			"Type :^777777 One-Handed Spear^000000",
 			"Attack :^777777 100^000000",
 			"Weight :^777777 85^000000",
@@ -33334,8 +33334,8 @@ tbl = {
 		identifiedResourceName = "쉐도우워크",
 		identifiedDescriptionName = {
 			"Boots which abandon light and crafted out of darkness. The wearer of these boots can easily become one with shadows. The creator of these shoes was a magic user, who made the shoes so it would automatically hide him if danger approached.",
-			"Add a 10% chance of auto casting ^008800Level 3 Cloaking^000000 on the user when the user receives Magical Damage.",
-			"If the player has ^008800Level 4 Cloaking^000000 or above, higher level skill is used.",
+			"Add a 10% chance of auto casting ^008800Level 2 Cloaking^000000 on the user when the user receives Magical Damage.",
+			"If the player has ^008800Level 3 Cloaking^000000 or above, higher level skill is used.",
 			"MDEF + 10",
 			"Type :^777777 Footgear^000000",
 			"Defense :^777777 0^000000",
@@ -49924,8 +49924,8 @@ tbl = {
 		unidentifiedDisplayName = "Clock Card",
 		unidentifiedResourceName = "이름없는카드",
 		unidentifiedDescriptionName = {
-			"Add a 3% chance of auto casting ^008800Level 3 Auto Guard^000000 on the user when the user receives Physical Damage.",
-			"If the user has mastered the skill at Level 10, it will cast ^008800Level 10 Auto Guard^000000.",
+			"Enables use of ^008800Level 3 Auto Guard^000000.",
+			"If the user has mastered the skill at Level 10, reduce Melee and Long Range damage by 10%.",
 			"[^000088Tower Keeper & Alarm & Punk Card Combo^000000]",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Armor^000000",
@@ -49934,8 +49934,8 @@ tbl = {
 		identifiedDisplayName = "Clock Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"Add a 3% chance of auto casting ^008800Level 3 Auto Guard^000000 on the user when the user receives Physical Damage.",
-			"If the user has mastered the skill at Level 10, it will cast ^008800Level 10 Auto Guard^000000.",
+			"Enables use of ^008800Level 3 Auto Guard^000000.",
+			"If the user has mastered the skill at Level 10, reduce Melee and Long Range damage by 10%.",
 			"[^000088Tower Keeper & Alarm & Punk Card Combo^000000]",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Armor^000000",
@@ -66186,7 +66186,7 @@ tbl = {
 		identifiedResourceName = "닌자의두루마리",
 		identifiedDescriptionName = {
 			"A scroll when Ninjas lay a spell.",
-			"Increase MATK by 1%.",
+			"Increase MATK by 5.",
 			"Type :^777777 Headgear^000000",
 			"Defense :^777777 0^000000",
 			"Equipped on :^777777 Lower^000000",
@@ -70536,11 +70536,11 @@ tbl = {
 		identifiedResourceName = "진홍의장미",
 		identifiedDescriptionName = {
 			"The crimson of the roses in your mouth. The thorn which is dangerous to remove?",
-			"LUK + 1.",
+			"CRIT + 1.",
 			"...",
 			"Type :^777777 Headgear^000000",
 			"Defense :^777777 0^000000",
-			"Equipped on :^777777 Upper^000000",
+			"Equipped on :^777777 Lower^000000",
 			"Weight :^777777 10^000000",
 			"Required Level :^777777 50^000000",
 			"Applicable Job :^777777 Every Job^000000",
@@ -91180,14 +91180,14 @@ tbl = {
 	},
 
 	[7211] = {
-		unidentifiedDisplayName = "Fragment of Rossata Stone",
+		unidentifiedDisplayName = "Fragment of Rosetta Stone",
 		unidentifiedResourceName = "로제타스톤",
 		unidentifiedDescriptionName = {
 			"A broken piece of a stone with writing carved in an ancient language.",
 			"^ffffff_^000000",
 			"Weight :^777777 1^000000",
 		},
-		identifiedDisplayName = "Fragment of Rossata Stone",
+		identifiedDisplayName = "Fragment of Rosetta Stone",
 		identifiedResourceName = "로제타스톤",
 		identifiedDescriptionName = {
 			"A broken piece of a stone with writing carved in an ancient language.",
@@ -122735,16 +122735,14 @@ tbl = {
 		unidentifiedDescriptionName = {
 			"A pill made from precious herbs and it was believed to be able to prolong the life of the user.",
 			"^0000ffRecover full HP^000000",
-			"Required Level :^777777 85^000000",
-			"Weight :^777777 1^000000",
+			"Weight :^777777 30^000000",
 		},
 		identifiedDisplayName = "Elixir of Life",
 		identifiedResourceName = "태양신의상징",
 		identifiedDescriptionName = {
 			"A pill made from precious herbs and it was believed to be able to prolong the life of the user.",
 			"^0000ffRecover full HP^000000",
-			"Required Level :^777777 85^000000",
-			"Weight :^777777 1^000000",
+			"Weight :^777777 30^000000",
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -127445,7 +127443,7 @@ tbl = {
 			"Required Level :^777777 65^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 1
 	},
 
@@ -127468,7 +127466,7 @@ tbl = {
 			"Required Level :^777777 35^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 1
 	},
 
@@ -127491,7 +127489,7 @@ tbl = {
 			"Required Level :^777777 35^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 1
 	},
 
@@ -127516,7 +127514,7 @@ tbl = {
 			"Required Level :^777777 70^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 1
 	},
 
@@ -127539,7 +127537,7 @@ tbl = {
 			"Required Level :^777777 12^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 2,
+		slotCount = 3,
 		ClassNum = 1
 	},
 
@@ -127562,7 +127560,7 @@ tbl = {
 			"Required Level :^777777 12^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 3,
+		slotCount = 4,
 		ClassNum = 1
 	},
 
@@ -127586,7 +127584,7 @@ tbl = {
 			"Required Level :^777777 24^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 1
 	},
 
@@ -127610,7 +127608,7 @@ tbl = {
 			"Required Level :^777777 24^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 2,
+		slotCount = 3,
 		ClassNum = 1
 	},
 
@@ -127626,6 +127624,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"A dagger that has a shining white blade crafted of bone, and is designed for stabbing, rather than slashing.",
 			"Add a 1% chance of auto casting ^008800Level 1 Heal^000000 on the user when attacking.",
+			"INT + 2",
 			"Type :^777777 Dagger^000000",
 			"Attack :^777777 120^000000",
 			"Weight :^777777 80^000000",
@@ -127633,7 +127632,7 @@ tbl = {
 			"Required Level :^777777 42^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 1
 	},
 
@@ -127649,6 +127648,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"A dagger that has a shining white blade crafted of bone, and is designed for stabbing, rather than slashing.",
 			"Add a 1% chance of auto casting ^008800Level 1 Heal^000000 on the user when attacking.",
+			"INT + 2",
 			"Type :^777777 Dagger^000000",
 			"Attack :^777777 120^000000",
 			"Weight :^777777 80^000000",
@@ -127656,7 +127656,7 @@ tbl = {
 			"Required Level :^777777 42^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 1
 	},
 
@@ -128946,7 +128946,7 @@ tbl = {
 			"Required Level :^777777 10^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 17
 	},
 
@@ -128969,7 +128969,7 @@ tbl = {
 			"Required Level :^777777 10^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 2,
+		slotCount = 3,
 		ClassNum = 17
 	},
 
@@ -128992,7 +128992,7 @@ tbl = {
 			"Required Level :^777777 35^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 17
 	},
 
@@ -129015,7 +129015,7 @@ tbl = {
 			"Required Level :^777777 35^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 2,
+		slotCount = 3,
 		ClassNum = 17
 	},
 
@@ -129039,7 +129039,7 @@ tbl = {
 			"Required Level :^777777 55^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 17
 	},
 
@@ -129063,7 +129063,7 @@ tbl = {
 			"Required Level :^777777 55^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 2,
+		slotCount = 3,
 		ClassNum = 17
 	},
 
@@ -129088,7 +129088,7 @@ tbl = {
 			"Required Level :^777777 12^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 17
 	},
 
@@ -129111,7 +129111,7 @@ tbl = {
 			"Required Level :^777777 70^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 2,
+		slotCount = 3,
 		ClassNum = 17
 	},
 
@@ -129354,7 +129354,7 @@ tbl = {
 			"Weapon Level :^777777 1^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 3,
+		slotCount = 4,
 		ClassNum = 18
 	},
 
@@ -129377,7 +129377,7 @@ tbl = {
 			"Required Level :^777777 24^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 18
 	},
 
@@ -129400,7 +129400,7 @@ tbl = {
 			"Required Level :^777777 24^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 2,
+		slotCount = 3,
 		ClassNum = 18
 	},
 
@@ -129423,7 +129423,7 @@ tbl = {
 			"Required Level :^777777 56^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 18
 	},
 
@@ -129446,7 +129446,7 @@ tbl = {
 			"Required Level :^777777 14^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 20
 	},
 
@@ -129469,7 +129469,7 @@ tbl = {
 			"Required Level :^777777 35^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 20
 	},
 
@@ -129493,7 +129493,7 @@ tbl = {
 			"Required Level :^777777 24^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 20
 	},
 
@@ -129515,7 +129515,7 @@ tbl = {
 			"Required Level :^777777 55^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 19
 	},
 
@@ -129538,7 +129538,7 @@ tbl = {
 			"Required Level :^777777 68^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 19
 	},
 
@@ -129561,7 +129561,7 @@ tbl = {
 			"Required Level :^777777 68^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 19
 	},
 
@@ -129584,7 +129584,7 @@ tbl = {
 			"Required Level :^777777 52^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 21
 	},
 
@@ -129607,7 +129607,7 @@ tbl = {
 			"Required Level :^777777 52^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 21
 	},
 
@@ -129629,7 +129629,7 @@ tbl = {
 			"Required Level :^777777 65^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 21
 	},
 
@@ -129653,7 +129653,7 @@ tbl = {
 			"Required Level :^777777 70^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 18
 	},
 
@@ -129677,7 +129677,7 @@ tbl = {
 			"Required Level :^777777 70^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 18
 	},
 
@@ -129701,7 +129701,7 @@ tbl = {
 			"Required Level :^777777 70^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 18
 	},
 
@@ -129725,7 +129725,7 @@ tbl = {
 			"Required Level :^777777 70^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 18
 	},
 
@@ -129751,7 +129751,7 @@ tbl = {
 			"Required Level :^777777 70^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 20
 	},
 
@@ -129775,7 +129775,7 @@ tbl = {
 			"Required Level :^777777 70^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 1,
+		slotCount = 2,
 		ClassNum = 20
 	},
 
@@ -129799,7 +129799,7 @@ tbl = {
 			"Required Level :^777777 70^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 2,
+		slotCount = 3,
 		ClassNum = 20
 	},
 
@@ -129822,7 +129822,7 @@ tbl = {
 			"Required Level :^777777 70^000000",
 			"Applicable Job :^777777 Gunslinger^000000",
 		},
-		slotCount = 2,
+		slotCount = 3,
 		ClassNum = 18
 	},
 
@@ -131471,7 +131471,7 @@ tbl = {
 			"Required Level :^777777 65^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 22
 	},
 
@@ -131491,7 +131491,7 @@ tbl = {
 			"Attack :^777777 50^000000",
 			"Weight :^777777 250^000000",
 			"Weapon Level :^777777 4^000000",
-			"Required Level :^777777 42^000000",
+			"Required Level :^777777 24^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
 		slotCount = 3,
@@ -131514,7 +131514,7 @@ tbl = {
 			"Attack :^777777 50^000000",
 			"Weight :^777777 250^000000",
 			"Weapon Level :^777777 4^000000",
-			"Required Level :^777777 42^000000",
+			"Required Level :^777777 24^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
 		slotCount = 4,
@@ -131542,7 +131542,7 @@ tbl = {
 			"Required Level :^777777 55^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 22
 	},
 
@@ -131566,7 +131566,7 @@ tbl = {
 			"Required Level :^777777 70^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 2,
+		slotCount = 3,
 		ClassNum = 22
 	},
 
@@ -131676,7 +131676,7 @@ tbl = {
 			"Required Level :^777777 0^000000",
 			"Applicable Job :^777777 Ninja^000000",
 		},
-		slotCount = 0,
+		slotCount = 1,
 		ClassNum = 22
 	},
 
@@ -188836,7 +188836,7 @@ tbl = {
 			"Enables fishing on specific spots.",
 			"Equipped on :^777777 Left Accessory^000000",
 			"Type :^777777 Fishing Rod^000000",
-			"Weight :^777777 0^000000",
+			"Weight :^777777 10^000000",
 			"Applicable Job :^777777 Every Job^000000",
 		},
 		usages = {
@@ -188860,7 +188860,7 @@ tbl = {
 			"Treasures can be found.",
 			"Equipped on :^777777 Left Accessory^000000",
 			"Type :^777777 Fishing Rod^000000",
-			"Weight :^777777 0^000000",
+			"Weight :^777777 10^000000",
 			"Applicable Job :^777777 Every Job^000000",
 		},
 		usages = {
@@ -188883,7 +188883,7 @@ tbl = {
 			"Fish are more likely to bite.",
 			"Equipped on :^777777 Right Accessory^000000",
 			"Type :^777777 Fishing Lure^000000",
-			"Weight :^777777 0^000000",
+			"Weight :^777777 10^000000",
 			"Applicable Job :^777777 Every Job^000000",
 		},
 		usages = {
@@ -188908,7 +188908,7 @@ tbl = {
 			"Better fish can be found.",
 			"Equipped on :^777777 Right Accessory^000000",
 			"Type :^777777 Fishing Lure^000000",
-			"Weight :^777777 0^000000",
+			"Weight :^777777 10^000000",
 			"Applicable Job :^777777 Every Job^000000",
 		},
 		usages = {
@@ -191484,8 +191484,8 @@ tbl = {
 		identifiedResourceName = "taurus_sword_j",
 		identifiedDescriptionName = {
 			"Replica of an ancient double edged sword imbued with the ^996600Earth^000000 Property.",
-			"Enables use of ^008800Level 3 Earth Spike^000000.",
-			"Add a 10% chance of auto casting ^008800Level 3 Earth Spike^000000 on the enemy when attacking.",
+			"Enables use of ^008800Level 2 Earth Spike^000000.",
+			"Add a 10% chance of auto casting ^008800Level 2 Earth Spike^000000 on the enemy when attacking.",
 			"Type :^777777 One-Handed Sword^000000",
 			"Attack :^777777 95^000000",
 			"Weight :^777777 65^000000",
@@ -191534,7 +191534,7 @@ tbl = {
 		identifiedResourceName = "kladenets",
 		identifiedDescriptionName = {
 			"A two-handed sword made out of Meteorical Iron, its core enchants the blade with ^996600Earth^000000 Property.",
-			"Add a 10% chance of auto casting ^008800Level 2 Heaven's Drive^000000 on the enemy when attacking.",
+			"Add a 10% chance of auto casting ^008800Level 2 Earth Spike^000000 on the enemy when attacking.",
 			"DEF + 3",
 			"Type :^777777 Two-handed Sword^000000",
 			"Attack :^777777 155^000000",
@@ -191583,7 +191583,7 @@ tbl = {
 		identifiedResourceName = "디바클레이모어",
 		identifiedDescriptionName = {
 			"A ^FF0000Fire^000000 Property sword that contains the crimson rage of those who came before.",
-			"Add a 10% chance of auto casting ^008800Level 2 Fire Ball^000000 on the enemy when attacking.",
+			"Add a 10% chance of auto casting ^008800Level 3 Fire Bolt^000000 on the enemy when attacking.",
 			"Type :^777777 Two-handed Sword^000000",
 			"Attack :^777777 160^000000",
 			"Weight :^777777 160^000000",
@@ -191792,7 +191792,7 @@ tbl = {
 			"MDEF + 3",
 			"Type :^777777 Headgear^000000",
 			"Defense :^777777 1^000000",
-			"Equipped on :^777777 Upper^000000",
+			"Equipped on :^777777 Upper, Mid^000000",
 			"Weight :^777777 40^000000",
 			"Applicable Job :^777777 Every Job^000000",
 		},
@@ -192079,7 +192079,7 @@ tbl = {
 		identifiedDisplayName = "Pecopeco Ears",
 		identifiedResourceName = "페코페코날개귀",
 		identifiedDescriptionName = {
-			"Costume earrings made from Pecopeco feathers.",
+			"Earrings made from Pecopeco feathers.",
 			"AGI + 1",
 			"Type :^777777 Headgear^000000",
 			"Defense :^777777 0^000000",
@@ -192199,7 +192199,7 @@ tbl = {
 		identifiedResourceName = "머리박힌나사",
 		identifiedDescriptionName = {
 			"You can look like you just rolled off the assembly line with these bolt-on ear accessories.",
-			"Increases resistance to Undead monsters by 5%.",
+			"Decreases damage from ^777777Undead^000000 Property by 5%",
 			"Type :^777777 Headgear^000000",
 			"Defense :^777777 1^000000",
 			"Equipped on :^777777 Mid^000000",
@@ -192291,7 +192291,7 @@ tbl = {
 		identifiedResourceName = "첫사랑발그레",
 		identifiedDescriptionName = {
 			"Make-up that puts some rosyness to your cheeks.",
-			"Reduces damage from Shadow monster by 3%.",
+			"Decreases damage from ^777777Shadow^000000 Property by 3%",
 			"Type :^777777 Headgear^000000",
 			"Defense :^777777 1^000000",
 			"Equipped on :^777777 Mid^000000",
@@ -192315,7 +192315,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"A mask meant to help you dive underwater.",
 			"Underwater mechanics not supported by Arcadia.",
-			"Reduces damage from Water monster by 3%.",
+			"Decreases damage from ^0000FFWater^000000 Property by 3%",
 			"Type :^777777 Headgear^000000",
 			"Defense :^777777 1^000000",
 			"Equipped on :^777777 Mid^000000",
@@ -192705,6 +192705,257 @@ tbl = {
 		},
 		slotCount = 0,
 		ClassNum = 237
+	},
+
+	[30587] = {
+		unidentifiedDisplayName = "Sword",
+		unidentifiedResourceName = "소드",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 50^000000",
+		},
+		identifiedDisplayName = "Firebrand",
+		identifiedResourceName = "화이어브랜드",
+		identifiedDescriptionName = {
+			"An one-handed, formal dress sword imbued with the ^FF0000Fire^000000 Property.",
+			"Enables use of ^008800Level 3 Fire Bolt^000000.",
+			"Add a 10% chance of auto casting ^008800Level 3 Fire Bolt^000000 on the enemy when attacking.",
+			"Type :^777777 One-Handed Sword^000000",
+			"Attack :^777777 100^000000",
+			"Weight :^777777 50^000000",
+			"Property :^FF0000 Fire^000000",
+			"Weapon Level :^777777 4^000000",
+			"Required Level :^777777 40^000000",
+			"Applicable Job :^777777 Swordsman Class, Merchant Class, Thief Class^000000",
+		},
+		slotCount = 1,
+		ClassNum = 2
+	},
+
+	[30588] = {
+		unidentifiedDisplayName = "Sword",
+		unidentifiedResourceName = "소드",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 60^000000",
+		},
+		identifiedDisplayName = "Ice Falchion",
+		identifiedResourceName = "아이스팔시온",
+		identifiedDescriptionName = {
+			"An one-handed, formal dress sword imbued with the ^0000FFWater^000000 Property.",
+			"Enables use of ^008800Level 3 Cold Bolt^000000.",
+			"Add a 10% chance of auto casting ^008800Level 3 Cold Bolt^000000 on the enemy when attacking.",
+			"^880000Freeze^000000 enemies by 5% chance when hit.",
+			"^880000Freeze^000000 its owner by 0.1% chance when used.",
+			"Type :^777777 One-Handed Sword^000000",
+			"Attack :^777777 100^000000",
+			"Weight :^777777 60^000000",
+			"Property :^0000FF Water^000000",
+			"Weapon Level :^777777 4^000000",
+			"Required Level :^777777 40^000000",
+			"Applicable Job :^777777 Swordsman Class, Merchant Class, Thief Class^000000",
+		},
+		slotCount = 1,
+		ClassNum = 2
+	},
+
+	[30589] = {
+		unidentifiedDisplayName = "Sword",
+		unidentifiedResourceName = "소드",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 65^000000",
+		},
+		identifiedDisplayName = "Terrashard",
+		identifiedResourceName = "taurus_sword_j",
+		identifiedDescriptionName = {
+			"Replica of an ancient double edged sword imbued with the ^996600Earth^000000 Property.",
+			"Enables use of ^008800Level 2 Earth Spike^000000.",
+			"Add a 10% chance of auto casting ^008800Level 2 Earth Spike^000000 on the enemy when attacking.",
+			"Type :^777777 One-Handed Sword^000000",
+			"Attack :^777777 95^000000",
+			"Weight :^777777 65^000000",
+			"Property :^996600 Earth^000000",
+			"Weapon Level :^777777 4^000000",
+			"Required Level :^777777 40^000000",
+			"Applicable Job :^777777 Swordsman Class, Merchant Class, Thief Class^000000",
+		},
+		slotCount = 1,
+		ClassNum = 2
+	},
+
+	[30590] = {
+		unidentifiedDisplayName = "Sword",
+		unidentifiedResourceName = "소드",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 50^000000",
+		},
+		identifiedDisplayName = "Vortexblade",
+		identifiedResourceName = "Dimen_IG_Sword",
+		identifiedDescriptionName = {
+			"A beautiful long sword created with extra care. It is imbued with the ^009900Wind^000000 Property.",
+			"Enables use of ^008800Level 3 Lightning Bolt^000000.",
+			"Add a 10% chance of auto casting ^008800Level 3 Lightning Bolt^000000 on the enemy when attacking.",
+			"Type :^777777 One-Handed Sword^000000",
+			"Attack :^777777 105^000000",
+			"Weight :^777777 50^000000",
+			"Property :^009900 Wind^000000",
+			"Weapon Level :^777777 4^000000",
+			"Required Level :^777777 40^000000",
+			"Applicable Job :^777777 Swordsman Class, Merchant Class, Thief Class^000000",
+		},
+		slotCount = 1,
+		ClassNum = 2
+	},
+
+	[30591] = {
+		unidentifiedDisplayName = "Two-Handed Sword",
+		unidentifiedResourceName = "바스타드소드",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 170^000000",
+		},
+		identifiedDisplayName = "Granitklinge",
+		identifiedResourceName = "kladenets",
+		identifiedDescriptionName = {
+			"A two-handed sword made out of Meteorical Iron, its core enchants the blade with ^996600Earth^000000 Property.",
+			"Add a 10% chance of auto casting ^008800Level 2 Earth Spike^000000 on the enemy when attacking.",
+			"DEF + 3",
+			"Type :^777777 Two-handed Sword^000000",
+			"Attack :^777777 155^000000",
+			"Weight :^777777 170^000000",
+			"Property :^996600 Earth^000000",
+			"Weapon Level :^777777 4^000000",
+			"Required Level :^777777 48^000000",
+			"Applicable Job :^777777 Swordsman Class^000000",
+		},
+		slotCount = 2,
+		ClassNum = 3
+	},
+
+	[30592] = {
+		unidentifiedDisplayName = "Two-Handed Sword",
+		unidentifiedResourceName = "바스타드소드",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 140^000000",
+		},
+		identifiedDisplayName = "Gezeitenschwert",
+		identifiedResourceName = "타노스의대검",
+		identifiedDescriptionName = {
+			"A two-handed sword forged using never-melting glacial chunks through unknown methods. Its coldness grants the blade ^0000FFWater^000000 Property.",
+			"Add a 10% chance of auto casting ^008800Level 3 Cold Bolt^000000 on the enemy when attacking.",
+			"Type :^777777 Two-handed Sword^000000",
+			"Attack :^777777 150^000000",
+			"Weight :^777777 140^000000",
+			"Property :^0000FF Water^000000",
+			"Weapon Level :^777777 4^000000",
+			"Required Level :^777777 48^000000",
+			"Applicable Job :^777777 Swordsman Class^000000",
+		},
+		slotCount = 2,
+		ClassNum = 3
+	},
+
+	[30593] = {
+		unidentifiedDisplayName = "Two-Handed Sword",
+		unidentifiedResourceName = "바스타드소드",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 160^000000",
+		},
+		identifiedDisplayName = "Gluhklinge",
+		identifiedResourceName = "디바클레이모어",
+		identifiedDescriptionName = {
+			"A ^FF0000Fire^000000 Property sword that contains the crimson rage of those who came before.",
+			"Add a 10% chance of auto casting ^008800Level 3 Fire Bolt^000000 on the enemy when attacking.",
+			"Type :^777777 Two-handed Sword^000000",
+			"Attack :^777777 160^000000",
+			"Weight :^777777 160^000000",
+			"Property :^FF0000 Fire^000000",
+			"Weapon Level :^777777 4^000000",
+			"Required Level :^777777 48^000000",
+			"Applicable Job :^777777 Swordsman Class^000000",
+		},
+		slotCount = 2,
+		ClassNum = 3
+	},
+
+	[30594] = {
+		unidentifiedDisplayName = "Spear",
+		unidentifiedResourceName = "쟈벨린",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 250^000000",
+		},
+		identifiedDisplayName = "Flume",
+		identifiedResourceName = "fourth_1h_spear",
+		identifiedDescriptionName = {
+			"An ancient spear imbued with the ^0000FFWater^000000 Property, capable of summoning storms.",
+			"HP Recovery + 15%",
+			"SP Recovery + 10%",
+			"Add a 10% chance of auto casting ^008800Level 3 Cold Bolt^000000 on the enemy when attacking.",
+			"Type :^777777 Two-Handed Spear^000000",
+			"Attack :^777777 150^000000",
+			"Weight :^777777 250^000000",
+			"Property :^0000FF Water^000000",
+			"Weapon Level :^777777 4^000000",
+			"Required Level :^777777 48^000000",
+			"Applicable Job :^777777 Swordsman Class^000000",
+		},
+		slotCount = 2,
+		ClassNum = 5
+	},
+
+	[30595] = {
+		unidentifiedDisplayName = "Spear",
+		unidentifiedResourceName = "쟈벨린",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 300^000000",
+		},
+		identifiedDisplayName = "Petra",
+		identifiedResourceName = "boost_lance_os",
+		identifiedDescriptionName = {
+			"A duel spear that is robust due to its ^996600Earth^000000 Property.",
+			"^880000Poison^000000 an enemy when you Attack (Success Chance 5%).",
+			"Add a 10% chance of auto casting ^008800Level 2 Heaven's Drive^000000 on the enemy when attacking.",
+			"Type :^777777 Two-Handed Spear^000000",
+			"Attack :^777777 185^000000",
+			"Weight :^777777 300^000000",
+			"Property :^996600 Earth^000000",
+			"Weapon Level :^777777 4^000000",
+			"Required Level :^777777 48^000000",
+			"Applicable Job :^777777 Swordsman Class^000000",
+		},
+		slotCount = 2,
+		ClassNum = 5
+	},
+	
+	[30596] = {
+		unidentifiedDisplayName = "Spear",
+		unidentifiedResourceName = "쟈벨린",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 350^000000",
+		},
+		identifiedDisplayName = "Hellfire",
+		identifiedResourceName = "헬파이어",
+		identifiedDescriptionName = {
+			"A spear imbued with the ^FF0000Fire^000000 Property and enchanted with the power to summon flame.",
+			"STR + 3",
+			"Add a 10% chance of auto casting ^008800Level 3 Fire Ball^000000 on the enemy when attacking.",
+			"Type :^777777 Two-Handed Spear^000000",
+			"Attack :^777777 200^000000",
+			"Weight :^777777 350^000000",
+			"Property :^FF0000 Fire^000000",
+			"Weapon Level :^777777 4^000000",
+			"Required Level :^777777 48^000000",
+			"Applicable Job :^777777 Swordsman Class^000000",
+		},
+		slotCount = 2,
+		ClassNum = 5
 	},
 
 	[40000] = {
@@ -194664,7 +194915,7 @@ tbl = {
 		unidentifiedResourceName = "불의주문서",
 		unidentifiedDescriptionName = {
 			UNIDENTIFIED_ITEM,
-			"Weight :^777777 5^000000",
+			"Weight :^777777 1^000000",
 		},
 		identifiedDisplayName = "Level 1 Fire Bolt",
 		identifiedResourceName = "불의주문서",
@@ -194672,7 +194923,7 @@ tbl = {
 			"A spell scroll which was made by the essence of ancient magic.",
 			"Casts ^008800Level 1 Fire Bolt^000000.",
 			"^ffffff_^000000",
-			"Weight :^777777 5^000000",
+			"Weight :^777777 1^000000",
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -194682,7 +194933,7 @@ tbl = {
 		unidentifiedResourceName = "대지의주문서",
 		unidentifiedDescriptionName = {
 			UNIDENTIFIED_ITEM,
-			"Weight :^777777 5^000000",
+			"Weight :^777777 1^000000",
 		},
 		identifiedDisplayName = "Level 1 Earth Spike",
 		identifiedResourceName = "대지의주문서",
@@ -194690,7 +194941,7 @@ tbl = {
 			"A spell scroll which was made by the essence of ancient magic.",
 			"Casts ^008800Level 1 Earth Spike^000000.",
 			"^ffffff_^000000",
-			"Weight :^777777 5^000000",
+			"Weight :^777777 1^000000",
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -194700,7 +194951,7 @@ tbl = {
 		unidentifiedResourceName = "바람의주문서",
 		unidentifiedDescriptionName = {
 			UNIDENTIFIED_ITEM,
-			"Weight :^777777 5^000000",
+			"Weight :^777777 1^000000",
 		},
 		identifiedDisplayName = "Level 1 Lightning Bolt",
 		identifiedResourceName = "바람의주문서",
@@ -194708,7 +194959,7 @@ tbl = {
 			"A spell scroll which was made by the essence of ancient magic.",
 			"Casts ^008800Level 1 Lightning Bolt^000000.",
 			"^ffffff_^000000",
-			"Weight :^777777 5^000000",
+			"Weight :^777777 1^000000",
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -194718,7 +194969,7 @@ tbl = {
 		unidentifiedResourceName = "물의주문서",
 		unidentifiedDescriptionName = {
 			UNIDENTIFIED_ITEM,
-			"Weight :^777777 5^000000",
+			"Weight :^777777 1^000000",
 		},
 		identifiedDisplayName = "Level 1 Cold Bolt",
 		identifiedResourceName = "물의주문서",
@@ -194726,7 +194977,7 @@ tbl = {
 			"A spell scroll which was made by the essence of ancient magic.",
 			"Casts ^008800Level 1 Cold Bolt^000000.",
 			"^ffffff_^000000",
-			"Weight :^777777 5^000000",
+			"Weight :^777777 1^000000",
 		},
 		slotCount = 0,
 		ClassNum = 0
@@ -195200,13 +195451,13 @@ tbl = {
 		ClassNum = 0
 	},
 	[40134] = {
-		unidentifiedDisplayName = "Advance Alchemy Manual",
+		unidentifiedDisplayName = "Advance Alchemy Manual (2nd Ed.)",
 		unidentifiedResourceName = "야가할머니마법서",
 		unidentifiedDescriptionName = {
 			UNIDENTIFIED_ITEM,
 			"Weight :^777777 1^000000",
 		},
-		identifiedDisplayName = "Advance Alchemy Manual",
+		identifiedDisplayName = "Advance Alchemy Manual (2nd Ed.)",
 		identifiedResourceName = "야가할머니마법서",
 		identifiedDescriptionName = {
 			"A manual that contains [Alloy] and [Magic] recipes.",
@@ -195284,7 +195535,7 @@ tbl = {
 		identifiedDisplayName = "Mobilus Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"Add a 5% chance of auto casting ^008800Level 1 Smite^000000 on the user when the user receives Physical Damage.",
+			"Add a 5% chance of auto casting ^008800Level 1 Shield Charge^000000 on the enemy when the user receives Physical Damage.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Shield^000000",
 			"Weight :^777777 1^000000",
@@ -195302,7 +195553,7 @@ tbl = {
 		identifiedDisplayName = "Killer Coney Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"Add a 3% chance of auto casting ^008800Level 3 Pierce^000000 on hit.",
+			"Add a 5% chance of auto casting ^008800Level 5 Pierce^000000 on hit.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Weapon^000000",
 			"Weight :^777777 1^000000",
@@ -195340,7 +195591,7 @@ tbl = {
 		identifiedDisplayName = "Elder Spore Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"SP consumption of ^008800Increase Agility^000000 and ^008800Blessing^000000 reduced by 15%.",
+			"Reduce SP consumption of ^008800Increase Agility^000000 and ^008800Blessing^000000 by 15%.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Headgear^000000",
 			"Weight :^777777 1^000000",
@@ -195358,8 +195609,7 @@ tbl = {
 		identifiedDisplayName = "Savage Brute Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"SP consumption of ^008800Heal^000000 reduced by 20%.",
-			"SP consumption of ^008800Sanctuary^000000 by 15%.",
+			"Reduce SP consumption of ^008800Heal^000000 by 20% and ^008800Sanctuary^000000 by 15%.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Headgear^000000",
 			"Weight :^777777 1^000000",
@@ -195397,8 +195647,8 @@ tbl = {
 		identifiedDisplayName = "Hornisse Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"Add a 2% chance of auto casting ^008800Level 1 Kamaitachi^000000 on the user when attacking.",
-			"If the user has mastered the skill at Level 5, it will cast ^008800Level 5 Kamaitachi^000000.",
+			"Add a 3% chance of auto casting ^008800Level 1 Lightning Jolt^000000 on the enemy when attacking.",
+			"If the user has mastered the skill at Level 5, it will cast ^008800Level 5 Lightning Jolt^000000.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Weapon^000000",
 			"Weight :^777777 1^000000",
@@ -195426,7 +195676,7 @@ tbl = {
 			"[^000088Ninja Class^000000]",
 			"Reduces SP Consumption by an additional 15%",
 			"Increases damage of ^008800Throw Shuriken^000000 and ^008800Throw Kunai^000000 skill by 25%.",
-			"Reduces Aftercast-Delay of ^008800Throw Fuuma Shuriken^000000 by 50%.",
+			"Reduces Aftercast-Delay of ^008800Throw Fuuma Shuriken^000000 and ^008800Throw Zeny^000000 by 50%.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Headgear^000000",
 			"Weight :^777777 1^000000",
@@ -195486,6 +195736,9 @@ tbl = {
 		identifiedDescriptionName = {
 			"Maximum HP and SP - 5%",
 			"Enables use of ^008800Level 3 Spiritual Cadence^000000.",
+			"[^000088Monk Class^000000]",
+			"Maximum HP and SP malus is nullified.",
+			"Every 10 seconds, you recover 10 HP and 2 SP.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Shoes^000000",
 			"Weight :^777777 1^000000",
@@ -195595,7 +195848,7 @@ tbl = {
 			"[^000088Ninja Class^000000]",
 			"Reduces SP Consumption by an additional 15%",
 			"Increases damage of ^008800Throw Shuriken^000000 and ^008800Throw Kunai^000000 skill by 25%.",
-			"Reduces Aftercast-Delay of ^008800Throw Fuuma Shuriken^000000 by 50%.",
+			"Reduces Aftercast-Delay of ^008800Throw Fuuma Shuriken^000000 and ^008800Throw Zeny^000000 by 50%.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Armor^000000",
 			"Weight :^777777 1^000000",
@@ -195613,6 +195866,7 @@ tbl = {
 		identifiedDisplayName = "Plague Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
+			"ATK + 5",
 			"Increases damage when using skill ^008800Venom Splasher^000000 by 20%.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Weapon^000000",
@@ -195651,7 +195905,7 @@ tbl = {
 		identifiedDisplayName = "Baby Fang Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"Add a 5% chance of auto casting ^008800Level 1 Mug^000000 on the user when attacking.",
+			"Add a 5% chance of auto casting ^008800Level 1 Mug^000000 on the enemy when attacking.",
 			"If the user has mastered the skill at Level 10, it will cast ^008800Level 10 Mug^000000.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Headgear^000000",
@@ -195689,7 +195943,9 @@ tbl = {
 		identifiedDisplayName = "Bandit Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"Reduce Casting Time of ^008800Tracking^000000 by 40%.",
+			"Reduce Casting Time of ^008800Tracking^000000 by 20%.",
+			"[^000088+ Rifle^000000]",
+			"Inflict 5% more damage with ^008800Tracking^000000.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Accessory^000000",
 			"Weight :^777777 1^000000",
@@ -195726,7 +195982,7 @@ tbl = {
 		identifiedDisplayName = "Caldering Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"Add a 1.5% chance of auto casting ^008800Level 1 Dragon Fire Formation^000000 on the user when attacking.",
+			"Add a 1.5% chance of auto casting ^008800Level 1 Dragon Fire Formation^000000 on the enemy when attacking.",
 			"If the user has mastered the skill at Level 5, it will cast ^008800Level 5 Dragon Fire Formation^000000.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Weapon^000000",
@@ -195846,7 +196102,10 @@ tbl = {
 		identifiedDisplayName = "Jackal Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"Reduce Casting Time of ^008800Throw Fuuma Shuriken^000000 by 30%.",
+			"Increase damage of ^008800Throw Shuriken^000000 by 10%.",
+			"Reduce Cooldown of ^008800Throw Kunai^000000 by 15%.",
+			"Reduce Casting Time of ^008800Throw Fuuma Shuriken^000000 by 15%.",
+			"Reduce SP cost of ^008800Throw Zeny^000000 by 10%.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Accessory^000000",
 			"Weight :^777777 1^000000",
@@ -195987,7 +196246,7 @@ tbl = {
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
 			"Allows Katfra usage even on Meowndays",
-			"Unlocks Special Katfra services.",
+			"Unlocks Special Cat related services.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Accessory^000000",
 			"Weight :^777777 1^000000",
@@ -196026,7 +196285,7 @@ tbl = {
 		identifiedDisplayName = "Devil Cultist Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"Add a 5% chance of auto casting ^008800Level 1 Soul Link^000000 on the user when attacking.",
+			"Add a 5% chance of auto casting ^008800Level 1 Soul Link^000000 on the user on hit.",
 			"Drain 1 SP from its owner on each attack.",
 			"Drain 200 SP as the headgear is unequipped.",
 			"Link status is removed as the headgear is unequipped.",
@@ -196583,7 +196842,7 @@ tbl = {
 		identifiedResourceName = "choco_h_in_mouth",
 		identifiedDescriptionName = {
 			"A sweet mouthpiece, symbolizing the whispers of affection.",
-			"^008800Increases the effectiveness of 'Valentine's Chocolate' and 'Valentine's White Chocolate' by 200%.^000000",
+			"^008800Increases the effectiveness of 'Valentine's Chocolate' by 100% and 'Valentine's White Chocolate' by 50%.^000000",
 			"[^1133aaValentine's Day Event 2025^000000]",
 			"Add a chance of gaining 'Valentine's Chocolate' and 'Valentine's White Chocolate' each time a monster is killed.",
 			"Type :^777777 Headgear^000000",
@@ -197191,6 +197450,8 @@ tbl = {
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
 			"Add a 0.5% chance of auto casting ^008800Level 4 Endow Quake^000000 on the user when attacking.",
+			"ATK + 5",
+			"Increase damage inflicted upon ^009900Wind^000000 Property enemies by 5%.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Weapon^000000",
 			"Weight :^777777 1^000000",
@@ -197209,6 +197470,8 @@ tbl = {
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
 			"Add a 0.5% chance of auto casting ^008800Level 4 Endow Tornado^000000 on the user when attacking.",
+			"ATK + 5",
+			"Increase damage inflicted upon ^0000FFWater^000000 Property enemies by 5%.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Weapon^000000",
 			"Weight :^777777 1^000000",
@@ -197227,6 +197490,8 @@ tbl = {
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
 			"Add a 1% chance of auto casting ^008800Level 2 Aspersio^000000 on the user when attacking.",
+			"ATK + 5",
+			"Increase damage inflicted upon ^777777Shadow^000000 and ^777777Undead^000000 Property enemies by 5%.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Weapon^000000",
 			"Weight :^777777 1^000000",
@@ -197245,6 +197510,8 @@ tbl = {
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
 			"Add a 0.5% chance of auto casting ^008800Level 4 Endow Tsunami^000000 on the user when attacking.",
+			"ATK + 5",
+			"Increase damage inflicted upon ^FF0000Fire^000000 Property enemies by 5%.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Weapon^000000",
 			"Weight :^777777 1^000000",
@@ -197263,6 +197530,8 @@ tbl = {
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
 			"Add a 0.5% chance of auto casting ^008800Level 4 Endow Blaze^000000 on the user when attacking.",
+			"ATK + 5",
+			"Increase damage inflicted upon ^996600Earth^000000 Property enemies by 5%.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Weapon^000000",
 			"Weight :^777777 1^000000",
@@ -197280,7 +197549,7 @@ tbl = {
 		identifiedDisplayName = "Astraea Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"Enables use of ^008800Level 3 Protection Souls^000000.",
+			"Enables use of ^008800Level 3 Resistant Souls^000000.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Shield^000000",
 			"Weight :^777777 1^000000",
@@ -197320,6 +197589,9 @@ tbl = {
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
 			"Add a 10% chance of auto casting ^008800Level 1 Flip Tatami^000000 on the user when receives Physical Damage.",
+			"Reduce damage from Long Range attacks by 20%.",
+			"[^000088If the user has Flip Tatami^000000]",
+			"Reduce damage from Long Range attacks by an additional 10%.",
 			"[^000088Sticky Rice, Bombering, Beech, Goliath Combo^000000]",
 			"Max HP + 8%",
 			"Max SP + 8%",
@@ -197329,6 +197601,7 @@ tbl = {
 			"Increase ^777777Fire, Water, Earth, Wind^000000 Magical Damage by 5%.",
 			"Cast time - 15%",
 			"Skill casting can not be interrupted.",
+			"Removes chance to autocast Flip Tatami from ^000088Goliath Card^000000.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Shield^000000",
 			"Weight :^777777 1^000000",
@@ -197383,9 +197656,9 @@ tbl = {
 		identifiedDisplayName = "Vulture Card",
 		identifiedResourceName = "이름없는카드",
 		identifiedDescriptionName = {
-			"Add a 5% chance of auto casting ^008800Level 1 Holy Light^000000 on the enemy when attacking.",
+			"Inflict 15% more damage with ^008800Holy Light^000000.",
 			"[^000088Acolyte Class^000000]",
-			"Holy Light's SP consumption reduced by 20%.",
+			"Add a 10% chance of auto casting ^008800Level 1 Holy Light^000000 on the enemy when attacking.",
 			"Type :^777777 Card^000000",
 			"Compound on :^777777 Headgear^000000",
 			"Weight :^777777 1^000000",
@@ -197533,8 +197806,8 @@ tbl = {
 		ClassNum = 1396
 	},
 	[40252] = {
-		unidentifiedDisplayName = "Cherry Blossom in Mouth",
-		unidentifiedResourceName = "cherry_blossom_in_mouth",
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "리본",
 		unidentifiedDescriptionName = {
 			UNIDENTIFIED_ITEM,
 			"Weight :^777777 10^000000",
@@ -197814,7 +198087,7 @@ tbl = {
 			"Weight :^777777 10^000000",
 			"Applicable Job :^777777 Every Job^000000",
 		},
-		slotCount = 1,
+		slotCount = 0,
 		ClassNum = 1404
 	},
 
@@ -197857,7 +198130,7 @@ tbl = {
 			"Weight :^777777 10^000000",
 			"Applicable Job :^777777 Every Job^000000",
 		},
-		slotCount = 1,
+		slotCount = 0,
 		ClassNum = 1405
 	},
 
@@ -197900,7 +198173,7 @@ tbl = {
 			"Weight :^777777 10^000000",
 			"Applicable Job :^777777 Every Job^000000",
 		},
-		slotCount = 1,
+		slotCount = 0,
 		ClassNum = 1406
 	},
 
@@ -197943,7 +198216,7 @@ tbl = {
 			"Weight :^777777 10^000000",
 			"Applicable Job :^777777 Every Job^000000",
 		},
-		slotCount = 1,
+		slotCount = 0,
 		ClassNum = 1407
 	},
 
@@ -197986,7 +198259,7 @@ tbl = {
 			"Weight :^777777 10^000000",
 			"Applicable Job :^777777 Every Job^000000",
 		},
-		slotCount = 1,
+		slotCount = 0,
 		ClassNum = 1408
 	},
 
@@ -198494,7 +198767,7 @@ tbl = {
 		identifiedDescriptionName = {
 			"Empowered by your outstanding cooking skills and some magical sprinkles, this pizza slice remains hot and juicy in your mouth.",
 			"Enjoy its deliciousness while heading towards your next adventure.",
-			"Reduces damage from Fire element by 3%.",
+			"Decreases damage from ^FF0000Fire^000000 Property by 3%",
 			"Type :^777777 Headgear^000000",
 			"Equipped on :^777777 Lower^000000",
 			"Required Level :^777777 24^000000",
@@ -199350,14 +199623,14 @@ tbl = {
 		unidentifiedDisplayName = "Small Bag of Poring Coins",
 		unidentifiedResourceName = "bag_of_poring_coins_s",
 		unidentifiedDescriptionName = {
-			"A box containing a small amount of Poring Coins.",
+			"A bag containing a small amount of Poring Coins.",
 			"^ffffff_^000000",
 			"Weight :^777777 20^000000",
 		},
 		identifiedDisplayName = "Small Bag of Poring Coins",
 		identifiedResourceName = "bag_of_poring_coins_s",
 		identifiedDescriptionName = {
-			"A box containing a small amount of Poring Coins.",
+			"A bag containing a small amount of Poring Coins.",
 			"^ffffff_^000000",
 			"Weight :^777777 20^000000",
 		},
@@ -199372,14 +199645,14 @@ tbl = {
 		unidentifiedDisplayName = "Medium Bag of Poring Coins",
 		unidentifiedResourceName = "bag_of_poring_coins_m",
 		unidentifiedDescriptionName = {
-			"A box containing a medium amount of Poring Coins.",
+			"A bag containing a medium amount of Poring Coins.",
 			"^ffffff_^000000",
 			"Weight :^777777 20^000000",
 		},
 		identifiedDisplayName = "Medium Bag of Poring Coins",
 		identifiedResourceName = "bag_of_poring_coins_m",
 		identifiedDescriptionName = {
-			"A box containing a medium amount of Poring Coins.",
+			"A bag containing a medium amount of Poring Coins.",
 			"^ffffff_^000000",
 			"Weight :^777777 20^000000",
 		},
@@ -199394,14 +199667,14 @@ tbl = {
 		unidentifiedDisplayName = "Large Bag of Poring Coins",
 		unidentifiedResourceName = "bag_of_poring_coins_l",
 		unidentifiedDescriptionName = {
-			"A box containing a large amount of Poring Coins.",
+			"A bag containing a large amount of Poring Coins.",
 			"^ffffff_^000000",
 			"Weight :^777777 20^000000",
 		},
 		identifiedDisplayName = "Large Bag of Poring Coins",
 		identifiedResourceName = "bag_of_poring_coins_l",
 		identifiedDescriptionName = {
-			"A box containing a large amount of Poring Coins.",
+			"A bag containing a large amount of Poring Coins.",
 			"^ffffff_^000000",
 			"Weight :^777777 20^000000",
 		},
@@ -199611,6 +199884,884 @@ tbl = {
 			"Equipped on :^777777 Lower^000000",
 			"Weight :^777777 1^000000",
 			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+
+	[40361] = {
+		unidentifiedDisplayName = "Vanir's Blessing",
+		unidentifiedResourceName = "교황쿠키",
+		unidentifiedDescriptionName = {
+			"A cookie with the cute image of Freya and text that reads 'You are only partially dead!' seared onto it.",
+			"Temporarily reduce EXP lost to 1/3 from death once.",
+			"Effect only applicable to area where EXP lost is possible.",
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Vanir's Blessing",
+		identifiedResourceName = "교황쿠키",
+		identifiedDescriptionName = {
+			"A cookie with the cute image of Freya and text that reads 'You are only partially dead!' seared onto it.",
+			"Temporarily reduce EXP lost to 1/3 from death once.",
+			"Effect only applicable to area where EXP lost is possible.",
+			"Weight :^777777 1^000000",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[40362] = {
+		unidentifiedDisplayName = "Cat O' Nine Lives",
+		unidentifiedResourceName = "마녀의물약",
+		unidentifiedDescriptionName = {
+			"Ever wonder why cats have nine lives?",
+			"Resets death counter.",
+			"Also temporarily nullify death counting.",
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Cat O' Nine Lives",
+		identifiedResourceName = "마녀의물약",
+		identifiedDescriptionName = {
+			"Ever wonder why cats have nine lives?",
+			"Resets death counter.",
+			"Also temporarily nullify death counting.",
+			"Weight :^777777 1^000000",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[40363] = {
+		unidentifiedDisplayName = "Mace",
+		unidentifiedResourceName = "클럽",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 66^000000",
+		},
+		identifiedDisplayName = "Iroh's Club",
+		identifiedResourceName = "스터너",
+		identifiedDescriptionName = {
+			"The club that once belonged to Iroh.",
+			" ",
+			"^A68309Iroh's Club of Mass Destruction",
+			"^000000One-Hand Damage: 1 To 1",
+			"Mace Class - Normal Attack Speed",
+			"Required Strength (Weight): 66",
+			"Required Level: 1",
+			"Required Job: Novice, Swordsman Class, Acolyte Class, Merchant Class",
+			"^3F48CCImpossible To Refine This Item",
+			"+25% Damage To Undead",
+			"[^008800If Equipped By Iroh^000000]",
+			"^3F48CC+999 Enhanced Damage",
+			"Ignores Target's Defence",
+			"50% Chance Of ^880000Coma^3F48CC Effect To Enemies",
+		},
+		slotCount = 0,
+		ClassNum = 65
+	},
+	[40364] = {
+		unidentifiedDisplayName = "Tome of Distance Farm",
+		unidentifiedResourceName = "악마소환서",
+		unidentifiedDescriptionName = {
+			"There are no secrets in this world.^FFFFFF And there is no cow level.",
+			"^FF0000Can only be used in town.^000000",
+			"^FF0000When used by party leader, it will also affect party members on the same map.^000000",
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Tome of Distance Farm",
+		identifiedResourceName = "악마소환서",
+		identifiedDescriptionName = {
+			"There are no secrets in this world.^FFFFFF And there is no cow level.",
+			"^FF0000Can only be used in town.^000000",
+			"^FF0000When used by party leader, it will also affect party members on the same map.^000000",
+			"Weight :^777777 1^000000",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[40365] = {
+		unidentifiedDisplayName = "Mastela Juice",
+		unidentifiedResourceName = "핀귀베리쥬스",
+		unidentifiedDescriptionName = {
+			"A potent juice made from the Mastela Fruit.",
+			"^000088Recovers a moderate amount of HP plus 20% of Max HP over 40 seconds. Heal over time effect do not stack.^000000",
+			"^FF0000Cannot be used in WoE^000000.",
+			"Weight :^777777 5^000000",
+		},
+		identifiedDisplayName = "Mastela Juice",
+		identifiedResourceName = "핀귀베리쥬스",
+		identifiedDescriptionName = {
+			"A potent juice made from the Mastela Fruit.",
+			"^000088Recovers a moderate amount of HP plus 20% of Max HP over 40 seconds. Heal over time effect do not stack.^000000",
+			"^FF0000Cannot be used in WoE^000000.",
+			"Weight :^777777 5^000000",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+	[40366] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 50^000000",
+		},
+		identifiedDisplayName = "Princess Head Dress",
+		identifiedResourceName = "샬로시의헤드드레스",
+		identifiedDescriptionName = {
+			"The head dress worn by Princess Richelle.",
+			"You can still hear everyone calling you Dullahan.",
+			"Reduces damage from Undead, Demon, Angel monsters by 5%.",
+			"MDEF +1",
+			"Cannot be refined",
+			"Type :^777777 Headgear^000000",
+			"Defense :^777777 1^000000",
+			"Equipped on :^777777 Upper^000000",
+			"Weight :^777777 50^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 1,
+		ClassNum = 1425
+	},
+	[40367] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Princess Head Dress Costume",
+		identifiedResourceName = "샬로시의헤드드레스",
+		identifiedDescriptionName = {
+			"The head dress worn by Princess Richelle.",
+			"You can still hear everyone calling you Dullahan.",
+			"Type :^777777 Costume Headgear^000000",
+			"Equipped on :^777777 Upper^000000",
+			"Weight :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1425
+	},
+	[40368] = {
+		unidentifiedDisplayName = "Headgear",
+		unidentifiedResourceName = "헬름",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 100^000000",
+		},
+		identifiedDisplayName = "Rune Helm",
+		identifiedResourceName = "룬헬름",
+		identifiedDescriptionName = {
+			"Mysterious Helm that can amplify the power of Runes. It has the effect of building the power of each rune on itself.",
+			"DEX + 2, AGI + 1",
+			"Cannot be refined",
+			"Type :^777777 Headgear^000000",
+			"Defense :^777777 5^000000",
+			"Equipped on :^777777 Upper^000000",
+			"Weight :^777777 100^000000",
+			"Required Level :^777777 65^000000",
+			"Applicable Job :^777777 Every Job Except Novice^000000",
+		},
+		slotCount = 1,
+		ClassNum = 1426
+	},
+	[40369] = {
+		unidentifiedDisplayName = "Headgear",
+		unidentifiedResourceName = "헬름",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Rune Helm Costume",
+		identifiedResourceName = "룬헬름",
+		identifiedDescriptionName = {
+			"Mysterious Helm that can amplify the power of Runes. It has the effect of building the power of each rune on itself.",
+			"Type :^777777 Costume Headgear^000000",
+			"Equipped on :^777777 Upper^000000",
+			"Weight :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1426
+	},
+	[40370] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Butterfly Ears",
+		identifiedResourceName = "나비날개귀",
+		identifiedDescriptionName = {
+			"Have the appearance of wearing the wings of a butterfly as your ears with this accessory.",
+			"MDEF + 1",
+			"Reduces damage from Plant monster by 3%",
+			"Type :^777777 Headgear^000000",
+			"Defense :^777777 0^000000",
+			"Equipped on :^777777 Mid^000000",
+			"Weight :^777777 10^000000",
+			"Required Level :^777777 24^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 695
+	},
+	[40371] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Butterfly Ears Costume",
+		identifiedResourceName = "나비날개귀",
+		identifiedDescriptionName = {
+			"Have the appearance of wearing the wings of a butterfly as your ears with this accessory.",
+			"Type :^777777 Costume Headgear^000000",
+			"Equipped on :^777777 Mid^000000",
+			"Weight :^777777 1^000000",
+			"Required Level :^777777 24^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 695
+	},
+	[40372] = {
+		unidentifiedDisplayName = "Glasses",
+		unidentifiedResourceName = "글래스",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 10^000000",
+		},
+		identifiedDisplayName = "Half Rimmed Glasses",
+		identifiedResourceName = "c_half_rim_glasses",
+		identifiedDescriptionName = {
+			"Glasses with frames only attached to the top of the lens.",
+			"CRIT + 2",
+			"HIT + 1",
+			"Type :^777777 Headgear^000000",
+			"Defense :^777777 0^000000",
+			"Equipped on :^777777 Mid^000000",
+			"Weight :^777777 10^000000",
+			"Required Level :^777777 24^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1427
+	},
+	[40373] = {
+		unidentifiedDisplayName = "Glasses",
+		unidentifiedResourceName = "글래스",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Half Rimmed Glasses Costume",
+		identifiedResourceName = "c_half_rim_glasses",
+		identifiedDescriptionName = {
+			"Glasses with frames only attached to the top of the lens.",
+			"Type :^777777 Costume Headgear^000000",
+			"Equipped on :^777777 Mid^000000",
+			"Weight :^777777 1^000000",
+			"Required Level :^777777 24^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1427
+	},
+	[40374] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Scarlet Rose Costume",
+		identifiedResourceName = "진홍의장미",
+		identifiedDescriptionName = {
+			"The crimson of the roses in your mouth. The thorn which is dangerous to remove?",
+			"...",
+			"Type :^777777 Costume Headgear^000000",
+			"Equipped on :^777777 Lower^000000",
+			"Weight :^777777 1^000000",
+			"Required Level :^777777 50^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 534
+	},
+	[40375] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Ninja's Scroll Costume",
+		identifiedResourceName = "닌자의두루마리",
+		identifiedDescriptionName = {
+			"A scroll when Ninjas lay a spell.",
+			"Type :^777777 Costume Headgear^000000",
+			"Equipped on :^777777 Lower^000000",
+			"Weight :^777777 1^000000",
+			"Required Level :^777777 60^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 370
+	},
+
+	[40407] = {
+		unidentifiedDisplayName = "Eggseptional Egg",
+		unidentifiedResourceName = "eggseptional_egg",
+		unidentifiedDescriptionName = {
+			"An eggseptional egg representing the Easter Season.",
+			"You wonder what makes it so eggseptional? Keep wondering.",
+			"Weight :^777777 3^000000",
+		},
+		identifiedDisplayName = "Eggseptional Egg",
+		identifiedResourceName = "eggseptional_egg",
+		identifiedDescriptionName = {
+			"An eggseptional egg representing the Easter Season.",
+			"You wonder what makes it so eggseptional? Keep wondering.",
+			"Weight :^777777 3^000000",
+		},
+		usages = {
+			"EASTER_VALENTINES_E26",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+
+	[40408] = {
+		unidentifiedDisplayName = "Eggcellent Egg",
+		unidentifiedResourceName = "eggcellent_egg",
+		unidentifiedDescriptionName = {
+			"An eggcellent egg representing the Easter Season.",
+			"You wonder what makes it so eggcellent? Keep wondering.",
+			"Weight :^777777 3^000000",
+		},
+		identifiedDisplayName = "Eggcellent Egg",
+		identifiedResourceName = "eggcellent_egg",
+		identifiedDescriptionName = {
+			"An eggcellent egg representing the Easter Season.",
+			"You wonder what makes it so eggcellent? Keep wondering.",
+			"Weight :^777777 3^000000",
+		},
+		usages = {
+			"EASTER_VALENTINES_E26",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+
+	[40409] = {
+		unidentifiedDisplayName = "Eggsclusive Egg",
+		unidentifiedResourceName = "eggsclusive_egg",
+		unidentifiedDescriptionName = {
+			"An eggsclusiveegg representing the Easter Season.",
+			"You wonder what makes it so eggsclusive? Keep wondering.",
+			"Weight :^777777 3^000000",
+		},
+		identifiedDisplayName = "Eggsclusive Egg",
+		identifiedResourceName = "eggsclusive_egg",
+		identifiedDescriptionName = {
+			"An eggsclusive egg representing the Easter Season.",
+			"You wonder what makes it so eggsclusive? Keep wondering.",
+			"Weight :^777777 3^000000",
+		},
+		usages = {
+		"EASTER_VALENTINES_E26",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+
+	[40410] = {
+		unidentifiedDisplayName = "Eggsecuted Lunatic",
+		unidentifiedResourceName = "eggsecuted_lunatic",
+		unidentifiedDescriptionName = {
+			"The remains of an Eggsecuted Lunatic that fell victim to an act of aggression.",
+			"May they rest in peace.",
+			"Weight :^777777 5^000000",
+		},
+		identifiedDisplayName = "Eggsecuted Lunatic",
+		identifiedResourceName = "eggsecuted_lunatic",
+		identifiedDescriptionName = {
+			"The remains of an Eggsecuted Lunatic that fell victim to an act of aggression.",
+			"May they rest in peace.",
+			"Weight :^777777 5^000000",
+		},
+		usages = {
+		"EASTER_VALENTINES_E26",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+
+	[40411] = {
+		unidentifiedDisplayName = "Ribbon Bell",
+		unidentifiedResourceName = "ribbon_bell",
+		unidentifiedDescriptionName = {
+			"A cute bell with a purple ribbon.",
+			"Especially suitable to decorate fluffy fox ears.",
+			"Weight :^777777 10^000000",
+		},
+		identifiedDisplayName = "Ribbon Bell",
+		identifiedResourceName = "ribbon_bell",
+		identifiedDescriptionName = {
+			"A cute bell with a purple ribbon.",
+			"Especially suitable to decorate fluffy fox ears.",
+			"Weight :^777777 10^000000",
+		},
+		usages = {
+		"EASTER_VALENTINES_E26",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+
+	[40412] = {
+		unidentifiedDisplayName = "Eggsquisite Music Egg",
+		unidentifiedResourceName = "eggsquisite_music_egg",
+		unidentifiedDescriptionName = {
+			"A finely crafted egg that softly chimes when opened.",
+			"The melody inside feels oddly familiar...",
+			"A tune about promises, loyalty, and never giving certain things up.",
+			"Strange. You could swear you've heard it somewhere before.",
+			"Weight :^777777 0^000000",
+		},
+		identifiedDisplayName = "Eggsquisite Music Egg",
+		identifiedResourceName = "eggsquisite_music_egg",
+		identifiedDescriptionName = {
+			"A finely crafted egg that softly chimes when opened.",
+			"The melody inside feels oddly familiar...",
+			"A tune about promises, loyalty, and never giving certain things up.",
+			"Strange. You could swear you've heard it somewhere before.",
+			"Weight :^777777 0^000000",
+		},
+		usages = {
+		"EASTER_VALENTINES_E26",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+
+	[40413] = {
+		unidentifiedDisplayName = "Poring Cake",
+		unidentifiedResourceName = "poring_cake",
+		unidentifiedDescriptionName = {
+			"A Poring Cake that captures both great taste and irresistible cuteness.",
+			"In fact, its adorableness is so powerful that it can cure even the orcishest of faces.",
+			"Weight :^777777 7^000000",
+		},
+		identifiedDisplayName = "Poring Cake",
+		identifiedResourceName = "poring_cake",
+		identifiedDescriptionName = {
+			"A Poring Cake that captures both great taste and irresistible cuteness.",
+			"In fact, its adorableness is so powerful that it can cure even the orcishest of faces.",
+			"Weight :^777777 7^000000",
+		},
+		usages = {
+		"EASTER_VALENTINES_E26",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+		
+	[40414] = {
+		unidentifiedDisplayName = "Chocolate Tart",
+		unidentifiedResourceName = "초콜렛타르트",
+		unidentifiedDescriptionName = {
+			"A classical delicious chocolate tart topped with fresh cream.",
+			"Created in memory of the old lady.",
+			"Weight :^777777 10^000000",
+		},
+		identifiedDisplayName = "Chocolate Tart",
+		identifiedResourceName = "초콜렛타르트",
+		identifiedDescriptionName = {
+			"A classical delicious chocolate tart topped with fresh cream.",
+			"Created in memory of the old lady.",
+			"Weight :^777777 10^000000",
+		},
+		usages = {
+		"EASTER_VALENTINES_E26",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+
+	[40415] = {
+		unidentifiedDisplayName = "Old Chocolate Tart Recipe",
+		unidentifiedResourceName = "초콜렛타르트레시피",
+		unidentifiedDescriptionName = {
+			"A worn out recipe for a Chocolate Tart handwritten by the old lady.",
+			"Weight :^777777 0^000000",
+		},
+		identifiedDisplayName = "Old Chocolate Tart Recipe",
+		identifiedResourceName = "초콜렛타르트레시피",
+		identifiedDescriptionName = {
+			"A worn out recipe for a Chocolate Tart handwritten by the old lady.",
+			"Weight :^777777 0^000000",
+		},
+		usages = {
+		"EASTER_VALENTINES_E26",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+
+	[40416] = {
+		unidentifiedDisplayName = "Hoppel Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = {
+			"[DIALOGUE]",
+			"^1133aaHello there, kind soul.",
+			"^1133aaI do hope I am not troubling you. I find myself in a most unfortunate predicament, you see. The dark, furry creature you have just defeated somehow absorbed my wandering spirit, and now I am quite hopelessly stuck inside this card.^000000",
+			"^1133aaMy appearance has... well...^000000",
+			"^1133aabegun to resemble its shadowy fluff, much to my dismay. I was once ever so bright and radiant. Truly.^000000",
+			"^1133aaIf you would be so gracious, might I ask for a small favor? Please, if you would, scan my chubby, fluffy belly. It may be the only way for my spirit to slip free and continue its journey in another form.^000000",
+			"^1133aaI would be endlessly thankful. Truly. Most obliged.^000000",
+			"Type :^777777 Event Card^000000",
+			"Usage :^777777 Click 'View' and use your QR Code Scanner^000000",
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Hoppel Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"[DIALOGUE]",
+			"^1133aaHello there, kind soul.",
+			"^1133aaI do hope I am not troubling you. I find myself in a most unfortunate predicament, you see. The dark, furry creature you have just defeated somehow absorbed my wandering spirit, and now I am quite hopelessly stuck inside this card.^000000",
+			"^1133aaMy appearance has... well...^000000",
+			"^1133aabegun to resemble its shadowy fluff, much to my dismay. I was once ever so bright and radiant. Truly.^000000",
+			"^1133aaIf you would be so gracious, might I ask for a small favor? Please, if you would, scan my chubby, fluffy belly. It may be the only way for my spirit to slip free and continue its journey in another form.^000000",
+			"^1133aaI would be endlessly thankful. Truly. Most obliged.^000000",
+			"Type :^777777 Event Card^000000",
+			"Usage :^777777 Click 'View' and use your QR Code Scanner^000000",
+			"Weight :^777777 1^000000",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+
+	[40417] = {
+		unidentifiedDisplayName = "Fluffy Bunny Cape Costume (Pink)",
+		unidentifiedResourceName = "c_fluffy_bunny_cape_pink",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Fluffy Bunny Cape Costume (Pink)",
+		identifiedResourceName = "c_fluffy_bunny_cape_pink",
+		identifiedDescriptionName = {
+			"Fluffy costume cape in the shape of a bunny which has been released during the Easter Event 2026.",
+			"Type :^777777 Costume Headgear^000000",
+			"Defense :^777777 0^000000",
+			"Equipped on :^777777 Upper^000000",
+			"Weight :^777777 1^000000",
+			"Required Level :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1428
+	},
+		
+	[40418] = {
+		unidentifiedDisplayName = "Bunny Magic Hat",
+		unidentifiedResourceName = "c_bunny_magic_hat",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Bunny Magic Hat",
+		identifiedResourceName = "c_bunny_magic_hat",
+		identifiedDescriptionName = {
+			"A top hat modeled after a magician who became famous for making bunnies appear out of thin air.",
+			"^008800If equipped with Die Moehre, reduces 3% damage taken from Plant class monsters.^000000",
+			"^008800If equipped with Die Moehre and Small Ribbons (Green), adds a chance to autospell Lv.1 High Jump when receiving physical damage.^000000",
+			"This Headgear has been released during the Easter Event 2026.",
+			"Type :^777777 Headgear^000000",
+			"Defense :^777777 0^000000",
+			"Equipped on :^777777 Upper^000000",
+			"Weight :^777777 1^000000",
+			"Required Level :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1429
+	},
+
+	[40419] = {
+		unidentifiedDisplayName = "Fluffy Fox Ears Costume",
+		unidentifiedResourceName = "c_fluffy_fox_ears",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Fluffy Fox Ears Costume",
+		identifiedResourceName = "c_fluffy_fox_ears",
+		identifiedDescriptionName = {
+			"A cute costume modeled after a fluffy fox's ears.",
+			"Some might even say, its pure white fur makes it even resemble bunny ears.",
+			"This Costume has been released during the Easter Event 2026.",
+			"Type :^777777 Costume Headgear^000000",
+			"Defense :^777777 0^000000",
+			"Equipped on :^777777 Upper^000000",
+			"Weight :^777777 1^000000",
+			"Required Level :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1430
+	},
+
+	[40420] = {
+		unidentifiedDisplayName = "Fluffy Bunny Cape Costume (Blue)",
+		unidentifiedResourceName = "c_fluffy_bunny_cape_blue",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Fluffy Bunny Cape Costume (Blue)",
+		identifiedResourceName = "c_fluffy_bunny_cape_blue",
+		identifiedDescriptionName = {
+			"Fluffy costume cape in the shape of a bunny which has been released during the Easter Event 2026.",
+			"Type :^777777 Costume Headgear^000000",
+			"Defense :^777777 0^000000",
+			"Equipped on :^777777 Upper^000000",
+			"Weight :^777777 1^000000",
+			"Required Level :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1431
+	},
+
+	[40421] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 10^000000",
+		},
+		identifiedDisplayName = "Die Moehre",
+		identifiedResourceName = "die_mohre",
+		identifiedDescriptionName = {
+			"A carrot which has been released during the Easter Event 2026.",
+			"Add additional 3% damage to plant type monsters.",
+			"^008800If equipped with Bunny Magic Hat, reduces 3% damage taken from Plant class monsters.^000000",
+			"^008800If equipped with Bunny Magic Hat and Small Ribbons (Green), adds a chance to autospell Lv.1 High Jump when receiving physical damage.^000000",
+			"[^1133aaEaster Event 2026^000000]",
+			"Add a chance of gaining 'Eggseptional Egg ', 'Eggcellent Egg' and 'Eggsclusive Egg' each time a monster is killed.",
+			"Type :^777777 Headgear^000000",
+			"Defense :^777777 0^000000",
+			"Equipped on :^777777 Lower^000000",
+			"Weight :^777777 10^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1432
+	},
+
+	[40422] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 10^000000",
+		},
+		identifiedDisplayName = "Small Ribbons (Green)",
+		identifiedResourceName = "small_ribbons_green",
+		identifiedDescriptionName = {
+			"A pair of small green ribbons which have been released during the Easter Event 2026.",
+			"^008800If equipped with Bunny Magic Hat Costume and Die Moehre, adds a chance to autospell Lv.1 High Jump when receiving physical damage.^000000",
+			"Type :^777777 Headgear^000000",
+			"Defense :^777777 1^000000",
+			"Equipped on :^777777 Mid^000000",
+			"Weight :^777777 10^000000",
+			"Required Level :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1433
+	},
+
+	[40423] = {
+		unidentifiedDisplayName = "Posh Glasses (Blue) Costume",
+		unidentifiedResourceName = "posh_glasses_blue",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Posh Glasses (Blue) Costume",
+		identifiedResourceName = "posh_glasses_blue",
+		identifiedDescriptionName = {
+			"An outrageously fancy pair of glasses, complete with a blue chain so even adventurers with terrible memory won't lose them.",
+			"A refined aid for one's near-blindness during daily reading activities.",
+			"Adds the illusion of improved reading comprehension when consulting the Arcadia Wiki, particularly for our special cases.",
+			"This pair of glasses were released during the Valentine's Event 2026.",
+			"Type :^777777 Costume Headgear^000000",
+			"Equipped on :^777777 Middle^000000",
+			"Weight :^777777 1^000000",
+			"Required Level :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1434
+	},
+
+	[40424] = {
+		unidentifiedDisplayName = "Posh Glasses (Red) Costume",
+		unidentifiedResourceName = "posh_glasses_red",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Posh Glasses (Red) Costume",
+		identifiedResourceName = "posh_glasses_red",
+		identifiedDescriptionName = {
+			"An outrageously fancy pair of glasses, complete with a red chain so even adventurers with terrible memory won't lose them.",
+			"A refined aid for one's near-blindness during daily reading activities.",
+			"Adds the illusion of improved reading comprehension when consulting the Arcadia Wiki, particularly for our special cases.",
+			"This pair of glasses were released during the Valentine's Event 2026.",
+			"Type :^777777 Costume Headgear^000000",
+			"Equipped on :^777777 Middle^000000",
+			"Weight :^777777 1^000000",
+			"Required Level :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1435
+	},
+
+	[40425] = {
+		unidentifiedDisplayName = "White Chocolate Heart in Mouth",
+		unidentifiedResourceName = "wh_choco_h_in_mouth",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "White Chocolate Heart in Mouth",
+		identifiedResourceName = "wh_choco_h_in_mouth",
+		identifiedDescriptionName = {
+			"Another, but different, sweet mouthpiece, symbolizing the whispers of affection.",
+			"^008800Increases the effectiveness of 'Valentine's Chocolate' by 100% and 'Valentine's White Chocolate' by 50%.^000000",
+			"[^1133aaValentine's Day Event 2026^000000]",
+			"Add a chance of gaining 'Valentine's Chocolate' and 'Valentine's White Chocolate' each time a monster is killed.",
+			"Type :^777777 Headgear^000000",
+			"Equipped on :^777777 Lower^000000",
+			"Weight :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 0,
+		ClassNum = 1436
+	},
+
+	[40426] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 10^000000",
+		},
+		identifiedDisplayName = "Fluffy Paw Socks",
+		identifiedResourceName = "fluffy_paw_sock",
+		identifiedDescriptionName = {
+			"Fluffy little helpers that prevent slipping on floors. They also protect cat's paws from getting dirty.",
+			"^1133aaThis has been released during the Valentine's Event 2026.^000000",
+			"Maximum SP + 14",
+			"Type :^777777 Accessory^000000",
+			"Defense :^777777 0^000000",
+			"Weight :^777777 10^000000",
+			"Required Level : :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+
+	[40427] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "클립",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 10^000000",
+		},
+		identifiedDisplayName = "Kinky Necklace",
+		identifiedResourceName = "kinky_necklace",
+		identifiedDescriptionName = {
+			"A very unique looking necklace that was left behind. It looks quite worn. Let's assume it was used during Halloween seasons.",
+			"^1133aaThis has been released during the Valentine's Event 2026.^000000",
+			"Maximum HP + 69",
+			"Type :^777777 Accessory^000000",
+			"Defense :^777777 0^000000",
+			"Weight :^777777 10^000000",
+			"Required Level : :^777777 1^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 1,
+		ClassNum = 0
+	},
+
+	[40428] = {
+		unidentifiedDisplayName = "Accessory",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = {
+			UNIDENTIFIED_ITEM,
+			"Weight :^777777 50^000000",
+		},
+		identifiedDisplayName = "Michael Doll Hat",
+		identifiedResourceName = "존다인형모자",
+		identifiedDescriptionName = {
+			"A marketeable doll in the shape of the Zonda Michael! Wear it on your head to show everyone that Zonda Corporation is the best Service!",
+			"Reduces damage from Demi-Human monster by 5%.",
+			"Type :^777777 Headgear^000000",
+			"Defense :^777777 2^000000",
+			"Refinable :^777777 No^000000",
+			"Equipped on :^777777 Upper^000000",
+			"Weight :^777777 50^000000",
+			"Required Level :^777777 16^000000",
+			"Applicable Job :^777777 Every Job^000000",
+		},
+		slotCount = 1,
+		ClassNum = 985
+	},
+
+	[40429] = {
+		unidentifiedDisplayName = "PO BOX Mail",
+		unidentifiedResourceName = "한석봉소개장",
+		unidentifiedDescriptionName = {
+			"An invisible letter created solely so its creators can have peace of mind.",
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "PO BOX Mail",
+		identifiedResourceName = "한석봉소개장",
+		identifiedDescriptionName = {
+			"An invisible letter created solely so its creators can have peace of mind.",
+			"Weight :^777777 1^000000",
+		},
+		usages = {
+			-- "EASTER_VALENTINES_E26",
+		},
+		slotCount = 0,
+		ClassNum = 0
+	},
+
+	[40430] = {
+		unidentifiedDisplayName = "Mansion Book",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = {
+			"An invisible book that holds forbidden knowledge.",
+			"Weight :^777777 1^000000",
+		},
+		identifiedDisplayName = "Mansion Book",
+		identifiedResourceName = "북",
+		identifiedDescriptionName = {
+			"An invisible book that holds forbidden knowledge.",
+			"Weight :^777777 1^000000",
+		},
+		usages = {
+			-- "EASTER_VALENTINES_E26",
 		},
 		slotCount = 0,
 		ClassNum = 0

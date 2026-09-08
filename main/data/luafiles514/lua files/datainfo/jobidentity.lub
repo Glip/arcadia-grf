@@ -3419,7 +3419,28 @@ JTtbl = {
 	JT_E_BARKCADIA = 19903,
 	JT_E_SOONYA = 19904,
 	JT_E_KOKA_GIRL = 19905,
-	
+
+	JT_4_evt_sulki = 19906,
+	JT_4_ragfes_05_002 = 19907,
+	JT_baby_fox_001 = 19908,
+	JT_baby_fox_002 = 19909,
+	JT_baby_fox_003 = 19910,
+	JT_clovertic = 19911,
+	JT_cotton = 19912,
+	JT_domovoi_npc_001 = 19913,
+	JT_domovoi_npc_002 = 19914,
+	JT_ep20_eggcopo = 19915,
+	JT_fox_brown001 = 19916,
+	JT_fox_brown002 = 19917,
+	JT_fox_brown003 = 19918,
+	JT_fox_dark_brown001 = 19919,
+	JT_fox_dark_brown002 = 19920,
+	JT_fox_dark_brown003 = 19921,
+	JT_PO_box = 19922,
+	JT_e_lunatic_2023 = 19923,
+	JT_e_poring_2023 = 19924,
+	JT_4_m_rookie_002 = 19925,
+
 	JT_4_SERVICE_30_M_01 = 10145,
 	JT_4_SERVICE_30_F_01 = 10146,
 	JT_4_M_ROOKIE = 10181,
@@ -3428,5 +3449,10 @@ JTtbl = {
 	JT_4_EP18_MERCHANT = 10380,
 	JT_4_EP18_HALFFLOWER = 10392,
 
+	JT_4_RAGFES_05 = 10484,
+	JT_4_RAGFES_05_M = 10485,
+
 	JT_E_DUCKLING = 3218,
+	JT_E_PORING_E26 = 3226,
+	JT_E_LUNATIC_E26 = 3227,
 }

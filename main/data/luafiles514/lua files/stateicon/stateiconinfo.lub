@@ -304,10 +304,12 @@ StateIconList[EFST_IDs.EFST_POISONINGWEAPON] = {
 }
 StateIconList[EFST_IDs.EFST_CASH_DEATHPENALTY] = {
 	haveTimeLimit = 1,
-	posTimeLimitStr = 1,
+	posTimeLimitStr = 2,
 	descript = {
+		{"Vanir's Blessing", COLOR_TITLE_BUFF},
 		{"%s", COLOR_TIME},
-		{"No EXP loss upon death"}
+		{"Reduce EXP loss upon death"},
+		{"Effective only when EXP loss occured"}
 	}
 }
 StateIconList[EFST_IDs.EFST_GS_ADJUSTMENT] = {
@@ -1319,9 +1321,9 @@ StateIconList[EFST_IDs.EFST_S_LIFEPOTION] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{"Small Life Potion", COLOR_TITLE_BUFF},
+		{"HP Restoration", COLOR_TITLE_BUFF},
 		{"%s", COLOR_TIME},
-		{"Recoverys HP every 5 seconds"},
+		{"Recovers HP over time"},
 		{"No effect if Berserk State is active"}
 	}
 }
@@ -1548,7 +1550,7 @@ StateIconList[EFST_IDs.EFST_SLOWPOISON] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{"Slow Poison", COLOR_TITLE_BUFF},
+		{"Voidspell", COLOR_TITLE_BUFF},
 		{"%s", COLOR_TIME},
 		{"Temporarily stops Poison Damage"}
 	}
@@ -4063,25 +4065,35 @@ StateIconList[EFST_IDs.EFST_MAGICAMPL] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_FROZEN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
 	descript = {
 		{"Frozen", COLOR_TITLE_DEBUFF},
-		{"You cannot act."},
+		{"%s", COLOR_TIME},
 		{"Ice is not always nice."},
+		{"You cannot act."},
+		{"Armor turns Water Property."},
 		{"FLEE reduced to 0."},
-		{"Hard-MDEF increased by 25%."}
+		{"DEF decreased by 50%."},
+		{"MDEF increased by 25%."}
 	}
 }
 StateIconList[EFST_IDs.EFST_STUNNED] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
 	descript = {
 		{"Stunned", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
 		{"You cannot act."},
 		{"FLEE reduced to 0."}
-		
 	}
 }
 StateIconList[EFST_IDs.EFST_SLEPT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
 	descript = {
 		{"Sleeping", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
 		{"Vewy eepy."},
 		{"You cannot act."},
 		{"Enemy CRIT doubled."},
@@ -4089,37 +4101,55 @@ StateIconList[EFST_IDs.EFST_SLEPT] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_CURSED] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
 	descript = {
 		{"Cursed", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
 		{"Mov. Speed reduced."},
 		{"ATK reduced by 25%."},
-		{"LUK reduced to 0."}
+		{"LUK reduced by 100%."}
 	}
 }
 StateIconList[EFST_IDs.EFST_CONFUSED] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
 	descript = {
 		{"Confused", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
 		{"Movement is randomized."}
 	}
 }
 StateIconList[EFST_IDs.EFST_BLINDED] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
 	descript = {
 		{"Blinded", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
+		{"Reduced visibility."},
 		{"-25% HIT and FLEE."}
 	}
 }
 StateIconList[EFST_IDs.EFST_SCARED] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
 	descript = {
 		{"Scared", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
 		{"Unable to act."}
 	}
 }
 StateIconList[EFST_IDs.EFST_PETRIFIED] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
 	descript = {
 		{"Stone Cursed", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
 		{"Unable to act."},
-		{"Armor turns Earth Property"},
+		{"Armor turns Earth Property."},
+		{"-1% HP every 5 secs."},
 		{"FLEE reduced to 0."},
+		{"DEF decreased by 50%."},
 		{"MDEF increased by 25%."}
 	}
 }
@@ -4129,7 +4159,7 @@ StateIconList[EFST_IDs.EFST_PROPERTYUNDEAD2] = {
 	descript = {
 		{"Undead Armor", COLOR_TITLE_DEBUFF},
 		{"%s", COLOR_TIME},
-		{"Enchants Armor with Undead Property"}
+		{"Enchants Armor with Undead Property."}
 	}
 }
 StateIconList[EFST_IDs.EFST_FOGWALL2] = {
@@ -4138,5 +4168,105 @@ StateIconList[EFST_IDs.EFST_FOGWALL2] = {
 		{"Blinds enemies."},
 		{"Single-Target skills"},
 		{"have a 75% chance to fail."}
+	}
+}
+StateIconList[EFST_IDs.EFST_STOP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Stop", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
+		{"You cannot move."}
+	}
+}
+StateIconList[EFST_IDs.EFST_BASILICA] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Basilica", COLOR_TITLE_BUFF},
+		{"%s", COLOR_TIME},
+		{"Absolute Terror Field."},
+		{"Allies inside are protected"},
+		{"from enemies and dangers."}
+	}
+}
+StateIconList[EFST_IDs.EFST_MINDBREAKER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Mind Breaker", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
+		{"Reduces soft MDEF"},
+		{"Increases MATK"}
+	}
+}
+StateIconList[EFST_IDs.EFST_MEMORIZE] = {
+	descript = {
+		{"Foresight", COLOR_TITLE_BUFF},
+		{"Cast time of next"},
+		{"five skills is halved."}
+	}
+}
+StateIconList[EFST_IDs.EFST_SPIDERWEB] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Fiber Lock", COLOR_TITLE_DEBUFF},
+		{"%s", COLOR_TIME},
+		{"You cannot move."},
+		{"FLEE -50."},
+		{"Fire damage doubled,"},
+		{"but web is destroyed."}
+	}
+}
+StateIconList[EFST_IDs.EFST_MAGNUMBREAK] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Magnum Break", COLOR_TITLE_BUFF},
+		{"%s", COLOR_TIME},
+		{"Enhances weapon with flat"},
+		{"+20% fire elemental extra"},
+		{"non-missing damage."}
+	}
+}
+StateIconList[EFST_IDs.EFST_SU_STOOP] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Cat O' Nine Lives", COLOR_TITLE_BUFF},
+		{"%s", COLOR_TIME},
+		{"Death never occurred, meow!"},
+		{"Resets death count."}
+	}
+}
+StateIconList[EFST_IDs.EFST_SIEGESTANCE] = {
+	descript = {
+		{"Siege Stance", COLOR_TITLE_BUFF},
+		{"+20% ATK with Grenade Launcher,"},
+		{"+20 DEF & MDEF,"},
+		{"doubles Flip Coin effect."},
+		{"FLEE & ASPD set to 0,"},
+		{"Binds movement."}
+	}
+}
+StateIconList[EFST_IDs.EFST_METSUBUSHI] = {
+	descript = {
+		{"Metsubushi", COLOR_TITLE_BUFF},
+		{"Reverse Tatami skill"},
+		{"will activate Hiding status."},
+		{"Can use Reverse Tatami"},
+		{"during Hiding status."}
+	}
+}
+StateIconList[EFST_IDs.EFST_KASHU] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{"Kashu", COLOR_TITLE_BUFF},
+		{"%s", COLOR_TIME},
+		{"Your MATK is averaged"},
+		{"into 10% precision range."},
+		{"Increase MATK by 25."}
 	}
 }
